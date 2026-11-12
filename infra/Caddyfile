@@ -1,0 +1,19 @@
+# Automatic HTTPS (Let's Encrypt) for your domain; HTTP is redirected to HTTPS. WebSockets pass through unchanged.
+{
+	email {$ACME_EMAIL}
+}
+
+{$DOMAIN} {
+	encode zstd gzip
+
+	# Caddy replaces any client-supplied X-Forwarded-For with the real client address, which the app's rate limiter relies on.
+	reverse_proxy web:80 {
+		header_up X-Forwarded-Proto https
+		flush_interval -1
+	}
+
+	log {
+		output stdout
+		format json
+	}
+}

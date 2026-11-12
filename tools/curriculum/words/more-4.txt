@@ -1,0 +1,510 @@
+# Level 4 (upper intermediate), more words. word|part of speech|simple meaning|Kannada|example (must contain the word exactly)|common usage|synonyms|theme|note
+# The Kannada was written for this project and has NOT been reviewed by a native speaker or teacher.
+adjust|verb|to change something slightly so that it works better|ಹೊಂದಿಸುವುದು|You can adjust the seat to fit you.|adjust to|adapt|everyday|
+advertise|verb|to tell people about a product to make them buy it|ಜಾಹೀರಾತು ನೀಡುವುದು|They advertise their shop on the radio.|advertise a product|promote|workplace|
+affect|verb|to have an influence on someone or something|ಪ್ರಭಾವ ಬೀರುವುದು|The weather can affect your mood.|affect someone|influence|confusing|Affect is usually a verb. Effect is usually a noun: the effect of the weather.
+effect|noun|a change that is caused by something|ಪರಿಣಾಮ|The medicine had a good effect.|have an effect on|result|confusing|Effect is usually a noun. Affect is usually a verb: the weather can affect your mood.
+aim|verb|to try or plan to achieve something|ಗುರಿಯಿಡುವುದು|We aim to finish by Friday.|aim to|intend|workplace|
+alter|verb|to change something|ಬದಲಾಯಿಸುವುದು|They had to alter the plan.|alter a plan|change|workplace|
+appeal|verb|to ask for something in a serious way, or to be attractive|ಮನವಿ ಮಾಡುವುದು, ಆಕರ್ಷಿಸುವುದು|The police appeal for help from the public.|appeal to|attract|communication|
+approve|verb|to officially agree to something|ಅನುಮೋದಿಸುವುದು|The manager did approve the plan.|approve a plan|accept|workplace|
+arise|verb|to begin to exist, or to happen|ಉದ್ಭವಿಸುವುದು|Problems can arise at any time.|arise from|emerge|workplace|
+assign|verb|to give someone a job or a piece of work|ನಿಯೋಜಿಸುವುದು|The teacher will assign a project to each group.|assign a task|allocate|workplace|
+associate|verb|to connect one thing with another in your mind|ಸಂಬಂಧ ಕಲ್ಪಿಸುವುದು|People associate this festival with sweets.|associate with|link|academic|
+attempt|verb|to try to do something|ಪ್ರಯತ್ನಿಸುವುದು|They will attempt to climb the mountain.|attempt to|try|everyday|
+broadcast|verb|to send out a programme on radio or television|ಪ್ರಸಾರ ಮಾಡುವುದು|They will broadcast the match live.|broadcast live|transmit|technology|
+capture|verb|to catch someone or something, or to record a moment|ಸೆರೆಹಿಡಿಯುವುದು|The photo can capture the beauty of the lake.|capture a moment|catch|technology|
+challenge|verb|to question whether something is right, or to invite someone to compete|ಸವಾಲು ಹಾಕುವುದು|He chose to challenge the decision.|challenge a decision|question|workplace|
+classify|verb|to arrange things into groups by type|ವರ್ಗೀಕರಿಸುವುದು|You can classify the books by subject.|classify as|categorise|academic|
+clarify|verb|to make something easier to understand|ಸ್ಪಷ್ಟಪಡಿಸುವುದು|Could you clarify what you mean?|clarify a point|explain|communication|
+communicate|verb|to share information, ideas or feelings with other people|ಸಂವಹನ ಮಾಡುವುದು|It is important to communicate clearly.|communicate with|convey|communication|
+complicate|verb|to make something more difficult|ಸಂಕೀರ್ಣಗೊಳಿಸುವುದು|Do not complicate the matter.|complicate things|confuse|communication|
+conclude|verb|to decide something after thinking, or to end something|ತೀರ್ಮಾನಕ್ಕೆ ಬರುವುದು|We can conclude that the plan works.|conclude that|infer|academic|
+conduct|verb|to organise and carry out an activity|ನಡೆಸುವುದು|They will conduct a survey next week.|conduct a survey|carry out|academic|
+confront|verb|to face a difficult person or problem directly|ಎದುರಿಸುವುದು|She decided to confront her fears.|confront a problem|face|emotions|
+consult|verb|to ask an expert or a book for advice or information|ಸಂಪರ್ಕಿಸಿ ಸಲಹೆ ಪಡೆಯುವುದು|You should consult a doctor.|consult a doctor|ask|health|
+contrast|verb|to compare two things to show how they are different|ವ್ಯತ್ಯಾಸ ತೋರಿಸುವುದು|The report will contrast the two systems.|contrast with|compare|academic|
+convey|verb|to make ideas or feelings known to someone|ತಿಳಿಸುವುದು, ವ್ಯಕ್ತಪಡಿಸುವುದು|A smile can convey a lot of meaning.|convey a message|communicate|communication|
+criticise|verb|to say what you think is wrong with someone or something|ಟೀಕಿಸುವುದು|It is easy to criticise other people.|criticise someone|condemn|communication|
+cultivate|verb|to grow plants, or to develop a skill or habit|ಬೆಳೆಸುವುದು|You can cultivate good habits with practice.|cultivate a habit|develop|health|
+dedicate|verb|to give a lot of time and effort to something|ಸಮರ್ಪಿಸುವುದು|She will dedicate her life to teaching.|dedicate time|devote|personality|
+define|verb|to say exactly what something means|ವ್ಯಾಖ್ಯಾನಿಸುವುದು|Can you define this word in simple English?|define a word|explain|academic|
+depict|verb|to show something in a picture, a story or a film|ಚಿತ್ರಿಸುವುದು|The painting will depict a village scene.|depict a scene|portray|academic|
+derive|verb|to get something from a source|ಪಡೆಯುವುದು, ಉತ್ಪತ್ತಿಯಾಗುವುದು|Many English words derive from Latin.|derive from|originate|academic|
+devote|verb|to give your time or effort to something|ಮೀಸಲಿಡುವುದು|He wants to devote more time to his family.|devote time to|dedicate|personality|
+differ|verb|to be different from something|ಭಿನ್ನವಾಗಿರುವುದು|Customs differ from place to place.|differ from|vary|communication|
+discriminate|verb|to treat people in an unfair way because of who they are|ತಾರತಮ್ಯ ಮಾಡುವುದು|It is wrong to discriminate against anyone.|discriminate against|prejudice|relationships|
+dispose|verb|to throw something away, or to get rid of something|ವಿಲೇವಾರಿ ಮಾಡುವುದು|Please dispose of the waste properly.|dispose of|discard|everyday|
+distribute|verb|to give something to many people|ವಿತರಿಸುವುದು|They will distribute food to the poor.|distribute among|hand out|workplace|
+draft|verb|to write a first version of something|ಕರಡು ಬರೆಯುವುದು|I need to draft a letter to the manager.|draft a letter|write|workplace|
+eliminate|verb|to remove or get rid of something completely|ತೊಡೆದುಹಾಕುವುದು|The new rule will eliminate delays.|eliminate waste|remove|workplace|
+emerge|verb|to come out from somewhere, or to become known|ಹೊರಹೊಮ್ಮುವುದು|The sun began to emerge from the clouds.|emerge from|appear|academic|
+enable|verb|to make it possible for someone to do something|ಸಾಧ್ಯವಾಗಿಸುವುದು|The app will enable you to learn faster.|enable someone to|allow|technology|
+encounter|verb|to meet or find something, often without planning|ಎದುರಾಗುವುದು|You may encounter some problems on the way.|encounter a problem|come across|travel|
+endure|verb|to suffer something difficult for a long time|ಸಹಿಸಿಕೊಳ್ಳುವುದು|They had to endure a long wait.|endure pain|tolerate|emotions|
+engage|verb|to take part in something, or to hold someone's interest|ತೊಡಗಿಸಿಕೊಳ್ಳುವುದು|The teacher tries to engage every student.|engage in|involve|education|
+enrol|verb|to put your name on a list to join a course|ದಾಖಲಾಗುವುದು|You must enrol before the end of the month.|enrol in a course|register|education|
+establish|verb|to start an organisation, or to prove that something is true|ಸ್ಥಾಪಿಸುವುದು|They plan to establish a new school.|establish a company|found|workplace|
+estimate|verb|to guess an amount or value after thinking about it|ಅಂದಾಜಿಸುವುದು|Can you estimate the cost of the repair?|estimate the cost|calculate|workplace|
+exceed|verb|to be more than a number or limit|ಮೀರುವುದು|The cost will not exceed one thousand rupees.|exceed the limit|surpass|workplace|
+exclude|verb|to leave someone or something out|ಹೊರಗಿಡುವುದು|The price does not exclude tax.|exclude from|omit|workplace|
+exhibit|verb|to show something to the public|ಪ್ರದರ್ಶಿಸುವುದು|The museum will exhibit old coins.|exhibit a painting|display|academic|
+expose|verb|to show something that was hidden, or to leave someone without protection|ಬಹಿರಂಗಪಡಿಸುವುದು|Do not expose the medicine to sunlight.|expose to|reveal|health|
+extend|verb|to make something longer or larger in time or space|ವಿಸ್ತರಿಸುವುದು|We can extend the deadline by two days.|extend a deadline|prolong|workplace|
+extract|verb|to take something out, often with effort|ಹೊರತೆಗೆಯುವುದು|The dentist had to extract a tooth.|extract information|remove|health|
+finance|verb|to provide the money for something|ಹಣಕಾಸು ಒದಗಿಸುವುದು|The bank will finance the new project.|finance a project|fund|workplace|
+found|verb|to start an organisation|ಸ್ಥಾಪಿಸುವುದು|He wants to found a small company.|found a company|establish|workplace|
+generate|verb|to produce something|ಉತ್ಪಾದಿಸುವುದು|The solar panels generate electricity.|generate income|produce|technology|
+grant|verb|to officially give or allow something|ಮಂಜೂರು ಮಾಡುವುದು|The college will grant her a scholarship.|grant permission|award|workplace|
+highlight|verb|to give special attention to something|ಒತ್ತಿ ತೋರಿಸುವುದು|The report will highlight three main problems.|highlight a point|stress|communication|
+incorporate|verb|to include something as a part of a whole|ಒಳಗೊಳಿಸುವುದು|Please incorporate my changes into the report.|incorporate ideas|include|workplace|
+indicate|verb|to show or point to something|ಸೂಚಿಸುವುದು|The map will indicate where the hotel is.|indicate a problem|show|communication|
+inspire|verb|to make someone want to do something good|ಪ್ರೇರೇಪಿಸುವುದು|Her story can inspire young people.|inspire someone|motivate|emotions|
+instruct|verb|to tell someone what to do|ಸೂಚನೆ ನೀಡುವುದು|The teacher will instruct us to start the test.|instruct someone|direct|education|
+interact|verb|to communicate or work together with others|ಪರಸ್ಪರ ವ್ಯವಹರಿಸುವುದು|Children learn when they interact with each other.|interact with|engage|relationships|
+interpret|verb|to explain the meaning of something, or to translate speech|ಅರ್ಥೈಸುವುದು|People may interpret the message in different ways.|interpret data|explain|academic|
+investigate|verb|to try to find out the facts about something|ತನಿಖೆ ಮಾಡುವುದು|The police will investigate the accident.|investigate a case|examine|academic|
+involve|verb|to include someone or something as a necessary part|ಒಳಗೊಳ್ಳುವುದು|The job will involve a lot of travel.|involve someone|include|workplace|
+isolate|verb|to keep someone or something separate from others|ಪ್ರತ್ಯೇಕಿಸುವುದು|They had to isolate the sick patient.|isolate from|separate|health|
+label|verb|to put a sign on something to show what it is|ಲೇಬಲ್ ಹಚ್ಚುವುದು|Please label each box clearly.|label a box|mark|everyday|
+launch|verb|to start something new, or to send a rocket into the sky|ಪ್ರಾರಂಭಿಸುವುದು|The company will launch a new phone in May.|launch a product|introduce|workplace|
+modify|verb|to change something slightly|ಮಾರ್ಪಡಿಸುವುದು|You can modify the settings on your phone.|modify a plan|adjust|technology|
+monitor|verb|to watch something carefully over a period of time|ನಿಗಾ ಇಡುವುದು|Doctors monitor his heart every hour.|monitor progress|observe|workplace|
+negotiate|verb|to discuss something to reach an agreement|ಮಾತುಕತೆ ನಡೆಸುವುದು|They will negotiate the price tomorrow.|negotiate a deal|bargain|workplace|
+nominate|verb|to suggest someone for a job or a prize|ನಾಮನಿರ್ದೇಶನ ಮಾಡುವುದು|They will nominate her for the award.|nominate someone|propose|workplace|
+obtain|verb|to get something|ಪಡೆಯುವುದು|You can obtain a copy from the office.|obtain permission|get|workplace|
+occupy|verb|to live in or use a place, or to take up time|ಆಕ್ರಮಿಸಿಕೊಳ್ಳುವುದು|The family will occupy the flat next month.|occupy a seat|fill|everyday|
+offend|verb|to make someone feel upset or insulted|ಮನನೋಯಿಸುವುದು|I did not mean to offend you.|offend someone|insult|relationships|
+oppose|verb|to disagree with something and try to stop it|ವಿರೋಧಿಸುವುದು|Many people oppose the new rule.|oppose a plan|resist|academic|
+organise|verb|to plan and arrange an activity|ಸಂಘಟಿಸುವುದು|We will organise a picnic for the class.|organise an event|arrange|workplace|
+overlook|verb|to fail to see something, or to ignore a mistake|ಕಡೆಗಣಿಸುವುದು|It is easy to overlook small mistakes.|overlook a detail|miss|workplace|
+perceive|verb|to notice or understand something in a particular way|ಗ್ರಹಿಸುವುದು|People may perceive silence as rude.|perceive as|see|academic|
+persist|verb|to continue doing something even when it is difficult|ಮುಂದುವರಿಸುವುದು|If the pain does persist, see a doctor.|persist in|continue|personality|
+pose|verb|to cause a problem or a danger, or to ask a question|ಒಡ್ಡುವುದು|The heavy traffic can pose a risk to children.|pose a question|present|academic|
+postpone|verb|to move something to a later time|ಮುಂದೂಡುವುದು|We have to postpone the meeting until Friday.|postpone a meeting|delay|workplace|
+preserve|verb|to keep something in its original state|ಸಂರಕ್ಷಿಸುವುದು|They work to preserve the old temple.|preserve food|protect|academic|
+proceed|verb|to continue, or to move forward|ಮುಂದುವರಿಯುವುದು|Please proceed to gate five.|proceed with|continue|travel|
+propose|verb|to suggest a plan or idea|ಪ್ರಸ್ತಾಪಿಸುವುದು|I propose that we meet on Monday.|propose a plan|suggest|workplace|
+prove|verb|to show that something is true|ಸಾಬೀತುಪಡಿಸುವುದು|Can you prove that you are right?|prove a point|demonstrate|academic|
+provoke|verb|to cause a strong reaction, especially anger|ಪ್ರಚೋದಿಸುವುದು|His comment will provoke an angry reply.|provoke a reaction|cause|relationships|
+pursue|verb|to follow something in order to catch it, or to work towards a goal|ಅನುಸರಿಸುವುದು|She wants to pursue a career in medicine.|pursue a goal|chase|workplace|
+qualify|verb|to become able to do something by passing an exam or meeting a standard|ಅರ್ಹತೆ ಪಡೆಯುವುದು|You must qualify before the final round.|qualify for|pass|education|
+quote|verb|to repeat the exact words of someone|ಉಲ್ಲೇಖಿಸುವುದು|He likes to quote famous writers.|quote a price|cite|academic|
+react|verb|to behave in a particular way because of something|ಪ್ರತಿಕ್ರಿಯಿಸುವುದು|How did she react to the news?|react to|respond|emotions|
+recall|verb|to remember something|ನೆನಪಿಸಿಕೊಳ್ಳುವುದು|I cannot recall his name.|recall an event|remember|communication|
+recover|verb|to become well again, or to get something back|ಚೇತರಿಸಿಕೊಳ್ಳುವುದು|He will recover soon from his illness.|recover from|heal|health|
+recruit|verb|to find new people to join a company or group|ನೇಮಕ ಮಾಡಿಕೊಳ್ಳುವುದು|The company plans to recruit ten engineers.|recruit staff|hire|workplace|
+refer|verb|to mention something, or to look at something for information|ಉಲ್ಲೇಖಿಸುವುದು|Please refer to page ten for the answer.|refer to|mention|academic|
+reflect|verb|to think carefully about something, or to show an image|ಆಲೋಚಿಸುವುದು, ಪ್ರತಿಬಿಂಬಿಸುವುದು|You should reflect on what you have learnt.|reflect on|consider|education|
+refund|verb|to give money back to someone|ಹಣ ಹಿಂತಿರುಗಿಸುವುದು|The shop will refund your money.|refund the price|repay|workplace|
+register|verb|to put your name on an official list|ನೋಂದಾಯಿಸುವುದು|You need to register online first.|register for a course|enrol|workplace|
+regulate|verb|to control something by rules|ನಿಯಂತ್ರಿಸುವುದು|The government will regulate the price of fuel.|regulate traffic|control|academic|
+release|verb|to let someone go, or to make something available to the public|ಬಿಡುಗಡೆ ಮಾಡುವುದು|The company will release a new app.|release a film|issue|technology|
+represent|verb|to speak or act for someone, or to be a sign of something|ಪ್ರತಿನಿಧಿಸುವುದು|She will represent our school at the contest.|represent a country|stand for|workplace|
+reserve|verb|to book something for later use|ಕಾಯ್ದಿರಿಸುವುದು|I would like to reserve a table for two.|reserve a seat|book|travel|
+resign|verb|to officially leave your job|ರಾಜೀನಾಮೆ ನೀಡುವುದು|He decided to resign from the company.|resign from|quit|workplace|
+resolve|verb|to find a solution to a problem|ಪರಿಹರಿಸುವುದು|They managed to resolve the dispute.|resolve a conflict|settle|relationships|
+restore|verb|to bring something back to its former condition|ಪುನಃಸ್ಥಾಪಿಸುವುದು|They will restore the old building.|restore power|repair|everyday|
+retain|verb|to keep something|ಉಳಿಸಿಕೊಳ್ಳುವುದು|The company wants to retain its best workers.|retain information|keep|workplace|
+retrieve|verb|to get something back from a place|ಮರಳಿ ಪಡೆಯುವುದು|Can you retrieve the deleted file?|retrieve data|recover|technology|
+reverse|verb|to change something to the opposite, or to go backwards|ಹಿಮ್ಮುಖಗೊಳಿಸುವುದು|You must reverse the car carefully.|reverse a decision|undo|everyday|
+revise|verb|to change something to make it better, or to study again for an exam|ಪರಿಷ್ಕರಿಸುವುದು, ಮತ್ತೆ ಓದುವುದು|I need to revise my notes before the test.|revise a plan|review|education|
+schedule|verb|to arrange for something to happen at a particular time|ವೇಳಾಪಟ್ಟಿ ಮಾಡುವುದು|They will schedule the meeting for Tuesday.|schedule a meeting|plan|workplace|
+secure|verb|to get something, or to make something safe|ಭದ್ರಪಡಿಸುವುದು, ಪಡೆಯುವುದು|She hopes to secure a place at college.|secure a job|obtain|workplace|
+seek|verb|to try to find or get something|ಹುಡುಕುವುದು|They seek advice from experts.|seek advice|look for|workplace|
+specify|verb|to say clearly what is needed|ನಿರ್ದಿಷ್ಟಪಡಿಸುವುದು|Please specify the date and time.|specify a date|state|workplace|
+stimulate|verb|to make something more active|ಉತ್ತೇಜಿಸುವುದು|Good questions stimulate thinking.|stimulate interest|encourage|education|
+submit|verb|to give a document to someone for a decision|ಸಲ್ಲಿಸುವುದು|You must submit the form by Friday.|submit a form|hand in|workplace|
+substitute|verb|to use one thing in place of another|ಬದಲಿಯಾಗಿ ಬಳಸುವುದು|You can substitute honey for sugar.|substitute for|replace|everyday|
+succeed|verb|to achieve what you wanted, or to come after someone|ಯಶಸ್ವಿಯಾಗುವುದು|If you work hard, you will succeed.|succeed in|prosper|workplace|
+summarise|verb|to give the main points in a short form|ಸಂಕ್ಷಿಪ್ತಗೊಳಿಸುವುದು|Can you summarise the story in two lines?|summarise a text|sum up|education|
+supervise|verb|to watch and direct people or work|ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುವುದು|A teacher will supervise the children.|supervise a team|oversee|workplace|
+suppress|verb|to stop something from showing or growing|ಹತ್ತಿಕ್ಕುವುದು|He tried to suppress a smile.|suppress a feeling|hold back|emotions|
+surrender|verb|to stop fighting and accept defeat|ಶರಣಾಗುವುದು|The soldiers had to surrender.|surrender to|give in|emotions|
+sustain|verb|to keep something going over time|ಉಳಿಸಿಕೊಂಡು ಹೋಗುವುದು|It is hard to sustain this effort for a year.|sustain growth|maintain|workplace|
+tackle|verb|to try to deal with a problem|ನಿಭಾಯಿಸುವುದು|We must tackle the problem of waste.|tackle a problem|deal with|workplace|
+tempt|verb|to make someone want to do something, especially something bad|ಪ್ರಲೋಭಿಸುವುದು|The smell of fresh bread can tempt anyone.|tempt someone|attract|emotions|
+terminate|verb|to end something officially|ಕೊನೆಗೊಳಿಸುವುದು|The company can terminate the contract.|terminate a contract|end|workplace|
+trace|verb|to find the origin of something, or to follow a path|ಜಾಡು ಹಿಡಿಯುವುದು|The police were able to trace the call.|trace a call|track|technology|
+transfer|verb|to move something from one place or person to another|ವರ್ಗಾಯಿಸುವುದು|You can transfer the money online.|transfer money|move|workplace|
+transform|verb|to change something completely|ಪರಿವರ್ತಿಸುವುದು|The internet can transform the way we learn.|transform into|convert|technology|
+undergo|verb|to go through something unpleasant or difficult|ಒಳಗಾಗುವುದು|He had to undergo a long operation.|undergo surgery|experience|health|
+undertake|verb|to agree to do something, or to start a task|ಕೈಗೊಳ್ಳುವುದು|She will undertake the research alone.|undertake a task|take on|workplace|
+update|verb|to make something more modern or add new information|ನವೀಕರಿಸುವುದು|Please update the app on your phone.|update software|renew|technology|
+upgrade|verb|to improve something by replacing it with a better one|ಉನ್ನತೀಕರಿಸುವುದು|You can upgrade to a faster internet plan.|upgrade a phone|improve|technology|
+utilise|verb|to make good use of something|ಬಳಸಿಕೊಳ್ಳುವುದು|We should utilise our time well.|utilise resources|use|workplace|
+verify|verb|to check that something is true|ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು|Please verify your email address.|verify the facts|confirm|technology|
+violate|verb|to break a rule or law|ಉಲ್ಲಂಘಿಸುವುದು|Drivers who violate the speed limit will be fined.|violate a rule|break|academic|
+vary|verb|to be different, or to change|ಬದಲಾಗುವುದು|Prices vary from shop to shop.|vary from|differ|academic|
+welcome|verb|to greet someone in a friendly way|ಸ್ವಾಗತಿಸುವುದು|We welcome new students every June.|welcome a guest|greet|relationships|
+witness|verb|to see something happen|ಸಾಕ್ಷಿಯಾಗಿ ನೋಡುವುದು|Many people witness the accident every day.|witness an event|see|academic|
+yield|verb|to produce a result or a crop|ಫಲ ನೀಡುವುದು|The farm can yield two crops a year.|yield results|produce|academic|
+accuracy|noun|the quality of being correct|ನಿಖರತೆ|The accuracy of the report is very important.|with accuracy|precision|workplace|
+achievement|noun|something good that you have done with effort|ಸಾಧನೆ|Winning the prize was a great achievement.|a great achievement|success|personality|
+agenda|noun|a list of things to be discussed at a meeting|ಕಾರ್ಯಸೂಚಿ|What is on the agenda for today?|on the agenda|schedule|workplace|
+analysis|noun|a careful study of something to understand it|ವಿಶ್ಲೇಷಣೆ|The analysis shows a clear pattern.|a detailed analysis|study|academic|
+appetite|noun|the desire to eat food|ಹಸಿವು, ಹಂಬಲ|I have no appetite today.|a good appetite|hunger|health|
+aspect|noun|one part of a situation or subject|ಅಂಶ, ಮುಖ|Speaking is the hardest aspect of learning English.|an important aspect|feature|academic|
+asset|noun|something valuable that a person or company owns|ಆಸ್ತಿ, ಸಂಪತ್ತು|A good voice is a great asset for a teacher.|a valuable asset|resource|workplace|
+assignment|noun|a piece of work given to a student or an employee|ನಿಯೋಜನೆ, ಅಸೈನ್‌ಮೆಂಟ್|I must finish this assignment tonight.|submit an assignment|task|education|
+assumption|noun|something that you accept as true without proof|ಊಹೆ|It is a wrong assumption that he is rich.|a false assumption|guess|academic|
+authority|noun|the power to give orders, or a person or group with that power|ಅಧಿಕಾರ|Only the manager has the authority to sign this.|local authority|power|workplace|
+awareness|noun|knowing that something exists or is important|ಅರಿವು|The campaign will increase awareness of road safety.|raise awareness|knowledge|academic|
+background|noun|a person's experience and family, or the part behind the main thing|ಹಿನ್ನೆಲೆ|He comes from a farming background.|family background|history|workplace|
+barrier|noun|something that stops people from doing something|ಅಡೆತಡೆ|Language can be a barrier to communication.|a language barrier|obstacle|communication|
+behaviour|noun|the way a person acts|ವರ್ತನೆ|The teacher praised the children for their good behaviour.|good behaviour|conduct|personality|
+belief|noun|something that you think is true|ನಂಬಿಕೆ|It is my belief that honesty is important.|a strong belief|opinion|academic|
+bond|noun|a close connection between people|ಬಾಂಧವ್ಯ|There is a strong bond between the two sisters.|a strong bond|link|relationships|
+boost|noun|something that helps to increase or improve something|ಉತ್ತೇಜನ|The good news gave her confidence a boost.|a boost to|lift|emotions|
+breakthrough|noun|an important discovery or achievement|ಮಹತ್ವದ ಸಾಧನೆ|Scientists have made a breakthrough in medicine.|a major breakthrough|advance|academic|
+campaign|noun|a series of actions to achieve a particular aim|ಅಭಿಯಾನ|They started a campaign to keep the city clean.|a clean-up campaign|drive|workplace|
+capacity|noun|the amount that something can hold, or the ability to do something|ಸಾಮರ್ಥ್ಯ, ಸಾಮರ್ಥ್ಯಪ್ರಮಾಣ|The hall has a capacity of two hundred people.|full capacity|volume|workplace|
+category|noun|a group of things of the same type|ವರ್ಗ|Each prize has its own category.|in the same category|class|academic|
+chapter|noun|one of the main parts of a book|ಅಧ್ಯಾಯ|Read the first chapter for homework.|the first chapter|section|education|
+charity|noun|an organisation that helps people in need|ಧರ್ಮಾರ್ಥ ಸಂಸ್ಥೆ|They gave the money to a local charity.|a charity event|foundation|relationships|
+client|noun|a person who pays for a service from a professional|ಗ್ರಾಹಕ, ಕ್ಲೈಂಟ್|The lawyer is meeting a client today.|a new client|customer|workplace|
+code|noun|a set of rules, or a system of signs or numbers that hides meaning|ಸಂಕೇತ, ನೀತಿಸಂಹಿತೆ|Enter the code to unlock the door.|a secret code|cipher|technology|
+colleague|noun|a person who works with you|ಸಹೋದ್ಯೋಗಿ|My colleague will help you with the form.|a close colleague|co-worker|workplace|
+commitment|noun|a promise or a strong duty to do something|ಬದ್ಧತೆ|She showed great commitment to her studies.|a commitment to|dedication|workplace|
+committee|noun|a group of people chosen to make decisions for a larger group|ಸಮಿತಿ|The committee will meet on Monday.|a committee member|board|workplace|
+component|noun|one part of a machine or system|ಘಟಕ ಭಾಗ|Each electronic component is tested.|a key component|part|technology|
+concept|noun|an idea about how something works or should be|ಪರಿಕಲ್ಪನೆ|The concept of time is hard to explain.|a simple concept|idea|academic|
+conclusion|noun|a final decision, or the end of something|ತೀರ್ಮಾನ, ಅಂತ್ಯ|What is your conclusion?|in conclusion|decision|academic|
+conflict|noun|a serious disagreement or fight|ಸಂಘರ್ಷ|There was a conflict between the two groups.|a conflict between|dispute|relationships|
+consumer|noun|a person who buys goods or services|ಗ್ರಾಹಕ|Every consumer wants lower prices.|a consumer product|buyer|workplace|
+context|noun|the situation in which something happens, or the words around a word|ಸಂದರ್ಭ|You can guess the meaning from the context.|in this context|setting|communication|
+contribution|noun|something that you give to help achieve something|ಕೊಡುಗೆ|Thank you for your contribution to the project.|make a contribution|donation|workplace|
+convenience|noun|the quality of being easy or useful|ಅನುಕೂಲ|Many people shop online for convenience.|for convenience|ease|everyday|
+cooperation|noun|working together to achieve something|ಸಹಕಾರ|We need cooperation from everyone.|in cooperation with|teamwork|workplace|
+corporation|noun|a large company|ನಿಗಮ, ದೊಡ್ಡ ಕಂಪನಿ|He works for a large corporation.|a global corporation|company|workplace|
+crisis|noun|a time of great danger or difficulty|ಬಿಕ್ಕಟ್ಟು|The country is facing a water crisis.|a financial crisis|emergency|academic|
+criticism|noun|a remark that says what is wrong with something|ಟೀಕೆ|She took the criticism well.|face criticism|complaint|communication|
+currency|noun|the money that is used in a country|ಕರೆನ್ಸಿ, ಹಣ|What is the currency in Japan?|foreign currency|money|travel|
+curriculum|noun|the subjects taught in a school or college|ಪಠ್ಯಕ್ರಮ|English is part of the school curriculum.|the school curriculum|syllabus|education|
+cycle|noun|a series of events that repeat in the same order|ಚಕ್ರ|The water cycle is a natural process.|a cycle of|circle|academic|
+debt|noun|money that you owe to someone|ಸಾಲ|He is working to pay off his debt.|in debt|loan|workplace|
+decade|noun|a period of ten years|ದಶಕ|They have lived here for a decade.|the last decade|ten years|academic|
+decline|noun|a gradual fall in amount or quality|ಇಳಿಕೆ|There has been a decline in sales.|a decline in|drop|workplace|
+definition|noun|a statement of what a word means|ವ್ಯಾಖ್ಯೆ|Look up the definition in the dictionary.|a clear definition|meaning|education|
+democracy|noun|a system of government in which people vote for their leaders|ಪ್ರಜಾಪ್ರಭುತ್ವ|India is the largest democracy in the world.|a democracy|self-rule|academic|
+deposit|noun|money paid into a bank, or money paid first when you rent or buy something|ಠೇವಣಿ|You must pay a deposit for the flat.|pay a deposit|advance|workplace|
+development|noun|the process of growing or improving|ಅಭಿವೃದ್ಧಿ|The development of the area has been slow.|economic development|growth|academic|
+diversity|noun|a range of different people or things|ವೈವಿಧ್ಯ|India is known for its cultural diversity.|cultural diversity|variety|academic|
+donation|noun|money or goods that you give to help a person or group|ದೇಣಿಗೆ|She made a donation to the school.|make a donation|gift|relationships|
+duty|noun|something that you must do because it is your job or responsibility|ಕರ್ತವ್ಯ|It is your duty to report the problem.|on duty|obligation|workplace|
+edition|noun|a particular version of a book or newspaper|ಆವೃತ್ತಿ|This is the latest edition of the dictionary.|the latest edition|version|education|
+element|noun|one basic part of something|ಘಟಕ, ಮೂಲಾಂಶ|Trust is an important element of friendship.|a key element|part|academic|
+emphasis|noun|special importance that is given to something|ಒತ್ತು|The school puts great emphasis on reading.|put emphasis on|stress|education|
+enterprise|noun|a business, or the ability to start new projects|ಉದ್ಯಮ|She runs a small enterprise in the village.|a small enterprise|business|workplace|
+entrepreneur|noun|a person who starts a business and takes risks|ಉದ್ಯಮಿ|The young entrepreneur opened her first shop.|a young entrepreneur|businessperson|workplace|
+equipment|noun|the tools and machines needed for a particular job|ಉಪಕರಣಗಳು|The gym has modern equipment.|sports equipment|gear|workplace|
+era|noun|a long period of time that is known for something|ಯುಗ|We live in the era of smartphones.|the modern era|age|academic|
+ethic|noun|a set of moral rules or beliefs|ನೈತಿಕ ಮೌಲ್ಯ|She has a strong work ethic.|a work ethic|principle|workplace|
+evaluation|noun|a judgement about how good or bad something is|ಮೌಲ್ಯಮಾಪನ|The teacher gave an honest evaluation of my essay.|an evaluation of|assessment|education|
+evolution|noun|the slow process of change and development|ವಿಕಾಸ|The evolution of language takes many years.|the evolution of|development|academic|
+exception|noun|something that is not included in a rule|ಅಪವಾದ|Every rule has an exception.|without exception|special case|academic|
+executive|noun|a person with an important job in a company|ಕಾರ್ಯನಿರ್ವಾಹಕ|The executive signed the agreement.|a senior executive|manager|workplace|
+exhibition|noun|a public show of art or other objects|ಪ್ರದರ್ಶನ|We visited an art exhibition on Sunday.|an art exhibition|show|travel|
+expansion|noun|the process of becoming larger|ವಿಸ್ತರಣೆ|The company plans an expansion into Asia.|business expansion|growth|workplace|
+expense|noun|money that you spend on something|ವೆಚ್ಚ|Travel is a big expense for us.|a big expense|cost|workplace|
+exposure|noun|the state of being in contact with something, or of being known to the public|ಒಡ್ಡಿಕೊಳ್ಳುವಿಕೆ|Too much exposure to the sun is bad for your skin.|exposure to|contact|health|
+extent|noun|how large or serious something is|ವ್ಯಾಪ್ತಿ, ಮಟ್ಟ|We do not know the extent of the damage.|to some extent|degree|academic|
+facility|noun|a place, building or service that is provided for a purpose|ಸೌಲಭ್ಯ|The hotel has a swimming pool and other facility.|a sports facility|amenity|workplace|
+factor|noun|one of the things that influence a result|ಅಂಶ|Cost is an important factor in our decision.|a key factor|element|academic|
+feedback|noun|comments about how well someone did something|ಪ್ರತಿಕ್ರಿಯೆ|The teacher gave me useful feedback.|give feedback|comments|education|
+focus|noun|the centre of attention or interest|ಗಮನ ಕೇಂದ್ರ|The focus of the lesson is speaking.|the main focus|concentration|education|
+foundation|noun|the base of something, or an organisation that gives money for good causes|ಅಡಿಪಾಯ|Good grammar is the foundation of good writing.|a strong foundation|base|academic|
+framework|noun|a basic structure that supports a system or plan|ಚೌಕಟ್ಟು|The teacher gave us a framework for the essay.|a legal framework|structure|academic|
+freedom|noun|the right to do or say what you want|ಸ್ವಾತಂತ್ರ್ಯ|People should have freedom of speech.|freedom of speech|liberty|academic|
+frequency|noun|how often something happens|ಆವರ್ತನ|The frequency of accidents has fallen.|high frequency|rate|academic|
+funding|noun|money that is provided for a project|ನಿಧಿ|The school needs more funding.|government funding|finance|workplace|
+gender|noun|being male or female|ಲಿಂಗ|The form asks for your name and gender.|gender equality|sex|academic|
+guidance|noun|help and advice about how to do something|ಮಾರ್ಗದರ್ಶನ|The students need guidance from a teacher.|career guidance|advice|education|
+headquarters|noun|the main office of an organisation|ಪ್ರಧಾನ ಕಚೇರಿ|The company headquarters is in Mumbai.|the headquarters of|head office|workplace|
+heritage|noun|the traditions and buildings that a country has had for a long time|ಪರಂಪರೆ|Hampi is a World Heritage site.|cultural heritage|legacy|travel|
+identity|noun|who someone is, or the qualities that make a person or group different|ಗುರುತು|Please show a card as proof of identity.|an identity card|self|academic|
+implication|noun|a possible effect or result of something|ಪರಿಣಾಮ, ಸೂಚನೆ|The new law has serious implication for workers.|the implication of|consequence|academic|
+improvement|noun|a change that makes something better|ಸುಧಾರಣೆ|There has been a big improvement in your English.|a big improvement|progress|education|
+incident|noun|something that happens, especially something unusual or bad|ಘಟನೆ|The police are looking into the incident.|a serious incident|event|everyday|
+inflation|noun|a general rise in prices|ಹಣದುಬ್ಬರ|Inflation makes life harder for poor families.|high inflation|price rise|academic|
+infrastructure|noun|the basic systems of a country, such as roads, water and power|ಮೂಲಸೌಕರ್ಯ|The country needs better infrastructure.|public infrastructure|facilities|academic|
+innovation|noun|a new idea or method|ನಾವೀನ್ಯತೆ|The company is known for innovation.|technical innovation|invention|technology|
+inspection|noun|a careful look at something to check that it is correct|ತಪಾಸಣೆ|The factory passed the safety inspection.|a safety inspection|check|workplace|
+instance|noun|an example of something|ಉದಾಹರಣೆ|For instance, you could call him tomorrow.|for instance|example|communication|
+instruction|noun|information that tells you how to do something|ಸೂಚನೆ|Please read the instruction carefully.|follow the instruction|direction|education|
+instrument|noun|a tool for a special job, or an object for making music|ಉಪಕರಣ, ವಾದ್ಯ|The doctor used a special instrument.|a musical instrument|tool|health|
+integrity|noun|being honest and having strong moral principles|ಪ್ರಾಮಾಣಿಕತೆ|She is a woman of great integrity.|a person of integrity|honesty|personality|
+intention|noun|a plan or aim to do something|ಉದ್ದೇಶ|It was never my intention to hurt you.|have no intention|aim|communication|
+interaction|noun|communication or action between people or things|ಪರಸ್ಪರ ಕ್ರಿಯೆ|Good interaction between students helps learning.|social interaction|contact|relationships|
+interval|noun|a period of time between two events|ಮಧ್ಯಂತರ|There is a short interval after the first act.|at regular interval|break|everyday|
+investment|noun|the act of putting money into something to make a profit|ಹೂಡಿಕೆ|A good education is the best investment.|a good investment|funding|workplace|
+issue|noun|an important subject or problem|ವಿಷಯ, ಸಮಸ್ಯೆ|Pollution is a serious issue in cities.|a serious issue|problem|academic|
+journal|noun|a magazine about a particular subject, or a diary|ನಿಯತಕಾಲಿಕ, ದಿನಚರಿ|The study was published in a science journal.|a scientific journal|periodical|academic|
+judgement|noun|an opinion or decision after careful thought|ತೀರ್ಮಾನ, ವಿವೇಚನೆ|Use your own judgement.|good judgement|opinion|workplace|
+landscape|noun|everything you can see in an area of land|ಭೂದೃಶ್ಯ|The landscape was green and beautiful.|a beautiful landscape|scenery|travel|
+layer|noun|a thin level of a substance that covers something|ಪದರ|There is a thick layer of dust on the table.|a layer of|coat|everyday|
+legislation|noun|laws that are made by a government|ಶಾಸನ|New legislation will protect workers.|new legislation|laws|academic|
+liability|noun|legal responsibility for something|ಹೊಣೆಗಾರಿಕೆ|The company accepts no liability for lost items.|accept liability|responsibility|workplace|
+lifetime|noun|the period of time that someone lives|ಜೀವಿತಾವಧಿ|It was the trip of a lifetime.|in a lifetime|life|everyday|
+logic|noun|a reasonable way of thinking about something|ತರ್ಕ|I do not see the logic in his argument.|the logic of|reason|academic|
+margin|noun|the empty space at the side of a page, or the amount by which someone wins|ಅಂಚು|Write your notes in the margin.|a wide margin|edge|education|
+mechanism|noun|a part of a machine, or a way in which something works|ಯಂತ್ರಾಂಶ, ಕಾರ್ಯವಿಧಾನ|The lock has a simple mechanism.|a safety mechanism|device|technology|
+mentor|noun|an experienced person who gives advice to a younger person|ಮಾರ್ಗದರ್ಶಕ|My mentor helped me to find my first job.|a good mentor|guide|workplace|
+merit|noun|a good quality that deserves praise|ಗುಣ, ಅರ್ಹತೆ|The plan has some merit.|a person of merit|value|workplace|
+migration|noun|the movement of people or animals from one place to another|ವಲಸೆ|Bird migration begins in autumn.|bird migration|movement|academic|
+milestone|noun|an important event in a life or a process|ಮೈಲಿಗಲ್ಲು|Graduating was a milestone in her life.|reach a milestone|landmark|personality|
+minister|noun|a person who is in charge of a government department|ಮಂತ್ರಿ|The minister gave a speech on education.|the prime minister|official|academic|
+minority|noun|a small part of a group, less than half|ಅಲ್ಪಸಂಖ್ಯಾತ|Only a minority of students failed the test.|a small minority|few|academic|
+mission|noun|an important job that someone has been given, or the aim of an organisation|ಧ್ಯೇಯ, ಉದ್ದೇಶ|Our mission is to make learning easy.|a mission statement|task|workplace|
+motive|noun|the reason why someone does something|ಉದ್ದೇಶ, ಕಾರಣ|The police do not know the motive for the crime.|a clear motive|reason|academic|
+objective|noun|something that you are trying to achieve|ಉದ್ದೇಶ, ಗುರಿ|The main objective of the course is to improve speaking.|the main objective|aim|workplace|
+obligation|noun|something that you must do because of a law, a promise or a duty|ಬದ್ಧತೆ, ಕರ್ತವ್ಯ|You have an obligation to tell the truth.|an obligation to|duty|workplace|
+observation|noun|the act of watching something carefully, or a remark|ಗಮನಿಸುವಿಕೆ, ಅವಲೋಕನ|The doctor kept him under observation.|under observation|remark|academic|
+opponent|noun|a person who competes against you or disagrees with you|ಎದುರಾಳಿ|He beat his opponent in the final.|a strong opponent|rival|academic|
+outcome|noun|the result of an action or process|ಫಲಿತಾಂಶ|We are waiting for the outcome of the meeting.|the final outcome|result|workplace|
+output|noun|the amount of something that is produced|ಉತ್ಪಾದನೆ|The factory has doubled its output.|daily output|production|workplace|
+overview|noun|a short description of the main points of something|ಸಂಕ್ಷಿಪ್ತ ನೋಟ|The first page gives an overview of the course.|an overview of|summary|education|
+participant|noun|a person who takes part in an activity|ಭಾಗವಹಿಸುವವರು|Each participant will get a certificate.|a participant in|member|education|
+perception|noun|the way you think about or understand something|ಗ್ರಹಿಕೆ|His perception of the problem was very different.|public perception|view|academic|
+perspective|noun|a particular way of thinking about something|ದೃಷ್ಟಿಕೋನ|Try to see the problem from her perspective.|from a different perspective|viewpoint|communication|
+philosophy|noun|the study of ideas about life, or a set of beliefs|ತತ್ವಶಾಸ್ತ್ರ|His philosophy is to work hard and stay humble.|a life philosophy|beliefs|academic|
+platform|noun|a raised area where people stand, or a website or system for using services|ವೇದಿಕೆ, ವೇದಿಕೆ (ತಂತ್ರಜ್ಞಾನ)|The train will arrive at platform three.|an online platform|stage|technology|
+policy|noun|a plan of action that has been agreed on|ನೀತಿ|The school has a strict policy on phones.|a company policy|rule|workplace|
+portion|noun|a part of something, or an amount of food for one person|ಭಾಗ|She ate a large portion of rice.|a large portion|share|everyday|
+potential|noun|the ability to develop or succeed in the future|ಸಾಮರ್ಥ್ಯ, ಸಾಧ್ಯತೆ|She has great potential as a singer.|reach your potential|promise|personality|
+prejudice|noun|an unfair opinion about someone, formed without knowing them|ಪೂರ್ವಗ್ರಹ|We should fight prejudice in all forms.|racial prejudice|bias|relationships|
+privilege|noun|a special right or advantage that only some people have|ವಿಶೇಷ ಸೌಲಭ್ಯ|It was a privilege to meet her.|a great privilege|honour|relationships|
+profession|noun|a job that needs special training, such as a doctor or lawyer|ವೃತ್ತಿ|Teaching is a respected profession.|the medical profession|occupation|workplace|
+proportion|noun|a part of a whole, or the relationship between two amounts|ಅನುಪಾತ|A large proportion of the students are girls.|a large proportion|share|academic|
+proposal|noun|a plan or suggestion that is put forward for consideration|ಪ್ರಸ್ತಾವನೆ|The manager accepted our proposal.|submit a proposal|suggestion|workplace|
+prospect|noun|the chance that something will happen in the future|ನಿರೀಕ್ಷೆ|There is little prospect of rain this week.|job prospects|chance|workplace|
+publication|noun|a book or magazine, or the act of printing it|ಪ್ರಕಟಣೆ|The publication of her book made her famous.|a monthly publication|issue|academic|
+purchase|noun|something that you buy|ಖರೀದಿ|Keep the bill as proof of purchase.|make a purchase|buy|workplace|
+rank|noun|a position in a group that shows how important someone is|ಶ್ರೇಣಿ, ಸ್ಥಾನ|He holds the rank of captain.|a high rank|position|workplace|
+reaction|noun|what you do or feel because of something|ಪ್ರತಿಕ್ರಿಯೆ|What was her reaction to the news?|a reaction to|response|emotions|
+reality|noun|the way things really are|ವಾಸ್ತವ|In reality, the trip took longer than planned.|in reality|truth|communication|
+recession|noun|a period when a country's economy does badly|ಆರ್ಥಿಕ ಹಿಂಜರಿತ|Many people lost jobs during the recession.|an economic recession|slump|academic|
+recommendation|noun|advice about what to do, or a suggestion that someone is good|ಶಿಫಾರಸು|I took his recommendation and tried the soup.|a strong recommendation|suggestion|communication|
+reform|noun|a change that improves a system or law|ಸುಧಾರಣೆ|The government has promised education reform.|education reform|change|academic|
+regulation|noun|an official rule|ನಿಯಮಾವಳಿ|Safety regulation is strict in this factory.|follow the regulation|rule|workplace|
+relevance|noun|how closely something is connected to the matter being discussed|ಪ್ರಸ್ತುತತೆ|I do not see the relevance of this question.|the relevance of|importance|academic|
+remedy|noun|a treatment or solution for a problem|ಪರಿಹಾರ, ಔಷಧ|Honey is a good remedy for a cough.|a home remedy|cure|health|
+representative|noun|a person who acts or speaks for others|ಪ್ರತಿನಿಧಿ|A company representative will call you.|a sales representative|delegate|workplace|
+requirement|noun|something that is needed or demanded|ಅವಶ್ಯಕತೆ|A degree is a requirement for this job.|meet the requirement|need|workplace|
+resolution|noun|a decision to do something, or the solving of a problem|ನಿರ್ಧಾರ, ಪರಿಹಾರ|My new year resolution is to exercise every day.|a firm resolution|decision|personality|
+restriction|noun|a rule or law that limits what you can do|ನಿರ್ಬಂಧ|There is a speed restriction on this road.|a travel restriction|limit|workplace|
+retail|noun|the business of selling goods to the public|ಚಿಲ್ಲರೆ ವ್ಯಾಪಾರ|She works in retail.|a retail shop|sales|workplace|
+revenue|noun|the money that a company or government receives|ಆದಾಯ|The company's revenue increased by ten per cent.|annual revenue|income|workplace|
+ritual|noun|a set of actions done in a fixed way, often for religious reasons|ಆಚರಣೆ|Morning prayer is a daily ritual for her.|a daily ritual|ceremony|relationships|
+scope|noun|the range of things that something deals with|ವ್ಯಾಪ್ತಿ|The scope of the project is very wide.|the scope of|range|workplace|
+sector|noun|one part of the economy or of society|ವಲಯ|He works in the public sector.|the private sector|field|workplace|
+selection|noun|the act of choosing, or a group of things that you can choose from|ಆಯ್ಕೆ|The shop has a good selection of shoes.|a wide selection|choice|everyday|
+sequence|noun|a number of things that follow each other in a particular order|ಅನುಕ್ರಮ|Put the pictures in the right sequence.|in sequence|order|education|
+setting|noun|the place or time in which something happens|ಸನ್ನಿವೇಶ, ಸ್ಥಳ|The village is a peaceful setting for a holiday.|a peaceful setting|environment|everyday|
+spectrum|noun|a wide range of different things|ವರ್ಣಪಟಲ, ವ್ಯಾಪ್ತಿ|The shop attracts a wide spectrum of customers.|a wide spectrum|range|academic|
+stability|noun|a state in which things do not change suddenly|ಸ್ಥಿರತೆ|The country needs political stability.|political stability|balance|academic|
+stakeholder|noun|a person or group with an interest in a business or project|ಪಾಲುದಾರ|Every stakeholder was invited to the meeting.|a key stakeholder|party|workplace|
+strain|noun|worry or tiredness caused by too much pressure|ಒತ್ತಡ|The long hours put a strain on his health.|under strain|stress|health|
+subsidy|noun|money given by a government to help an industry or to lower prices|ಸಬ್ಸಿಡಿ, ಸಹಾಯಧನ|Farmers receive a subsidy for seeds.|a government subsidy|grant|academic|
+sustainability|noun|the ability to continue without harming the environment|ಸುಸ್ಥಿರತೆ|Sustainability is important for future generations.|environmental sustainability|durability|academic|
+term|noun|a word or phrase with a particular meaning, or a period of the school year|ಪದ, ಅವಧಿ|What does this term mean?|a technical term|word|education|
+territory|noun|an area of land that belongs to a country or group|ಪ್ರಾಂತ್ಯ|The island is a territory of India.|a union territory|land|academic|
+threshold|noun|the point at which something begins or changes|ಹೊಸ್ತಿಲು, ಮಿತಿ|He has a low pain threshold.|a threshold of|limit|academic|
+tolerance|noun|willingness to accept the views or behaviour of others|ಸಹನೆ|Tolerance is a key value in a diverse country.|religious tolerance|acceptance|relationships|
+transition|noun|a change from one state or system to another|ಪರಿವರ್ತನೆ|The transition to online classes was difficult.|a smooth transition|change|academic|
+transparency|noun|openness, so that people can see what is happening|ಪಾರದರ್ಶಕತೆ|The company promised more transparency.|full transparency|openness|workplace|
+turnover|noun|the amount of business done by a company, or the rate at which workers leave|ವಹಿವಾಟು|The shop has an annual turnover of one crore.|annual turnover|sales|workplace|
+unemployment|noun|the situation of having no job|ನಿರುದ್ಯೋಗ|Unemployment is high among young people.|high unemployment|joblessness|academic|
+utility|noun|a service such as water or electricity, or the quality of being useful|ಸೌಲಭ್ಯ, ಉಪಯುಕ್ತತೆ|The rent includes all utility bills.|a public utility|service|everyday|
+validity|noun|the quality of being true or acceptable|ಮಾನ್ಯತೆ|The validity of the ticket is two months.|the validity of|legality|academic|
+venture|noun|a new business or activity that involves risk|ಸಾಹಸ ಉದ್ಯಮ|The new venture needs more money.|a new venture|enterprise|workplace|
+version|noun|a particular form of something that differs from others|ಆವೃತ್ತಿ|Which version of the app do you have?|the latest version|edition|technology|
+vision|noun|the ability to see, or a clear picture of what the future could be|ದೃಷ್ಟಿ, ಭವಿಷ್ಯದ ಕಲ್ಪನೆ|The leader has a clear vision for the school.|a clear vision|foresight|workplace|
+welfare|noun|the health and happiness of a person or group|ಕಲ್ಯಾಣ|The teacher cares about the welfare of every child.|child welfare|well-being|academic|
+workforce|noun|all the people who work for a company or in a country|ಕಾರ್ಮಿಕ ಶಕ್ತಿ|The factory has a workforce of two hundred.|a skilled workforce|staff|workplace|
+abstract|adjective|existing as an idea, not as a physical object|ಅಮೂರ್ತ|Love is an abstract idea.|an abstract idea|theoretical|academic|
+acceptable|adjective|good enough, or allowed|ಸ್ವೀಕಾರಾರ್ಹ|Is this price acceptable to you?|an acceptable standard|satisfactory|workplace|
+accessible|adjective|easy to reach, enter or use|ಲಭ್ಯವಿರುವ, ತಲುಪಲು ಸುಲಭ|The museum is accessible to everyone.|easily accessible|reachable|technology|
+acute|adjective|very serious or severe, or very sharp|ತೀವ್ರ|She felt acute pain in her leg.|acute pain|severe|health|
+adjacent|adjective|next to something|ಪಕ್ಕದ|Our room is adjacent to the kitchen.|an adjacent room|neighbouring|everyday|
+advanced|adjective|at a high level, or modern|ಮುಂದುವರಿದ|He is taking an advanced English course.|an advanced course|high-level|education|
+affordable|adjective|not too expensive|ಕೈಗೆಟಕುವ|The hotel is clean and affordable.|affordable prices|cheap|everyday|
+alert|adjective|awake and ready to act|ಎಚ್ಚರದ|Drivers must stay alert at night.|stay alert|watchful|health|
+ample|adjective|more than enough|ಸಾಕಷ್ಟು, ಹೇರಳ|There is ample space for everyone.|ample time|plenty|everyday|
+applicable|adjective|relevant to a particular person or situation|ಅನ್ವಯಿಸುವ|This rule is not applicable to students.|applicable to|relevant|workplace|
+artificial|adjective|made by people, not natural|ಕೃತಕ|The drink has no artificial colours.|artificial flowers|man-made|technology|
+automatic|adjective|working by itself, without a person controlling it|ಸ್ವಯಂಚಾಲಿತ|The door is automatic.|an automatic door|self-operating|technology|
+broad|adjective|wide, or including many different things|ವಿಶಾಲ|The course gives a broad introduction to science.|a broad range|wide|academic|
+casual|adjective|relaxed and informal, or not serious|ಅನೌಪಚಾರಿಕ|You can wear casual clothes to the party.|casual clothes|informal|everyday|
+comparable|adjective|similar enough to be compared|ಹೋಲಿಸಬಹುದಾದ|The two phones are of comparable quality.|comparable to|similar|academic|
+competent|adjective|having the skill to do something well|ಸಮರ್ಥ|She is a competent teacher.|a competent worker|capable|workplace|
+complex|adjective|made of many parts, and hard to understand|ಸಂಕೀರ್ಣ|The rules of the game are very complex.|a complex problem|complicated|academic|
+confidential|adjective|meant to be kept secret|ಗೌಪ್ಯ|This information is confidential.|confidential information|private|workplace|
+conscious|adjective|awake and aware, or knowing about something|ಪ್ರಜ್ಞೆಯುಳ್ಳ, ಅರಿವಿರುವ|He was conscious after the operation.|conscious of|aware|health|
+conservative|adjective|not liking change, or careful|ಸಂಪ್ರದಾಯಶೀಲ|My grandfather has conservative views.|a conservative estimate|traditional|academic|
+considerable|adjective|quite large in amount or importance|ಗಣನೀಯ|The trip took a considerable amount of time.|a considerable amount|substantial|workplace|
+constant|adjective|happening all the time, or not changing|ನಿರಂತರ|The constant noise gave me a headache.|constant noise|continuous|everyday|
+contemporary|adjective|belonging to the present time, or of the same period|ಸಮಕಾಲೀನ|She likes contemporary music.|contemporary art|modern|academic|
+conventional|adjective|ordinary and following accepted methods|ಸಾಂಪ್ರದಾಯಿಕ|It is a conventional method of teaching.|a conventional method|traditional|academic|
+corporate|adjective|connected with a large company|ಕಾರ್ಪೊರೇಟ್, ನಿಗಮ ಸಂಬಂಧಿ|She works in the corporate sector.|a corporate office|business|workplace|
+creative|adjective|good at thinking of new ideas, or using imagination|ಸೃಜನಶೀಲ|She is a very creative writer.|a creative idea|imaginative|personality|
+critical|adjective|very important, or saying what is wrong|ನಿರ್ಣಾಯಕ, ಟೀಕಾತ್ಮಕ|It is critical to arrive on time.|a critical moment|crucial|workplace|
+cultural|adjective|connected with the customs and arts of a society|ಸಾಂಸ್ಕೃತಿಕ|The city has a rich cultural life.|a cultural festival|artistic|academic|
+decisive|adjective|able to make decisions quickly, or deciding the result|ನಿರ್ಣಾಯಕ|She is a decisive leader.|a decisive moment|firm|personality|
+dependent|adjective|needing someone or something for support|ಅವಲಂಬಿತ|Young children are dependent on their parents.|dependent on|reliant|relationships|
+desirable|adjective|wanted, or worth having|ಅಪೇಕ್ಷಣೀಯ|A degree is desirable for this job.|a desirable quality|attractive|workplace|
+detailed|adjective|giving many facts or small points|ವಿವರವಾದ|The report gives a detailed account.|a detailed plan|thorough|workplace|
+diverse|adjective|including many different types|ವೈವಿಧ್ಯಮಯ|India has a diverse culture.|a diverse group|varied|academic|
+dramatic|adjective|sudden and very noticeable, or exciting|ನಾಟಕೀಯ|There was a dramatic change in the weather.|a dramatic change|striking|everyday|
+dynamic|adjective|full of energy and new ideas, or always changing|ಚೈತನ್ಯಶೀಲ|She is a dynamic young manager.|a dynamic person|energetic|workplace|
+economic|adjective|connected with money, trade and industry|ಆರ್ಥಿಕ|The country faces an economic problem.|economic growth|financial|academic|
+electronic|adjective|using electricity and small parts such as chips|ಎಲೆಕ್ಟ್ರಾನಿಕ್|He sells electronic goods.|electronic goods|digital|technology|
+emerging|adjective|just starting to appear or develop|ಹೊಸದಾಗಿ ಹೊರಹೊಮ್ಮುತ್ತಿರುವ|India is an emerging economy.|an emerging market|developing|academic|
+enormous|adjective|extremely large|ಅಗಾಧ|The elephant was enormous.|an enormous amount|huge|everyday|
+environmental|adjective|connected with the natural world|ಪರಿಸರ ಸಂಬಂಧಿ|Plastic is an environmental problem.|environmental protection|ecological|academic|
+eventual|adjective|happening at the end of a process|ಅಂತಿಮ|Her eventual success surprised everyone.|the eventual winner|final|everyday|
+exact|adjective|completely correct in every detail|ನಿಖರ|What is the exact time?|the exact amount|precise|everyday|
+excessive|adjective|more than is necessary or acceptable|ಅತಿಯಾದ|The price is excessive.|excessive noise|too much|health|
+exclusive|adjective|only for a particular person or group, or not shared|ವಿಶೇಷ, ವಿಶಿಷ್ಟ|It is an exclusive club for members.|an exclusive interview|private|workplace|
+existing|adjective|already there, in use now|ಈಗಾಗಲೇ ಇರುವ|You can use your existing account.|an existing customer|current|technology|
+external|adjective|outside or on the outside|ಬಾಹ್ಯ|You can add an external hard drive.|an external examiner|outside|technology|
+extensive|adjective|covering a large area or including many things|ವ್ಯಾಪಕ|The company has extensive experience.|extensive damage|wide|workplace|
+fatal|adjective|causing death|ಮಾರಣಾಂತಿಕ|It was a fatal accident.|a fatal mistake|deadly|health|
+financial|adjective|connected with money|ಹಣಕಾಸಿನ|She needs financial help.|financial support|monetary|workplace|
+fixed|adjective|not changing, or fastened firmly|ನಿಗದಿತ, ಸ್ಥಿರ|The price is fixed.|a fixed price|set|workplace|
+fundamental|adjective|forming the base, very important|ಮೂಲಭೂತ|Honesty is a fundamental value.|a fundamental right|basic|academic|
+genuine|adjective|real, not false|ನಿಜವಾದ|Is this a genuine leather bag?|a genuine smile|authentic|everyday|
+gradual|adjective|happening slowly over a long time|ಕ್ರಮೇಣ|There was a gradual change in the weather.|a gradual change|steady|everyday|
+harsh|adjective|cruel or too strict, or unpleasant and severe|ಕಠಿಣ|The harsh winter lasted for months.|harsh weather|severe|everyday|
+hostile|adjective|unfriendly, or showing dislike|ಪ್ರತಿಕೂಲ, ಶತ್ರುತ್ವದ|The crowd was hostile to the speaker.|a hostile reaction|unfriendly|relationships|
+humble|adjective|not proud, not thinking you are better than others|ವಿನಮ್ರ|He is a humble man.|a humble person|modest|personality|
+ideal|adjective|perfect or best|ಆದರ್ಶ|This is an ideal place for a picnic.|an ideal place|perfect|everyday|
+immense|adjective|extremely large|ಅಪಾರ|The project needs an immense amount of work.|immense pressure|vast|everyday|
+initial|adjective|first, at the beginning|ಆರಂಭಿಕ|My initial reaction was surprise.|an initial reaction|first|workplace|
+inner|adjective|inside, or in the middle|ಒಳಗಿನ|The inner room is quiet.|inner peace|internal|emotions|
+insufficient|adjective|not enough|ಅಸಮರ್ಪಕ, ಸಾಕಾಗದ|There is insufficient time to finish.|insufficient funds|inadequate|workplace|
+intense|adjective|very strong or extreme|ತೀವ್ರ|The heat was intense.|intense pressure|extreme|emotions|
+interactive|adjective|allowing two-way communication, especially with a computer|ಪರಸ್ಪರ ಸಂವಾದಾತ್ಮಕ|The app has interactive lessons.|an interactive game|responsive|technology|
+internal|adjective|inside something, or within an organisation|ಆಂತರಿಕ|The company has an internal phone system.|an internal matter|inside|workplace|
+invisible|adjective|that cannot be seen|ಕಾಣದ|Air is invisible.|invisible to the eye|unseen|everyday|
+irrelevant|adjective|not connected with the matter being discussed|ಅಪ್ರಸ್ತುತ|That comment is irrelevant.|an irrelevant question|unrelated|communication|
+legitimate|adjective|allowed by law, or reasonable|ಕಾನೂನುಬದ್ಧ, ಸಮರ್ಥನೀಯ|She had a legitimate reason for leaving early.|a legitimate reason|lawful|workplace|
+liberal|adjective|open to new ideas, or generous|ಉದಾರವಾದಿ|He has liberal views.|a liberal approach|open-minded|academic|
+literal|adjective|following the exact meaning of the words|ಅಕ್ಷರಶಃ|This is not the literal meaning.|a literal translation|exact|communication|
+logical|adjective|reasonable and clear in thinking|ತಾರ್ಕಿಕ|It is the logical next step.|a logical answer|reasonable|academic|
+marginal|adjective|very small, or not important|ಅತ್ಯಲ್ಪ|There was a marginal difference between the two.|a marginal improvement|slight|academic|
+massive|adjective|extremely large|ಬೃಹತ್|The film was a massive success.|a massive crowd|huge|everyday|
+mature|adjective|fully grown, or behaving like an adult|ಪ್ರೌಢ|She is very mature for her age.|a mature attitude|grown-up|personality|
+measurable|adjective|able to be measured|ಅಳೆಯಬಹುದಾದ|The aim is to make measurable progress.|measurable results|quantifiable|workplace|
+mental|adjective|connected with the mind|ಮಾನಸಿಕ|Exercise is good for your mental health.|mental health|psychological|health|
+minimal|adjective|very small in amount|ಕನಿಷ್ಠ|The damage was minimal.|minimal effort|least|workplace|
+moderate|adjective|not extreme, average|ಮಧ್ಯಮ|Moderate exercise is good for you.|a moderate amount|average|health|
+negligible|adjective|so small that it is not worth considering|ಅತ್ಯಲ್ಪ, ನಗಣ್ಯ|The difference in price is negligible.|a negligible amount|tiny|academic|
+neutral|adjective|not supporting either side, or not strong in colour|ತಟಸ್ಥ|He stayed neutral in the argument.|a neutral opinion|impartial|communication|
+obsolete|adjective|no longer used because something newer exists|ಬಳಕೆಯಲ್ಲಿಲ್ಲದ|This old phone is now obsolete.|obsolete technology|outdated|technology|
+offensive|adjective|rude or upsetting|ಆಕ್ಷೇಪಾರ್ಹ|His remark was offensive.|offensive language|insulting|relationships|
+optional|adjective|not compulsory|ಐಚ್ಛಿಕ|The last question is optional.|an optional subject|voluntary|education|
+organic|adjective|grown without artificial chemicals|ಸಾವಯವ|She buys organic vegetables.|organic food|natural|health|
+outstanding|adjective|extremely good, or not yet paid|ಅತ್ಯುತ್ತಮ|She gave an outstanding performance.|an outstanding result|excellent|workplace|
+overall|adjective|including everything, general|ಒಟ್ಟಾರೆ|The overall result was good.|the overall cost|total|workplace|
+parallel|adjective|going in the same direction and always the same distance apart|ಸಮಾನಾಂತರ|The two roads are parallel.|parallel lines|side by side|academic|
+partial|adjective|not complete|ಭಾಗಶಃ|It was only a partial success.|a partial payment|incomplete|academic|
+passive|adjective|not acting, allowing things to happen|ನಿಷ್ಕ್ರಿಯ|He is a passive learner.|a passive role|inactive|personality|
+persistent|adjective|continuing for a long time, or refusing to give up|ಹಟಬಿಡದ, ನಿರಂತರ|She is a persistent worker.|a persistent cough|determined|personality|
+precise|adjective|exact and accurate|ನಿಖರ|Please give a precise answer.|a precise time|exact|workplace|
+predictable|adjective|easy to know before it happens|ಊಹಿಸಬಹುದಾದ|The ending of the film was predictable.|predictable results|expected|everyday|
+preliminary|adjective|coming before the main part|ಪ್ರಾಥಮಿಕ|The preliminary results look good.|a preliminary test|initial|academic|
+primary|adjective|most important, or first|ಪ್ರಾಥಮಿಕ|Safety is our primary concern.|the primary reason|main|education|
+prior|adjective|earlier, before something else|ಹಿಂದಿನ, ಮೊದಲಿನ|You need prior experience for this job.|prior notice|previous|workplace|
+productive|adjective|producing a lot, or achieving a lot|ಉತ್ಪಾದಕ|It was a very productive meeting.|a productive day|efficient|workplace|
+prominent|adjective|important and well known, or easy to see|ಪ್ರಮುಖ|He is a prominent doctor.|a prominent feature|famous|academic|
+prompt|adjective|done quickly and without delay|ತ್ವರಿತ|Thank you for your prompt reply.|a prompt reply|quick|workplace|
+psychological|adjective|connected with the mind|ಮಾನಸಿಕ|The illness has psychological causes.|psychological pressure|mental|health|
+radical|adjective|very different from what is usual, or extreme|ಮೂಲಭೂತ, ಕ್ರಾಂತಿಕಾರಿ|They want a radical change.|a radical change|extreme|academic|
+random|adjective|done without a plan or pattern|ಯಾದೃಚ್ಛಿಕ|The winners were chosen at random.|a random choice|arbitrary|academic|
+rational|adjective|based on reason, not on feelings|ವೈಚಾರಿಕ|Let us make a rational decision.|a rational decision|logical|academic|
+realistic|adjective|sensible about what can actually be done|ವಾಸ್ತವಿಕ|It is not realistic to finish in one day.|a realistic plan|practical|workplace|
+resistant|adjective|not harmed by something|ನಿರೋಧಕ, ಪ್ರತಿರೋಧಿಸುವ|This cloth is resistant to water.|water resistant|immune|technology|
+restrictive|adjective|limiting what people can do|ನಿರ್ಬಂಧಿತ|The rules are too restrictive.|restrictive rules|limiting|workplace|
+rigid|adjective|not able to be bent, or not willing to change|ಕಠಿಣ, ಬಗ್ಗದ|The rules at the school are rigid.|a rigid rule|inflexible|personality|
+robust|adjective|strong and healthy, or not easily broken|ದೃಢ|This phone is very robust.|a robust system|strong|technology|
+sceptical|adjective|doubting that something is true or useful|ಸಂಶಯಾತ್ಮಕ|I am sceptical about his promise.|sceptical about|doubtful|communication|
+secondary|adjective|less important, or coming after the first|ದ್ವಿತೀಯ|Price is only a secondary issue.|secondary school|minor|education|
+senior|adjective|older or higher in position|ಹಿರಿಯ|He is a senior manager.|a senior position|older|workplace|
+sensible|adjective|having good judgement, practical|ವಿವೇಕಯುತ|It is sensible to carry an umbrella.|a sensible decision|wise|confusing|Do not confuse sensible (having good judgement) with sensitive (easily hurt or upset).
+sensitive|adjective|easily hurt or upset, or aware of other people's feelings|ಸೂಕ್ಷ್ಮ ಸ್ವಭಾವದ|She is sensitive about her age.|a sensitive issue|delicate|confusing|Do not confuse sensitive (easily upset) with sensible (having good judgement).
+severe|adjective|very serious or very bad|ತೀವ್ರ|There was a severe storm last night.|a severe illness|serious|health|
+similar|adjective|almost the same|ಹೋಲುವ|Our phones are very similar.|similar to|alike|everyday|
+sincere|adjective|honest and meaning what you say|ನಿಷ್ಕಪಟ|Please accept my sincere thanks.|a sincere apology|genuine|personality|
+solid|adjective|hard and firm, not liquid or gas|ಘನ|The lake froze solid in winter.|a solid object|firm|everyday|
+sophisticated|adjective|advanced and complex, or having good taste and experience|ಅತ್ಯಾಧುನಿಕ|The phone has sophisticated software.|a sophisticated system|advanced|technology|
+specific|adjective|clear and exact, not general|ನಿರ್ದಿಷ್ಟ|Please be more specific.|a specific question|particular|communication|
+stable|adjective|not likely to change or fall|ಸ್ಥಿರ|The patient is in a stable condition.|a stable job|steady|health|
+steady|adjective|regular and continuous, or firm|ಸ್ಥಿರ, ನಿರಂತರ|He made steady progress.|a steady job|constant|everyday|
+subsequent|adjective|coming after something|ತರುವಾಯದ|Subsequent events proved him right.|subsequent years|following|academic|
+substantial|adjective|large in amount or importance|ಗಣನೀಯ|They made a substantial profit.|a substantial amount|considerable|workplace|
+superior|adjective|better than something else|ಉತ್ತಮ|This phone is of superior quality.|superior quality|better|workplace|
+suspicious|adjective|feeling that something is wrong, or causing that feeling|ಸಂಶಯಾಸ್ಪದ|The police found a suspicious bag.|a suspicious person|doubtful|everyday|
+sustainable|adjective|able to continue without harming the environment|ಸುಸ್ಥಿರ|We need sustainable energy.|sustainable development|renewable|academic|
+temporary|adjective|lasting for only a short time|ತಾತ್ಕಾಲಿಕ|This is only a temporary job.|temporary housing|short-term|workplace|
+tense|adjective|worried and nervous, or tight|ಉದ್ವಿಗ್ನ|The atmosphere in the room was tense.|a tense moment|nervous|emotions|
+theoretical|adjective|based on ideas, not on practice|ಸೈದ್ಧಾಂತಿಕ|She has a theoretical knowledge of cooking.|a theoretical question|abstract|academic|
+tolerant|adjective|willing to accept different opinions or behaviour|ಸಹಿಷ್ಣು|We should be tolerant of other views.|tolerant of|open-minded|relationships|
+traditional|adjective|following customs that have existed for a long time|ಸಾಂಪ್ರದಾಯಿಕ|She wore a traditional dress.|a traditional dish|conventional|everyday|
+transparent|adjective|that you can see through, or open and honest|ಪಾರದರ್ಶಕ|The glass is transparent.|a transparent process|clear|technology|
+trivial|adjective|not important|ಕ್ಷುಲ್ಲಕ|It is only a trivial matter.|a trivial detail|minor|communication|
+typical|adjective|showing the usual qualities of a particular kind|ವಿಶಿಷ್ಟ, ಸಾಮಾನ್ಯ|This is a typical Kannada breakfast.|a typical example|usual|everyday|
+ultimate|adjective|final, or the greatest|ಅಂತಿಮ|The ultimate goal is to speak fluently.|the ultimate goal|final|personality|
+unique|adjective|the only one of its kind|ಅನನ್ಯ|Every person is unique.|a unique chance|one of a kind|everyday|
+universal|adjective|affecting or used by everyone|ಸಾರ್ವತ್ರಿಕ|Music is a universal language.|a universal rule|worldwide|academic|
+urban|adjective|connected with towns and cities|ನಗರ|Urban life is very busy.|an urban area|city|everyday|
+vague|adjective|not clear or exact|ಅಸ್ಪಷ್ಟ|He gave a vague answer.|a vague idea|unclear|communication|
+valid|adjective|acceptable by law, or reasonable|ಮಾನ್ಯ|Your ticket is valid for one month.|a valid reason|legal|workplace|
+various|adjective|several different|ವಿವಿಧ|We sell various kinds of fruit.|for various reasons|different|everyday|
+visible|adjective|able to be seen|ಕಾಣುವ|The mountain is visible from here.|clearly visible|apparent|everyday|
+visual|adjective|connected with seeing|ದೃಶ್ಯ|Pictures are a visual aid.|a visual aid|optical|education|
+vital|adjective|extremely important or necessary|ಅತ್ಯಗತ್ಯ|Water is vital for life.|a vital part|essential|health|
+voluntary|adjective|done because you want to, not because you must|ಸ್ವಯಂಪ್ರೇರಿತ|The meeting is voluntary.|voluntary work|optional|relationships|
+widespread|adjective|found in many places or among many people|ವ್ಯಾಪಕವಾದ|There was widespread damage after the storm.|widespread support|common|academic|
+accordingly|adverb|in a way that fits the situation, or as a result|ಅದರಂತೆ|Please dress accordingly.|act accordingly|therefore|communication|
+additionally|adverb|also, as something extra|ಹೆಚ್ಚುವರಿಯಾಗಿ|Additionally, you will need a passport.|additionally|also|communication|
+approximately|adverb|almost exactly, about|ಸುಮಾರು|The journey takes approximately two hours.|approximately ten|roughly|communication|
+basically|adverb|in the most important ways, in simple terms|ಮೂಲತಃ|Basically, the idea is very simple.|basically the same|essentially|communication|
+briefly|adverb|in a few words, or for a short time|ಸಂಕ್ಷಿಪ್ತವಾಗಿ|Let me briefly explain the plan.|briefly explain|shortly|communication|
+consequently|adverb|as a result|ಪರಿಣಾಮವಾಗಿ|He missed the bus and consequently arrived late.|and consequently|therefore|communication|
+considerably|adverb|by a large amount|ಗಣನೀಯವಾಗಿ|Prices have risen considerably.|considerably higher|greatly|communication|
+currently|adverb|at the present time|ಸದ್ಯಕ್ಕೆ|She is currently studying in Pune.|currently available|now|workplace|
+definitely|adverb|certainly, without doubt|ನಿಸ್ಸಂದೇಹವಾಗಿ|I will definitely come tomorrow.|definitely not|certainly|communication|
+effectively|adverb|in a way that produces the result you want|ಪರಿಣಾಮಕಾರಿಯಾಗಿ|She uses her time effectively.|work effectively|successfully|workplace|
+essentially|adverb|in the most important way|ಮೂಲತಃ|The two plans are essentially the same.|essentially the same|basically|communication|
+evidently|adverb|clearly, in a way that is easy to see|ಸ್ಪಷ್ಟವಾಗಿ|Evidently, he had not read the instructions.|evidently true|obviously|communication|
+explicitly|adverb|in a clear and direct way|ಸ್ಪಷ್ಟವಾಗಿ|The rule explicitly says that no phones are allowed.|explicitly stated|clearly|workplace|
+fairly|adverb|to a reasonable degree, or in a just way|ಸಾಕಷ್ಟು, ನ್ಯಾಯವಾಗಿ|The test was fairly easy.|fairly good|reasonably|everyday|
+furthermore|adverb|in addition, and also|ಇದಲ್ಲದೆ|Furthermore, the price is very low.|furthermore|moreover|communication|
+hence|adverb|for this reason, therefore|ಆದ್ದರಿಂದ|The road is closed, hence the delay.|and hence|therefore|communication|
+increasingly|adverb|more and more as time goes on|ಹೆಚ್ಚುಹೆಚ್ಚಾಗಿ|It is increasingly difficult to find a flat.|increasingly popular|more and more|everyday|
+indeed|adverb|really, or used for emphasis|ವಾಸ್ತವವಾಗಿ, ನಿಜಕ್ಕೂ|It was indeed a great success.|very good indeed|truly|communication|
+initially|adverb|at the beginning|ಆರಂಭದಲ್ಲಿ|Initially, I did not like the food.|initially planned|at first|communication|
+likewise|adverb|in the same way|ಅದೇ ರೀತಿ|Watch how I do it and do likewise.|do likewise|similarly|communication|
+meanwhile|adverb|during the same time, or in the time between two events|ಈ ನಡುವೆ|Meanwhile, the children played outside.|meanwhile|in the meantime|communication|
+moreover|adverb|in addition, and what is more|ಅಷ್ಟೇ ಅಲ್ಲದೆ|Moreover, the hotel is very cheap.|moreover|furthermore|communication|
+nevertheless|adverb|in spite of that|ಆದರೂ|It was raining; nevertheless, we went out.|nevertheless|however|communication|
+nonetheless|adverb|in spite of what has just been said|ಆದಾಗ್ಯೂ|The task was hard; nonetheless, she finished it.|nonetheless|nevertheless|communication|
+notably|adverb|especially, in a way that is worth noticing|ಮುಖ್ಯವಾಗಿ|Several countries, notably India, sent help.|notably|especially|communication|
+occasionally|adverb|sometimes, but not often|ಸಾಂದರ್ಭಿಕವಾಗಿ|I occasionally eat out.|only occasionally|sometimes|everyday|
+partly|adverb|to some degree, not completely|ಭಾಗಶಃ|The delay was partly my fault.|partly because|in part|communication|
+presumably|adverb|probably, as far as you know|ಬಹುಶಃ|Presumably, he forgot the meeting.|presumably so|probably|communication|
+primarily|adverb|mainly, most importantly|ಮುಖ್ಯವಾಗಿ|The course is primarily for beginners.|primarily for|mainly|communication|
+purely|adverb|completely and only|ಕೇವಲ, ಸಂಪೂರ್ಣವಾಗಿ|I am asking purely out of interest.|purely by chance|only|communication|
+rarely|adverb|not often|ವಿರಳವಾಗಿ|She rarely goes out in the evening.|very rarely|seldom|everyday|
+readily|adverb|quickly and willingly, or easily|ಸುಲಭವಾಗಿ, ಸಂತೋಷದಿಂದ|The information is readily available.|readily available|easily|workplace|
+regardless|adverb|without being affected by something|ಲೆಕ್ಕಿಸದೆ|He kept going regardless.|regardless of|anyway|communication|
+roughly|adverb|about, not exactly|ಸುಮಾರು|It costs roughly five hundred rupees.|roughly speaking|approximately|communication|
+simultaneously|adverb|at the same time|ಏಕಕಾಲದಲ್ಲಿ|The two events happened simultaneously.|happen simultaneously|together|academic|
+subsequently|adverb|after something else has happened|ತರುವಾಯ|He subsequently became a doctor.|subsequently|afterwards|academic|
+substantially|adverb|by a large amount|ಗಣನೀಯವಾಗಿ|Costs have fallen substantially.|substantially higher|greatly|workplace|
+thereby|adverb|by that means, as a result of that|ಅದರಿಂದ|He saved money, thereby increasing his profit.|and thereby|thus|academic|
+therefore|adverb|for that reason|ಆದ್ದರಿಂದ|It was raining, therefore we stayed home.|and therefore|so|communication|
+ultimately|adverb|in the end, after everything else|ಅಂತಿಮವಾಗಿ|Ultimately, the choice is yours.|ultimately|finally|communication|
+undoubtedly|adverb|without any doubt|ನಿಸ್ಸಂಶಯವಾಗಿ|She is undoubtedly the best player.|undoubtedly true|certainly|communication|
+virtually|adverb|almost, nearly|ಬಹುತೇಕ|The road was virtually empty.|virtually impossible|almost|communication|

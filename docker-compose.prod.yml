@@ -1,0 +1,133 @@
+# Production stack: automatic HTTPS (Caddy) -> web (nginx, static + /api + /ws proxy) -> backend -> PostgreSQL + Redis.
+# NOT YET RUN: Docker is not installed on the development machine. Validate with `docker compose -f docker-compose.prod.yml config`.
+#
+#   cp env.prod.example .env.prod   # fill in every value
+#   docker compose --env-file .env.prod -f docker-compose.prod.yml up -d --build
+#   docker compose ... --profile turn up -d     # also run coturn (Linux host)
+#   docker compose ... --profile monitoring up -d
+#
+# Only Caddy (80/443) and, if enabled, coturn are reachable from the internet. Everything else stays on the private network.
+name: english-speaking
+
+x-restart: &restart
+  restart: unless-stopped
+
+services:
+  caddy:
+    image: caddy:2-alpine
+    <<: *restart
+    ports: ["80:80", "443:443", "443:443/udp"]
+    environment:
+      DOMAIN: ${DOMAIN:?set DOMAIN in .env.prod}
+      ACME_EMAIL: ${ACME_EMAIL:?set ACME_EMAIL in .env.prod}
+    volumes:
+      - ./infra/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [web]
+
+  web:
+    build: { context: ./frontend, args: { VITE_APP_NAME: "${APP_NAME:-Speakora}", VITE_ANDROID_DOWNLOAD_URL: "${ANDROID_DOWNLOAD_URL:-}" } }
+    volumes:
+      - ./downloads:/usr/share/nginx/downloads:ro
+    <<: *restart
+    depends_on: [backend]
+
+  backend:
+    build: ./backend
+    <<: *restart
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      APP_NAME: ${APP_NAME:-Speakora}
+      APP_BASE_URL: https://${DOMAIN}
+      CORS_ALLOWED_ORIGINS: https://${DOMAIN}
+      COOKIE_SECURE: "true"
+      DB_URL: jdbc:postgresql://postgres:5432/english_speaking
+      DB_USER: esp_app
+      REDIS_HOST: redis
+      ADMIN_EMAILS: ${ADMIN_EMAILS:-}
+      MAIL_FROM: ${MAIL_FROM:?set MAIL_FROM}
+      SMTP_HOST: ${SMTP_HOST:?set SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-}
+      TURN_FORCE_RELAY: ${TURN_FORCE_RELAY:-false}
+      # Caddy and nginx sit in front of the backend on the private network (same ranges nginx.conf trusts for the real client IP).
+      TRUSTED_PROXIES: ${TRUSTED_PROXIES:-172.16.0.0/12,10.0.0.0/8}
+      GROQ_MODEL: ${GROQ_MODEL:-openai/gpt-oss-120b}
+      COACH_DAILY_LIMIT: ${COACH_DAILY_LIMIT:-20}
+      SECRETS_DIR: /run/secrets
+    # Secrets are mounted as files named exactly like the property (Spring "configtree"), never as environment variables.
+    secrets: [DB_PASSWORD, JWT_SECRET, REDIS_PASSWORD, SMTP_PASSWORD, GROQ_API_KEY, TURNIX_API_TOKEN]
+
+  postgres:
+    image: postgres:18-alpine
+    <<: *restart
+    environment:
+      POSTGRES_DB: english_speaking
+      POSTGRES_USER: esp_app
+      POSTGRES_PASSWORD_FILE: /run/secrets/DB_PASSWORD
+    secrets: [DB_PASSWORD]
+    volumes: [pgdata:/var/lib/postgresql]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U esp_app -d english_speaking"]
+      interval: 10s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    <<: *restart
+    # Temporary state only (queue, presence, rate limits): no persistence. A password is required.
+    command: ["sh", "-c", "exec redis-server --save '' --appendonly no --requirepass \"$$(cat /run/secrets/REDIS_PASSWORD)\""]
+    secrets: [REDIS_PASSWORD]
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a \"$$(cat /run/secrets/REDIS_PASSWORD)\" --no-auth-warning ping | grep -q PONG"]
+      interval: 10s
+      retries: 10
+
+  # Daily compressed dumps with retention (see scripts/backup-db.sh). Copy ./backups off the server too.
+  backup:
+    image: postgres:18-alpine
+    <<: *restart
+    depends_on: { postgres: { condition: service_healthy } }
+    environment: { PGHOST: postgres, PGUSER: esp_app, PGDATABASE: english_speaking, KEEP_DAYS: "${BACKUP_KEEP_DAYS:-14}" }
+    secrets: [DB_PASSWORD]
+    volumes:
+      - ./backups:/backups
+      - ./scripts/backup-db.sh:/usr/local/bin/backup-db.sh:ro
+    entrypoint: ["sh", "-c", "while true; do PGPASSWORD=\"$$(cat /run/secrets/DB_PASSWORD)\" /usr/local/bin/backup-db.sh /backups || echo 'backup FAILED'; sleep 86400; done"]
+
+  coturn:
+    image: coturn/coturn:4.6
+    profiles: [turn]
+    <<: *restart
+    network_mode: host          # relay ports must be reachable directly; Linux only
+    volumes:
+      - ./infra/coturn/turnserver.conf:/etc/coturn/turnserver.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+    command: ["-c", "/etc/coturn/turnserver.conf"]
+
+  prometheus:
+    image: prom/prometheus:v2.55.1
+    profiles: [monitoring]
+    <<: *restart
+    volumes:
+      - ./infra/prometheus:/etc/prometheus:ro
+      - prometheus_data:/prometheus
+    # not published: view it with `docker compose exec` / an SSH tunnel, or add Grafana behind authentication
+
+secrets:
+  DB_PASSWORD: { file: ./secrets/DB_PASSWORD }
+  JWT_SECRET: { file: ./secrets/JWT_SECRET }
+  REDIS_PASSWORD: { file: ./secrets/REDIS_PASSWORD }
+  SMTP_PASSWORD: { file: ./secrets/SMTP_PASSWORD }
+  GROQ_API_KEY: { file: ./secrets/GROQ_API_KEY }
+  TURNIX_API_TOKEN: { file: ./secrets/TURNIX_API_TOKEN }
+
+volumes:
+  pgdata:
+  caddy_data:
+  caddy_config:
+  prometheus_data:

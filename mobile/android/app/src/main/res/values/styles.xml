@@ -1,0 +1,28 @@
+<resources>
+
+    <!--
+      Light by default, with a dark twin in values-night/styles.xml. The app picks System default, Light or Dark in Settings and tells Android
+      (Appearance.setColorScheme), so native pieces (dialogs, the text selection menu) match the app's own screens. Every text input still sets
+      its text, background, hint, cursor and handle colours itself (src/ui/components.tsx, Input): an earlier DayNight theme drew white native
+      text on the app's white fields on a phone in dark mode, because the app had no dark palette. It has one now. The colours below are the light palette's values
+      (design/tokens.json); the dark ones are in values-night.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowBackground">#FFFAFAF8</item>
+        <item name="android:textColorPrimary">#FF14171A</item>
+        <item name="android:textColorSecondary">#FF55606B</item>
+        <item name="android:textColorHint">#FF656F79</item>
+        <item name="android:textColorHighlight">#551D4ED8</item>
+        <item name="colorAccent">#FF1D4ED8</item>
+        <item name="colorControlActivated">#FF1D4ED8</item>
+        <item name="colorControlNormal">#FF55606B</item>
+    </style>
+
+    <!-- Used only while the app is starting (MainActivity switches to AppTheme before the first screen): the Speakora launch screen. -->
+    <style name="Theme.App.Splash" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+</resources>

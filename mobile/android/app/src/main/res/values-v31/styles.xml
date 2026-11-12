@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Android 12 and later draw their own launch screen: navy with the Speakora mark (the same foreground as the launcher icon). -->
+    <style name="Theme.App.Splash" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+
+</resources>

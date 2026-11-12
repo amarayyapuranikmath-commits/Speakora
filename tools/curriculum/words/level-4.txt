@@ -1,0 +1,80 @@
+# Level 4 (upper-intermediate). word|pos|meaning|example|A: line|B: line|synonyms|antonyms
+acknowledge|verb|to accept or admit that something is true or exists|She had to acknowledge that she had made a mistake.|A: Did he admit the error?|B: Yes, he acknowledged it in front of everyone.|admit|deny
+advocate|verb|to publicly support an idea or a plan|Doctors advocate regular exercise.|A: What does the group do?|B: It advocates better public transport.|support|oppose
+assess|verb|to judge the quality, size or value of something after thinking carefully|Teachers assess students with tests and projects.|A: How will they judge the project?|B: They will assess it next week.|evaluate|
+assume|verb|to think that something is true without checking|Do not assume that everyone agrees with you.|A: Why did you not call?|B: I assumed you were busy.|suppose|
+bias|noun|an unfair preference for or against someone or something|The report shows a clear bias against small companies.|A: Is the article fair?|B: No, there is a strong bias in it.|prejudice|
+boundary|noun|a line or limit that marks the edge of something|The river forms the boundary between the two countries.|A: Is this your land?|B: Yes, the fence marks the boundary.|border|
+circumstance|noun|a fact or condition that affects a situation|In that circumstance, we made the best choice.|A: Why did you cancel the trip?|B: Because of the circumstances. It was not safe.|situation|
+commit|verb|to promise to do something, or to give your time and effort to it|He will commit to finishing the project by June.|A: Can you join the team?|B: I can, if I commit to the full year.|pledge|
+compensate|verb|to give something to make up for a loss or a problem|The airline will compensate passengers for the delay.|A: My flight was cancelled.|B: They should compensate you.|repay|
+conceal|verb|to hide something so that it cannot be seen or known|He tried to conceal his disappointment.|A: Did she tell you the truth?|B: No, she tried to conceal it.|hide|reveal
+consequence|noun|a result of something that happened earlier|Every choice has a consequence.|A: Why is he in trouble?|B: It is the consequence of his actions.|result|cause
+consistent|adjective|always behaving or happening in the same way|Her results are consistent from year to year.|A: Is his work good?|B: Yes, he is very consistent.|steady|inconsistent
+constraint|noun|something that limits what you can do|Lack of time is a major constraint.|A: Why not add more features?|B: Budget constraints are the problem.|limit|
+contradict|verb|to say the opposite of what someone else has said|The new report may contradict the earlier one.|A: Do the two reports agree?|B: No, they contradict each other.|disagree with|confirm
+convince|verb|to make someone believe something or agree to do something|I could not convince him to come.|A: Is she coming with us?|B: I convinced her in the end.|persuade|
+crucial|adjective|extremely important|Sleep is crucial for good health.|A: Is this meeting important?|B: Yes, it is crucial for our future.|vital|minor
+demonstrate|verb|to show clearly that something is true, or to show how something works|The teacher will demonstrate how to use the machine.|A: Can you show me how it works?|B: Yes, I will demonstrate it now.|show|
+detect|verb|to notice or find something that is not easy to see|The machine can detect small changes in temperature.|A: How did you find the leak?|B: A sensor detected it.|discover|
+dilemma|noun|a difficult choice between two things|She faced a dilemma: stay or move abroad.|A: What should I do?|B: That is a real dilemma.||
+distinguish|verb|to see or understand the difference between two things|Children cannot always distinguish fact from fiction.|A: Are those twins?|B: Yes, I cannot distinguish one from the other.|tell apart|
+domestic|adjective|relating to your own country, or to the home|The airline offers domestic and international flights.|A: Is this a domestic flight?|B: Yes, it stays inside the country.|national|foreign
+enhance|verb|to make something better or stronger|Good lighting can enhance the room.|A: How can we improve the app?|B: New features will enhance it.|improve|
+ensure|verb|to make certain that something happens|Please ensure that all the doors are locked.|A: Is everything ready?|B: I will ensure that it is.|guarantee|
+exaggerate|verb|to make something seem bigger, better or worse than it is|He likes to exaggerate his stories.|A: Was the fish really that big?|B: No, he exaggerates.|overstate|understate
+exploit|verb|to use something fully, or to use a person unfairly for your own benefit|Some companies exploit workers with low pay.|A: Why are they angry?|B: They feel the company exploits them.||
+fluctuate|verb|to change often, going up and down|Prices fluctuate during the year.|A: Is the price always the same?|B: No, it fluctuates a lot.|vary|
+impose|verb|to force a rule, tax or idea on people|The government plans to impose a new tax.|A: Why are people upset?|B: The city imposed a new parking fee.||
+inadequate|adjective|not good enough or not enough|The food supply was inadequate.|A: Is the training enough?|B: No, it is inadequate for the new staff.|insufficient|adequate
+incentive|noun|something that makes people want to do something|A bonus is a good incentive to work harder.|A: Why do people recycle?|B: There is a small money incentive.|motivation|
+integrate|verb|to combine things so that they work together, or to become part of a group|The school helps new students integrate quickly.|A: How is your family settling in?|B: Well. They are starting to integrate.|combine|
+justify|verb|to show or prove that something is reasonable|How can you justify spending so much money?|A: Why did you buy it?|B: I can justify it. I use it every day.|defend|
+mutual|adjective|felt or done by two or more people in the same way|We have a mutual respect for each other.|A: Do you like each other?|B: Yes, the feeling is mutual.|shared|
+neglect|verb|to fail to take care of someone or something|Do not neglect your health.|A: Why is the garden dead?|B: I neglected it all summer.|ignore|care for
+overcome|verb|to deal successfully with a problem or fear|She worked hard to overcome her fear of speaking.|A: How did you pass the exam?|B: I overcame my nerves and kept studying.|beat|
+phenomenon|noun|something that exists or happens and is interesting or hard to explain|Rainbows are a natural phenomenon.|A: What is that light in the sky?|B: It is a rare natural phenomenon.||
+reinforce|verb|to make something stronger|Regular practice can reinforce what you learn.|A: Why do you repeat the words?|B: It reinforces my memory.|strengthen|weaken
+restrict|verb|to limit the size, amount or range of something|The law will restrict the use of plastic bags.|A: Can we park here?|B: No, parking is restricted.|limit|
+undermine|verb|to make something weaker, especially slowly|Constant criticism can undermine your confidence.|A: Why is the team unhappy?|B: Late decisions undermine their trust.|weaken|support
+# --- batch 2
+abandon|verb|to leave someone or something and not come back|They had to abandon the car in the snow.|A: What happened to the old house?|B: The family abandoned it years ago.|desert|
+accumulate|verb|to collect or gather more and more of something|Dust will accumulate if you do not clean.|A: How did you save so much?|B: Small amounts accumulate over time.|gather|
+aggressive|adjective|ready to attack or argue, in a rude and angry way|The dog became aggressive when he came near.|A: Why did you leave the meeting?|B: One man was very aggressive.|hostile|gentle
+authentic|adjective|real and true, not copied or false|This is an authentic Italian restaurant.|A: Is this painting real?|B: Yes, an expert says it is authentic.|genuine|fake
+beneficial|adjective|helpful and good for you|Regular exercise is beneficial to your health.|A: Is the course useful?|B: Yes, it was very beneficial for my career.|helpful|harmful
+catastrophe|noun|a sudden event that causes great damage or suffering|The flood was a catastrophe for the village.|A: What happened in the north?|B: A terrible catastrophe. Many homes were lost.|disaster|
+coincidence|noun|two things happening at the same time by chance|It was a coincidence that we met at the airport.|A: You are here too!|B: What a coincidence!||
+collaborate|verb|to work together with others on something|The two schools collaborate on a science project.|A: Who is helping you?|B: We collaborate with a team in Japan.|cooperate|
+compel|verb|to force someone to do something|The law will compel companies to share their data.|A: Why did he sign?|B: Circumstances compelled him to.|force|
+complexity|noun|the quality of having many parts that are hard to understand|Nobody understood the complexity of the system.|A: Why is it hard to fix?|B: The complexity of the code is the problem.||simplicity
+comprise|verb|to be made up of certain parts|The team will comprise ten engineers.|A: Who is in the committee?|B: It comprises teachers and parents.|consist of|
+concede|verb|to admit that something is true, often unwillingly|He had to concede that she was right.|A: Did he agree in the end?|B: Yes, he conceded the point.|admit|deny
+conform|verb|to follow rules, or to behave like most other people|All buildings must conform to safety rules.|A: Why is the design so plain?|B: It has to conform to the rules.|obey|
+consensus|noun|an opinion that everyone in a group agrees on|The team reached a consensus after a long talk.|A: Did you decide?|B: Yes, we reached a consensus.|agreement|
+controversy|noun|a public argument about something that people disagree on|The new tax caused great controversy.|A: Why is it in the news?|B: There is a controversy about the plan.|dispute|
+credibility|noun|the quality of being trusted and believed|The report lost its credibility after the mistakes.|A: Why do people trust her?|B: She has great credibility.|trustworthiness|
+criteria|noun|the standards used to judge or decide something|The criteria for the job are clear.|A: How will they choose?|B: They have clear criteria.|standards|
+cynical|adjective|believing that people only act for selfish reasons|He is cynical about politics.|A: Do you trust the advert?|B: No, I am cynical about such claims.|sceptical|trusting
+deduce|verb|to work out an answer from facts and clear thinking|From the footprints, we can deduce that he came at night.|A: How did you know?|B: I could deduce it from the clues.|conclude|
+diminish|verb|to become smaller or less, or to make something smaller|The pain will diminish in a few days.|A: Is the noise getting better?|B: Yes, it has begun to diminish.|decrease|increase
+discourage|verb|to take away someone's hope or wish to do something|Do not let one failure discourage you.|A: Why did you stop?|B: Bad results can discourage anyone.|dishearten|encourage
+disrupt|verb|to stop something from continuing normally|The strike will disrupt train services.|A: Why is the bus late?|B: Road works disrupt traffic every morning.|interrupt|
+dominate|verb|to be the strongest or most important part of something|One company will dominate the market.|A: Who is winning?|B: The home team dominates the game.|control|
+eligible|adjective|having the right to do or receive something|You are eligible to vote at the age of eighteen.|A: Can I apply for the grant?|B: Yes, if you are eligible.|qualified|ineligible
+enforce|verb|to make sure that people obey a rule or law|Police enforce the law.|A: Who checks the rules?|B: The city must enforce them.||
+equivalent|adjective|equal in value, amount or meaning|One mile is equivalent to about 1.6 kilometres.|A: What is the word in Hindi?|B: There is no exact equivalent.|equal|
+erode|verb|to wear something away slowly, as wind and water do|Waves erode the cliffs every year.|A: Why is the beach smaller?|B: The sea is eroding it.|wear away|
+evolve|verb|to change and develop slowly over time|Languages evolve as people use them.|A: Has the plan changed?|B: Yes, it has evolved a lot.|develop|
+expertise|noun|special skill or knowledge in a subject|She has great expertise in computer security.|A: Who can fix this?|B: Ask Ravi. He has the expertise.|skill|
+flaw|noun|a mistake or weak point in something|The plan has one serious flaw.|A: Is the design perfect?|B: No, there is a flaw in it.|fault|
+foresee|verb|to know or expect that something will happen|Nobody could foresee the problem.|A: Did you expect the delay?|B: No, we could not foresee it.|predict|
+formulate|verb|to prepare and express an idea or plan carefully|We need to formulate a clear plan.|A: How is the proposal?|B: We are still trying to formulate it.|develop|
+hypothesis|noun|an idea that is suggested as an explanation and needs testing|The scientist tested her hypothesis.|A: What is your theory?|B: My hypothesis is that sleep helps memory.|theory|
+illustrate|verb|to explain something by giving examples or pictures|Let me illustrate the idea with a story.|A: I do not understand.|B: I will illustrate it with an example.|show|
+imply|verb|to suggest something without saying it directly|His words imply that he is unhappy.|A: What did she mean?|B: She implied that the work was poor.|suggest|state
+inherit|verb|to receive money or things from someone who has died, or to get a trait from your parents|She will inherit her grandmother's house.|A: Who gets the farm?|B: My brother will inherit it.||
+initiative|noun|the ability to start doing something without being told|He showed great initiative at work.|A: Why did they promote her?|B: She always takes the initiative.|enterprise|
+insight|noun|a clear and deep understanding of something|The book gives a deep insight into village life.|A: Was the talk useful?|B: Yes, it gave me a new insight.|understanding|
+institution|noun|a large organisation such as a bank, school or hospital|The bank is a respected institution.|A: Where do you study?|B: At an educational institution near the coast.|organisation|
+intervene|verb|to step in to change or stop what is happening|The teacher had to intervene in the argument.|A: Did anyone stop the fight?|B: A guard intervened.|interfere|

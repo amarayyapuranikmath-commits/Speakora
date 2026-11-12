@@ -1,0 +1,78 @@
+# Level 3 (intermediate). word|pos|meaning|example|A: line|B: line|synonyms|antonyms
+access|noun|the ability or right to enter, use or reach something|Students have free access to the library.|A: Can I get into the lab?|B: You need a card for access.||
+accurate|adjective|correct and exact, with no mistakes|The weather report was accurate.|A: Is this map accurate?|B: Yes, it is very up to date.|correct, exact|inaccurate
+adapt|verb|to change so that you fit a new situation|It took me a month to adapt to the new city.|A: How is your new job?|B: Hard at first, but I am starting to adapt.|adjust|
+afford|verb|to have enough money to buy or pay for something|I cannot afford a new car this year.|A: Why don't you buy it?|B: I cannot afford it right now.||
+ambition|noun|a strong wish to achieve something|Her ambition is to become a doctor.|A: What is your biggest ambition?|B: To start my own business.|goal, aim|
+appreciate|verb|to be thankful for something, or to understand its value|I really appreciate your help.|A: Here is the book you wanted.|B: Thank you. I appreciate it.|value|
+approach|noun|a way of dealing with something|We need a new approach to this problem.|A: This method is not working.|B: Let us try a different approach.|method|
+attitude|noun|the way you think and feel about something|A positive attitude helps you learn faster.|A: Why is he so successful?|B: He has a great attitude to work.||
+basic|adjective|simple and most important; the starting point|I know the basic rules of the game.|A: Do you speak French?|B: Only basic French.|simple|advanced
+behave|verb|to act in a particular way|The children behave well in class.|A: How did the children behave?|B: They behaved very well.||
+budget|noun|a plan for how much money you will spend|We have a small budget for the party.|A: Can we afford this hotel?|B: It is over our budget.||
+capable|adjective|having the ability or skill to do something|She is capable of leading the team.|A: Can he do this job?|B: Yes, he is very capable.|able|incapable
+cooperate|verb|to work together with other people|The two teams cooperate to finish the project.|A: Will the teams work together?|B: Yes, they will cooperate.|collaborate|
+curious|adjective|wanting to learn or know about something|Children are curious about everything.|A: Why do you ask so many questions?|B: I am just curious.|interested|
+deadline|noun|the time by which something must be finished|The deadline for the report is Friday.|A: When is the deadline?|B: We must finish by Friday noon.||
+destination|noun|the place where someone or something is going|Our final destination is Lisbon.|A: What is your destination?|B: I am flying to Dubai.||
+determine|verb|to find out or decide something exactly|We need to determine the cause of the problem.|A: Do we know why it broke?|B: Not yet. We must determine the cause.|establish|
+distract|verb|to take someone's attention away from what they are doing|Please do not distract me while I study.|A: Why are you not finishing your work?|B: My phone keeps distracting me.||
+encourage|verb|to give someone confidence or hope to do something|Good teachers encourage students to speak English.|A: Why did you start learning?|B: My friends encouraged me.|motivate|discourage
+expand|verb|to become bigger, or to make something bigger|The company wants to expand to other countries.|A: How is the shop doing?|B: Well. We plan to expand next year.|grow|shrink
+flexible|adjective|able to change easily, or willing to change|I have flexible working hours.|A: Can we meet at four instead?|B: Sure, I am flexible.||rigid
+generous|adjective|happy to give more than is needed|He is generous with his time and money.|A: Thank you for the lovely gift.|B: You are welcome. You are very generous.|kind|selfish
+identify|verb|to recognise someone or something and say who or what it is|Can you identify the man in the photo?|A: Do you know this person?|B: Yes, I can identify him.|recognise|
+influence|noun|the power to change how people think or act|Parents have a big influence on their children.|A: Who influenced your choice?|B: My uncle had a big influence on me.|effect|
+maintain|verb|to keep something in good condition or at the same level|It is important to maintain a healthy diet.|A: How do you stay fit?|B: I maintain a regular routine.|keep|
+motivate|verb|to make someone want to do something|Good teachers motivate their students.|A: What motivates you to study?|B: I want a better job.|inspire|
+obvious|adjective|easy to see or understand|The answer is obvious.|A: Why is he angry?|B: It is obvious. You forgot his birthday.|clear|unclear
+participate|verb|to take part in an activity|Everyone can participate in the competition.|A: Will you take part?|B: Yes, I will participate.|take part|
+priority|noun|something that is more important than other things|My first priority is my family.|A: What is your top priority this year?|B: Finishing my degree.||
+privacy|noun|the freedom to be alone or to keep your personal life secret|Everyone has a right to privacy.|A: Can I read your messages?|B: No, I want some privacy.||
+process|noun|a series of steps that you follow to do something|The process of applying takes two weeks.|A: How does the application work?|B: It is a simple process with three steps.|procedure|
+recommend|verb|to say that something is good and that someone should try it|Can you recommend a good restaurant?|A: I need a good book.|B: I recommend this one.|suggest|
+relevant|adjective|connected to the subject you are talking about|Please give only relevant information.|A: Should I include this in my CV?|B: Only if it is relevant to the job.||irrelevant
+require|verb|to need something, or to make something necessary|This job will require good English.|A: What does the course require?|B: It requires two hours of study a day.|need|
+responsible|adjective|having a duty to do something or to take care of someone|She is responsible for the new students.|A: Who is responsible for the keys?|B: I am. I will lock up.|in charge|irresponsible
+shortage|noun|a situation where there is not enough of something|There is a water shortage in summer.|A: Why are prices going up?|B: There is a shortage of rice.|lack|surplus
+tend|verb|to usually do something or to often happen|I tend to wake up early.|A: Do you sleep late on weekends?|B: No, I tend to wake up early.||
+tolerate|verb|to accept something unpleasant without complaining|I cannot tolerate loud music at night.|A: Why did you move?|B: I could not tolerate the noise.|put up with|
+urgent|adjective|needing action or attention immediately|I have an urgent message for you.|A: Can you call me now?|B: Sorry, it is not urgent. I will call later.|pressing|
+valuable|adjective|worth a lot of money, or very useful|Time is the most valuable thing we have.|A: Is this ring valuable?|B: Yes, it is a family treasure.|precious|worthless
+# --- batch 2
+abroad|adverb|in or to a foreign country|She wants to study abroad.|A: Have you ever lived abroad?|B: Yes, I spent two years in Germany.|overseas|
+absence|noun|a time when someone is not present|His absence from class was noticed.|A: Why did the teacher call you?|B: She asked about my absence last week.||presence
+admit|verb|to say that something is true, often something unpleasant|I admit that I made a mistake.|A: Did you eat the last cake?|B: I admit it. I am sorry.|confess|deny
+alternative|noun|another choice that you can make instead|We need an alternative to this plan.|A: The road is closed.|B: Is there an alternative?|option|
+analyse|verb|to study something carefully to understand it|Scientists analyse the data from the test.|A: What do you do at work?|B: I analyse sales figures.|examine|
+annual|adjective|happening once every year|The annual meeting is in March.|A: When is the sports day?|B: It is an annual event in November.|yearly|
+apply|verb|to ask formally for a job, a place or permission|I want to apply for a new job.|A: Did you apply to the college?|B: Yes, I sent my form yesterday.||
+arrange|verb|to plan or organise something|Can you arrange a meeting for Monday?|A: Who will book the hall?|B: I will arrange it.|organise|
+assist|verb|to help someone do something|Volunteers assist the nurses.|A: Can you assist me with this form?|B: Of course.|help|
+atmosphere|noun|the feeling of a place or situation|The cafe has a friendly atmosphere.|A: Do you like this restaurant?|B: Yes, the atmosphere is lovely.|mood|
+attract|verb|to make people interested or to pull them towards you|The festival will attract many visitors.|A: Why do so many people come here?|B: The old temple attracts tourists.||repel
+average|adjective|usual or typical, not special|The average age of the students is twenty.|A: How was the film?|B: Just average, nothing special.|ordinary|
+aware|adjective|knowing that something exists or is happening|Are you aware of the problem?|A: Did you know about the delay?|B: Yes, I am aware of it.|conscious|unaware
+bargain|noun|something that you buy for less than its normal price|This jacket was a real bargain.|A: Where did you buy it?|B: At the sale. It was a bargain.|good deal|
+cause|noun|the reason that something happens|What was the cause of the accident?|A: What is the cause of the delay?|B: Heavy rain.|reason|effect
+climate|noun|the usual weather of a place over a long time|The climate here is warm and dry.|A: What is the climate like?|B: Hot in summer and cool in winter.||
+combine|verb|to join two or more things together|You can combine the two ideas.|A: How do I make the sauce?|B: Combine the tomatoes with onions.|mix|separate
+community|noun|the people who live in one area|The community helped to build the school.|A: What is your neighbourhood like?|B: It has a strong community.||
+competition|noun|an event where people try to win|She won the singing competition.|A: Are you in the competition?|B: Yes, I am nervous but excited.|contest|
+complaint|noun|a statement that you are not happy about something|I made a complaint about the noise.|A: What did the manager say?|B: He promised to look into my complaint.||
+concentrate|verb|to give all your attention to one thing|I cannot concentrate with the TV on.|A: Why are you so quiet?|B: I need to concentrate on my work.|focus|
+confirm|verb|to say or show that something is true or certain|Please confirm your booking by email.|A: Is the meeting still on?|B: Yes, I will confirm the time today.|verify|
+connection|noun|a link between things or people|There is a connection between sleep and health.|A: Is the internet working?|B: No, I have no connection.|link|
+consume|verb|to eat, drink or use something|The new factory will consume a lot of electricity.|A: How much energy does it use?|B: It will consume more than the old one.|use|
+contain|verb|to have something inside|This box may contain old photographs.|A: What is in the bag?|B: It contains books and a laptop.|hold|
+contribute|verb|to give something, such as money or ideas, to help a group|Everyone can contribute to the project.|A: Can I help?|B: Yes, please contribute your ideas.|donate|
+crowd|noun|a large group of people together in one place|A big crowd waited outside the stadium.|A: How was the match?|B: Great. There was a huge crowd.||
+debate|noun|a discussion where people give different opinions|There was a long debate about the new law.|A: What is on the news?|B: A debate about school hours.|discussion|
+definite|adjective|certain and clear, not likely to change|We have a definite plan for the trip.|A: Are you coming?|B: I do not have a definite answer yet.|certain|uncertain
+delivery|noun|the act of bringing goods to someone|The delivery will arrive on Tuesday.|A: When will my order come?|B: The delivery is tomorrow morning.||
+demand|noun|the wish of people to buy something|There is a high demand for this phone.|A: Why is it sold out?|B: The demand was very high.||supply
+detail|noun|a small fact or piece of information|Please send me every detail.|A: Do you know the plan?|B: Not every detail yet.||
+device|noun|a small machine made for a special purpose|My phone is my favourite device.|A: Which device do you use?|B: A tablet and a phone.|gadget|
+disappear|verb|to go out of sight or to stop existing|The sun will disappear behind the clouds.|A: Where is my wallet?|B: It seems to have disappeared.|vanish|appear
+display|noun|a screen or show where things are put to be seen|The shop has a beautiful display of flowers.|A: Why is the shop so busy?|B: The window display attracts people.||
+distance|noun|the amount of space between two places|The distance between the two towns is fifty kilometres.|A: How far is it?|B: A long distance. About two hours by bus.||

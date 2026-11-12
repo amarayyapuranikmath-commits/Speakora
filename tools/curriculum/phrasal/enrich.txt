@@ -1,0 +1,123 @@
+# Adds Kannada, separability, common usage, theme, register and other meanings to phrasal verbs that are already in the course.
+# id|Kannada meaning|SEPARABLE, INSEPARABLE or NONE (no object)|common usage|theme|register|other meanings: meaning^Kannada^example;;meaning^Kannada^example
+# Themes: everyday, education, workplace, relationships, travel, conversation. Registers: neutral, informal, formal.
+# The Kannada was written for this project and has NOT been reviewed by a native speaker or teacher.
+p1.01|ನಿದ್ದೆಯಿಂದ ಏಳುವುದು|NONE|wake up early; wake someone up|everyday|neutral
+p1.02|ಹಾಸಿಗೆಯಿಂದ ಏಳುವುದು|NONE|get up at six|everyday|neutral
+p1.03|ಕುಳಿತುಕೊಳ್ಳುವುದು|NONE|please sit down|everyday|neutral
+p1.04|ಎದ್ದು ನಿಲ್ಲುವುದು|NONE|stand up straight|everyday|neutral
+p1.05|ಒಳಗೆ ಬರುವುದು|NONE|come in and sit down|everyday|neutral
+p1.06|ಹೊರಗೆ ಹೋಗುವುದು|NONE|go out for dinner|everyday|neutral|to stop working or burning (a light or a fire)^ದೀಪ ಅಥವಾ ಬೆಂಕಿ ಆರುವುದು^The lights went out during the storm.
+p1.07|ತಿಳಿದುಕೊಳ್ಳುವುದು, ಪತ್ತೆ ಹಚ್ಚುವುದು|INSEPARABLE|find out the truth|everyday|neutral
+p1.08|ಹುಡುಕುವುದು|INSEPARABLE|look for a job|everyday|neutral
+p1.09|ಎತ್ತಿಕೊಳ್ಳುವುದು, ಕರೆದುಕೊಂಡು ಬರುವುದು|SEPARABLE|pick up a friend from the airport|everyday|neutral|to learn a skill or a language without much effort^ಹೆಚ್ಚು ಪ್ರಯತ್ನವಿಲ್ಲದೆ ಕಲಿತುಕೊಳ್ಳುವುದು^She picked up some Kannada while she lived in Mysuru.
+p1.10|ಕೆಳಗಿಡುವುದು|SEPARABLE|put down your bag|everyday|neutral
+p1.11|ಆನ್ ಮಾಡುವುದು|SEPARABLE|turn on the light|everyday|neutral
+p1.12|ಆಫ್ ಮಾಡುವುದು|SEPARABLE|turn off the TV|everyday|neutral
+p1.13|ಧರಿಸುವುದು|SEPARABLE|put on a jacket|everyday|neutral
+p1.14|ಬಿಚ್ಚುವುದು, ಕಳಚುವುದು|SEPARABLE|take off your shoes|everyday|neutral|(of a plane) to leave the ground and start to fly^ವಿಮಾನ ನೆಲದಿಂದ ಮೇಲೇರುವುದು^The plane takes off at nine.
+p1.15|ಹಿಂತಿರುಗಿ ಬರುವುದು|NONE|come back soon|everyday|neutral
+p1.16|ಹಿಂತಿರುಗಿ ಹೋಗುವುದು|NONE|go back home|everyday|neutral
+p1.17|ಹತ್ತುವುದು (ಬಸ್ಸು, ರೈಲು)|INSEPARABLE|get on the bus|travel|neutral
+p1.18|ಇಳಿಯುವುದು (ಬಸ್ಸು, ರೈಲು)|INSEPARABLE|get off the bus|travel|neutral
+p1.19|ಬೇಗ ಮಾಡುವುದು|NONE|hurry up, we are late|everyday|informal
+p1.20|ನಿಧಾನಗೊಳಿಸುವುದು|SEPARABLE|slow down, please|everyday|neutral
+p1.21|ಬರೆದಿಟ್ಟುಕೊಳ್ಳುವುದು|SEPARABLE|write down the address|education|neutral
+p1.22|ತುಂಬುವುದು (ಅರ್ಜಿ ನಮೂನೆ)|SEPARABLE|fill in a form|everyday|neutral
+p1.23|ಎಚ್ಚರಿಕೆಯಿಂದಿರುವುದು|NONE|look out for cars|everyday|neutral
+p1.24|ಫೋನ್ ಕರೆ ಮುಗಿಸುವುದು|SEPARABLE|hang up the phone|everyday|neutral
+p1.25|ಮತ್ತೆ ಕರೆ ಮಾಡುವುದು|SEPARABLE|call me back later|workplace|neutral
+p1.26|ಸ್ವಚ್ಛಗೊಳಿಸುವುದು|SEPARABLE|clean up the kitchen|everyday|neutral
+p1.27|ಹಾಕಿ ನೋಡುವುದು (ಬಟ್ಟೆ)|SEPARABLE|try on a shirt|everyday|neutral
+p1.28|ಹೋಟೆಲ್ ಅಥವಾ ವಿಮಾನ ನಿಲ್ದಾಣದಲ್ಲಿ ಹೆಸರು ನೋಂದಾಯಿಸುವುದು|NONE|check in at a hotel|travel|neutral
+p1.29|ಬಿಸಾಡುವುದು|SEPARABLE|throw away old papers|everyday|neutral
+p1.30|ಹತ್ತುವುದು (ಕಾರು, ಟ್ಯಾಕ್ಸಿ)|INSEPARABLE|get in the car|travel|neutral
+p1.31|ಇಳಿಯುವುದು (ಕಾರು), ಹೊರಬರುವುದು|INSEPARABLE|get out of the car|travel|neutral
+p1.32|ನೋಡಿ ತಿಳಿದುಕೊಳ್ಳುವುದು (ನಿಘಂಟಿನಲ್ಲಿ)|SEPARABLE|look up a word|education|neutral
+p1.33|ತಿರುಗುವುದು, ಹಿಂದಕ್ಕೆ ತಿರುಗುವುದು|SEPARABLE|turn around and go back|travel|neutral
+p1.34|ಧ್ವನಿ ಹೆಚ್ಚಿಸುವುದು, ಬಂದು ಸೇರುವುದು|SEPARABLE|turn up the volume|everyday|neutral|to arrive, especially without being expected^ಅನಿರೀಕ್ಷಿತವಾಗಿ ಬಂದು ತಲುಪುವುದು^He turned up late for the meeting.
+p1.35|ದೂರ ಹೋಗುವುದು|NONE|go away and leave me alone|everyday|neutral
+p1.36|ಮನೆಗೆ ಭೇಟಿ ನೀಡಲು ಬರುವುದು|NONE|come over for dinner|relationships|informal
+p1.37|ಪಾತ್ರೆ ತೊಳೆಯುವುದು|NONE|wash up after dinner|everyday|neutral
+p1.38|ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸುವುದು|SEPARABLE|cut up the vegetables|everyday|neutral
+p1.39|ಸುತ್ತ ನೋಡುವುದು|INSEPARABLE|look around the shop|travel|neutral
+p2.01|ಬಿಟ್ಟುಬಿಡುವುದು, ಪ್ರಯತ್ನ ನಿಲ್ಲಿಸುವುದು|SEPARABLE|give up smoking|everyday|neutral
+p2.02|ಮುಂದುವರಿಸುವುದು|INSEPARABLE|carry on working|everyday|neutral
+p2.03|ನೋಡಿಕೊಳ್ಳುವುದು, ಆರೈಕೆ ಮಾಡುವುದು|INSEPARABLE|look after a child|relationships|neutral
+p2.04|ಹೊಂದಿಕೊಂಡು ಹೋಗುವುದು|INSEPARABLE|get along with your neighbours|relationships|neutral
+p2.05|ಆಕಸ್ಮಿಕವಾಗಿ ಭೇಟಿಯಾಗುವುದು|INSEPARABLE|run into an old friend|relationships|neutral
+p2.06|ಬೆಳೆಸುವುದು (ಮಗುವನ್ನು), ವಿಷಯ ಎತ್ತುವುದು|SEPARABLE|bring up a topic|conversation|neutral
+p2.07|ನಿರಾಕರಿಸುವುದು, ಧ್ವನಿ ಕಡಿಮೆ ಮಾಡುವುದು|SEPARABLE|turn down a job offer|workplace|neutral
+p2.08|ಕಂಡುಹಿಡಿಯುವುದು, ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು|SEPARABLE|figure out a problem|everyday|neutral
+p2.09|ಮುಂದೂಡುವುದು|SEPARABLE|put off a meeting|workplace|neutral
+p2.10|ಆಕಸ್ಮಿಕವಾಗಿ ಕಂಡುಬರುವುದು|INSEPARABLE|come across an old photo|everyday|neutral
+p2.11|ಕೆಟ್ಟು ನಿಲ್ಲುವುದು, ಕುಸಿಯುವುದು|NONE|the car broke down|travel|neutral|to lose control of your feelings and start crying^ಭಾವನೆಗಳ ನಿಯಂತ್ರಣ ಕಳೆದುಕೊಂಡು ಅಳುವುದು^She broke down when she heard the news.
+p2.12|ರದ್ದುಗೊಳಿಸುವುದು|SEPARABLE|call off a match|workplace|neutral
+p2.13|ಶಾಂತವಾಗುವುದು|SEPARABLE|calm down, please|relationships|neutral
+p2.14|ಹಿಡಿಯುವುದು, ಬಿಟ್ಟುಹೋದದ್ದನ್ನು ತಿಳಿದುಕೊಳ್ಳುವುದು|INSEPARABLE|catch up with a friend|relationships|neutral
+p2.15|ಉಲ್ಲಾಸಗೊಳ್ಳುವುದು, ಉಲ್ಲಾಸಗೊಳಿಸುವುದು|SEPARABLE|cheer up a friend|relationships|neutral
+p2.16|ಕಡಿಮೆ ಮಾಡುವುದು|SEPARABLE|cut down on sugar|everyday|neutral
+p2.17|ಇಳಿಸಿ ಹೋಗುವುದು (ಯಾರನ್ನಾದರೂ)|SEPARABLE|drop off the children at school|everyday|neutral|to fall asleep^ನಿದ್ರೆಗೆ ಜಾರುವುದು^I dropped off in front of the TV.
+p2.18|ಕೊನೆಗೆ ಸೇರುವುದು|NONE|end up in a small town|everyday|neutral
+p2.19|ಚೇತರಿಸಿಕೊಳ್ಳುವುದು|INSEPARABLE|get over a cold|everyday|neutral
+p2.20|ಹಿಂದಿರುಗಿಸುವುದು|SEPARABLE|give back the book|everyday|neutral
+p2.21|ಬೆಳೆಯುವುದು, ದೊಡ್ಡವರಾಗುವುದು|NONE|grow up in a small town|relationships|neutral
+p2.22|ಸಲ್ಲಿಸುವುದು|SEPARABLE|hand in your homework|education|neutral
+p2.23|ಸ್ವಲ್ಪ ಕಾಯುವುದು|NONE|hold on a moment|conversation|neutral
+p2.24|ನಿರಾಶೆಗೊಳಿಸುವುದು|SEPARABLE|let someone down|relationships|neutral
+p2.25|ಎದುರುನೋಡುವುದು|INSEPARABLE|look forward to the weekend|conversation|neutral
+p2.26|ಕಟ್ಟುಕತೆ ಹೇಳುವುದು, ಮತ್ತೆ ಸ್ನೇಹಿತರಾಗುವುದು|SEPARABLE|make up an excuse|conversation|neutral
+p2.27|ಸ್ಥಾಪಿಸುವುದು, ಏರ್ಪಡಿಸುವುದು|SEPARABLE|set up a business|workplace|neutral
+p2.28|ಬಂದು ತಲುಪುವುದು|NONE|show up on time|everyday|neutral
+p2.29|ಹೆಸರು ನೋಂದಾಯಿಸುವುದು|NONE|sign up for a course|education|neutral
+p2.30|ವ್ಯಾಯಾಮ ಮಾಡುವುದು, ಪರಿಹರಿಸುವುದು|SEPARABLE|work out a plan|everyday|neutral
+p2.31|ಬೀಳುವುದು|NONE|fall over on the ice|everyday|neutral
+p2.32|ಸ್ನೇಹಿತರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವುದು|NONE|hang out with friends|relationships|informal
+p2.33|ಸಾಲಾಗಿ ನಿಲ್ಲುವುದು|NONE|line up at the counter|everyday|neutral
+p2.34|ಹಣ ಹಿಂದಿರುಗಿಸುವುದು|SEPARABLE|pay back a loan|everyday|neutral
+p2.35|ರಸ್ತೆಯ ಬದಿಗೆ ವಾಹನ ನಿಲ್ಲಿಸುವುದು|NONE|pull over and stop|travel|neutral
+p2.36|ಓಡಿ ಹೋಗುವುದು|NONE|run away from danger|everyday|neutral
+p2.37|ಹಿಂದಕ್ಕೆ ಕಳುಹಿಸುವುದು|SEPARABLE|send back a parcel|everyday|neutral
+p2.38|ಪ್ರದರ್ಶನ ಮಾಡಿ ಮೆಚ್ಚುಗೆ ಬಯಸುವುದು|SEPARABLE|show off your new car|relationships|informal
+p2.39|ಬದಲಾಗುವುದು|INSEPARABLE|turn into a problem|everyday|neutral
+p2.40|ಸವೆಯಿಸುವುದು, ದಣಿಸುವುದು|SEPARABLE|wear out your shoes|everyday|neutral
+p3.01|ಉಪಾಯ ಹೊಳೆಯುವುದು, ಹೊಸ ಐಡಿಯಾ ಕೊಡುವುದು|INSEPARABLE|come up with an idea|workplace|neutral
+p3.02|ತಪ್ಪು ಮಾಡಿ ಸಿಕ್ಕಿಬೀಳದೆ ಪಾರಾಗುವುದು|INSEPARABLE|get away with a mistake|everyday|informal
+p3.03|ಕೀಳಾಗಿ ಕಾಣುವುದು|INSEPARABLE|look down on someone|relationships|neutral
+p3.04|ಸಮಾನ ವೇಗದಲ್ಲಿ ಮುಂದುವರಿಯುವುದು|INSEPARABLE|keep up with the class|education|neutral
+p3.05|ಸಹಿಸಿಕೊಳ್ಳುವುದು|INSEPARABLE|put up with noise|relationships|neutral
+p3.06|ಮುಗಿದುಹೋಗುವುದು, ಖಾಲಿಯಾಗುವುದು|INSEPARABLE|run out of time|everyday|neutral
+p3.07|ಕೊನೆಗೂ ಸಮಯ ಮಾಡಿಕೊಂಡು ಮಾಡುವುದು|INSEPARABLE|get around to cleaning|everyday|neutral
+p3.08|ಹಿಂದೆ ಸರಿಯುವುದು|INSEPARABLE|back out of a deal|workplace|neutral
+p3.09|ಮತ್ತೆ ಅಭ್ಯಾಸ ಮಾಡಿ ಸುಧಾರಿಸಿಕೊಳ್ಳುವುದು|INSEPARABLE|brush up on your English|education|neutral
+p3.10|ಪ್ರಾರಂಭಿಸಿದ್ದನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು|NONE|follow through on a promise|workplace|neutral
+p3.11|ಉಂಟುಮಾಡುವುದು|SEPARABLE|bring about a change|workplace|formal
+p3.12|ನಡೆಸುವುದು, ಕಾರ್ಯಗತಗೊಳಿಸುವುದು|SEPARABLE|carry out a test|workplace|formal
+p3.13|ಕಾಯಿಲೆ ಬರುವುದು|INSEPARABLE|come down with a cold|everyday|neutral
+p3.14|ಕಡಿತಗೊಳಿಸುವುದು, ಸಂಪರ್ಕ ಕಡಿತ ಮಾಡುವುದು|SEPARABLE|cut off the water|everyday|neutral
+p3.15|ಓದು ಅರ್ಧಕ್ಕೆ ಬಿಡುವುದು|NONE|drop out of college|education|neutral
+p3.16|ವಿಫಲವಾಗುವುದು|NONE|the plan fell through|workplace|neutral
+p3.17|ಅರ್ಥಮಾಡಿಸುವುದು|SEPARABLE|get your message across|conversation|neutral
+p3.18|ಮುಗಿಸಿ ಹೊರಬರುವುದು, ಸಂಪರ್ಕ ಸಾಧಿಸುವುದು|INSEPARABLE|get through a hard time|everyday|neutral
+p3.19|ಒಪ್ಪಿಕೊಳ್ಳುವುದು, ಶರಣಾಗುವುದು|NONE|give in to pressure|relationships|neutral
+p3.20|ಅನುಭವಿಸುವುದು, ಪರಿಶೀಲಿಸುವುದು|INSEPARABLE|go through a difficult time|everyday|neutral
+p3.21|ತಡೆದಿಟ್ಟುಕೊಳ್ಳುವುದು|SEPARABLE|hold back tears|relationships|neutral
+p3.22|ತನಿಖೆ ಮಾಡುವುದು, ಪರಿಶೀಲಿಸುವುದು|INSEPARABLE|look into a complaint|workplace|neutral
+p3.23|ಕಷ್ಟದಿಂದ ಕಾಣುವುದು ಅಥವಾ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು|SEPARABLE|make out the words|everyday|neutral
+p3.24|ಇನ್ನೊಬ್ಬರಿಗೆ ತಲುಪಿಸುವುದು|SEPARABLE|pass on a message|workplace|neutral
+p3.25|ಗಮನ ಸೆಳೆಯುವುದು, ಸೂಚಿಸುವುದು|SEPARABLE|point out a mistake|workplace|neutral
+p3.26|ಸಲಹೆ ಮುಂದಿಡುವುದು|SEPARABLE|put forward a proposal|workplace|formal
+p3.27|ಸಾಧ್ಯವಿಲ್ಲವೆಂದು ತಳ್ಳಿಹಾಕುವುದು|SEPARABLE|rule out the possibility|workplace|neutral
+p3.28|ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಹೇಳುವುದು|SEPARABLE|sum up the main points|workplace|neutral
+p3.29|ಅಧಿಕಾರ ವಹಿಸಿಕೊಳ್ಳುವುದು|SEPARABLE|take over a company|workplace|neutral
+p3.30|ಕೊನೆಗೆ ಹೀಗಾಗುವುದು, ಪರಿಣಮಿಸುವುದು|NONE|it turned out well|everyday|neutral
+p3.31|ಬೆಂಬಲಿಸುವುದು, ಬ್ಯಾಕಪ್ ಮಾಡುವುದು|SEPARABLE|back up your files|workplace|neutral
+p3.32|ಕಡಿತಗೊಳಿಸುವುದು (ವೆಚ್ಚ)|SEPARABLE|cut back on costs|workplace|neutral
+p3.33|ನಿಭಾಯಿಸುವುದು|INSEPARABLE|deal with a problem|workplace|neutral
+p3.34|ಉಚಿತವಾಗಿ ಕೊಡುವುದು, ರಹಸ್ಯ ಬಯಲು ಮಾಡುವುದು|SEPARABLE|give away old clothes|everyday|neutral
+p3.35|ನಿರೀಕ್ಷೆಗೆ ತಕ್ಕಂತೆ ಇರುವುದು|INSEPARABLE|live up to expectations|workplace|neutral
+p3.36|ಗೌರವಿಸುವುದು, ಮೆಚ್ಚುವುದು|INSEPARABLE|look up to your teacher|relationships|neutral
+p3.37|ಕೊರತೆಯನ್ನು ತುಂಬಿಕೊಡುವುದು|INSEPARABLE|make up for lost time|relationships|neutral
+p3.38|ಎದ್ದು ಕಾಣುವುದು|NONE|stand out from the crowd|workplace|neutral
+p3.39|ಹೊಸ ಹವ್ಯಾಸ ಆರಂಭಿಸುವುದು, ಜಾಗ ಆಕ್ರಮಿಸುವುದು|SEPARABLE|take up a hobby|everyday|neutral
+p3.40|ಚೆನ್ನಾಗಿ ಯೋಚಿಸುವುದು|SEPARABLE|think over an offer|everyday|neutral

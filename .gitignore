@@ -1,0 +1,69 @@
+# Secrets
+.env
+.env.*
+*.env
+*.env.*
+*.pem
+*.key
+*.asc
+*.gpg
+
+# Build output / dependencies
+node_modules/
+dist/
+target/
+build/
+.gradle/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs / local data
+*.log
+logs/
+pgdata/
+*.db
+*.db-*
+*.sqlite*
+playwright-report/
+test-results/
+
+# Local performance snapshots and scratch files
+.perf-ab/
+
+# Generated load/performance test results
+tools/loadtest/results/
+tools/perf/results/
+
+# Production secrets, backups and downloaded test tools
+secrets/
+backups/
+tools/**/node_modules/
+.env.prod
+
+# Android signing material: release AND debug keystores stay local (a fresh clone generates its own debug keystore)
+mobile/android/keystore.properties
+*.jks
+*.keystore
+
+# Published APK and checksum (built artifacts)
+downloads/*.apk
+downloads/*.sha256
+
+# tutor evaluation: saved results and the throwaway account password
+tools/tutor-eval/state.json
+tools/tutor-eval/state.json.tmp
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+*.mobileprovision

@@ -1,0 +1,80 @@
+# Level 1 (beginner). One word per line:  word|part of speech|meaning in simple English|example sentence (must contain the word exactly)|A: line|B: line|synonyms (comma separated, may be empty)|antonyms (may be empty)
+breakfast|noun|the first meal of the day|I have breakfast at seven o'clock.|A: What do you have for breakfast?|B: Usually bread and tea.||
+lunch|noun|the meal you eat in the middle of the day|We have lunch at one o'clock.|A: Shall we have lunch together?|B: Yes, there is a good cafe near here.||
+dinner|noun|the main meal of the day, usually in the evening|My mother cooks dinner every night.|A: What is for dinner tonight?|B: Rice and vegetables.||
+window|noun|an opening in a wall, with glass, that lets in light|Please open the window. It is hot.|A: Can you close the window?|B: Sure, it is a bit cold.||
+door|noun|the part you open to go into or out of a room or building|Please close the door when you leave.|A: Someone is at the door.|B: I will open it.||
+street|noun|a road in a town with buildings on both sides|My house is on a quiet street.|A: Which street do you live on?|B: I live on Park Street.|road|
+shop|noun|a place where you buy things|There is a small shop near my house.|A: Where can I buy milk?|B: There is a shop on the corner.|store|
+market|noun|a place where people buy and sell food and other things|We buy fresh fruit at the market.|A: Where do you buy vegetables?|B: At the market on Sundays.||
+price|noun|the amount of money you pay for something|The price of this bag is ten dollars.|A: What is the price of this shirt?|B: It is twenty dollars.|cost|
+ticket|noun|a piece of paper or a code that lets you travel or enter a place|I need a ticket for the train.|A: Do you have your ticket?|B: Yes, it is on my phone.||
+bag|noun|a container you use to carry things|She puts her books in her bag.|A: Is this your bag?|B: Yes, thank you.||
+key|noun|a small metal object that opens a lock|I cannot find my key.|A: Where is my key?|B: It is on the table.||
+phone|noun|a device you use to call people and send messages|My phone is on the table.|A: Can I use your phone?|B: Of course, here you are.|mobile|
+water|noun|the clear liquid that we drink|Can I have a glass of water, please?|A: Would you like some water?|B: Yes, please.||
+food|noun|things that people eat|The food in this restaurant is very good.|A: Do you like Indian food?|B: Yes, I love it.||
+drink|verb|to take a liquid into your mouth and swallow it|I drink two cups of tea every morning.|A: What do you drink in the morning?|B: Coffee, with milk.||
+walk|verb|to move on your feet at a normal speed|I walk to school every day.|A: How do you get to work?|B: I walk. It takes ten minutes.||
+run|verb|to move quickly on your feet|The children run in the park.|A: Do you run in the morning?|B: Yes, for twenty minutes.||
+sleep|verb|to rest with your eyes closed, as you do at night|I sleep for eight hours every night.|A: How many hours do you sleep?|B: About seven hours.||
+wait|verb|to stay in a place until something happens or someone comes|Please wait here for a moment.|A: Where is the bus?|B: Please wait. It is coming.||
+help|verb|to do something useful for someone|Can you help me with this bag?|A: Can you help me, please?|B: Yes, what do you need?|assist|
+ask|verb|to say something to get an answer or information|Please ask the teacher if you do not understand.|A: Can I ask you a question?|B: Of course.||answer
+answer|verb|to say or write something when someone asks you a question|Please answer the question.|A: Can you answer this question?|B: Yes, the answer is five.|reply|ask
+learn|verb|to get new knowledge or a new skill|I want to learn English.|A: Why do you learn English?|B: I need it for my job.|study|
+teach|verb|to help someone learn something|My father can teach me to drive.|A: Who can teach me to swim?|B: My sister can teach you.||learn
+play|verb|to do something for fun, like a game or sport|The children play football after school.|A: What do you do on Sundays?|B: I play cricket with my friends.||
+work|verb|to do a job or to do something that needs effort|I work in a small shop.|A: Where do you work?|B: I work in a bank.||
+study|verb|to spend time learning about a subject|I study English for one hour every day.|A: What do you study?|B: I study computer science.|learn|
+cook|verb|to make food hot and ready to eat|I cook dinner for my family.|A: Can you cook?|B: Yes, I cook rice and curry.||
+wash|verb|to make something clean with water|Please wash your hands before you eat.|A: Dinner is ready.|B: I will wash my hands first.|clean|
+wear|verb|to have clothes or shoes on your body|She likes to wear blue shirts.|A: What will you wear today?|B: A white shirt and jeans.||
+big|adjective|large in size|They live in a big house.|A: Is your house big?|B: No, it is small but comfortable.|large|small
+small|adjective|not large in size|I need a small bag for my phone.|A: Do you want a large coffee?|B: No, a small one, please.|little|big
+new|adjective|made or bought not long ago|I have a new phone.|A: Is this your new bag?|B: Yes, I bought it yesterday.||old
+old|adjective|having lived or existed for a long time|My grandfather is very old.|A: How old is your house?|B: It is about fifty years old.||new
+hot|adjective|having a high temperature|The tea is too hot to drink.|A: Is the soup hot?|B: Yes, be careful.||cold
+cold|adjective|having a low temperature|It is very cold today.|A: Do you want some cold water?|B: Yes, please.||hot
+happy|adjective|feeling pleasure and joy|I am happy to see you.|A: You look happy today.|B: Yes, I got good news.|glad|sad
+sad|adjective|feeling unhappy|She is sad because her friend moved away.|A: Why are you sad?|B: I miss my family.|unhappy|happy
+tired|adjective|needing rest or sleep|I am tired after a long day.|A: You look tired.|B: Yes, I worked late last night.||
+# --- batch 2
+apple|noun|a round fruit that is red, green or yellow|I eat an apple every day.|A: Would you like a snack?|B: Yes, I will have an apple.||
+bread|noun|a food made from flour and baked in an oven|We buy fresh bread every morning.|A: What do you want for breakfast?|B: Bread and butter, please.||
+rice|noun|small white or brown grains that people cook and eat|We eat rice with vegetables for lunch.|A: What is for lunch?|B: Rice and lentils.||
+milk|noun|a white drink that comes from cows and other animals|I put milk in my tea.|A: Do you want milk in your coffee?|B: Yes, a little, please.||
+egg|noun|a food with a thin hard shell that comes from a hen|I have one egg for breakfast.|A: How do you like your egg?|B: Boiled, please.||
+fish|noun|an animal that lives in water, or the food made from it|We eat fish on Fridays.|A: Do you like fish?|B: Yes, especially fried fish.||
+fruit|noun|sweet food that grows on trees and plants, like apples and mangoes|Fruit is good for your health.|A: What fruit do you like?|B: I love mangoes.||
+vegetable|noun|a plant that you eat, like carrots or potatoes|I cook a vegetable curry every week.|A: Do you eat vegetables?|B: Yes, every day.||
+sugar|noun|a sweet white or brown food that you put in drinks and cakes|I do not take sugar in my tea.|A: Do you want sugar?|B: No, thank you.||
+salt|noun|a white food that you put on meals to make them taste better|This soup needs more salt.|A: How is the soup?|B: It is good, but it needs some salt.||
+plate|noun|a flat round dish that you eat from|Please put the food on the plate.|A: Where do I put the rice?|B: On the plate, please.|dish|
+cup|noun|a small container with a handle that you drink from|I have a cup of tea every morning.|A: Can I have a cup of coffee?|B: Of course. Here you are.||
+bottle|noun|a container for liquids, usually made of glass or plastic|Please bring a bottle of water.|A: Is there any water?|B: Yes, there is a bottle in the fridge.||
+table|noun|a piece of furniture with a flat top and legs|Please put the books on the table.|A: Where is my phone?|B: It is on the table.||
+chair|noun|a seat for one person, with a back|Please sit on this chair.|A: Is this chair free?|B: Yes, please sit down.||
+bed|noun|a piece of furniture that you sleep on|I go to bed at ten o'clock.|A: What time do you go to bed?|B: Around ten.||
+garden|noun|a piece of land near a house where flowers and plants grow|We have a small garden behind the house.|A: Do you have a garden?|B: Yes, we grow tomatoes there.||
+school|noun|a place where children go to learn|My sister goes to school by bus.|A: Which school do you go to?|B: The one near the market.||
+teacher|noun|a person whose job is to help others learn|My teacher is very kind.|A: Who is your English teacher?|B: Mrs Rao. She is very good.||student
+student|noun|a person who is studying at a school or college|He is a student at the city college.|A: Are you a student?|B: Yes, I study engineering.||teacher
+book|noun|a set of printed pages that you read|I read a book every month.|A: What are you reading?|B: A book about history.||
+family|noun|a group of people who are related, like parents and children|My family lives in Mysore.|A: Do you have a big family?|B: Yes, there are seven of us.||
+mother|noun|your female parent|My mother cooks very well.|A: Is that your mother?|B: Yes, she is a teacher.|mum|
+father|noun|your male parent|My father works in a bank.|A: What does your father do?|B: He is a driver.|dad|
+friend|noun|a person you know well and like|She is my best friend.|A: Who is that?|B: A friend from school.||
+doctor|noun|a person whose job is to help sick people get better|I need to see a doctor.|A: You look ill.|B: Yes, I will go to the doctor today.||
+hospital|noun|a place where sick or hurt people get care|My uncle is in the hospital.|A: Where is the nearest hospital?|B: Go straight and turn left.||
+bus|noun|a large vehicle that carries many people|I go to work by bus.|A: How do you get to work?|B: I take the bus.||
+read|verb|to look at words and understand them|I read the news every morning.|A: What do you do in the evening?|B: I read a book.||
+write|verb|to put words on paper or on a screen|Please write your name here.|A: Can you write your address for me?|B: Yes, one moment.||
+listen|verb|to pay attention to a sound or to what someone says|Please listen to the teacher.|A: Are you listening?|B: Yes, I am. Please continue.||
+speak|verb|to say words aloud to someone|I speak English with my friends.|A: Do you speak English?|B: Yes, a little.|talk|
+close|verb|to shut something that was open|Please close the door.|A: It is cold in here.|B: I will close the window.|shut|open
+give|verb|to hand something to someone|Please give me the book.|A: Can you give me a pen?|B: Here you are.||take
+take|verb|to pick something up and carry it with you, or to accept it|Please take your bag with you.|A: Shall I take the bus?|B: Yes, it is faster.||give
+sing|verb|to make music with your voice|She likes to sing in the shower.|A: Can you sing?|B: Not very well, but I love it.||
+dance|verb|to move your body to music|We dance at weddings.|A: Do you like to dance?|B: Yes, it is fun.||
+shop|verb|to go to buy things from shops|We shop for food on Saturdays.|A: When do you shop?|B: On Sunday mornings.||

@@ -1,0 +1,79 @@
+# Level 5 (advanced). word|pos|meaning|example|A: line|B: line|synonyms|antonyms
+alleviate|verb|to make pain or a problem less severe|Rest can alleviate the symptoms.|A: Did the medicine help?|B: It alleviated the pain a little.|relieve|worsen
+articulate|adjective|able to express ideas clearly and well|She is an articulate speaker.|A: How was the speech?|B: Excellent. He was very articulate.|eloquent|inarticulate
+astute|adjective|quick to understand a situation and use it to your advantage|He is an astute businessman.|A: Why is she successful?|B: She is astute about people and money.|shrewd|naive
+autonomy|noun|the freedom to make your own decisions|Employees want more autonomy at work.|A: Why do you like this job?|B: I have a lot of autonomy.|independence|
+bolster|verb|to support something and make it stronger|New evidence can bolster her argument.|A: How did the team recover?|B: New players bolstered the squad.|strengthen|undermine
+circumvent|verb|to find a way around a rule or problem|Some companies try to circumvent the law.|A: The road is closed.|B: We can circumvent it through the old town.|avoid|
+conducive|adjective|making a good result more likely|A quiet room is conducive to study.|A: Why do you study here?|B: The silence is conducive to concentration.|helpful|
+cumulative|adjective|growing bigger by one addition after another|The cumulative effect of stress can be serious.|A: Why is he so tired?|B: It is the cumulative effect of late nights.||
+cursory|adjective|quick and not thorough|He gave the report only a cursory glance.|A: Did you read it?|B: Only a cursory look. I will read it properly later.|superficial|thorough
+delineate|verb|to describe or mark something in exact detail|The contract should delineate each person's duties.|A: Is the plan clear?|B: Yes, it delineates every step.|outline|
+discrepancy|noun|a difference between things that should be the same|There is a discrepancy between the two reports.|A: The numbers do not match.|B: Let us find the discrepancy.|inconsistency|
+elusive|adjective|difficult to find, catch or achieve|Success can be elusive for new writers.|A: Did you find the answer?|B: Not yet. It is elusive.|hard to find|
+eradicate|verb|to destroy something completely|The programme aims to eradicate the disease.|A: What is the goal?|B: To eradicate poverty in the region.|eliminate|
+explicit|adjective|stated clearly and in detail, leaving no doubt|The instructions were explicit.|A: Did he say we could leave?|B: Yes, he was explicit about it.|clear|implicit
+facilitate|verb|to make an action or process easier|Technology can facilitate learning.|A: What does the tool do?|B: It facilitates communication between teams.|ease|hinder
+foster|verb|to encourage something to develop over time|Good teachers foster a love of reading.|A: What is the aim of the club?|B: To foster friendship between students.|promote|
+hinder|verb|to make it more difficult for something to happen|Bad weather can hinder the rescue.|A: Why was the work so slow?|B: Heavy rain hindered progress.|obstruct|help
+implicit|adjective|suggested but not stated directly|There was an implicit warning in his words.|A: Did he say he was angry?|B: Not in words, but it was implicit.|implied|explicit
+innovative|adjective|using new ideas or methods|The company is known for its innovative designs.|A: Why is the product popular?|B: It is innovative and simple.|original|traditional
+intricate|adjective|having many small parts that fit together in a complicated way|The watch has an intricate mechanism.|A: Look at this carving.|B: It is so intricate. It must have taken months.|complex|simple
+mitigate|verb|to make something less harmful or serious|Trees can mitigate the effects of heat in cities.|A: How can we reduce the damage?|B: We can mitigate it with better planning.|reduce|aggravate
+notion|noun|an idea or belief about something|She has a strange notion that she cannot sing.|A: Where did you get that idea?|B: It is just a notion I have.|idea|
+prevalent|adjective|existing or common at a particular time or place|Colds are prevalent in winter.|A: Is this problem common?|B: Yes, it is prevalent in big cities.|widespread|rare
+profound|adjective|very deep or great, in feeling or meaning|The book had a profound effect on me.|A: Did the speech move you?|B: Yes, it was profound.|deep|superficial
+relinquish|verb|to give up something, especially power or a right|He decided to relinquish his position as manager.|A: Will she keep the title?|B: No, she will relinquish it next month.|give up|retain
+rigorous|adjective|very careful and thorough, or very strict|The tests are rigorous.|A: Is the course hard?|B: Yes, the training is rigorous.|strict|lax
+scepticism|noun|a doubtful attitude about whether something is true or useful|Many people greeted the plan with scepticism.|A: Do you believe the claim?|B: I treat it with some scepticism.|doubt|trust
+stringent|adjective|strict and demanding, especially about rules|The country has stringent safety rules.|A: Is it hard to get approval?|B: Yes, the rules are stringent.|strict|lenient
+subtle|adjective|small and not obvious, but important|There is a subtle difference in meaning between the two words.|A: Can you hear the change?|B: Yes, but it is very subtle.|delicate|obvious
+tangible|adjective|clear enough to be seen or felt; real|The new bridge brought tangible benefits to the town.|A: Is there any proof of progress?|B: Yes, there are tangible results.|real|intangible
+tenacious|adjective|determined and not giving up easily|She is a tenacious worker.|A: How did he win?|B: He was tenacious and never gave up.|persistent|
+thorough|adjective|complete, with attention to every detail|The doctor gave me a thorough check.|A: Did you read the whole report?|B: Yes, I made a thorough review.|complete|careless
+ubiquitous|adjective|seeming to be everywhere|Smartphones are ubiquitous in modern life.|A: Do many people use this app?|B: Yes, it is ubiquitous.|everywhere|rare
+viable|adjective|able to work successfully|Is the plan financially viable?|A: Can we start the business?|B: Only if the idea is viable.|workable|impractical
+volatile|adjective|likely to change suddenly, especially for the worse|The market is very volatile this year.|A: Why is the price jumping?|B: The market is volatile.|unstable|stable
+warrant|verb|to deserve or make something necessary|The problem will warrant further investigation.|A: Should we call the police?|B: The situation warrants it.|justify|
+# --- batch 2
+adamant|adjective|refusing to change your mind about something|She was adamant that she would go.|A: Will he change his plans?|B: No, he is adamant.|determined|flexible
+adept|adjective|very good at something that needs skill|He is adept at fixing computers.|A: Who can help with the system?|B: Ravi. He is adept at such problems.|skilful|clumsy
+affluent|adjective|having a lot of money and a comfortable life|They live in an affluent part of the city.|A: Is that a rich area?|B: Yes, a very affluent one.|wealthy|poor
+altruistic|adjective|caring about the happiness of others before your own|Her altruistic work with children is well known.|A: Why does he volunteer?|B: He is an altruistic person.|selfless|selfish
+anomaly|noun|something that is different from what is normal or expected|The test result was an anomaly.|A: Is the data correct?|B: There is one anomaly in the results.|irregularity|
+apprehensive|adjective|worried that something bad may happen|I felt apprehensive about the exam.|A: Are you ready for the interview?|B: A little apprehensive, to be honest.|anxious|confident
+arduous|adjective|needing a lot of effort and being tiring|The climb to the top was long and arduous.|A: How was the trek?|B: Arduous, but the view was worth it.|difficult|easy
+ascertain|verb|to find out something for certain|The police tried to ascertain the facts.|A: Do we know the cause?|B: Not yet. We must ascertain it.|establish|
+audacious|adjective|bold and willing to take risks|It was an audacious plan to start a business at nineteen.|A: Did he really try that?|B: Yes, it was an audacious move.|daring|timid
+benevolent|adjective|kind and generous, wanting to help others|A benevolent donor paid for the new school.|A: Who gave the money?|B: A benevolent businessman from the town.|kind|malevolent
+cogent|adjective|clear, logical and convincing|She made a cogent argument for the change.|A: Did they agree?|B: Yes, her case was cogent.|convincing|weak
+colloquial|adjective|used in everyday talk, not in formal writing|The word is colloquial and informal.|A: Can I write this in my essay?|B: No, it is too colloquial.|informal|formal
+compelling|adjective|so interesting or strong that you must pay attention or agree|The film tells a compelling story.|A: Was the speech good?|B: Yes, it was compelling.|gripping|dull
+complacent|adjective|too satisfied with yourself, so that you stop trying|Do not become complacent after one success.|A: Are you sure we will win?|B: We must not be complacent.|smug|
+conspicuous|adjective|easy to see or notice|The red building is conspicuous from far away.|A: Can you see the shop?|B: Yes, the sign is very conspicuous.|noticeable|hidden
+contentious|adjective|likely to cause argument|Money is a contentious issue in the family.|A: Why did they argue?|B: It was a contentious topic.|controversial|
+convoluted|adjective|very complicated and hard to follow|The story had a convoluted plot.|A: Do you understand the rules?|B: No, they are too convoluted.|complex|simple
+culminate|verb|to reach a final or highest point|The festival will culminate in a big concert.|A: How does the week end?|B: It will culminate in a parade.|end|
+dearth|noun|a lack of something that is needed|There is a dearth of good teachers here.|A: Why are the classes so large?|B: There is a dearth of teachers.|shortage|abundance
+debilitate|verb|to make someone or something weak|A long illness can debilitate anyone.|A: Why is she so tired?|B: The disease has debilitated her.|weaken|strengthen
+deference|noun|polite respect for someone's opinion or position|He spoke with deference to the elders.|A: How should I speak to the judge?|B: With deference, always.|respect|disrespect
+dissent|noun|disagreement with an official opinion or decision|There was no dissent in the committee.|A: Did everyone agree?|B: Yes, there was no dissent.|disagreement|agreement
+divulge|verb|to tell a secret or private information|He refused to divulge the details.|A: What was the plan?|B: I cannot divulge it.|reveal|conceal
+ephemeral|adjective|lasting for only a short time|Fame can be ephemeral.|A: Will the trend last?|B: No, such trends are ephemeral.|short-lived|permanent
+equivocal|adjective|having more than one possible meaning, so that it is unclear|His answer was equivocal.|A: Did she say yes?|B: Her reply was equivocal.|ambiguous|clear
+exemplify|verb|to be a typical example of something|The building will exemplify modern design.|A: What does this show?|B: It exemplifies the problem well.|illustrate|
+exonerate|verb|to officially say that someone is not guilty|The new evidence should exonerate him.|A: Was the driver blamed?|B: No, the report exonerated him.|clear|blame
+fastidious|adjective|paying great attention to small details and wanting everything exactly right|She is fastidious about keeping her desk tidy.|A: Why does he check it again?|B: He is very fastidious.|particular|careless
+fervent|adjective|showing strong and sincere feeling|He is a fervent supporter of the team.|A: Does she care about the cause?|B: Yes, she is a fervent believer.|passionate|indifferent
+flourish|verb|to grow or develop well and be successful|Small businesses flourish in this town.|A: How is the garden?|B: The plants flourish in this sun.|thrive|decline
+futile|adjective|having no chance of success|It is futile to argue with him.|A: Should we try again?|B: It is futile. The door is locked.|pointless|useful
+gregarious|adjective|enjoying being with other people|He is a gregarious man who loves parties.|A: Is she shy?|B: No, she is very gregarious.|sociable|shy
+hypothetical|adjective|based on an imagined situation, not on facts|Let us discuss a hypothetical case.|A: Did this really happen?|B: No, it is only hypothetical.|theoretical|real
+idiosyncratic|adjective|peculiar to one person; unusual and individual|He has an idiosyncratic way of teaching.|A: Why is his style so strange?|B: It is idiosyncratic, but it works.|unusual|conventional
+impeccable|adjective|perfect, with no faults|She speaks impeccable English.|A: How was the service?|B: Impeccable. Nothing was wrong.|flawless|faulty
+incessant|adjective|continuing without a stop, in an annoying way|The incessant noise kept me awake.|A: Why are you tired?|B: The incessant rain kept me up.|constant|occasional
+ingenious|adjective|very clever and full of new ideas|It was an ingenious solution to the problem.|A: Who made this machine?|B: A student. It is ingenious.|clever|
+inhibit|verb|to make it harder for something to happen or develop|Fear can inhibit learning.|A: Why does he not speak?|B: Shyness inhibits him.|restrain|encourage
+innate|adjective|existing from birth, not learned|Children have an innate ability to learn language.|A: Is she a natural singer?|B: Yes, it seems innate.|natural|learned
+insidious|adjective|spreading slowly and causing harm without being noticed|It is an insidious disease.|A: Why was the problem not seen earlier?|B: It was insidious. It grew slowly.|sneaky|
+lucid|adjective|clear and easy to understand|She gave a lucid explanation.|A: Was the lecture hard?|B: No, it was lucid and simple.|clear|confusing

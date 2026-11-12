@@ -1,0 +1,442 @@
+# Level 3 (intermediate), more words. word|part of speech|simple meaning|Kannada|example (must contain the word exactly)|common usage|synonyms|theme|note
+# The Kannada was written for this project and has NOT been reviewed by a native speaker or teacher.
+accompany|verb|to go somewhere with someone|ಜೊತೆಯಲ್ಲಿ ಹೋಗುವುದು|A guide will accompany the tourists.|accompany a friend|escort|relationships|
+acquire|verb|to get something, especially by your own effort|ಪಡೆದುಕೊಳ್ಳುವುದು|She hopes to acquire new skills at college.|acquire a skill|obtain|academic|
+announce|verb|to tell people something officially|ಘೋಷಿಸುವುದು|The school will announce the results on Monday.|announce a decision|declare|communication|
+apologise|verb|to say sorry|ಕ್ಷಮೆ ಕೇಳುವುದು|I want to apologise for being late.|apologise for|say sorry|communication|
+appear|verb|to become visible, or to seem|ಕಾಣಿಸಿಕೊಳ್ಳುವುದು|A rainbow began to appear in the sky.|appear on TV|show up|everyday|
+attach|verb|to join one thing to another|ಜೋಡಿಸುವುದು|Please attach your photo to the form.|attach a file|fasten|technology|
+award|verb|to give a prize or payment to someone|ಪ್ರಶಸ್ತಿ ನೀಡುವುದು|The school will award a medal to the winner.|award a prize|grant|workplace|
+blame|verb|to say that someone caused something bad|ದೂಷಿಸುವುದು|Do not blame him for the mistake.|blame someone|accuse|relationships|
+boil|verb|to heat a liquid until it bubbles|ಕುದಿಸುವುದು|Boil the water for ten minutes.|boil water|simmer|everyday|
+breathe|verb|to take air into your body and let it out|ಉಸಿರಾಡುವುದು|It is hard to breathe in this smoke.|breathe deeply|inhale|health|
+calculate|verb|to find an amount using numbers|ಲೆಕ್ಕ ಹಾಕುವುದು|Can you calculate the total cost?|calculate the cost|work out|academic|
+cheat|verb|to act dishonestly to win or to get something|ಮೋಸ ಮಾಡುವುದು|It is wrong to cheat in an exam.|cheat in an exam|deceive|personality|
+collapse|verb|to fall down suddenly|ಕುಸಿಯುವುದು|The old bridge could collapse in the storm.|collapse suddenly|fall|health|
+comment|verb|to give an opinion about something|ಅಭಿಪ್ರಾಯ ನೀಡುವುದು|Several people comment on his post every day.|comment on|remark|communication|
+complete|verb|to finish something|ಪೂರ್ಣಗೊಳಿಸುವುದು|You must complete the form today.|complete a task|finish|workplace|
+confuse|verb|to make someone unable to think clearly|ಗೊಂದಲಗೊಳಿಸುವುದು|The map can confuse new visitors.|confuse someone|puzzle|communication|
+connect|verb|to join two things together|ಸಂಪರ್ಕಿಸುವುದು|You can connect the phone to the speaker.|connect to the internet|link|technology|
+convert|verb|to change something into a different form|ಪರಿವರ್ತಿಸುವುದು|You can convert the file into a PDF.|convert into|change|technology|
+copy|verb|to make something that is the same as another thing|ನಕಲು ಮಾಡುವುದು|Please copy these notes into your book.|copy a file|duplicate|education|
+cope|verb|to deal successfully with a difficult situation|ನಿಭಾಯಿಸುವುದು|She finds it hard to cope with stress.|cope with|manage|emotions|
+crash|verb|to hit something hard, or to stop working suddenly|ಡಿಕ್ಕಿ ಹೊಡೆಯುವುದು, ಕೆಟ್ಟು ನಿಲ್ಲುವುದು|The computer might crash if you open too many files.|crash a car|collide|technology|
+create|verb|to make something new|ಸೃಷ್ಟಿಸುವುದು|They want to create a new website.|create a plan|make|workplace|
+damage|verb|to harm something so that it does not work well|ಹಾನಿಗೊಳಿಸುವುದು|Heavy rain can damage the crops.|damage a car|harm|everyday|
+deliver|verb|to take something to a person or a place|ತಲುಪಿಸುವುದು|They deliver food to your door.|deliver a message|bring|everyday|
+deny|verb|to say that something is not true|ನಿರಾಕರಿಸುವುದು|He did not deny that he was late.|deny a fact|refuse|communication|
+deserve|verb|to have earned something because of what you have done|ಅರ್ಹರಾಗಿರುವುದು|You deserve a rest after all that work.|deserve a prize|merit|personality|
+destroy|verb|to damage something so badly that it cannot be used|ನಾಶಮಾಡುವುದು|The fire could destroy the whole building.|destroy a building|ruin|everyday|
+disagree|verb|to have a different opinion|ಒಪ್ಪದಿರುವುದು, ಭಿನ್ನಾಭಿಪ್ರಾಯ ಹೊಂದುವುದು|I disagree with your idea.|disagree with|differ|communication|
+discuss|verb|to talk about something with other people|ಚರ್ಚಿಸುವುದು|We need to discuss the plan.|discuss a problem|talk over|communication|
+divide|verb|to separate something into parts|ವಿಂಗಡಿಸುವುದು, ಭಾಗಿಸುವುದು|Divide the cake into six pieces.|divide into|split|education|
+doubt|verb|to feel not sure that something is true|ಸಂಶಯಪಡುವುದು|I doubt that he will come.|doubt the truth|question|communication|
+download|verb|to copy a file from the internet to your own device|ಡೌನ್‌ಲೋಡ್ ಮಾಡುವುದು|You can download the app for free.|download a file|save|technology|
+earn|verb|to get money for work that you do|ಸಂಪಾದಿಸುವುದು|She can earn a good salary in that company.|earn money|make|workplace|
+edit|verb|to change a piece of writing or a video to improve it|ತಿದ್ದುವುದು, ಸಂಪಾದಿಸುವುದು|I need to edit this report before I send it.|edit a video|revise|workplace|
+employ|verb|to pay someone to work for you|ಉದ್ಯೋಗ ನೀಡುವುದು|The factory will employ fifty workers.|employ staff|hire|workplace|
+escape|verb|to get away from a place or a danger|ತಪ್ಪಿಸಿಕೊಳ್ಳುವುದು|The bird managed to escape from the cage.|escape from|flee|everyday|
+examine|verb|to look at something carefully|ಪರೀಕ್ಷಿಸುವುದು|The doctor will examine your throat.|examine a patient|inspect|health|
+exist|verb|to be real or present|ಅಸ್ತಿತ್ವದಲ್ಲಿರುವುದು|Many old customs still exist in villages.|exist today|live|academic|
+expect|verb|to think that something will happen|ನಿರೀಕ್ಷಿಸುವುದು|We expect rain this evening.|expect a call|anticipate|communication|
+explore|verb|to travel around a place to learn about it|ಅನ್ವೇಷಿಸುವುದು|We want to explore the old city on foot.|explore a city|investigate|travel|
+express|verb|to show or say what you think or feel|ವ್ಯಕ್ತಪಡಿಸುವುದು|It is hard to express my thanks in words.|express an opinion|state|communication|
+fail|verb|to not succeed|ವಿಫಲವಾಗುವುದು, ಅನುತ್ತೀರ್ಣರಾಗುವುದು|Many students fail the test the first time.|fail an exam|flop|education|
+feed|verb|to give food to a person or an animal|ಆಹಾರ ಕೊಡುವುದು|Please feed the cat before you leave.|feed a baby|nourish|everyday|
+gather|verb|to come together, or to collect things|ಒಟ್ಟುಗೂಡಿಸುವುದು|People gather in the square every evening.|gather information|collect|relationships|
+guess|verb|to give an answer when you are not sure|ಊಹಿಸುವುದು|Can you guess my age?|guess the answer|estimate|communication|
+handle|verb|to deal with something, or to hold or touch something|ನಿರ್ವಹಿಸುವುದು|She knows how to handle difficult customers.|handle a problem|manage|workplace|
+hire|verb|to pay to use something for a short time, or to employ someone|ಬಾಡಿಗೆಗೆ ಪಡೆಯುವುದು, ನೇಮಿಸಿಕೊಳ್ಳುವುದು|We decided to hire a car for the trip.|hire a car|rent|workplace|
+hurt|verb|to cause pain, or to feel pain|ನೋವುಂಟುಮಾಡುವುದು|Be careful not to hurt yourself.|hurt someone's feelings|injure|health|
+ignore|verb|to pay no attention to someone or something|ನಿರ್ಲಕ್ಷಿಸುವುದು|Do not ignore the warning signs.|ignore a message|neglect|relationships|
+include|verb|to have something as a part|ಒಳಗೊಳ್ಳುವುದು|The price will include breakfast.|include in|contain|everyday|
+inform|verb|to tell someone about something|ತಿಳಿಸುವುದು|Please inform me if you cannot come.|inform someone|notify|communication|
+insist|verb|to say firmly that something must happen or is true|ಒತ್ತಾಯಿಸುವುದು|She will insist on paying the bill.|insist on|demand|communication|
+install|verb|to put a machine or program in a place so that it can be used|ಸ್ಥಾಪಿಸುವುದು|You need to install the app first.|install software|set up|technology|
+intend|verb|to plan to do something|ಉದ್ದೇಶಿಸುವುದು|I intend to start a small business.|intend to|plan|workplace|
+interrupt|verb|to stop someone while they are speaking or working|ಅಡ್ಡಿಪಡಿಸುವುದು|Please do not interrupt me.|interrupt a speaker|cut in|communication|
+invent|verb|to make or think of something for the first time|ಆವಿಷ್ಕರಿಸುವುದು|Who did invent the telephone?|invent a machine|create|academic|
+invest|verb|to put money into something to make a profit later|ಹೂಡಿಕೆ ಮಾಡುವುದು|They plan to invest in a small farm.|invest money|fund|workplace|
+judge|verb|to form an opinion about someone or something|ತೀರ್ಮಾನಿಸುವುದು, ನಿರ್ಣಯಿಸುವುದು|Do not judge a person by their clothes.|judge a person|assess|personality|
+knock|verb|to hit a door gently to ask to come in|ಬಾಗಿಲು ತಟ್ಟುವುದು|Please knock before you come in.|knock on the door|tap|everyday|
+lack|verb|to not have enough of something|ಕೊರತೆಯಿರುವುದು|Some villages lack clean water.|lack confidence|miss|everyday|
+lead|verb|to go in front, or to be in charge of a group|ಮುನ್ನಡೆಸುವುದು|She will lead the team on this project.|lead a team|guide|workplace|
+lift|verb|to raise something to a higher position|ಎತ್ತುವುದು|He cannot lift such a heavy box.|lift a box|raise|health|
+limit|verb|to keep something at a certain amount|ಮಿತಿಗೊಳಿಸುವುದು|You should limit the time you spend on your phone.|limit the time|restrict|health|
+locate|verb|to find where something is|ಪತ್ತೆ ಮಾಡುವುದು|Can you locate our hotel on the map?|locate a place|find|travel|
+mention|verb|to say something briefly|ಪ್ರಸ್ತಾಪಿಸುವುದು|He did not mention the price.|mention a name|refer to|communication|
+mix|verb|to put different things together|ಬೆರೆಸುವುದು|Mix the flour and the water.|mix together|blend|everyday|
+observe|verb|to watch something carefully|ಗಮನಿಸುವುದು, ವೀಕ್ಷಿಸುವುದು|Scientists observe the birds every spring.|observe closely|watch|academic|
+occur|verb|to happen|ಸಂಭವಿಸುವುದು|Accidents often occur on this road.|occur suddenly|happen|academic|
+operate|verb|to make a machine work, or to do a medical operation|ಕಾರ್ಯನಿರ್ವಹಿಸುವುದು, ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ ಮಾಡುವುದು|Do you know how to operate this machine?|operate a machine|run|workplace|
+own|verb|to have something that belongs to you|ಒಡೆತನ ಹೊಂದಿರುವುದು|They own a small shop in the market.|own a house|possess|everyday|
+perform|verb|to do something, or to act or sing in front of people|ಪ್ರದರ್ಶಿಸುವುದು, ನಿರ್ವಹಿಸುವುದು|The students will perform a dance on Friday.|perform a task|act|workplace|
+permit|verb|to allow something|ಅನುಮತಿ ನೀಡುವುದು|The rules do not permit phones in class.|permit entry|allow|workplace|
+pour|verb|to make a liquid flow out of a container|ಸುರಿಯುವುದು|Please pour the tea into the cups.|pour water|tip|everyday|
+practise|verb|to do something many times to get better at it|ಅಭ್ಯಾಸ ಮಾಡುವುದು|I practise English every evening.|practise speaking|rehearse|education|
+praise|verb|to say that someone has done something well|ಹೊಗಳುವುದು|The teacher likes to praise good work.|praise someone|compliment|relationships|
+press|verb|to push something firmly|ಒತ್ತುವುದು|Press the green button to start.|press a button|push|technology|
+pretend|verb|to act as if something is true when it is not|ನಟಿಸುವುದು|The children pretend to be doctors.|pretend to|fake|personality|
+prevent|verb|to stop something from happening|ತಡೆಗಟ್ಟುವುದು|Exercise can prevent many illnesses.|prevent an accident|stop|health|
+produce|verb|to make or grow something|ಉತ್ಪಾದಿಸುವುದು|The farm will produce a lot of rice this year.|produce goods|make|workplace|
+promote|verb|to help something to grow or to be known, or to give someone a better job|ಉತ್ತೇಜಿಸುವುದು, ಪದೋನ್ನತಿ ನೀಡುವುದು|They promote their new phone on TV.|promote a product|advertise|workplace|
+publish|verb|to print a book or article so that people can read it|ಪ್ರಕಟಿಸುವುದು|The company will publish her first novel.|publish a book|print|academic|
+punish|verb|to make someone suffer for doing wrong|ಶಿಕ್ಷಿಸುವುದು|It is wrong to punish a child for honesty.|punish a crime|penalise|relationships|
+quit|verb|to stop doing something, or to leave a job|ತೊರೆಯುವುದು, ನಿಲ್ಲಿಸುವುದು|He decided to quit smoking.|quit a job|give up|workplace|
+realise|verb|to understand something that you did not know before|ಅರಿತುಕೊಳ್ಳುವುದು|I did not realise how late it was.|realise a mistake|notice|communication|
+recognise|verb|to know someone or something because you have seen them before|ಗುರುತಿಸುವುದು|I could not recognise him after ten years.|recognise a face|identify|communication|
+record|verb|to keep information, or to save sound or pictures|ದಾಖಲಿಸುವುದು|Please record your name on the list.|record a song|note|technology|
+reduce|verb|to make something smaller or less|ಕಡಿಮೆ ಮಾಡುವುದು|They want to reduce the price.|reduce the cost|decrease|workplace|
+regret|verb|to feel sorry about something you did|ವಿಷಾದಿಸುವುದು|I regret not studying harder.|regret a decision|be sorry|emotions|
+reject|verb|to say no to something that is offered|ತಿರಸ್ಕರಿಸುವುದು|They had to reject his application.|reject an offer|refuse|workplace|
+relax|verb|to rest and feel calm|ವಿಶ್ರಾಂತಿ ಪಡೆಯುವುದು|I relax by listening to music.|relax at home|unwind|health|
+rely|verb|to need and trust someone or something|ಅವಲಂಬಿಸುವುದು|You can rely on me.|rely on|depend|relationships|
+remove|verb|to take something away from a place|ತೆಗೆದುಹಾಕುವುದು|Please remove your shoes at the door.|remove a stain|take away|everyday|
+rent|verb|to pay money to use a house, room or car for a time|ಬಾಡಿಗೆಗೆ ಪಡೆಯುವುದು|We rent a small flat near the college.|rent a room|lease|everyday|
+replace|verb|to put something new in the place of something old|ಬದಲಿಸುವುದು|I need to replace my old phone.|replace a battery|swap|everyday|
+rescue|verb|to save someone from danger|ರಕ್ಷಿಸುವುದು|The boat will rescue the people on the island.|rescue a child|save|health|
+respect|verb|to show that you admire someone or take care of something|ಗೌರವಿಸುವುದು|We should respect our teachers.|respect someone|admire|relationships|
+respond|verb|to answer or react|ಪ್ರತಿಕ್ರಿಯಿಸುವುದು|Please respond to my email today.|respond to|reply|communication|
+retire|verb|to stop working because you are old|ನಿವೃತ್ತರಾಗುವುದು|My father will retire next year.|retire from work|stop working|workplace|
+reveal|verb|to show or tell something that was secret|ಬಹಿರಂಗಪಡಿಸುವುದು|The test will reveal the cause of the problem.|reveal a secret|disclose|communication|
+review|verb|to look at something again to check or improve it|ಪರಿಶೀಲಿಸುವುದು, ವಿಮರ್ಶಿಸುವುದು|Review your notes before the exam.|review a book|revise|education|
+risk|verb|to do something that may have a bad result|ಅಪಾಯ ಮೈಮೇಲೆ ಎಳೆದುಕೊಳ್ಳುವುದು|You risk missing the train if you stop now.|risk your life|gamble|everyday|
+rush|verb|to hurry|ಅವಸರಿಸುವುದು|Do not rush, we have plenty of time.|rush to work|hurry|everyday|
+satisfy|verb|to give someone what they want or need|ತೃಪ್ತಿಪಡಿಸುವುದು|A good meal will satisfy him.|satisfy a customer|please|emotions|
+select|verb|to choose carefully|ಆಯ್ಕೆ ಮಾಡುವುದು|Select your seat before you pay.|select an option|choose|technology|
+separate|verb|to divide things, or to move apart|ಬೇರ್ಪಡಿಸುವುದು|Separate the red clothes from the white ones.|separate from|split|everyday|
+settle|verb|to make a home in a place, or to end an argument|ನೆಲೆಸುವುದು, ಇತ್ಯರ್ಥಪಡಿಸುವುದು|They plan to settle in Pune.|settle a dispute|resolve|relationships|
+shake|verb|to move quickly up and down or from side to side|ಅಲುಗಾಡಿಸುವುದು|Shake the bottle before you open it.|shake hands|wave|everyday|
+shift|verb|to move or change from one position to another|ಸ್ಥಳಾಂತರಿಸುವುದು|They shift the meeting to Friday.|shift gears|move|workplace|
+slip|verb|to slide by accident|ಜಾರುವುದು|Be careful not to slip on the wet floor.|slip on ice|slide|health|
+solve|verb|to find the answer to a problem|ಬಗೆಹರಿಸುವುದು|Can you solve this puzzle?|solve a problem|resolve|education|
+spread|verb|to cover a larger area, or to open something out|ಹರಡುವುದು|The news will spread quickly.|spread news|expand|communication|
+stare|verb|to look at something for a long time|ಒಂದೇ ಸಮನೆ ನೋಡುವುದು|It is rude to stare at people.|stare at|gaze|personality|
+steal|verb|to take something that belongs to someone else|ಕಳ್ಳತನ ಮಾಡುವುದು|Someone tried to steal my bike.|steal money|rob|everyday|
+stick|verb|to join something to something else with glue|ಅಂಟಿಸುವುದು|Stick the picture on the wall.|stick on|glue|everyday|
+stretch|verb|to make something longer or wider, or to straighten your body|ಹಿಗ್ಗಿಸುವುದು|You should stretch your legs after the long drive.|stretch your arms|extend|health|
+struggle|verb|to try very hard to do something difficult|ಹೆಣಗಾಡುವುದು|Many students struggle with grammar.|struggle with|strive|emotions|
+suffer|verb|to feel pain or sadness|ಬಳಲುವುದು|Many people suffer from headaches.|suffer from|endure|health|
+supply|verb|to give or sell what people need|ಪೂರೈಸುವುದು|The shop can supply all the books.|supply water|provide|workplace|
+suppose|verb|to think that something is probably true|ಭಾವಿಸುವುದು|I suppose you are right.|I suppose so|assume|communication|
+surround|verb|to be or go all around something|ಸುತ್ತುವರಿಯುವುದು|Tall trees surround the house.|surrounded by|enclose|everyday|
+survive|verb|to continue to live after a danger|ಬದುಕುಳಿಯುವುದು|Few people could survive in such cold.|survive an accident|live|health|
+suspect|verb|to think that someone has done something wrong|ಶಂಕಿಸುವುದು|I suspect that he knows the answer.|suspect someone|doubt|communication|
+switch|verb|to change from one thing to another|ಬದಲಾಯಿಸುವುದು|You can switch to a faster plan.|switch off|change|technology|
+threaten|verb|to say that you may hurt someone or do something bad|ಬೆದರಿಕೆ ಹಾಕುವುದು|Do not threaten the children.|threaten someone|warn|relationships|
+translate|verb|to change words from one language to another|ಅನುವಾದಿಸುವುದು|Can you translate this letter into English?|translate into English|interpret|education|
+trust|verb|to believe that someone is honest and good|ನಂಬುವುದು|I trust my best friend.|trust someone|believe|relationships|
+upset|verb|to make someone feel unhappy or worried|ಬೇಸರಗೊಳಿಸುವುದು|The bad news will upset her.|upset someone|distress|emotions|
+wander|verb|to walk slowly without a clear direction|ಅಲೆದಾಡುವುದು|We like to wander through the old streets.|wander around|roam|travel|
+warn|verb|to tell someone about a danger|ಎಚ್ಚರಿಸುವುದು|The sign will warn drivers about the bridge.|warn someone|alert|health|
+waste|verb|to use more of something than you need|ವ್ಯರ್ಥ ಮಾಡುವುದು|Do not waste water.|waste time|squander|everyday|
+whisper|verb|to speak very quietly|ಪಿಸುಗುಟ್ಟುವುದು|Please whisper in the library.|whisper to|murmur|communication|
+wrap|verb|to cover something with paper or cloth|ಸುತ್ತುವುದು|She will wrap the gift in red paper.|wrap a gift|cover|everyday|
+ability|noun|the power or skill to do something|ಸಾಮರ್ಥ್ಯ|He has the ability to learn quickly.|the ability to|skill|personality|
+account|noun|an arrangement with a bank, or a description of what happened|ಖಾತೆ, ವಿವರಣೆ|I opened an account at the bank.|a bank account|record|everyday|
+action|noun|the process of doing something|ಕ್ರಿಯೆ, ಕ್ರಮ|We must take action now.|take action|step|workplace|
+activity|noun|something that people do for fun or to learn|ಚಟುವಟಿಕೆ|The club has many outdoor activity programmes.|a group activity|pursuit|everyday|
+advertisement|noun|a notice or video that tries to persuade people to buy something|ಜಾಹೀರಾತು|I saw an advertisement for a new phone.|a TV advertisement|advert|workplace|
+agreement|noun|an arrangement that people have accepted|ಒಪ್ಪಂದ|They signed an agreement yesterday.|reach an agreement|deal|workplace|
+amount|noun|how much of something there is|ಪ್ರಮಾಣ|A small amount of salt is enough.|a large amount|quantity|everyday|
+application|noun|a formal request for something, or a computer program|ಅರ್ಜಿ, ಅಪ್ಲಿಕೇಶನ್|She sent her application yesterday.|a job application|request|workplace|
+article|noun|a piece of writing in a newspaper or magazine|ಲೇಖನ|I read an interesting article about trains.|a newspaper article|essay|education|
+attention|noun|the act of watching or listening carefully|ಗಮನ|Please pay attention to the teacher.|pay attention|focus|education|
+audience|noun|the people who watch or listen to a show or speech|ಪ್ರೇಕ್ಷಕರು|The audience clapped for a long time.|a large audience|crowd|communication|
+author|noun|a person who writes books|ಲೇಖಕ|Who is the author of this book?|a famous author|writer|education|
+balance|noun|a state in which weight is evenly spread, or a good mix|ಸಮತೋಲನ|Try to keep a good balance between work and rest.|keep your balance|stability|health|
+battery|noun|an object that gives power to a phone or a toy|ಬ್ಯಾಟರಿ|My phone battery is almost dead.|a phone battery|cell|technology|
+branch|noun|a part of a tree, or one office of a bank or company|ಕೊಂಬೆ, ಶಾಖೆ|The bank has a new branch near my house.|a bank branch|office|workplace|
+brand|noun|a name that a company gives to its products|ಬ್ರ್ಯಾಂಡ್|Which brand of phone do you use?|a famous brand|make|workplace|
+career|noun|the job or jobs that you do in your working life|ವೃತ್ತಿಜೀವನ|She started her career as a teacher.|a successful career|profession|workplace|
+case|noun|a particular situation, or a container|ಸಂದರ್ಭ, ಪೆಟ್ಟಿಗೆ|In this case, you should call the manager.|in case of|instance|everyday|
+ceremony|noun|a formal event for a special occasion|ಸಮಾರಂಭ|The wedding ceremony begins at ten.|a wedding ceremony|function|relationships|
+character|noun|a person in a story, or the qualities that make someone who they are|ಪಾತ್ರ, ಸ್ವಭಾವ|He is my favourite character in the film.|a main character|personality|personality|
+charge|noun|the price you pay for a service|ಶುಲ್ಕ|There is no charge for children.|free of charge|fee|workplace|
+choice|noun|an act of choosing, or the thing chosen|ಆಯ್ಕೆ|You have a choice of three colours.|make a choice|option|everyday|
+citizen|noun|a person who has the legal right to live in a country|ನಾಗರಿಕ|Every citizen has the right to vote.|a senior citizen|resident|academic|
+claim|noun|a statement that something is true, or a request for money|ಹೇಳಿಕೆ, ಹಕ್ಕು|The company rejected his claim.|an insurance claim|statement|workplace|
+company|noun|a business that sells goods or services|ಕಂಪನಿ|She works for a software company.|a big company|firm|workplace|
+concern|noun|a worry, or something that matters to you|ಕಳವಳ, ಕಾಳಜಿ|My main concern is the cost.|a concern about|worry|emotions|
+condition|noun|the state of something, or a requirement|ಸ್ಥಿತಿ, ಷರತ್ತು|The road is in a poor condition.|in good condition|state|everyday|
+conference|noun|a large meeting where people talk about a subject|ಸಮ್ಮೇಳನ|She will speak at the conference in Delhi.|attend a conference|convention|workplace|
+confidence|noun|a feeling that you can do something well|ಆತ್ಮವಿಶ್ವಾಸ|Speaking in public gives me confidence.|have confidence|self-belief|personality|
+contact|noun|communication with someone, or a person you know who can help|ಸಂಪರ್ಕ|I lost contact with my old friends.|keep in contact|communication|relationships|
+contract|noun|a legal agreement, usually about work or buying|ಒಪ್ಪಂದ|He signed a one-year contract.|sign a contract|agreement|workplace|
+control|noun|the power to make something do what you want|ನಿಯಂತ್ರಣ|The teacher has good control of the class.|under control|command|workplace|
+conversation|noun|a talk between two or more people|ಸಂಭಾಷಣೆ|We had a long conversation about music.|have a conversation|chat|communication|
+cost|noun|the amount of money that you pay for something|ವೆಚ್ಚ|The cost of food has gone up.|the cost of|price|everyday|
+couple|noun|two people or two things|ಜೋಡಿ, ದಂಪತಿ|A young couple lives next door.|a married couple|pair|relationships|
+courage|noun|the ability to do something that frightens you|ಧೈರ್ಯ|It takes courage to speak in front of a crowd.|show courage|bravery|personality|
+crime|noun|an action that is against the law|ಅಪರಾಧ|The police are looking into the crime.|commit a crime|offence|academic|
+deal|noun|an agreement, especially in business|ವ್ಯವಹಾರದ ಒಪ್ಪಂದ|We made a deal with the supplier.|make a deal|agreement|workplace|
+degree|noun|a university qualification, or a unit of temperature|ಪದವಿ, ಡಿಗ್ರಿ|She has a degree in science.|a university degree|qualification|education|
+department|noun|one part of a large organisation|ವಿಭಾಗ|He works in the sales department.|the sales department|section|workplace|
+design|noun|a plan or drawing that shows how something will look or work|ವಿನ್ಯಾಸ|I like the design of this shirt.|a new design|plan|workplace|
+diet|noun|the food that a person usually eats|ಆಹಾರಕ್ರಮ|A healthy diet includes fruit and vegetables.|a healthy diet|food|health|
+difference|noun|the way in which two things are not the same|ವ್ಯತ್ಯಾಸ|What is the difference between these two words?|a big difference|contrast|communication|
+discussion|noun|a talk about a subject, with different opinions|ಚರ್ಚೆ|We had a long discussion about the plan.|have a discussion|debate|communication|
+disease|noun|an illness of the body|ರೋಗ, ಕಾಯಿಲೆ|Clean water can prevent a serious disease.|a serious disease|illness|health|
+document|noun|a paper or file that gives official information|ದಾಖಲೆ|Please bring this document to the office.|an important document|paper|workplace|
+economy|noun|the system of money, trade and jobs in a country|ಆರ್ಥಿಕತೆ|The economy has grown this year.|a strong economy|finances|academic|
+effort|noun|hard work or a strong attempt|ಪ್ರಯತ್ನ|She made a great effort to learn English.|make an effort|attempt|personality|
+emergency|noun|a sudden serious situation that needs quick action|ತುರ್ತು ಪರಿಸ್ಥಿತಿ|Call this number in an emergency.|in an emergency|crisis|health|
+employee|noun|a person who is paid to work for a company|ನೌಕರ|Every employee must wear a badge.|a new employee|worker|workplace|
+engineer|noun|a person who designs or builds machines, roads or buildings|ಇಂಜಿನಿಯರ್|My brother is an engineer.|a software engineer||workplace|
+error|noun|a mistake|ದೋಷ, ತಪ್ಪು|The computer showed an error message.|make an error|mistake|technology|
+essay|noun|a short piece of writing on one subject|ಪ್ರಬಂಧ|We have to write an essay on rivers.|write an essay|composition|education|
+evidence|noun|facts or signs that show that something is true|ಸಾಕ್ಷ್ಯ|The police found no evidence.|clear evidence|proof|academic|
+expert|noun|a person who knows a lot about a subject|ತಜ್ಞ|An expert will explain how it works.|an expert in|specialist|workplace|
+explanation|noun|something that you say or write to make something clear|ವಿವರಣೆ|Thank you for your clear explanation.|give an explanation|description|communication|
+failure|noun|a lack of success|ವೈಫಲ್ಯ|Failure is often the first step to success.|a failure|defeat|emotions|
+fashion|noun|a popular style of clothes or behaviour|ಫ್ಯಾಷನ್|Bright colours are in fashion this year.|in fashion|trend|everyday|
+fear|noun|the feeling you have when you are afraid|ಭಯ|She has a fear of heights.|a fear of|fright|emotions|
+fee|noun|an amount of money that you pay for a service or a course|ಶುಲ್ಕ|The college fee is due on Monday.|pay a fee|charge|education|
+figure|noun|a number, or the shape of a person|ಅಂಕಿ, ಆಕಾರ|The sales figure is higher this month.|sales figures|number|workplace|
+fuel|noun|something such as petrol that is burned to give power|ಇಂಧನ|The price of fuel has gone up.|run out of fuel|petrol|everyday|
+function|noun|the purpose of something, or a formal event|ಕಾರ್ಯ|What is the function of this button?|the main function|purpose|technology|
+gap|noun|an empty space between two things, or a difference|ಅಂತರ|There is a gap in the fence.|a gap between|space|everyday|
+generation|noun|all the people born at about the same time|ಪೀಳಿಗೆ|My generation grew up without smartphones.|the younger generation|age group|relationships|
+government|noun|the group of people who rule a country|ಸರ್ಕಾರ|The government plans to build a new road.|the local government|authorities|academic|
+grade|noun|a mark that shows how good your work is, or a school year|ಶ್ರೇಣಿ, ತರಗತಿ|She got a good grade in maths.|a high grade|mark|education|
+height|noun|how tall someone or something is|ಎತ್ತರ|What is the height of this building?|of average height|tallness|everyday|
+hero|noun|a person who is admired for doing something brave|ವೀರ, ನಾಯಕ|The firefighter became a local hero.|a national hero|champion|relationships|
+history|noun|the study of the past, or all the things that happened in the past|ಇತಿಹಾಸ|We study the history of India in class.|a history book|the past|education|
+image|noun|a picture, or the idea that people have about someone|ಚಿತ್ರ, ಪ್ರತಿಷ್ಠೆ|The image on the screen is not clear.|a clear image|picture|technology|
+impact|noun|a strong effect|ಪ್ರಭಾವ|The new rule had a big impact on students.|have an impact|effect|academic|
+income|noun|the money that a person or family earns|ಆದಾಯ|Her income is not high.|a low income|earnings|workplace|
+industry|noun|the production of goods in factories, or a type of business|ಉದ್ಯಮ|He works in the tourism industry.|the film industry|business|workplace|
+injury|noun|harm to a person's body|ಗಾಯ|He missed the match because of an injury.|a head injury|wound|health|
+insurance|noun|an arrangement in which you pay money so that you are protected from loss|ವಿಮೆ|Do you have health insurance?|car insurance|cover|workplace|
+interest|noun|a feeling of wanting to know about something, or money paid on a loan|ಆಸಕ್ತಿ, ಬಡ್ಡಿ|She has a strong interest in music.|show interest|curiosity|everyday|
+internet|noun|the worldwide system of computers that lets people share information|ಇಂಟರ್ನೆಟ್|I read the news on the internet.|an internet connection|web|technology|
+invention|noun|something that has been made for the first time|ಆವಿಷ್ಕಾರ|The telephone was a great invention.|a new invention|creation|technology|
+item|noun|one thing in a list or group|ವಸ್ತು, ಅಂಶ|The last item on the list is milk.|an item on the list|article|everyday|
+journalist|noun|a person who writes for a newspaper or reports the news|ಪತ್ರಕರ್ತ|The journalist asked the mayor a question.|a TV journalist|reporter|workplace|
+knowledge|noun|what you know, learned from study or experience|ಜ್ಞಾನ|He has a good knowledge of history.|general knowledge|learning|education|
+leader|noun|a person who is in charge of a group|ನಾಯಕ|The team leader called a meeting.|a team leader|head|workplace|
+length|noun|how long something is|ಉದ್ದ|What is the length of this room?|the length of|distance|everyday|
+loan|noun|an amount of money that you borrow|ಸಾಲ|He took a loan to buy a house.|a bank loan|credit|workplace|
+luck|noun|good things that happen by chance|ಅದೃಷ್ಟ|Good luck with your exam!|good luck|fortune|everyday|
+machine|noun|a piece of equipment that uses power to do a job|ಯಂತ್ರ|The washing machine is broken.|a washing machine|device|technology|
+majority|noun|most of the people or things in a group|ಬಹುಮತ|The majority of students passed the exam.|the majority of|most|academic|
+manager|noun|a person who is in charge of a business or a team|ವ್ಯವಸ್ಥಾಪಕ|The manager wants to speak to you.|a bank manager|supervisor|workplace|
+material|noun|what something is made from, or information used for study|ವಸ್ತು, ಸಾಮಗ್ರಿ|This material is soft and strong.|study material|fabric|education|
+matter|noun|a subject or situation that you have to deal with|ವಿಷಯ|This is a serious matter.|a family matter|issue|workplace|
+memory|noun|the ability to remember, or something that you remember|ನೆನಪು, ಸ್ಮರಣಶಕ್ತಿ|I have a good memory for faces.|a happy memory|recall|everyday|
+method|noun|a way of doing something|ವಿಧಾನ|What is the best method for learning words?|a new method|way|education|
+mood|noun|the way you feel at a particular time|ಮನಸ್ಥಿತಿ|She is in a good mood today.|in a good mood|spirits|emotions|
+nature|noun|everything in the world that people did not make, such as trees and rivers|ಪ್ರಕೃತಿ|I love to walk in nature.|a love of nature|environment|everyday|
+network|noun|a group of connected people or computers|ಜಾಲ|The phone network is down.|a computer network|system|technology|
+occasion|noun|a time when something happens, or a special event|ಸಂದರ್ಭ|A wedding is a happy occasion.|a special occasion|event|relationships|
+operation|noun|a medical treatment in which a doctor cuts your body, or the way something works|ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ, ಕಾರ್ಯಾಚರಣೆ|He had an operation on his knee.|have an operation|surgery|health|
+option|noun|a thing that you can choose|ಆಯ್ಕೆ|You have only one option now.|the best option|choice|everyday|
+owner|noun|a person who owns something|ಮಾಲೀಕ|The owner of the shop is very friendly.|a shop owner|holder|workplace|
+pain|noun|the feeling you have when part of your body hurts|ನೋವು|I have a pain in my back.|back pain|ache|health|
+passenger|noun|a person who travels in a vehicle but does not drive it|ಪ್ರಯಾಣಿಕ|Each passenger must show a ticket.|a bus passenger|traveller|travel|
+payment|noun|an amount of money that you pay|ಪಾವತಿ|The payment is due on the first of the month.|make a payment|fee|workplace|
+performance|noun|how well someone does something, or a show|ಕಾರ್ಯಕ್ಷಮತೆ, ಪ್ರದರ್ಶನ|Your performance in the test was very good.|a good performance|show|workplace|
+permission|noun|official approval to do something|ಅನುಮತಿ|You need permission to park here.|ask for permission|approval|workplace|
+personality|noun|the qualities that make you different from other people|ವ್ಯಕ್ತಿತ್ವ|She has a warm personality.|a strong personality|character|personality|
+pollution|noun|dirt and harmful substances in the air, water or land|ಮಾಲಿನ್ಯ|Air pollution is a problem in big cities.|air pollution|contamination|academic|
+population|noun|the number of people who live in a place|ಜನಸಂಖ್ಯೆ|The population of the city is ten million.|a large population|inhabitants|academic|
+position|noun|where someone or something is, or a job|ಸ್ಥಾನ, ಹುದ್ದೆ|He is applying for a position in the bank.|a job position|post|workplace|
+poverty|noun|the state of being very poor|ಬಡತನ|Many families live in poverty.|in poverty|hardship|academic|
+practice|noun|doing something many times to get better|ಅಭ್ಯಾಸ|You need more practice before the exam.|speaking practice|training|education|
+pressure|noun|a feeling of worry from having too much to do|ಒತ್ತಡ|Students often feel pressure before exams.|under pressure|stress|emotions|
+principle|noun|a basic rule or belief|ತತ್ವ|He never lies. It is his principle.|a basic principle|rule|confusing|Do not confuse principle (a rule or belief) with principal (the head of a school).
+principal|noun|the head of a school or college|ಪ್ರಾಂಶುಪಾಲ|The principal gave a short speech.|the school principal|head|confusing|Do not confuse principal (the head of a school) with principle (a rule or belief).
+prison|noun|a place where criminals are kept|ಜೈಲು|He spent two years in prison.|go to prison|jail|academic|
+procedure|noun|the correct way of doing something|ವಿಧಾನ, ಕಾರ್ಯವಿಧಾನ|Please follow the safety procedure.|follow a procedure|process|workplace|
+product|noun|something that is made or grown to be sold|ಉತ್ಪನ್ನ|The company has a new product.|a new product|goods|workplace|
+profit|noun|money that you earn after paying all costs|ಲಾಭ|The shop made a good profit this year.|make a profit|gain|workplace|
+progress|noun|improvement over time|ಪ್ರಗತಿ|You are making good progress in English.|make progress|improvement|education|
+property|noun|things that belong to someone, such as land and buildings|ಆಸ್ತಿ|They own property in the city.|private property|belongings|workplace|
+protest|noun|a public show of disagreement|ಪ್ರತಿಭಟನೆ|Students held a protest against the fee increase.|a peaceful protest|demonstration|academic|
+quality|noun|how good or bad something is|ಗುಣಮಟ್ಟ|The quality of the food is excellent.|high quality|standard|workplace|
+quantity|noun|an amount or number of something|ಪ್ರಮಾಣ|We need a large quantity of paper.|a large quantity|amount|academic|
+race|noun|a competition to see who is fastest|ಓಟದ ಸ್ಪರ್ಧೆ|She won the race easily.|win a race|contest|everyday|
+range|noun|a number of different things of the same kind|ವ್ಯಾಪ್ತಿ, ಶ್ರೇಣಿ|The shop sells a wide range of shoes.|a wide range|variety|workplace|
+rate|noun|the speed of something or the price of something|ದರ|The rate of growth is slow.|a low rate|speed|workplace|
+region|noun|a large area of a country or of the world|ಪ್ರದೇಶ|This region is famous for its coffee.|the northern region|area|travel|
+relief|noun|the good feeling when something unpleasant has ended|ನಿರಾಳತೆ|It was a relief to hear that he was safe.|a great relief|comfort|emotions|
+religion|noun|a belief in a god or gods, and the rules that go with it|ಧರ್ಮ|What is your religion?|a world religion|faith|academic|
+reputation|noun|the opinion that people have about someone or something|ಖ್ಯಾತಿ|The hotel has a good reputation.|a good reputation|name|workplace|
+research|noun|careful study to find out new facts|ಸಂಶೋಧನೆ|Scientists are doing research on the disease.|do research|study|academic|
+resident|noun|a person who lives in a place|ನಿವಾಸಿ|Every resident of the building is invited to the meeting.|a local resident|inhabitant|everyday|
+resource|noun|something that is available for use, such as money or water|ಸಂಪನ್ಮೂಲ|Water is a valuable resource.|natural resources|supply|academic|
+response|noun|an answer or a reaction|ಪ್ರತಿಕ್ರಿಯೆ|I am waiting for his response.|in response to|reply|communication|
+responsibility|noun|a duty that you have to deal with something|ಜವಾಬ್ದಾರಿ|It is your responsibility to lock the door.|take responsibility|duty|workplace|
+reward|noun|something that you get for doing something good|ಬಹುಮಾನ|The shop offered a reward for the lost dog.|a reward for|prize|workplace|
+role|noun|the part that someone plays in a film or in a situation|ಪಾತ್ರ|She plays the main role in the film.|play a role|part|workplace|
+route|noun|the way you go from one place to another|ಮಾರ್ಗ|Which route should we take to the airport?|a bus route|way|travel|
+routine|noun|the things that you do regularly|ದಿನಚರಿ|My morning routine is very simple.|a daily routine|habit|everyday|
+safety|noun|being free from danger|ಸುರಕ್ಷತೆ|Safety is the first priority.|road safety|security|health|
+scene|noun|a place where something happens, or a part of a film|ದೃಶ್ಯ|The police arrived at the scene.|the scene of|view|everyday|
+science|noun|the study of nature and the physical world|ವಿಜ್ಞಾನ|My favourite subject is science.|a science teacher||education|
+section|noun|one of the parts of something|ವಿಭಾಗ|Read the first section of the text.|a section of|part|education|
+security|noun|protection from danger or crime|ಭದ್ರತೆ|The airport has strict security.|airport security|protection|everyday|
+shape|noun|the outer form of something|ಆಕಾರ|The cake was in the shape of a heart.|in the shape of|form|everyday|
+shock|noun|a sudden surprise that upsets you|ಆಘಾತ|The news came as a shock.|a big shock|surprise|emotions|
+signal|noun|a sign or sound that gives information|ಸಂಕೇತ|I cannot get a signal on my phone.|a phone signal|sign|technology|
+site|noun|a place where something is or will be built or used|ಸ್ಥಳ|They found a good site for the new school.|a building site|location|workplace|
+situation|noun|the things that are happening at a particular time|ಪರಿಸ್ಥಿತಿ|The situation is getting better.|a difficult situation|circumstances|everyday|
+size|noun|how big or small something is|ಗಾತ್ರ|What size shoes do you wear?|the size of|measurements|everyday|
+software|noun|programs that tell a computer what to do|ಸಾಫ್ಟ್‌ವೇರ್|The company makes educational software.|install software|programs|technology|
+solution|noun|an answer to a problem|ಪರಿಹಾರ|We need a solution to this problem.|find a solution|answer|workplace|
+source|noun|the place where something comes from|ಮೂಲ|The river is a source of drinking water.|a source of|origin|academic|
+speech|noun|the ability to speak, or a talk given to an audience|ಭಾಷಣ|The principal gave a short speech.|give a speech|talk|communication|
+staff|noun|the people who work for an organisation|ಸಿಬ್ಬಂದಿ|The hotel staff were very helpful.|a member of staff|employees|workplace|
+stage|noun|a part of a process, or the raised area where people perform|ಹಂತ, ವೇದಿಕೆ|The project is in its final stage.|an early stage|phase|workplace|
+standard|noun|a level of quality|ಮಾನದಂಡ, ಗುಣಮಟ್ಟ|The standard of teaching is very high here.|a high standard|level|education|
+statement|noun|something that you say or write officially|ಹೇಳಿಕೆ|The company will issue a statement today.|a short statement|declaration|communication|
+status|noun|a person's position in society or at work|ಸ್ಥಾನಮಾನ|Please check the status of your order.|marital status|position|workplace|
+strategy|noun|a plan for achieving something|ತಂತ್ರ|We need a new strategy to win customers.|a business strategy|plan|workplace|
+stress|noun|worry and pressure that make you feel tired and unhappy|ಒತ್ತಡ|Too much work causes stress.|under stress|pressure|health|
+structure|noun|the way that parts of something are arranged, or a building|ರಚನೆ|The structure of the essay is clear.|a steel structure|framework|academic|
+style|noun|a way of doing or making something|ಶೈಲಿ|I like her writing style.|a modern style|manner|everyday|
+surface|noun|the top or outside part of something|ಮೇಲ್ಮೈ|The surface of the table is smooth.|a smooth surface|top|everyday|
+survey|noun|a set of questions that you ask many people to find out their opinions|ಸಮೀಕ್ಷೆ|The company did a survey of its customers.|carry out a survey|poll|academic|
+symbol|noun|a sign or picture that stands for something|ಸಂಕೇತ|The dove is a symbol of peace.|a symbol of|sign|academic|
+talent|noun|a natural ability to do something well|ಪ್ರತಿಭೆ|She has a talent for singing.|a talent for|gift|personality|
+target|noun|a result that you aim to reach|ಗುರಿ|The sales target for this month is high.|reach a target|aim|workplace|
+task|noun|a piece of work that you have to do|ಕೆಲಸ, ಕಾರ್ಯ|Our first task is to find the problem.|complete a task|job|workplace|
+technique|noun|a particular way of doing something|ತಂತ್ರ|He learnt a new technique for painting.|a useful technique|method|education|
+technology|noun|machines and methods that come from science|ತಂತ್ರಜ್ಞಾನ|Technology has changed the way we work.|modern technology||technology|
+temperature|noun|how hot or cold something is|ತಾಪಮಾನ|What is the temperature today?|a high temperature|heat|health|
+theory|noun|an idea that tries to explain something|ಸಿದ್ಧಾಂತ|This theory tries to explain the origin of life.|in theory|idea|academic|
+training|noun|teaching someone the skills for a job or sport|ತರಬೇತಿ|New employees get one week of training.|job training|instruction|workplace|
+transport|noun|a system of vehicles for moving people and goods|ಸಾರಿಗೆ|Public transport is cheap in this city.|public transport|travel|travel|
+treatment|noun|medical care for a person who is ill or hurt|ಚಿಕಿತ್ಸೆ|She is getting treatment for her back.|medical treatment|therapy|health|
+trend|noun|a general change in the way things are going|ಪ್ರವೃತ್ತಿ|Online shopping is a growing trend.|a growing trend|tendency|workplace|
+trouble|noun|difficulty or problems|ತೊಂದರೆ|I am having trouble with my phone.|in trouble|difficulty|everyday|
+unit|noun|one part of a larger thing, or a measure such as a metre|ಘಟಕ|Each unit of the course has a short test.|a unit of|part|education|
+variety|noun|many different kinds of things|ವೈವಿಧ್ಯ|The market sells a variety of fruit.|a variety of|range|everyday|
+victim|noun|a person who has been hurt or harmed|ಬಲಿಪಶು|The victim was taken to hospital.|a victim of|sufferer|academic|
+view|noun|an opinion, or what you can see from a place|ಅಭಿಪ್ರಾಯ, ದೃಶ್ಯ|The hotel has a beautiful view of the sea.|a point of view|opinion|everyday|
+violence|noun|behaviour that is meant to hurt people|ಹಿಂಸೆ|The film contains a lot of violence.|violence against|aggression|academic|
+volume|noun|how loud a sound is, or the amount of space inside something|ಧ್ವನಿಯ ಮಟ್ಟ, ಘನಪರಿಮಾಣ|Please turn down the volume.|turn up the volume|loudness|technology|
+warning|noun|something that tells you about a danger|ಎಚ್ಚರಿಕೆ|The sign gave a warning about the deep water.|a warning sign|alert|health|
+wealth|noun|a large amount of money or valuable things|ಸಂಪತ್ತು|Good health is more important than wealth.|great wealth|riches|academic|
+weapon|noun|an object used to hurt or kill people|ಆಯುಧ|The police found a weapon in the car.|a dangerous weapon|arms|academic|
+wisdom|noun|the ability to make good decisions from experience|ಜ್ಞಾನ, ವಿವೇಕ|Old people often have great wisdom.|words of wisdom|good sense|personality|
+absent|adjective|not at a place where you should be|ಗೈರುಹಾಜರಾದ|He was absent from school yesterday.|absent from|away|education|
+active|adjective|full of energy, or taking part in things|ಚುರುಕಾದ, ಸಕ್ರಿಯ|My grandmother is still very active.|an active child|energetic|health|
+additional|adjective|more than what is already there|ಹೆಚ್ಚುವರಿ|There is an additional charge for delivery.|additional costs|extra|workplace|
+ancient|adjective|very old, from a long time ago|ಪ್ರಾಚೀನ|We visited an ancient temple.|an ancient city|old|travel|
+anxious|adjective|worried and nervous|ಆತಂಕಗೊಂಡ|He felt anxious before the interview.|feel anxious|worried|emotions|
+appropriate|adjective|suitable for a particular situation|ಸೂಕ್ತವಾದ|Wear appropriate clothes for the interview.|an appropriate answer|suitable|workplace|
+bitter|adjective|having a sharp unpleasant taste|ಕಹಿಯಾದ|The tea tastes bitter.|a bitter taste|sour|everyday|
+brave|adjective|ready to face danger without fear|ಧೈರ್ಯಶಾಲಿ|The brave girl saved her little brother.|a brave man|courageous|personality|
+brief|adjective|short in time or in length|ಸಂಕ್ಷಿಪ್ತ|Please give a brief answer.|a brief message|short|communication|
+broken|adjective|damaged and not working|ಒಡೆದ, ಕೆಟ್ಟುಹೋದ|My phone has a broken screen.|a broken window|damaged|everyday|
+calm|adjective|quiet and not nervous or angry|ಶಾಂತ|Stay calm and listen to me.|a calm voice|peaceful|emotions|
+cheerful|adjective|happy and full of good spirits|ಉಲ್ಲಾಸಭರಿತ|She is always cheerful in the morning.|a cheerful smile|happy|personality|
+clear|adjective|easy to see, hear or understand|ಸ್ಪಷ್ಟ|The instructions are clear.|a clear voice|obvious|communication|
+cruel|adjective|causing pain to others without caring|ಕ್ರೂರ|It is cruel to hurt animals.|a cruel joke|unkind|personality|
+current|adjective|happening or existing now|ಪ್ರಸ್ತುತ, ಚಾಲ್ತಿಯಲ್ಲಿರುವ|What is your current address?|the current situation|present|everyday|
+decent|adjective|of a good enough standard|ಯೋಗ್ಯ, ಸಾಕಷ್ಟು ಒಳ್ಳೆಯ|He earns a decent salary.|a decent meal|reasonable|workplace|
+deep|adjective|going down a long way from the top|ಆಳವಾದ|The lake is very deep here.|a deep breath|profound|everyday|
+eager|adjective|wanting very much to do something|ಉತ್ಸುಕ|The students are eager to start.|eager to learn|keen|emotions|
+effective|adjective|working well and producing the result you want|ಪರಿಣಾಮಕಾರಿ|This medicine is very effective.|an effective method|successful|workplace|
+elderly|adjective|old, used politely for people|ವಯಸ್ಸಾದ|An elderly man sat next to me.|an elderly person|aged|relationships|
+emotional|adjective|having strong feelings, or caused by feelings|ಭಾವನಾತ್ಮಕ|It was an emotional moment for the family.|an emotional moment|sensitive|emotions|
+entire|adjective|whole, with nothing left out|ಸಂಪೂರ್ಣ|I read the entire book in one day.|the entire day|whole|everyday|
+essential|adjective|completely necessary|ಅತ್ಯಗತ್ಯ|Water is essential for life.|an essential part|vital|everyday|
+extra|adjective|more than usual, or more than is needed|ಹೆಚ್ಚುವರಿ|Do you need an extra blanket?|an extra charge|additional|everyday|
+extreme|adjective|very great, or going beyond what is normal|ತೀವ್ರ|The extreme heat made us tired.|extreme weather|severe|health|
+formal|adjective|serious and polite, used in official situations|ಔಪಚಾರಿಕ|Wear formal clothes to the interview.|a formal letter|official|workplace|
+frequent|adjective|happening often|ಆಗಾಗ ನಡೆಯುವ|He is a frequent visitor to our house.|frequent visits|regular|everyday|
+frightened|adjective|afraid|ಭಯಗೊಂಡ|The frightened child cried loudly.|frightened of|scared|emotions|
+general|adjective|affecting most people or things, not specific|ಸಾಮಾನ್ಯ|In general, I like to cook at home.|general knowledge|common|everyday|
+gentle|adjective|kind and calm, not rough|ಮೃದು ಸ್ವಭಾವದ|She has a gentle voice.|a gentle person|soft|personality|
+global|adjective|affecting the whole world|ಜಾಗತಿಕ|Climate change is a global problem.|a global problem|worldwide|academic|
+grateful|adjective|feeling thanks for something|ಕೃತಜ್ಞ|I am grateful for your help.|grateful for|thankful|emotions|
+guilty|adjective|feeling bad because you did something wrong|ತಪ್ಪಿತಸ್ಥ ಭಾವನೆಯ|He felt guilty about the lie.|feel guilty|ashamed|emotions|
+harmful|adjective|causing damage or pain|ಹಾನಿಕರ|Smoking is harmful to your health.|harmful effects|damaging|health|
+healthy|adjective|well and strong, or good for your body|ಆರೋಗ್ಯಕರ|Fruit is a healthy snack.|a healthy diet|fit|health|
+helpful|adjective|giving help|ಸಹಾಯಕವಾದ|The staff were very helpful.|a helpful person|useful|personality|
+hopeful|adjective|feeling that something good will happen|ಆಶಾವಾದಿ|She is hopeful about the results.|feel hopeful|optimistic|emotions|
+identical|adjective|exactly the same|ಒಂದೇ ರೀತಿಯ|The twins wear identical shirts.|identical twins|same|everyday|
+illegal|adjective|against the law|ಕಾನೂನುಬಾಹಿರ|It is illegal to drive without a licence.|illegal parking|unlawful|academic|
+immediate|adjective|happening at once, without delay|ತಕ್ಷಣದ|We need an immediate answer.|an immediate reply|instant|workplace|
+independent|adjective|not controlled by others|ಸ್ವತಂತ್ರ|She is an independent woman.|an independent country|self-reliant|personality|
+individual|adjective|for one person, or single|ವೈಯಕ್ತಿಕ|Each student gets individual attention.|individual needs|personal|education|
+innocent|adjective|not guilty of a crime|ನಿರಪರಾಧಿ|The court said he was innocent.|an innocent child|blameless|academic|
+intelligent|adjective|good at learning and understanding|ಬುದ್ಧಿವಂತ|She is an intelligent girl.|an intelligent student|clever|personality|
+jealous|adjective|unhappy because someone has something that you want|ಅಸೂಯೆಯ|He felt jealous of his brother's success.|jealous of|envious|emotions|
+keen|adjective|very interested or eager|ಉತ್ಸಾಹಿ, ಆಸಕ್ತ|She is keen on cricket.|keen on|enthusiastic|emotions|
+legal|adjective|allowed by the law|ಕಾನೂನುಬದ್ಧ|Is it legal to park here?|a legal contract|lawful|academic|
+likely|adjective|probable, expected to happen|ಸಂಭವನೀಯ|It is likely to rain today.|very likely|probable|communication|
+loyal|adjective|always supporting your friends or your country|ನಿಷ್ಠಾವಂತ|He is a loyal friend.|a loyal customer|faithful|personality|
+major|adjective|very large or important|ಪ್ರಮುಖ|Traffic is a major problem in the city.|a major problem|main|workplace|
+mild|adjective|not strong or severe, gentle|ಸೌಮ್ಯ|The weather is mild in winter.|a mild fever|gentle|health|
+minor|adjective|small or not very important|ಚಿಕ್ಕ, ಅಲ್ಪ|It is only a minor problem.|a minor injury|small|health|
+mobile|adjective|able to move or be moved easily|ಚಲಿಸಬಲ್ಲ|A mobile phone is very useful.|a mobile phone|portable|technology|
+mysterious|adjective|strange and difficult to explain|ನಿಗೂಢ|A mysterious light appeared in the sky.|a mysterious person|puzzling|everyday|
+narrow|adjective|small in width|ಕಿರಿದಾದ|The road is too narrow for a bus.|a narrow street|thin|travel|
+native|adjective|connected with the place where you were born|ಸ್ಥಳೀಯ, ಮಾತೃ|Kannada is my native language.|a native speaker|local|education|
+nearby|adjective|not far away|ಹತ್ತಿರದ|There is a nearby shop.|a nearby village|close|travel|
+negative|adjective|bad or harmful, or saying no|ನಕಾರಾತ್ಮಕ|Try not to have a negative attitude.|a negative answer|pessimistic|emotions|
+noisy|adjective|making a lot of sound|ಗದ್ದಲದ|The classroom is very noisy.|a noisy street|loud|everyday|
+numerous|adjective|many|ಅನೇಕ|He has made numerous mistakes.|numerous times|many|academic|
+official|adjective|approved by someone in authority|ಅಧಿಕೃತ|He received an official letter.|an official document|formal|workplace|
+ordinary|adjective|normal, not special|ಸಾಮಾನ್ಯ|It was an ordinary day.|an ordinary person|usual|everyday|
+original|adjective|first, or not copied|ಮೂಲ, ಹೊಸ|This is the original painting.|an original idea|first|everyday|
+outdoor|adjective|done or used outside|ಹೊರಾಂಗಣ|We enjoy outdoor activities.|outdoor games|open-air|health|
+particular|adjective|special, or one in particular|ನಿರ್ದಿಷ್ಟ|Is there a particular dish you like?|a particular reason|specific|everyday|
+peaceful|adjective|quiet and calm|ಶಾಂತಿಯುತ|It is a peaceful village.|a peaceful place|calm|emotions|
+permanent|adjective|lasting for a very long time or for ever|ಶಾಶ್ವತ|He is looking for a permanent job.|a permanent job|lasting|workplace|
+personal|adjective|belonging to one person, or private|ವೈಯಕ್ತಿಕ|This is a personal matter.|personal information|private|everyday|
+physical|adjective|connected with the body|ದೈಹಿಕ|Physical exercise is good for your health.|physical exercise|bodily|health|
+popular|adjective|liked by many people|ಜನಪ್ರಿಯ|This is a popular song.|a popular place|well-liked|everyday|
+positive|adjective|good or hopeful, or saying yes|ಧನಾತ್ಮಕ|She has a positive attitude to work.|a positive attitude|optimistic|emotions|
+powerful|adjective|having a lot of strength or influence|ಶಕ್ತಿಶಾಲಿ|The new engine is very powerful.|a powerful engine|strong|everyday|
+practical|adjective|useful and sensible in real life|ವ್ಯಾವಹಾರಿಕ, ಪ್ರಾಯೋಗಿಕ|Give me some practical advice.|a practical idea|sensible|workplace|
+precious|adjective|worth a lot of money or very important to you|ಅಮೂಲ್ಯ|Time is precious.|precious stones|valuable|everyday|
+previous|adjective|coming before something|ಹಿಂದಿನ|Look at the previous page.|the previous year|earlier|education|
+private|adjective|not open to everyone|ಖಾಸಗಿ|This is a private party.|a private room|personal|everyday|
+professional|adjective|connected with a job that needs training, or done very well|ವೃತ್ತಿಪರ|She gave a professional answer.|a professional player|expert|workplace|
+proper|adjective|correct or suitable|ಸರಿಯಾದ|You need proper shoes for the hike.|a proper meal|correct|everyday|
+rapid|adjective|very quick|ತ್ವರಿತ|The city is growing at a rapid pace.|rapid growth|fast|workplace|
+rare|adjective|not often found or seen|ಅಪರೂಪದ|This bird is very rare.|a rare chance|uncommon|everyday|
+raw|adjective|not cooked, or in a natural state|ಹಸಿ|Do not eat raw meat.|raw vegetables|uncooked|health|
+reasonable|adjective|fair and sensible, or not too expensive|ನ್ಯಾಯಯುತ, ಸಮಂಜಸ|The price is reasonable.|a reasonable price|fair|workplace|
+recent|adjective|happening a short time ago|ಇತ್ತೀಚಿನ|Have you seen her recent film?|a recent event|latest|everyday|
+relaxed|adjective|calm and not worried|ನಿರಾಳವಾದ|She looked relaxed after the holiday.|feel relaxed|calm|emotions|
+remarkable|adjective|unusual and worth noticing|ಗಮನಾರ್ಹ|It was a remarkable achievement.|a remarkable story|extraordinary|everyday|
+remote|adjective|far away, or distant|ದೂರದ|They live in a remote village.|a remote area|distant|travel|
+romantic|adjective|connected with love|ರೋಮ್ಯಾಂಟಿಕ್, ಪ್ರೇಮಸಂಬಂಧಿ|They had a romantic dinner by the lake.|a romantic film|loving|relationships|
+rural|adjective|connected with the countryside|ಗ್ರಾಮೀಣ|Life in a rural area is quiet.|a rural area|country|everyday|
+actually|adverb|in fact, really|ವಾಸ್ತವವಾಗಿ|I actually prefer tea to coffee.|what actually happened|in fact|communication|
+apparently|adverb|according to what people say or what seems to be true|ಕಾಣುವಂತೆ|Apparently, the train is late.|apparently so|seemingly|communication|
+certainly|adverb|definitely, without doubt|ಖಂಡಿತವಾಗಿ|I will certainly help you.|certainly not|definitely|communication|
+clearly|adverb|in a way that is easy to see, hear or understand|ಸ್ಪಷ್ಟವಾಗಿ|Please speak clearly.|clearly visible|plainly|communication|
+completely|adverb|in every way, fully|ಸಂಪೂರ್ಣವಾಗಿ|I completely forgot about the meeting.|completely different|totally|everyday|
+constantly|adverb|all the time, again and again|ನಿರಂತರವಾಗಿ|The phone rings constantly.|constantly changing|continually|everyday|
+directly|adverb|without anything in between, or in a straight line|ನೇರವಾಗಿ|Go directly to the office.|directly opposite|straight|everyday|
+eventually|adverb|at the end of a long time|ಕೊನೆಗೆ|Eventually, we found the right house.|eventually succeed|finally|everyday|
+extremely|adverb|to a very high degree|ಅತ್ಯಂತ|The soup is extremely hot.|extremely difficult|very|everyday|
+fortunately|adverb|by good luck|ಅದೃಷ್ಟವಶಾತ್|Fortunately, no one was hurt.|fortunately for|luckily|communication|
+frequently|adverb|often|ಆಗಾಗ|He frequently visits his grandmother.|very frequently|often|everyday|
+generally|adverb|in most cases, usually|ಸಾಮಾನ್ಯವಾಗಿ|Generally, shops open at ten.|generally speaking|usually|communication|
+gradually|adverb|slowly and little by little|ಕ್ರಮೇಣ|Gradually, the rain stopped.|gradually improve|slowly|everyday|
+hardly|adverb|almost not|ಕಷ್ಟದಿಂದ, ಅಷ್ಟಾಗಿ ಇಲ್ಲ|I can hardly hear you.|hardly ever|barely|communication|
+immediately|adverb|at once, without delay|ತಕ್ಷಣ|Please call me immediately.|immediately after|at once|everyday|
+naturally|adverb|of course, or in a normal way|ಸಹಜವಾಗಿ|Naturally, she was worried about her son.|speak naturally|of course|communication|
+normally|adverb|usually, in the usual way|ಸಾಮಾನ್ಯವಾಗಿ|I normally walk to work.|normally open|usually|everyday|
+obviously|adverb|in a way that is easy to see or understand|ಸ್ಪಷ್ಟವಾಗಿ|Obviously, he was not happy.|obviously not|clearly|communication|
+originally|adverb|at first, in the beginning|ಮೂಲತಃ|She is originally from Kerala.|originally from|at first|travel|
+particularly|adverb|especially|ವಿಶೇಷವಾಗಿ|I particularly like the blue one.|particularly good|especially|communication|
+personally|adverb|as far as you yourself are concerned|ವೈಯಕ್ತಿಕವಾಗಿ|Personally, I think it is a good plan.|personally speaking|in person|communication|
+possibly|adverb|perhaps, maybe|ಬಹುಶಃ|I could possibly come on Friday.|quite possibly|maybe|communication|
+previously|adverb|before now|ಈ ಹಿಂದೆ|He previously worked in a bank.|as previously mentioned|earlier|workplace|
+properly|adverb|in a correct or suitable way|ಸರಿಯಾಗಿ|Please close the door properly.|work properly|correctly|everyday|
+rapidly|adverb|very quickly|ಶೀಘ್ರವಾಗಿ|The city is growing rapidly.|change rapidly|quickly|everyday|
+relatively|adverb|when compared with something else|ತುಲನಾತ್ಮಕವಾಗಿ|The exam was relatively easy.|relatively small|fairly|academic|
+seriously|adverb|in a serious way|ಗಂಭೀರವಾಗಿ|He was seriously injured.|take seriously|badly|everyday|
+slightly|adverb|a little|ಸ್ವಲ್ಪ|I am slightly tired.|slightly different|a little|everyday|
+totally|adverb|completely|ಸಂಪೂರ್ಣವಾಗಿ|I totally agree with you.|totally different|completely|everyday|
+typically|adverb|in the usual way, as expected|ಸಾಮಾನ್ಯವಾಗಿ|Typically, the shop opens at nine.|typically British|normally|communication|
+unfortunately|adverb|by bad luck|ದುರದೃಷ್ಟವಶಾತ್|Unfortunately, the flight was cancelled.|unfortunately for|sadly|communication|
+widely|adverb|in many places or by many people|ವ್ಯಾಪಕವಾಗಿ|The song is widely known.|widely used|generally|communication|

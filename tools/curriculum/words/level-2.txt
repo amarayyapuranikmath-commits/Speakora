@@ -1,0 +1,79 @@
+# Level 2 (elementary). word|pos|meaning|example|A: line|B: line|synonyms|antonyms
+accident|noun|something bad that happens by chance, often with damage or injury|There was an accident on the main road.|A: Why are you late?|B: There was an accident on the road.||
+advice|noun|words that tell someone what they should do|My teacher gave me good advice.|A: I need some advice about my job.|B: I will help if I can.|suggestion|
+argue|verb|to speak angrily with someone because you disagree|My brothers argue about everything.|A: Do you argue with your sister?|B: Sometimes, but we make up quickly.|quarrel|
+attend|verb|to go to an event, class or meeting|I attend an English class on Mondays.|A: Will you attend the meeting?|B: Yes, I will be there at ten.||
+available|adjective|free to use or to meet; not busy|Is this seat available?|A: Are you available on Friday?|B: Yes, I am free after three.|free|busy
+bored|adjective|feeling tired and unhappy because something is not interesting|I am bored. There is nothing to do.|A: Why are you bored?|B: The film is very long.||interested
+careful|adjective|thinking about what you do so you do not make a mistake or have an accident|Be careful with that hot pan.|A: The floor is wet.|B: Thanks, I will be careful.||careless
+celebrate|verb|to do something special because it is a happy day or event|We celebrate my birthday with a big dinner.|A: How do you celebrate New Year?|B: We have a party with friends.||
+century|noun|a period of one hundred years|This building is more than a century old.|A: How old is this temple?|B: It is over three centuries old.||
+collect|verb|to bring things together, or to keep things as a hobby|My brother likes to collect old coins.|A: What do you collect?|B: I collect stamps from different countries.|gather|
+complain|verb|to say that you are not happy about something|Guests complain when the room is dirty.|A: Why did you complain?|B: The food was cold.||
+crowded|adjective|full of people|The bus is very crowded in the morning.|A: Is the market busy today?|B: Yes, it is very crowded.|packed|empty
+culture|noun|the customs, ideas and way of life of a group of people|I like to learn about a new culture.|A: What do you like about Japan?|B: Its culture and food.||
+decide|verb|to choose after thinking|I cannot decide what to eat.|A: Have you decided?|B: Yes, I will have the fish.|choose|
+dangerous|adjective|likely to hurt you or cause harm|It is dangerous to swim in the river.|A: Can I cross here?|B: No, it is dangerous.|unsafe|safe
+discount|noun|a lower price than usual|There is a ten percent discount today.|A: Is there a discount on this shirt?|B: Yes, it is half price.||
+discover|verb|to find or learn something for the first time|I discover new words every day.|A: What did you discover?|B: A small cafe near my home.|find|
+event|noun|something that happens, especially something important or planned|The school has a big event on Friday.|A: Are you coming to the event?|B: Yes, I bought a ticket.||
+excited|adjective|very happy and full of energy about something that will happen|I am excited about my trip.|A: Are you ready for the trip?|B: Yes, I am so excited.||
+expensive|adjective|costing a lot of money|This phone is too expensive for me.|A: Do you like this watch?|B: It is nice, but it is expensive.|costly|cheap
+foreign|adjective|from or in another country|She speaks three foreign languages.|A: Do you like foreign films?|B: Yes, with English subtitles.||local
+forget|verb|to not remember something|I forget names very easily.|A: Did you bring the book?|B: Sorry, I forgot it at home.||remember
+forgive|verb|to stop being angry with someone who did something wrong|Please forgive me. I am sorry.|A: I am sorry I am late.|B: It is fine. I forgive you.||
+increase|verb|to become bigger in number or amount|Prices increase every year.|A: Did your salary increase?|B: Yes, it went up by five percent.|rise|decrease
+improve|verb|to become better, or to make something better|I want to improve my English.|A: How can I improve my speaking?|B: Talk to people every day.||
+introduce|verb|to tell people each other's names when they meet for the first time|Let me introduce my friend Ravi.|A: Do you know Maria?|B: No. Can you introduce us?||
+island|noun|a piece of land with water all around it|We spent a week on a small island.|A: Where did you go on holiday?|B: To an island in the south.||
+join|verb|to become a member of a group, or to do something with others|Would you like to join us for lunch?|A: Can I join your team?|B: Of course, welcome.||
+local|adjective|belonging to the place where you live|I buy vegetables from the local market.|A: Where do you eat?|B: At a local restaurant near my house.||foreign
+nervous|adjective|worried and a little afraid about something|I am nervous about my interview.|A: Are you nervous?|B: A little, but I am ready.|anxious|calm
+order|verb|to ask for food or drink in a restaurant, or to ask a shop to send you something|I would like to order a coffee, please.|A: Are you ready to order?|B: Yes, I will have the soup.||
+prepare|verb|to get ready, or to make something ready|I prepare for my exam every evening.|A: What are you doing?|B: I am preparing dinner.||
+prefer|verb|to like one thing better than another|I prefer tea to coffee.|A: Do you want tea or coffee?|B: I prefer tea.||
+promise|verb|to say that you will definitely do something|I promise to call you tomorrow.|A: Will you come on time?|B: I promise.||
+protect|verb|to keep someone or something safe|A hat can protect you from the sun.|A: Why do you wear a helmet?|B: To protect my head.|defend|
+refuse|verb|to say that you will not do or accept something|Please do not refuse a gift.|A: Did she accept the offer?|B: No, she refused.||accept
+search|verb|to look carefully for something|I search for my keys every morning.|A: What are you doing?|B: I am searching for my glasses.|look for|
+spell|verb|to say or write the letters of a word in the correct order|How do you spell your name?|A: How do you spell your surname?|B: S-H-A-R-M-A.||
+tour|noun|a trip to visit different places, often with a guide|We went on a tour of the old city.|A: How was your tour?|B: Great. The guide knew a lot.||
+worry|verb|to think about problems and feel afraid or unhappy|Please do not worry. Everything is fine.|A: I did not sleep well.|B: Do not worry. You will feel better soon.||
+# --- batch 2
+airport|noun|a place where planes take off and land|We arrive at the airport two hours early.|A: When is your flight?|B: At six. I must be at the airport by four.||
+bank|noun|a place where you keep your money safely|I need to go to the bank today.|A: Where can I get cash?|B: There is a bank on Main Street.||
+bridge|noun|a structure that lets people cross a river or road|We walked across the bridge.|A: How do I get to the other side?|B: Use the bridge near the station.||
+camera|noun|a machine that takes photographs|I bought a new camera for my trip.|A: Did you take photos?|B: Yes, I took many with my camera.||
+cinema|noun|a place where people go to watch films|We go to the cinema on Saturdays.|A: Shall we see a film?|B: Good idea. The cinema is near here.||
+customer|noun|a person who buys things or services from a shop|The shop is open for every customer at nine.|A: Is the shop busy?|B: Yes, many customers came today.|client|
+dentist|noun|a doctor who looks after your teeth|I have an appointment with the dentist.|A: Why are you worried?|B: I am going to the dentist tomorrow.||
+diary|noun|a book where you write about your day or your plans|I write in my diary every night.|A: Do you keep a diary?|B: Yes, I write one page a day.||
+direction|noun|the way that someone or something moves or faces|Which direction is the station?|A: Which direction should I go?|B: Go north for two streets.||
+engine|noun|the part of a car or machine that makes it move|The engine is making a strange noise.|A: Why will the car not start?|B: Maybe there is a problem with the engine.||
+exam|noun|a formal test of what you know|I have an English exam on Friday.|A: Are you ready for the exam?|B: I think so. I studied all week.|test|
+factory|noun|a building where things are made by machines|My uncle works in a car factory.|A: Where do you work?|B: In a clothes factory.||
+farm|noun|land where people grow food or keep animals|My grandparents live on a farm.|A: What do they grow?|B: Rice and vegetables on their farm.||
+fever|noun|a body temperature that is higher than normal|The child has a fever.|A: How do you feel?|B: Not well. I think I have a fever.||
+flight|noun|a journey in a plane|Our flight leaves at nine o'clock.|A: How was your flight?|B: Long, but comfortable.||
+guest|noun|a person who is invited to your home or to an event|We have a guest for dinner tonight.|A: Who is coming for dinner?|B: Two guests from my office.|visitor|host
+health|noun|how well your body and mind are|Good food is important for your health.|A: How is your health?|B: Much better, thank you.||
+holiday|noun|a time when you do not work or go to school|We go to the beach on holiday every year.|A: Where did you go on holiday?|B: To the mountains.|vacation|
+illness|noun|a sickness of the body or mind|He stayed home because of a long illness.|A: Where is Ravi?|B: He is at home with an illness.|sickness|health
+invitation|noun|a request to come to an event|I got an invitation to her wedding.|A: Did you get the invitation?|B: Yes, I will be there.||
+luggage|noun|the bags and cases that you take on a journey|Please do not leave your luggage here.|A: Is this your luggage?|B: Yes, thank you.|baggage|
+medicine|noun|something that you take to treat an illness|Take this medicine twice a day.|A: Did you take your medicine?|B: Yes, after lunch.||
+member|noun|a person who belongs to a group or club|She is a member of the book club.|A: Are you a member of the gym?|B: Yes, I joined last month.||
+mirror|noun|a glass in which you can see yourself|I look in the mirror before I leave.|A: Do I look OK?|B: Yes, check the mirror.||
+passport|noun|an official book that you need to travel to other countries|Please show your passport.|A: Do you have your passport?|B: Yes, it is in my bag.||
+pocket|noun|a small bag sewn into clothes|I put my keys in my pocket.|A: Where is your phone?|B: In my pocket.||
+prize|noun|something you get for winning or doing very well|She won the first prize in the competition.|A: What did you win?|B: A prize for the best story.|award|
+queue|noun|a line of people waiting for something|There is a long queue at the bank.|A: Why are you late?|B: There was a long queue at the shop.|line|
+repair|verb|to fix something that is broken|I need to repair my bicycle.|A: Can you repair this phone?|B: Yes, it will take one hour.|fix|break
+request|noun|an act of asking politely for something|I made a request for a day off.|A: Did they accept your request?|B: Yes, they said it was fine.||
+salary|noun|the money you get every month for your job|My salary is paid on the first of the month.|A: Is your salary good?|B: Yes, I am happy with it.|pay|
+shoulder|noun|the part of your body between your neck and your arm|My shoulder hurts after the long flight.|A: What is wrong?|B: I have a pain in my shoulder.||
+surprise|noun|something that you did not expect|The party was a big surprise.|A: Did you know about the party?|B: No, it was a complete surprise.||
+tradition|noun|a custom that people have followed for a long time|Eating sweets at the festival is a tradition.|A: What is your family tradition?|B: We cook together every Sunday.|custom|
+uniform|noun|special clothes that people wear for a job or school|Students must wear a uniform.|A: Do you wear a uniform?|B: Yes, at school and at work.||
+volunteer|noun|a person who does a job without being paid|She works as a volunteer at the hospital.|A: Who helps at the event?|B: Many volunteers from the college.||
+available|adjective|free to use or to meet|The doctor is available at three.|A: Is the room available?|B: Yes, from Monday.||

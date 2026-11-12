@@ -1,0 +1,538 @@
+{
+  "g1.01": {
+    "definition": "A sentence is a group of words with a subject and a verb that expresses a complete idea.",
+    "details": ["English word order is fixed: the subject usually comes before the verb, and the object comes after the verb.", "A sentence starts with a capital letter and ends with a full stop, a question mark or an exclamation mark.", "Adjectives, adverbs and places add information but do not change the basic order: Subject + Verb + Object + Place + Time."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["reads", "books", "every", "maria", "day"], "answers": ["Maria reads books every day."], "why": "Subject (Maria) + verb (reads) + object (books) + time (every day)."},
+      {"type": "correct", "prompt": "Correct the sentence: Drinks tea she.", "answers": ["She drinks tea."], "why": "The order is subject, verb, object: She drinks tea."}
+    ]
+  },
+  "g1.02": {
+    "definition": "Parts of speech are the types of words (noun, pronoun, verb, adjective, adverb, preposition, conjunction, interjection), grouped by the job they do in a sentence.",
+    "details": ["A word can have more than one job: run is a verb in I run every day and a noun in a morning run.", "To find the part of speech, look at what the word does in the sentence, not only at how it looks.", "Knowing the parts of speech helps you build correct sentences and understand grammar explanations."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["speaks", "young", "the", "clearly", "teacher"], "answers": ["The young teacher speaks clearly."], "why": "The (article) + young (adjective) + teacher (noun) + speaks (verb) + clearly (adverb)."},
+      {"type": "correct", "prompt": "Correct the sentence: She sings beautiful.", "answers": ["She sings beautifully."], "why": "An adverb (beautifully) describes the verb sings."}
+    ]
+  },
+  "g1.03": {
+    "definition": "A noun is a word that names a person, a place, a thing or an idea.",
+    "details": ["Countable nouns have a plural (book, books) and can take a, an or a number. Uncountable nouns (water, advice, information) have no plural and take some, much or a piece of.", "Proper nouns name particular people and places (Ravi, Mysuru, India) and start with a capital letter.", "Abstract nouns name ideas and feelings: happiness, freedom, time."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["needs", "some", "advice", "she"], "answers": ["She needs some advice."], "why": "Advice is uncountable, so use some."},
+      {"type": "correct", "prompt": "Correct the sentence: I need an advice.", "answers": ["I need some advice.", "I need a piece of advice."], "why": "Advice is uncountable: it has no a/an and no plural."}
+    ]
+  },
+  "g1.04": {
+    "definition": "A pronoun takes the place of a noun so that we do not have to repeat it.",
+    "details": ["Subject pronouns (I, you, he, she, it, we, they) come before the verb. Object pronouns (me, you, him, her, it, us, them) come after the verb or a preposition.", "Possessive pronouns (mine, yours, his, hers, ours, theirs) stand alone: This book is mine.", "When you talk about yourself and another person, name yourself last: My friend and I."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["like", "i", "my", "football", "and", "friend"], "answers": ["My friend and I like football."], "why": "Name the other person first and yourself last: My friend and I."},
+      {"type": "correct", "prompt": "Correct the sentence: Me and my friend like football.", "answers": ["My friend and I like football."], "why": "Use the subject pronoun I, and put it last."}
+    ]
+  },
+  "g1.05": {
+    "definition": "A verb is a word that shows an action or a state.",
+    "details": ["Action verbs (run, eat, write) show what someone does. State verbs (be, have, know, like) show a condition or a feeling.", "The base form is the simple form (go). With he, she and it the present simple takes -s: she goes.", "Every sentence needs at least one verb. Some verbs are irregular: go, went, gone."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["in", "work", "office", "an", "i"], "answers": ["I work in an office."], "why": "Subject + verb + place."},
+      {"type": "correct", "prompt": "Correct the sentence: She go to school.", "answers": ["She goes to school."], "why": "With she, add -es to go."}
+    ]
+  },
+  "g1.06": {
+    "definition": "An adjective is a word that describes a noun.",
+    "details": ["In English the adjective comes before the noun (a red car) or after be (the car is red).", "Adjectives do not change for singular or plural: a blue pen, two blue pens.", "When there are several adjectives, opinion usually comes before size, age and colour: a lovely small old blue bag."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["has", "phone", "new", "a", "she"], "answers": ["She has a new phone."], "why": "The adjective new comes before the noun phone."},
+      {"type": "correct", "prompt": "Correct the sentence: I have two blues pens.", "answers": ["I have two blue pens."], "why": "Adjectives never take a plural -s."}
+    ]
+  },
+  "g1.07": {
+    "definition": "An adverb is a word that tells us how, when, where or how often something happens.",
+    "details": ["Many adverbs of manner are made by adding -ly to an adjective: slow, slowly; careful, carefully.", "Adverbs of frequency (always, usually, often, sometimes, never) go before the main verb but after be: I often walk. She is always late.", "Some adverbs have the same form as the adjective: fast, hard, late."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["to", "often", "go", "the", "i", "gym"], "answers": ["I often go to the gym."], "why": "An adverb of frequency goes before the main verb."},
+      {"type": "correct", "prompt": "Correct the sentence: I go often to the gym.", "answers": ["I often go to the gym."], "why": "Put often before the main verb."}
+    ]
+  },
+  "g1.08": {
+    "definition": "Articles (a, an, the) are small words that come before a noun to show whether we mean any one or a particular one.",
+    "details": ["Use a before a consonant sound (a book) and an before a vowel sound (an apple, an hour).", "Use the when the speaker and the listener know which one: Close the door. Also use the for unique things: the sun, the moon.", "Do not use an article with plural or uncountable nouns when you speak in general: I like music. Dogs are friendly."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["is", "engineer", "an", "she"], "answers": ["She is an engineer."], "why": "Engineer starts with a vowel sound, so use an."},
+      {"type": "correct", "prompt": "Correct the sentence: She is a engineer.", "answers": ["She is an engineer."], "why": "Use an before a vowel sound."}
+    ]
+  },
+  "g1.13": {
+    "definition": "A determiner is a word that comes before a noun and shows which one, whose one, or how many.",
+    "details": ["Articles, demonstratives (this, that, these, those), possessives (my, your, his), and quantifiers (some, any, many, much) are all determiners.", "Normally only one determiner is used before a noun: my book or the book, not the my book.", "Some determiners go only with certain nouns: many with plural countable nouns, much with uncountable nouns, every with singular nouns."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["are", "shoes", "those", "my"], "answers": ["Those are my shoes."], "why": "Those is the plural of that. It points to things that are far away."},
+      {"type": "correct", "prompt": "Correct the sentence: I have many water.", "answers": ["I have a lot of water.", "I have some water."], "why": "Water is uncountable, so many is wrong."}
+    ]
+  },
+  "g1.09": {
+    "definition": "Singular means one, and plural means more than one.",
+    "details": ["Most nouns add -s. Nouns ending in s, x, ch or sh add -es. A consonant + y changes to -ies (city, cities).", "Irregular plurals do not follow the rule: man, men; woman, women; child, children; person, people; tooth, teeth.", "Some nouns are always plural (scissors, trousers) and some do not change (sheep, fish)."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["boxes", "three", "there", "are", "on", "the", "table"], "answers": ["There are three boxes on the table."], "why": "Box is a noun ending in x, so the plural is boxes."},
+      {"type": "correct", "prompt": "Correct the sentence: I have two childs.", "answers": ["I have two children."], "why": "The plural of child is children."}
+    ]
+  },
+  "g1.14": {
+    "definition": "An interjection is a word that shows a sudden feeling or reaction.",
+    "details": ["Common interjections: wow (surprise), ouch (pain), oops (a small mistake), hurray (joy), ugh (disgust), hey (to get attention).", "They are mostly used in speaking and informal writing. In formal writing use full sentences instead.", "An interjection is usually separate from the rest of the sentence and is followed by an exclamation mark or a comma."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["lost", "oh", "key", "i", "my", "no"], "answers": ["Oh no I lost my key."], "why": "The interjection Oh no comes first, then the sentence."},
+      {"type": "correct", "prompt": "Correct the sentence: Wow I love this song", "answers": ["Wow! I love this song.", "Wow, I love this song."], "why": "Use ! or a comma after the interjection, and a full stop at the end."}
+    ]
+  },
+  "g1.10": {
+    "definition": "The subject is who or what the sentence is about, and the predicate says what the subject does or is.",
+    "details": ["The subject is usually a noun or pronoun. The predicate always contains the verb.", "To find the subject ask Who or what + verb? Who plays the piano? My neighbour.", "A complete sentence needs both parts. A group of words without a main verb, such as Because I was tired, is not a complete sentence."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["plays", "piano", "my", "the", "neighbour"], "answers": ["My neighbour plays the piano."], "why": "Subject: my neighbour. Predicate: plays the piano."},
+      {"type": "correct", "prompt": "Correct the sentence: Play football my brother.", "answers": ["My brother plays football."], "why": "The subject my brother comes first, and the verb agrees: plays."}
+    ]
+  },
+  "g1.11": {
+    "definition": "The verb must agree with its subject: a singular subject takes a singular verb and a plural subject takes a plural verb.",
+    "details": ["In the present simple, add -s or -es to the verb after he, she, it or a singular noun: my brother lives.", "Be changes with the subject: I am, you are, he/she/it is, we/they are; was and were in the past.", "Words between the subject and the verb do not change the verb: The box of apples is on the table (the subject is box)."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["brother", "lives", "my", "in", "dubai"], "answers": ["My brother lives in Dubai."], "why": "My brother is singular, so the verb takes -s: lives."},
+      {"type": "correct", "prompt": "Correct the sentence: The students is ready.", "answers": ["The students are ready."], "why": "Students is plural, so use are."}
+    ]
+  },
+  "g1.12": {
+    "definition": "Forming a sentence means joining a subject, a verb and other information in the right order, with correct punctuation.",
+    "details": ["Start with a capital letter and end with the right punctuation mark.", "Use and, but, so and because to join short sentences, with a comma before and, but or so when both parts are full clauses.", "Check three things: Is there a subject? Is there a verb? Does the verb agree with the subject?"],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["live", "i", "in", "bengaluru", "and", "i", "work", "in", "a", "school"], "answers": ["I live in Bengaluru and I work in a school."], "why": "Two short sentences joined with and."},
+      {"type": "correct", "prompt": "Correct the sentence: i am tired but i will finish", "answers": ["I am tired, but I will finish."], "why": "Use capital letters for I and the first word, a comma before but, and a full stop."}
+    ]
+  },
+  "g2.01": {
+    "definition": "The present simple describes habits, routines, facts and things that are always true.",
+    "details": ["Form: the base verb, with -s or -es after he, she, it (she works, he watches).", "Negatives and questions use do or does: I do not like tea. Does she work here?", "Common time words: always, usually, often, sometimes, never, every day, on Mondays."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["to", "walk", "school", "i", "every", "day"], "answers": ["I walk to school every day."], "why": "A routine: present simple with every day."},
+      {"type": "correct", "prompt": "Correct the sentence: She don't like coffee.", "answers": ["She doesn't like coffee.", "She does not like coffee."], "why": "With she use doesn't."}
+    ]
+  },
+  "g2.02": {
+    "definition": "The present continuous describes actions happening now, temporary situations and fixed arrangements in the near future.",
+    "details": ["Form: am, is or are + verb-ing: I am cooking. She is reading.", "Do not use it with state verbs such as know, like, want and understand: I know the answer, not I am knowing.", "Common time words: now, at the moment, currently, today, this week."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["cooking", "am", "dinner", "i", "now"], "answers": ["I am cooking dinner now."], "why": "am + verb-ing for an action happening now."},
+      {"type": "correct", "prompt": "Correct the sentence: I am knowing the answer.", "answers": ["I know the answer."], "why": "Know is a state verb and is not used in the continuous."}
+    ]
+  },
+  "g2.03": {
+    "definition": "The present perfect connects the past with the present. It is formed with have or has and the past participle.",
+    "details": ["Use it for life experiences (I have been to Goa), recent events with a result now (I have lost my keys) and situations that began in the past and continue (I have lived here for ten years).", "Do not use it with a finished time (yesterday, last week, in 2019). Use the past simple instead.", "Use for with a period of time and since with a starting point: for two years, since 2022."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["visited", "have", "twice", "i", "mysuru"], "answers": ["I have visited Mysuru twice."], "why": "have + past participle for an experience."},
+      {"type": "correct", "prompt": "Correct the sentence: I have seen him yesterday.", "answers": ["I saw him yesterday."], "why": "Yesterday is a finished time, so use the past simple."}
+    ]
+  },
+  "g2.04": {
+    "definition": "The present perfect continuous shows how long an action has been in progress up to now. It is formed with have or has been and verb-ing.",
+    "details": ["Use it for an action that started in the past and is still going on: I have been studying for two hours.", "It can also explain a present result: Her eyes are red because she has been crying.", "It is not used with state verbs. Use the present perfect instead."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["studying", "have", "english", "i", "been", "two", "years", "for"], "answers": ["I have been studying English for two years."], "why": "have been + verb-ing + for + a period of time."},
+      {"type": "correct", "prompt": "Correct the sentence: I am waiting here since one hour.", "answers": ["I have been waiting here for one hour."], "why": "Use the present perfect continuous with for (a period)."}
+    ]
+  },
+  "g2.05": {
+    "definition": "The past simple describes finished actions at a definite time in the past.",
+    "details": ["Regular verbs add -ed (walked). Irregular verbs have special forms (go, went; buy, bought).", "Negatives and questions use did + the base verb: I did not go. Did you go?", "Common time words: yesterday, last week, in 2020, two days ago."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["a", "watched", "film", "night", "i", "last"], "answers": ["I watched a film last night."], "why": "Past simple with a finished time (last night)."},
+      {"type": "correct", "prompt": "Correct the sentence: Did you went there?", "answers": ["Did you go there?"], "why": "After did, use the base verb go."}
+    ]
+  },
+  "g2.06": {
+    "definition": "The past continuous describes an action that was in progress at a moment in the past. It is formed with was or were and verb-ing.",
+    "details": ["Use it for a longer background action that was interrupted by a shorter one: I was cooking when he called.", "Use it for two actions happening at the same time: She was reading while he was cooking.", "State verbs usually take the past simple, not the past continuous."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["was", "when", "i", "he", "cooking", "called"], "answers": ["I was cooking when he called."], "why": "A longer action (was cooking) interrupted by a shorter one (called)."},
+      {"type": "correct", "prompt": "Correct the sentence: I was cook when he called.", "answers": ["I was cooking when he called."], "why": "After was, use the -ing form."}
+    ]
+  },
+  "g2.07": {
+    "definition": "The past perfect shows that one past action happened before another past action. It is formed with had and the past participle.",
+    "details": ["Use it to make clear which of two past events came first: When I arrived, the film had started.", "Common words with it: already, just, before, by the time, after.", "Do not use it when only one past event is mentioned or when the order is already clear."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["the", "started", "film", "had", "arrived", "i", "when"], "answers": ["When I arrived the film had started."], "why": "The film started first, so use had started."},
+      {"type": "correct", "prompt": "Correct the sentence: When I got there, the shop already closed.", "answers": ["When I got there, the shop had already closed."], "why": "The shop closed before I got there, so use the past perfect."}
+    ]
+  },
+  "g2.08": {
+    "definition": "The past perfect continuous shows how long an action had been going on before another moment in the past. It is formed with had been and verb-ing.",
+    "details": ["Use it to give the reason for a past situation: He was tired because he had been working all night.", "It is often used with for and since: She had been waiting for an hour when the bus came.", "Like other continuous tenses, it is not used with state verbs."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["waiting", "had", "been", "i", "hour", "an", "for"], "answers": ["I had been waiting for an hour."], "why": "had been + verb-ing + for + a period of time."},
+      {"type": "correct", "prompt": "Correct the sentence: I had been wait for an hour.", "answers": ["I had been waiting for an hour."], "why": "After had been, use the -ing form."}
+    ]
+  },
+  "g2.09": {
+    "definition": "The future simple uses will and the base verb for predictions, promises, offers and quick decisions.",
+    "details": ["Use going to for plans made before you speak and for predictions based on evidence: Look at those clouds, it is going to rain.", "Will is the same for every subject: I will, she will, they will.", "After will use the base verb without to: I will call you."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["will", "with", "help", "you", "i", "that"], "answers": ["I will help you with that."], "why": "will + base verb for an offer."},
+      {"type": "correct", "prompt": "Correct the sentence: I will to call you.", "answers": ["I will call you."], "why": "Do not use to after will."}
+    ]
+  },
+  "g2.10": {
+    "definition": "The future continuous describes an action that will be in progress at a certain time in the future. It is formed with will be and verb-ing.",
+    "details": ["Use it for a moment in the future: This time tomorrow I will be flying to Delhi.", "It can ask politely about someone's plans: Will you be using the car tonight?", "It is not used with state verbs."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["be", "tomorrow", "working", "will", "i", "evening"], "answers": ["I will be working tomorrow evening."], "why": "will be + verb-ing for an action in progress in the future."},
+      {"type": "correct", "prompt": "Correct the sentence: I will be work tomorrow evening.", "answers": ["I will be working tomorrow evening."], "why": "After will be, use the -ing form."}
+    ]
+  },
+  "g2.11": {
+    "definition": "The future perfect describes an action that will be finished before a certain time in the future. It is formed with will have and the past participle.",
+    "details": ["Common time expressions: by Friday, by 2030, by the time you arrive.", "Use it to say what will be completed: By Friday I will have finished the report.", "The negative is will not have + past participle."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["finished", "by", "will", "have", "i", "friday", "the", "report"], "answers": ["By Friday I will have finished the report."], "why": "will have + past participle with by + a future time."},
+      {"type": "correct", "prompt": "Correct the sentence: I will have finish by Friday.", "answers": ["I will have finished by Friday."], "why": "After will have, use the past participle."}
+    ]
+  },
+  "g2.12": {
+    "definition": "The future perfect continuous shows how long an action will have been going on at a point in the future. It is formed with will have been and verb-ing.",
+    "details": ["It stresses the length of time: By June I will have been learning English for three years.", "It is rare in everyday speech and is mostly used with for and by.", "It is not used with state verbs."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["been", "english", "by", "years", "will", "have", "three", "learning", "for", "i", "june"], "answers": ["By June I will have been learning English for three years."], "why": "will have been + verb-ing + for + a period of time."},
+      {"type": "correct", "prompt": "Correct the sentence: By June I will have been learn English for two years.", "answers": ["By June I will have been learning English for two years."], "why": "After will have been, use the -ing form."}
+    ]
+  },
+  "g3.01": {
+    "definition": "Helping verbs (be, do, have) combine with a main verb to form tenses, questions and negatives.",
+    "details": ["Be is used for continuous tenses and the passive: She is studying. It was made in India.", "Do is used for questions and negatives in the present and past simple: Do you work here? I did not go.", "Have is used for perfect tenses: They have arrived."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["is", "for", "an", "studying", "she", "exam"], "answers": ["She is studying for an exam."], "why": "is is the helping verb and studying is the main verb."},
+      {"type": "correct", "prompt": "Correct the sentence: She is work in a bank.", "answers": ["She works in a bank.", "She is working in a bank."], "why": "Use works, or the helping verb is with working."}
+    ]
+  },
+  "g3.13": {
+    "definition": "Question formation is the way we change word order, and sometimes add do, does or did, to ask a question.",
+    "details": ["For yes/no questions put the helping verb before the subject: She can swim becomes Can she swim?", "Use do, does or did when there is no other helping verb, and keep the main verb in the base form.", "In a subject question (Who called?) the word order does not change and do, does and did are not used."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a question.", "words": ["do", "where", "live", "you"], "answers": ["Where do you live?"], "why": "Question word + do + subject + base verb."},
+      {"type": "correct", "prompt": "Correct the sentence: Where you live?", "answers": ["Where do you live?"], "why": "Add do before the subject you."}
+    ]
+  },
+  "g3.02": {
+    "definition": "A modal verb is a helping verb that adds meaning such as ability, permission, possibility, advice or obligation.",
+    "details": ["The modal verbs are can, could, may, might, must, should, will and would.", "A modal is followed by the base verb without to, and it does not change with he, she or it: She can swim.", "Negatives: cannot or can't, must not or mustn't, should not or shouldn't. In questions put the modal before the subject."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["can", "french", "speak", "she"], "answers": ["She can speak French."], "why": "Subject + modal + base verb."},
+      {"type": "correct", "prompt": "Correct the sentence: She can speaks French.", "answers": ["She can speak French."], "why": "After a modal verb, use the base form."}
+    ]
+  },
+  "g3.03": {
+    "definition": "A WH question asks for information. It starts with a question word such as who, what, where, when, why, which, whose or how.",
+    "details": ["Who asks about people, what about things, where about places, when about time, why about reasons and how about the way something is done.", "In most tenses the order is: question word + helping verb + subject + main verb.", "How can combine with other words: how much, how many, how long, how often, how old."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a question.", "words": ["do", "work", "where", "you"], "answers": ["Where do you work?"], "why": "Question word + do + subject + base verb."},
+      {"type": "correct", "prompt": "Correct the sentence: What time you wake up?", "answers": ["What time do you wake up?"], "why": "Add the helping verb do before the subject."}
+    ]
+  },
+  "g3.04": {
+    "definition": "A yes/no question can be answered with yes or no. It starts with a helping verb.",
+    "details": ["Put be, do, have or a modal before the subject: Are you ready? Do you like pizza? Can she drive?", "Short answers repeat the helping verb: Yes, I do. No, she can't.", "In writing, show a question with the correct word order and a question mark, not only with a rising voice."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a question.", "words": ["like", "you", "do", "pizza"], "answers": ["Do you like pizza?"], "why": "Do + subject + base verb."},
+      {"type": "correct", "prompt": "Correct the sentence: You like coffee?", "answers": ["Do you like coffee?"], "why": "Start a yes/no question with the helping verb do."}
+    ]
+  },
+  "g3.05": {
+    "definition": "A negative sentence says that something is not true. We usually add not after the helping verb.",
+    "details": ["In the present and past simple use do not, does not or did not + the base verb.", "Contractions are common when we speak: don't, doesn't, didn't, isn't, can't.", "English allows only one negative word in a statement: I don't know anything, not I don't know nothing."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["like", "spicy", "not", "do", "food", "i"], "answers": ["I do not like spicy food."], "why": "Subject + do not + base verb + object."},
+      {"type": "correct", "prompt": "Correct the sentence: I don't know nothing.", "answers": ["I don't know anything.", "I know nothing."], "why": "Use only one negative word."}
+    ]
+  },
+  "g3.06": {
+    "definition": "An imperative sentence gives an instruction, an order, advice or an invitation. It uses the base verb with no subject.",
+    "details": ["Add please to be polite: Please sit down.", "The negative imperative is do not (don't) + the base verb: Don't be late.", "To include yourself, use let's + the base verb: Let's go."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["please", "down", "sit"], "answers": ["Please sit down."], "why": "Imperative: please + base verb."},
+      {"type": "correct", "prompt": "Correct the sentence: You open the door.", "answers": ["Open the door."], "why": "An imperative has no subject."}
+    ]
+  },
+  "g3.07": {
+    "definition": "There is and there are tell us that something exists or is in a place.",
+    "details": ["There is goes with singular and uncountable nouns. There are goes with plural nouns.", "Negative: there isn't, there aren't. Questions: Is there...? Are there...?", "With a list the verb agrees with the first noun: There is a pen and two books on the desk."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["a", "is", "bank", "near", "here", "there"], "answers": ["There is a bank near here."], "why": "There is + a singular noun."},
+      {"type": "correct", "prompt": "Correct the sentence: There is three books on the table.", "answers": ["There are three books on the table."], "why": "Books is plural, so use there are."}
+    ]
+  },
+  "g3.08": {
+    "definition": "Have, has and had express possession, experiences and actions, and they also work as helping verbs in perfect tenses.",
+    "details": ["Use has with he, she and it, have with I, you, we and they, and had for the past with every subject.", "Have can be a main verb (I have a car, have breakfast) or a helping verb (I have finished).", "Negatives and questions with the main verb use do: I do not have time. Does she have a car?"],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["has", "phone", "a", "new", "she"], "answers": ["She has a new phone."], "why": "She takes has."},
+      {"type": "correct", "prompt": "Correct the sentence: She have a new phone.", "answers": ["She has a new phone."], "why": "Use has with she."}
+    ]
+  },
+  "g3.09": {
+    "definition": "Do, does and did are helping verbs used to make questions and negatives in the present and past simple.",
+    "details": ["Use do with I, you, we and they, does with he, she and it, and did for the past with every subject.", "After do, does and did the main verb is in the base form: She does not like tea. Did he call?", "Do can also be a main verb: do homework, do exercise."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["do", "homework", "evening", "my", "in", "i", "the"], "answers": ["I do my homework in the evening."], "why": "Here do is the main verb."},
+      {"type": "correct", "prompt": "Correct the sentence: He do his homework.", "answers": ["He does his homework."], "why": "Use does with he."}
+    ]
+  },
+  "g3.10": {
+    "definition": "A preposition shows how a noun or pronoun is related to another word: place, time, direction and more.",
+    "details": ["Time: at (clock times, night), on (days and dates), in (months, years, parts of the day).", "Place: at (a point), on (a surface), in (inside something).", "Direction: to, into, through, across, towards. Learn common fixed phrases such as interested in and good at."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["starts", "class", "nine", "the", "at"], "answers": ["The class starts at nine."], "why": "Use at with clock times."},
+      {"type": "correct", "prompt": "Correct the sentence: I will see you in Monday.", "answers": ["I will see you on Monday."], "why": "Use on with days."}
+    ]
+  },
+  "g3.11": {
+    "definition": "A conjunction is a word that joins words, phrases or clauses.",
+    "details": ["Coordinating conjunctions (and, but, or, so) join parts of equal weight.", "Subordinating conjunctions (because, although, when, if, while) join a dependent clause to a main clause.", "Do not use two conjunctions for the same job: Although it rained, we went out (not Although it rained, but we went out)."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["tea", "and", "like", "i", "coffee"], "answers": ["I like tea and coffee."], "why": "And joins two nouns."},
+      {"type": "correct", "prompt": "Correct the sentence: Although it was raining, but we went out.", "answers": ["Although it was raining, we went out."], "why": "Use either although or but, not both."}
+    ]
+  },
+  "g3.12": {
+    "definition": "Quantifiers are words that tell us how much or how many.",
+    "details": ["Many and few go with countable nouns. Much and little go with uncountable nouns.", "Some is used in positive sentences and offers. Any is used in negatives and questions.", "A lot of, lots of and plenty of work with both countable and uncountable nouns."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["some", "have", "i", "friends", "in", "london"], "answers": ["I have some friends in London."], "why": "Some friends: a positive sentence with a plural noun."},
+      {"type": "correct", "prompt": "Correct the sentence: I don't have much friends.", "answers": ["I don't have many friends."], "why": "Friends is countable, so use many."}
+    ]
+  },
+  "g4.01": {
+    "definition": "In the active voice the subject does the action. In the passive voice the subject receives the action.",
+    "details": ["Form the passive with be + the past participle: The bridge was built in 1990.", "Use the passive when the person who did the action is unknown or unimportant, or when the action matters more.", "Add by + the doer only when it is important: The book was written by Tagore."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["was", "bridge", "built", "the", "in", "1990"], "answers": ["The bridge was built in 1990."], "why": "was + past participle."},
+      {"type": "correct", "prompt": "Correct the sentence: The letter was wrote yesterday.", "answers": ["The letter was written yesterday."], "why": "The past participle of write is written."}
+    ]
+  },
+  "g4.02": {
+    "definition": "Direct speech repeats the exact words someone said. Indirect speech reports what was said without quoting.",
+    "details": ["Tenses usually move back one step: I am busy becomes She said that she was busy.", "Pronouns and time words change: now becomes then, today becomes that day, tomorrow becomes the next day.", "Reported questions use statement word order: She asked me where I lived."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["said", "busy", "was", "she", "that", "she"], "answers": ["She said that she was busy."], "why": "Reported speech: said that + the past tense."},
+      {"type": "correct", "prompt": "Correct the sentence: She asked me where do I live.", "answers": ["She asked me where I lived.", "She asked me where I live."], "why": "A reported question uses statement order, with no do."}
+    ]
+  },
+  "g4.03": {
+    "definition": "A conditional sentence has an if-clause that gives a condition and a main clause that gives the result.",
+    "details": ["Zero conditional: if + present, present (If you heat ice, it melts). First conditional: if + present, will + base verb (If it rains, we will stay home).", "Second conditional: if + past, would + base verb (If I had time, I would help). The third conditional is in Advanced grammar.", "Do not use will in the if-clause: If it rains, not If it will rain."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["study", "you", "if", "will", "pass", "you"], "answers": ["If you study you will pass."], "why": "First conditional: if + present, will + base verb."},
+      {"type": "correct", "prompt": "Correct the sentence: If it will rain, we will stay home.", "answers": ["If it rains, we will stay home."], "why": "Use the present simple in the if-clause."}
+    ]
+  },
+  "g4.04": {
+    "definition": "A gerund is the -ing form of a verb used as a noun.",
+    "details": ["A gerund can be a subject (Swimming is fun), an object (I enjoy swimming) or follow a preposition (She is good at singing).", "Some verbs are followed by a gerund: enjoy, avoid, finish, mind, suggest, keep.", "A gerund works as a noun. A present participle works as part of a verb or as an adjective."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["cooking", "enjoy", "i"], "answers": ["I enjoy cooking."], "why": "Enjoy is followed by a gerund."},
+      {"type": "correct", "prompt": "Correct the sentence: I enjoy to swim.", "answers": ["I enjoy swimming."], "why": "Enjoy is followed by the -ing form."}
+    ]
+  },
+  "g4.05": {
+    "definition": "The infinitive is to + the base verb. It is used after certain verbs and adjectives and to show purpose.",
+    "details": ["After want, hope, decide, plan, learn and need: I want to go.", "After adjectives: happy to help, ready to start.", "To show purpose: I went to the market to buy fruit. After modal verbs use the base verb without to."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["improve", "to", "english", "my", "want", "i"], "answers": ["I want to improve my English."], "why": "Want is followed by to + the base verb."},
+      {"type": "correct", "prompt": "Correct the sentence: I want go home.", "answers": ["I want to go home."], "why": "Want is followed by to + the base verb."}
+    ]
+  },
+  "g4.06": {
+    "definition": "A participle is a verb form used as an adjective or in a verb phrase. The present participle ends in -ing and the past participle usually in -ed.",
+    "details": ["The -ing participle describes what causes a feeling: an exciting film.", "The -ed participle describes how someone feels: I am excited.", "The past participles of irregular verbs must be learnt: broken, written, gone."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["was", "film", "exciting", "the"], "answers": ["The film was exciting."], "why": "The film causes the feeling, so use exciting."},
+      {"type": "correct", "prompt": "Correct the sentence: I am boring.", "answers": ["I am bored."], "why": "Use bored for how you feel."}
+    ]
+  },
+  "g4.07": {
+    "definition": "A relative clause gives more information about a noun. It starts with who, which, that, whose, where or when.",
+    "details": ["Use who for people, which for things, that for either, and whose for possession.", "A defining clause is necessary and has no commas. A non-defining clause adds extra information and uses commas: My brother, who lives in Pune, is a doctor.", "The relative pronoun can be left out when it is the object: The book I read was good."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["speaks", "who", "five", "a", "know", "teacher", "languages", "i"], "answers": ["I know a teacher who speaks five languages."], "why": "Who joins the clause to the noun teacher."},
+      {"type": "correct", "prompt": "Correct the sentence: The man which lives here is kind.", "answers": ["The man who lives here is kind."], "why": "Use who for people."}
+    ]
+  },
+  "g4.08": {
+    "definition": "An adjective clause is a dependent clause that describes a noun, like an adjective does.",
+    "details": ["It usually starts with who, whom, which, that, whose, where or when.", "Put it directly after the noun it describes.", "Do not repeat the preposition or the noun: This is the house where I live, not where I live in."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["the", "cafe", "we", "that", "is", "where", "met"], "answers": ["That is the cafe where we met."], "why": "Where describes the place (the cafe)."},
+      {"type": "correct", "prompt": "Correct the sentence: This is the house where I live in.", "answers": ["This is the house where I live.", "This is the house that I live in."], "why": "Where already includes in, so do not add it again."}
+    ]
+  },
+  "g4.09": {
+    "definition": "An adverb clause is a dependent clause that tells us when, why, how or under what condition something happens.",
+    "details": ["It starts with a subordinating conjunction: when, because, although, if, while, after, before, unless.", "When the adverb clause comes first, put a comma after it: After we finished, we went home.", "Do not use will after time words: When I arrive, I will call you."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["finished", "we", "after", "went", "home", "we"], "answers": ["After we finished we went home."], "why": "After we finished is the adverb clause of time."},
+      {"type": "correct", "prompt": "Correct the sentence: When I will arrive, I will call you.", "answers": ["When I arrive, I will call you."], "why": "Use the present simple after when."}
+    ]
+  },
+  "g4.13": {
+    "definition": "A noun clause is a dependent clause that does the job of a noun, as a subject, an object or after a preposition.",
+    "details": ["It often begins with that, if, whether or a question word (what, where, when, why, how).", "Use statement word order inside a noun clause: I know where she lives.", "That can often be left out after verbs of thinking and saying: I think she is right."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a question.", "words": ["where", "station", "is", "the", "you", "know", "do"], "answers": ["Do you know where the station is?"], "why": "After where use statement order: the station is."},
+      {"type": "correct", "prompt": "Correct the sentence: Can you tell me where is the bank?", "answers": ["Can you tell me where the bank is?"], "why": "Use statement order in the noun clause: the bank is."}
+    ]
+  },
+  "g4.10": {
+    "definition": "We use the comparative to compare two things and the superlative to compare three or more.",
+    "details": ["Short adjectives add -er and -est (tall, taller, tallest). Long adjectives use more and most (more beautiful, most beautiful).", "Some forms are irregular: good, better, best; bad, worse, worst; far, farther or further, farthest or furthest.", "Use than after a comparative and the before a superlative: the tallest in the class."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["is", "bigger", "mumbai", "pune", "than"], "answers": ["Mumbai is bigger than Pune."], "why": "Comparative + than."},
+      {"type": "correct", "prompt": "Correct the sentence: She is more taller than me.", "answers": ["She is taller than me.", "She is taller than I am."], "why": "Taller is already a comparative. Do not add more."}
+    ]
+  },
+  "g4.11": {
+    "definition": "A question tag is a short question added to a statement to check information or ask for agreement.",
+    "details": ["After a positive statement use a negative tag: It is cold, isn't it?", "After a negative statement use a positive tag: You don't like tea, do you?", "The tag uses the same helping verb as the statement. If there is none, use do, does or did."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["cold", "it", "isn't", "is", "today", "it"], "answers": ["It is cold today isn't it?"], "why": "Positive statement + negative tag."},
+      {"type": "correct", "prompt": "Correct the sentence: You like tea, aren't you?", "answers": ["You like tea, don't you?"], "why": "The statement has like, so the tag uses do: don't you?"}
+    ]
+  },
+  "g4.12": {
+    "definition": "Punctuation marks (full stop, comma, question mark, apostrophe and others) make writing clear by showing where ideas begin and end.",
+    "details": ["Use a comma to separate items in a list and after an introductory phrase: I bought apples, oranges and bananas.", "Use an apostrophe for contractions (it's means it is) and for possession (Ravi's book). Its without an apostrophe shows possession.", "Begin every sentence and every name with a capital letter."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["bought", "apples", "i", "oranges", "bananas", "and"], "answers": ["I bought apples oranges and bananas."], "why": "A list: apples, oranges and bananas."},
+      {"type": "correct", "prompt": "Correct the sentence: Its raining outside.", "answers": ["It's raining outside.", "It is raining outside."], "why": "It's is the short form of it is."}
+    ]
+  },
+  "g5.01": {
+    "definition": "The third conditional talks about unreal situations in the past, using if + the past perfect and would have + the past participle.",
+    "details": ["It imagines a different past: If she had asked, I would have helped her.", "Use could have or might have for possibility: If I had left earlier, I might have caught the train.", "Never use would have in the if-clause: If I had known, not If I would have known."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["had", "she", "asked", "if", "i", "would", "have", "helped", "her"], "answers": ["If she had asked I would have helped her."], "why": "if + past perfect, would have + past participle."},
+      {"type": "correct", "prompt": "Correct the sentence: If I would have known, I would have told you.", "answers": ["If I had known, I would have told you."], "why": "Use the past perfect in the if-clause."}
+    ]
+  },
+  "g5.02": {
+    "definition": "A mixed conditional combines a past condition with a present result, or a present condition with a past result.",
+    "details": ["Past condition, present result: If I had taken that job, I would be rich now.", "Present condition, past result: If I were braver, I would have said yes.", "Use if + the past perfect for the past part and would + the base verb for the present part."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["rich", "would", "be", "now", "i", "taken", "if", "had", "i", "that", "job"], "answers": ["If I had taken that job I would be rich now."], "why": "Past condition (had taken), present result (would be)."},
+      {"type": "correct", "prompt": "Correct the sentence: If I had met her earlier, I would have been married now.", "answers": ["If I had met her earlier, I would be married now."], "why": "The result is about now, so use would be."}
+    ]
+  },
+  "g5.03": {
+    "definition": "Inversion puts the helping verb before the subject, as in a question, for emphasis or formality.",
+    "details": ["It is used after negative or restrictive adverbs at the start of a sentence: never, rarely, seldom, hardly, not only, no sooner.", "Examples: Never have I seen such a thing. No sooner had she left than it rained.", "It is also used in some conditionals: Had I known, I would have called (the same as If I had known)."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["do", "rarely", "we", "out", "eat"], "answers": ["Rarely do we eat out."], "why": "After rarely, the helping verb comes before the subject."},
+      {"type": "correct", "prompt": "Correct the sentence: Never I have seen such a thing.", "answers": ["Never have I seen such a thing."], "why": "After never at the start, use inversion: have I."}
+    ]
+  },
+  "g5.04": {
+    "definition": "A cleft sentence splits one idea into two parts to put emphasis on one of them.",
+    "details": ["It-cleft: It was Maria who solved the problem.", "Wh-cleft: What I need is a holiday.", "In it-clefts use who for people and that for things or times."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["was", "that", "it", "last", "week", "i", "met", "her"], "answers": ["It was last week that I met her."], "why": "It was + the emphasised part + that + the rest."},
+      {"type": "correct", "prompt": "Correct the sentence: It was Maria which solved the problem.", "answers": ["It was Maria who solved the problem."], "why": "Use who for a person."}
+    ]
+  },
+  "g5.05": {
+    "definition": "The subjunctive mood expresses wishes, demands, suggestions and unreal situations. The verb stays in its base form.",
+    "details": ["After verbs such as suggest, recommend, insist, demand and propose: I suggest that he see a doctor.", "The verb does not change for he, she or it: She insisted that he attend.", "For unreal wishes and conditions use were with every subject: If I were you, I would go."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["insisted", "attend", "that", "she", "the", "manager", "meeting", "the"], "answers": ["The manager insisted that she attend the meeting."], "why": "After insisted that, the verb stays in the base form: attend."},
+      {"type": "correct", "prompt": "Correct the sentence: I suggest that he sees a doctor.", "answers": ["I suggest that he see a doctor."], "why": "After suggest that, use the base form: see."}
+    ]
+  },
+  "g5.06": {
+    "definition": "Modal perfect forms (modal + have + past participle) talk about the past: deductions, possibilities, regrets and criticism.",
+    "details": ["Must have shows a strong deduction: She must have forgotten.", "Might have and could have show possibility; should have shows regret or criticism; needn't have shows that an action was not necessary.", "The past participle never changes: should have gone, not should have went."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["must", "forgotten", "have", "she", "the", "meeting"], "answers": ["She must have forgotten the meeting."], "why": "must have + past participle for a strong deduction."},
+      {"type": "correct", "prompt": "Correct the sentence: You should have went home.", "answers": ["You should have gone home."], "why": "Use the past participle gone."}
+    ]
+  },
+  "g5.07": {
+    "definition": "A reduced relative clause is a shortened relative clause. The relative pronoun and the verb be are removed.",
+    "details": ["The man who is standing there becomes the man standing there.", "The book that was written by Tagore becomes the book written by Tagore.", "Use the -ing form for an active meaning and the -ed form for a passive meaning."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["studying", "students", "the", "here", "are", "from", "spain"], "answers": ["The students studying here are from Spain."], "why": "Studying here = who are studying here."},
+      {"type": "correct", "prompt": "Correct the sentence: The man who talking to Sara is my uncle.", "answers": ["The man talking to Sara is my uncle."], "why": "Remove who, or use who is talking."}
+    ]
+  },
+  "g5.08": {
+    "definition": "A compound sentence joins two main clauses. A complex sentence has a main clause and at least one dependent clause.",
+    "details": ["Compound: join with and, but, or, so: I was tired, so I went home.", "Complex: use because, although, when, if: Although it was late, we kept working.", "A compound-complex sentence has two main clauses and at least one dependent clause."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["was", "difficult", "exam", "the", "although", "most", "passed", "students"], "answers": ["Although the exam was difficult most students passed."], "why": "Although + a dependent clause, then the main clause."},
+      {"type": "correct", "prompt": "Correct the sentence: Although he was tired, but he continued.", "answers": ["Although he was tired, he continued."], "why": "Use although or but, not both."}
+    ]
+  },
+  "g5.09": {
+    "definition": "Parallelism means using the same grammatical form for items in a list or a pair.",
+    "details": ["If the first item is an -ing form, the others should be too: hiking, cycling and swimming.", "It also applies to pairs and comparisons: She likes reading and writing, not reading and to write.", "Parallel structure makes writing clear and balanced."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["hiking", "enjoy", "and", "cycling", "swimming", "i"], "answers": ["I enjoy hiking cycling and swimming."], "why": "All three items are -ing forms."},
+      {"type": "correct", "prompt": "Correct the sentence: I like swimming, to run and cycling.", "answers": ["I like swimming, running and cycling."], "why": "Keep every item in the -ing form."}
+    ]
+  },
+  "g5.10": {
+    "definition": "Ellipsis leaves out words that are clear from the context. Substitution replaces words with other words such as do, so and one.",
+    "details": ["Ellipsis: She can swim and he can too (swim is left out).", "Substitution: I like the red one (one replaces a noun). I think so (so replaces a clause).", "With so and neither the helping verb comes first: So do I. Neither can he."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["tea", "like", "i", "and", "does", "too", "my", "sister"], "answers": ["I like tea and my sister does too."], "why": "Does replaces likes tea."},
+      {"type": "correct", "prompt": "Correct the sentence: I like it and so I do.", "answers": ["I like it and so do I."], "why": "After so, the helping verb comes before the subject."}
+    ]
+  },
+  "g5.11": {
+    "definition": "Reporting verbs such as admit, deny, suggest, promise, warn, advise and accuse report what someone said and also show the purpose of what they said.",
+    "details": ["The patterns differ: advise + person + to-infinitive; suggest + -ing or a that-clause; deny + -ing; promise + to-infinitive.", "Examples: She advised me to apply. He admitted taking the money.", "Do not use suggest + person + to: He suggested going, not He suggested me to go."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["me", "to", "apply", "she", "advised", "for", "the", "job"], "answers": ["She advised me to apply for the job."], "why": "advise + person + to-infinitive."},
+      {"type": "correct", "prompt": "Correct the sentence: He suggested me to go.", "answers": ["He suggested going.", "He suggested that I go."], "why": "Suggest is followed by -ing or a that-clause."}
+    ]
+  },
+  "g5.12": {
+    "definition": "Common grammatical errors are mistakes that many learners repeat, often because of their first language.",
+    "details": ["Agree, like and want are verbs: I agree, not I am agree.", "Fewer goes with countable nouns and less goes with uncountable nouns.", "When you proofread, check subject-verb agreement, articles, prepositions and tense consistency."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["fewer", "road", "cars", "are", "on", "there", "the", "today"], "answers": ["There are fewer cars on the road today."], "why": "Cars is countable, so use fewer."},
+      {"type": "correct", "prompt": "Correct the sentence: I am agree with you.", "answers": ["I agree with you."], "why": "Agree is a verb, so do not use am."}
+    ]
+  },
+  "g5.13": {
+    "definition": "A causative structure shows that someone causes something to be done, or arranges for another person to do it.",
+    "details": ["Have or get + object + past participle: I had my car repaired.", "Have + person + base verb, or get + person + to-infinitive: I got him to help.", "Make and let take the base verb: She made me laugh."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["had", "my", "painted", "i", "house", "last", "month"], "answers": ["I had my house painted last month."], "why": "have + object + past participle."},
+      {"type": "correct", "prompt": "Correct the sentence: She made me to laugh.", "answers": ["She made me laugh."], "why": "After made, use the base verb without to."}
+    ]
+  },
+  "g5.14": {
+    "definition": "Advanced preposition use means knowing which preposition goes with certain adjectives, verbs and nouns.",
+    "details": ["Adjective + preposition: afraid of, good at, keen on, interested in.", "Verb + preposition: depend on, apologise for, succeed in, consist of.", "Noun + preposition: a solution to, a reason for, an increase in."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["interested", "music", "am", "i", "in"], "answers": ["I am interested in music."], "why": "Interested is followed by in."},
+      {"type": "correct", "prompt": "Correct the sentence: She is good in English.", "answers": ["She is good at English."], "why": "Good is followed by at."}
+    ]
+  },
+  "g5.15": {
+    "definition": "Formal English is used in official and professional situations. Informal English is used with friends and family.",
+    "details": ["Formal English uses full forms (do not), polite phrases and exact words (request, purchase, assist).", "Informal English uses contractions (don't), phrasal verbs (ask for, find out) and short, friendly phrases.", "Choose the style that suits your reader, and keep it the same all the way through."],
+    "exercises": [
+      {"type": "reorder", "prompt": "Put the words in order to make a sentence.", "words": ["would", "grateful", "you", "be", "i", "reply", "if", "could"], "answers": ["I would be grateful if you could reply."], "why": "A polite formal request."},
+      {"type": "correct", "prompt": "Correct the sentence: Dear Sir, Thanks a lot for ur help.", "answers": ["Dear Sir, Thank you very much for your help."], "why": "Use full words and polite language in a formal email."}
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- The dark twin of AppTheme (values/styles.xml). Colours are the dark palette in design/tokens.json ("android"). Theme.App.Splash inherits from this. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowBackground">#FF0F1215</item>
+        <item name="android:textColorPrimary">#FFECEFF3</item>
+        <item name="android:textColorSecondary">#FFA9B1BA</item>
+        <item name="android:textColorHint">#FF9AA3AD</item>
+        <item name="android:textColorHighlight">#556F9BFF</item>
+        <item name="colorAccent">#FF6F9BFF</item>
+        <item name="colorControlActivated">#FF6F9BFF</item>
+        <item name="colorControlNormal">#FFA9B1BA</item>
+    </style>
+
+</resources>

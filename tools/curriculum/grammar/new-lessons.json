@@ -1,0 +1,211 @@
+{
+  "renames": {
+    "g4.10": "Comparisons and degrees of comparison",
+    "g5.08": "Compound and complex sentences"
+  },
+  "lessons": [
+    {
+      "level": 1, "after": "g1.08",
+      "lesson": {
+        "id": "g1.13", "title": "Determiners",
+        "explain": "Determiners come before a noun and tell us which one or how many: a, an, the, this, that, these, those, my, your, his, her, some, any, much, many, few, every, each. A noun usually needs a determiner: we say 'I have a book', not 'I have book'. Use this and these for things near you, and that and those for things far from you. Use many with countable nouns and much with uncountable nouns.",
+        "structures": ["Determiner + noun: this book, my sister, some water", "Determiner + adjective + noun: my new phone, those big trees", "Much + uncountable noun, many + plural countable noun: much time, many people"],
+        "positive": ["This is my bag.", "Those students are from Mysuru.", "I need some water.", "Every child has a book."],
+        "negative": ["I don't have any money.", "There isn't much time.", "We haven't got many chairs."],
+        "questions": ["Is this your pen?", "How much sugar do you want?", "How many brothers have you got?"],
+        "reallife": ["In a shop: How much is this shirt? I would like those shoes, please.", "At a restaurant: Can I have some more water? Is there any salt?"],
+        "mistakes": [
+          {"wrong": "I have many water.", "right": "I have a lot of water.", "why": "Water is uncountable. Use much or a lot of, not many."},
+          {"wrong": "These book is mine.", "right": "This book is mine.", "why": "Use this with one thing and these with more than one."}
+        ],
+        "exercises": [
+          {"type": "choice", "prompt": "Choose the correct word: I don't have ___ money.", "options": ["many", "much", "a few"], "answer": 1, "why": "Money is uncountable, so use much."},
+          {"type": "fill", "prompt": "___ books on that shelf are mine. (those / that)", "answers": ["those"], "why": "Books is plural and far away, so use those."},
+          {"type": "choice", "prompt": "Which sentence is correct?", "options": ["Every students has a bag.", "Every student has a bag.", "Every student have a bag."], "answer": 1, "why": "Every goes with a singular noun and a singular verb."},
+          {"type": "fill", "prompt": "Can I have ___ tea, please? (some / any)", "answers": ["some"], "why": "In offers and requests, use some."}
+        ],
+        "assessment": [
+          {"type": "choice", "prompt": "Choose the correct sentence.", "options": ["There are much people here.", "There are many people here.", "There is many people here."], "answer": 1, "why": "People is countable, so use many with are."},
+          {"type": "fill", "prompt": "I don't have ___ time. (much / many)", "answers": ["much"], "why": "Time is uncountable."},
+          {"type": "choice", "prompt": "Which is correct for things that are far away?", "options": ["This are my shoes.", "Those are my shoes.", "That are my shoes."], "answer": 1, "why": "Those is the plural of that."},
+          {"type": "fill", "prompt": "___ person in the room has a ticket. (Every / All)", "answers": ["every"], "why": "Every goes with a singular noun: every person."},
+          {"type": "choice", "prompt": "Which sentence is correct?", "options": ["She has any brothers.", "She hasn't got any brothers.", "She hasn't got some brothers."], "answer": 1, "why": "In negative sentences use any."}
+        ]
+      }
+    },
+    {
+      "level": 1, "after": "g1.09",
+      "lesson": {
+        "id": "g1.14", "title": "Interjections",
+        "explain": "An interjection is a word or short phrase that shows a sudden feeling, such as surprise, pain, joy or disgust. It usually stands alone and is followed by an exclamation mark or a comma: Wow! Oh no! Hurray! Interjections are common in speaking and in informal writing, but they are used less in formal writing.",
+        "structures": ["Interjection + exclamation mark: Wow! That is amazing.", "Interjection + comma + sentence: Oh, I forgot my keys.", "Interjection as a reaction: Ouch! That hurt."],
+        "positive": ["Wow! This food is delicious.", "Oh no! I missed the bus.", "Hurray! We won the match.", "Oops! I dropped my phone."],
+        "negative": ["Oh no, I haven't finished my homework.", "Oops, I didn't mean to say that."],
+        "questions": ["Hey, are you coming with us?", "Wow, is this really your house?"],
+        "reallife": ["With friends: Hurray! The exam is over! / Ouch! That hurts!", "In a shop: Oh, excuse me, do you have this in blue?"],
+        "mistakes": [
+          {"wrong": "Wow I love this song", "right": "Wow! I love this song.", "why": "Put an exclamation mark or a comma after an interjection, and end the sentence with a full stop."},
+          {"wrong": "Dear Sir, Wow! We received your letter.", "right": "Dear Sir, we received your letter.", "why": "Interjections are informal, so avoid them in formal letters."}
+        ],
+        "exercises": [
+          {"type": "choice", "prompt": "Which word is an interjection?", "options": ["Wow", "quickly", "table"], "answer": 0, "why": "Wow shows a sudden feeling."},
+          {"type": "fill", "prompt": "You touch a hot pan. You say: ___! (Ouch / Hurray)", "answers": ["ouch"], "why": "Ouch is used for sudden pain."},
+          {"type": "choice", "prompt": "Which sentence is punctuated correctly?", "options": ["Oh no! I lost my key.", "Oh no I lost my key", "Oh no; I lost my key"], "answer": 0, "why": "An exclamation mark (or a comma) follows an interjection."},
+          {"type": "choice", "prompt": "Which interjection fits? We won the match! ___!", "options": ["Hurray", "Ugh", "Oops"], "answer": 0, "why": "Hurray shows joy."}
+        ],
+        "assessment": [
+          {"type": "choice", "prompt": "Which of these is an interjection?", "options": ["Hey", "slowly", "beautiful"], "answer": 0, "why": "Hey is a word used to get attention or show surprise."},
+          {"type": "fill", "prompt": "You drop a glass by mistake. You say: ___! (Oops / Hurray)", "answers": ["oops"], "why": "Oops shows a small mistake."},
+          {"type": "choice", "prompt": "Which sentence is best for a formal business email?", "options": ["Wow! Thanks a lot!", "Thank you for your quick reply.", "Hurray, you replied!"], "answer": 1, "why": "Interjections are informal."},
+          {"type": "choice", "prompt": "What does 'Ugh!' usually show?", "options": ["disgust or annoyance", "joy", "a question"], "answer": 0, "why": "Ugh shows that you dislike something."},
+          {"type": "fill", "prompt": "___! I passed the exam! (Hurray / Ouch)", "answers": ["hurray"], "why": "Hurray shows joy."}
+        ]
+      }
+    },
+    {
+      "level": 3, "after": "g3.02",
+      "lesson": {
+        "id": "g3.13", "title": "Question formation",
+        "explain": "To make a question in English we usually change the word order: the helping verb (or be) comes before the subject. In the present simple and past simple we add do, does or did, and the main verb goes back to its base form. For a question about the subject (Who called you?) we do not use do, does or did. The usual order is: question word + helping verb + subject + main verb, as in Where do you live?",
+        "structures": ["Yes/No question: helping verb + subject + main verb: Can you swim?", "Wh- question: question word + helping verb + subject + main verb: Where does she work?", "Subject question: question word (as the subject) + verb: Who lives here?"],
+        "positive": ["Are you ready?", "Does he play cricket?", "Where did they go yesterday?", "What are you reading?"],
+        "negative": ["Why don't you come with us?", "Isn't she your sister?", "Haven't you finished yet?"],
+        "questions": ["Who broke the window?", "What time does the train leave?"],
+        "reallife": ["Asking for directions: Excuse me, where is the bus station? How do I get to the market?", "At work: When does the meeting start? Who is joining us?"],
+        "mistakes": [
+          {"wrong": "Where you live?", "right": "Where do you live?", "why": "Use do, does or did before the subject in present simple and past simple questions."},
+          {"wrong": "What does he wants?", "right": "What does he want?", "why": "After does, the main verb stays in the base form."}
+        ],
+        "exercises": [
+          {"type": "choice", "prompt": "Choose the correct question.", "options": ["Where she works?", "Where does she work?", "Where does she works?"], "answer": 1, "why": "Question word + does + subject + base verb."},
+          {"type": "fill", "prompt": "___ you like coffee? (Do / Does)", "answers": ["do"], "why": "Do goes with you."},
+          {"type": "fill", "prompt": "What time ___ the shop open? (do / does)", "answers": ["does"], "why": "The shop is singular (it), so use does."},
+          {"type": "choice", "prompt": "Which is a question about the subject?", "options": ["Who called you?", "Who did you call?", "Who do you call?"], "answer": 0, "why": "When the question word is the subject, there is no do or did."}
+        ],
+        "assessment": [
+          {"type": "choice", "prompt": "Choose the correct question.", "options": ["Did you went to school?", "Did you go to school?", "Do you went to school?"], "answer": 1, "why": "After did, use the base form go."},
+          {"type": "fill", "prompt": "How ___ you go to work? (do / does)", "answers": ["do"], "why": "Do goes with you."},
+          {"type": "choice", "prompt": "Which sentence is correct?", "options": ["Who did write this letter?", "Who wrote this letter?", "Who does wrote this letter?"], "answer": 1, "why": "Who is the subject, so use wrote without did."},
+          {"type": "fill", "prompt": "What ___ he want for his birthday? (do / does)", "answers": ["does"], "why": "He goes with does."},
+          {"type": "choice", "prompt": "Choose the correct question.", "options": ["Is she can swim?", "Can she swim?", "Does she can swim?"], "answer": 1, "why": "With can, put can before the subject and do not add does."}
+        ]
+      }
+    },
+    {
+      "level": 4, "after": "g4.09",
+      "lesson": {
+        "id": "g4.13", "title": "Noun clauses",
+        "explain": "A noun clause is a group of words with its own subject and verb that does the job of a noun. It can be the subject or the object of a verb, or follow a preposition. Noun clauses often begin with that, whether, if, or a question word (what, where, when, why, how, who). In a noun clause the word order is like a statement, even after a question word: I know where she lives, not where does she live.",
+        "structures": ["That-clause: subject + verb + that + subject + verb: I know that he is late.", "Question-word clause: subject + verb + question word + subject + verb: Tell me where you live.", "If or whether clause: subject + verb + if/whether + subject + verb: I wonder if she will come."],
+        "positive": ["I think that she is right.", "Can you tell me where the station is?", "What he said surprised everyone.", "I don't know whether he will come."],
+        "negative": ["I don't know where she lives.", "He didn't say what he wanted.", "I'm not sure if they have arrived."],
+        "questions": ["Do you know what time the shop opens?", "Could you tell me how much this costs?"],
+        "reallife": ["Asking politely: Could you tell me where the post office is?", "At work: I'm not sure whether the report is ready."],
+        "mistakes": [
+          {"wrong": "Can you tell me where is the bank?", "right": "Can you tell me where the bank is?", "why": "In a noun clause use statement word order: subject + verb."},
+          {"wrong": "I don't know where does she live.", "right": "I don't know where she lives.", "why": "Do not use do, does or did in a noun clause."}
+        ],
+        "exercises": [
+          {"type": "choice", "prompt": "Choose the correct sentence.", "options": ["Do you know where is he?", "Do you know where he is?", "Do you know where does he is?"], "answer": 1, "why": "After where, use subject + verb: where he is."},
+          {"type": "fill", "prompt": "I wonder ___ she will come. (if / that)", "answers": ["if", "whether"], "why": "If or whether starts a yes/no noun clause."},
+          {"type": "choice", "prompt": "Which part is the noun clause? 'I know that she is kind.'", "options": ["I know", "that she is kind", "she is"], "answer": 1, "why": "That she is kind is the object of know."},
+          {"type": "fill", "prompt": "Please tell me where the station ___. (be)", "answers": ["is"], "why": "In a noun clause the order is subject + verb: the station is."}
+        ],
+        "assessment": [
+          {"type": "choice", "prompt": "Which sentence is correct?", "options": ["I don't know why did he leave.", "I don't know why he left.", "I don't know why he did left."], "answer": 1, "why": "Use statement order and the past tense: why he left."},
+          {"type": "fill", "prompt": "Could you tell me how much it ___? (cost)", "answers": ["costs"], "why": "Statement order: it costs."},
+          {"type": "choice", "prompt": "In which sentence is the noun clause the subject?", "options": ["What she said was true.", "She said it was true.", "She was true."], "answer": 0, "why": "What she said is the subject of was."},
+          {"type": "fill", "prompt": "I'm not sure ___ he is at home. (whether / what)", "answers": ["whether", "if"], "why": "Whether or if introduces a yes/no noun clause."},
+          {"type": "choice", "prompt": "Choose the correct sentence.", "options": ["She asked me where I lived.", "She asked me where did I live.", "She asked me where I did live."], "answer": 0, "why": "Statement order, with the past tense after asked."}
+        ]
+      }
+    },
+    {
+      "level": 5, "after": "g5.12",
+      "lesson": {
+        "id": "g5.13", "title": "Causative structures",
+        "explain": "A causative structure says that someone causes something to happen, or that you arrange for another person to do a job for you. Use have or get + object + past participle when someone else does the work: I had my car repaired. Use have + person + base verb, or get + person + to + verb, when you tell a person to do it: I had the mechanic check the brakes. Make, let and help are also causative verbs: She made me laugh. He let us go.",
+        "structures": ["Have/get + object + past participle: I had my hair cut. I got my phone fixed.", "Have + person + base verb: I had the plumber fix the pipe.", "Get + person + to + verb: I got my brother to help me.", "Make/let + person + base verb: The teacher made us read."],
+        "positive": ["I had my house painted last month.", "She is getting her passport renewed.", "He got his friend to drive him home.", "My boss made me work late."],
+        "negative": ["I didn't have my laptop repaired.", "They won't let us enter without a ticket.", "She didn't get anyone to help her."],
+        "questions": ["Where do you have your hair cut?", "Have you had your eyes tested recently?"],
+        "reallife": ["At a service centre: I would like to have my bike serviced.", "At work: We are having the office painted next week."],
+        "mistakes": [
+          {"wrong": "I repaired my phone at the shop.", "right": "I had my phone repaired at the shop.", "why": "You did not repair it yourself. Someone did it for you, so use have + object + past participle."},
+          {"wrong": "She made me to laugh.", "right": "She made me laugh.", "why": "After make and let, use the base verb without to."}
+        ],
+        "exercises": [
+          {"type": "choice", "prompt": "Which sentence means someone else washed the car?", "options": ["I had my car washed.", "I washed my car.", "I had washed my car."], "answer": 0, "why": "Have + object + past participle."},
+          {"type": "fill", "prompt": "She had her hair ___ yesterday. (cut)", "answers": ["cut"], "why": "Cut is the past participle."},
+          {"type": "fill", "prompt": "The teacher made us ___ the poem. (learn)", "answers": ["learn"], "why": "After made, use the base verb."},
+          {"type": "choice", "prompt": "Which means 'someone else will fix it'?", "options": ["I will fix my bike.", "I will get my bike fixed.", "I will fix my bike myself."], "answer": 1, "why": "Get + object + past participle."}
+        ],
+        "assessment": [
+          {"type": "choice", "prompt": "Choose the correct sentence.", "options": ["He let me to go.", "He let me go.", "He let me going."], "answer": 1, "why": "After let, use the base verb without to."},
+          {"type": "fill", "prompt": "We are going to have our house ___. (paint)", "answers": ["painted"], "why": "Use the past participle: painted."},
+          {"type": "choice", "prompt": "Which sentence is correct?", "options": ["I got my brother help me.", "I got my brother to help me.", "I got my brother helping me."], "answer": 1, "why": "Get + person + to + verb."},
+          {"type": "fill", "prompt": "She ___ her passport renewed last week. (have, past)", "answers": ["had"], "why": "The past of have is had."},
+          {"type": "choice", "prompt": "What does 'I had my eyes tested' mean?", "options": ["Someone tested my eyes.", "I tested someone's eyes.", "I tested my own eyes."], "answer": 0, "why": "Have + object + past participle means someone did it for you."}
+        ]
+      }
+    },
+    {
+      "level": 5, "after": "g5.13",
+      "lesson": {
+        "id": "g5.14", "title": "Advanced prepositions",
+        "explain": "Many prepositions are fixed with certain words, so it helps to learn them in groups: adjective + preposition (afraid of, good at, interested in, keen on), verb + preposition (depend on, apologise for, consist of, succeed in) and noun + preposition (a reason for, an increase in, a solution to). Some pairs differ in meaning: in time means early enough, on time means exactly at the planned time; at the end is a point, in the end means finally. After a preposition use a noun or an -ing form: I am interested in learning.",
+        "structures": ["Adjective + preposition: She is afraid of dogs. He is good at maths.", "Verb + preposition: It depends on the weather. He apologised for being late.", "Noun + preposition: an increase in prices, a solution to the problem, a reason for the delay.", "Preposition + -ing: She is interested in learning French."],
+        "positive": ["She is keen on photography.", "The price of fuel has increased by ten per cent.", "He succeeded in finding a job.", "We arrived in time for the meeting."],
+        "negative": ["I am not afraid of exams.", "He doesn't depend on anyone.", "They didn't agree with the plan."],
+        "questions": ["What are you interested in?", "Who is responsible for this project?"],
+        "reallife": ["In an interview: I am very interested in this role and I am good at working in a team.", "At work: We are looking for a solution to this problem."],
+        "mistakes": [
+          {"wrong": "I am interested on music.", "right": "I am interested in music.", "why": "Interested is followed by in."},
+          {"wrong": "She is good in English.", "right": "She is good at English.", "why": "Good is followed by at when we talk about a skill."}
+        ],
+        "exercises": [
+          {"type": "choice", "prompt": "Choose the correct preposition: She is afraid ___ spiders.", "options": ["of", "from", "at"], "answer": 0, "why": "Afraid is followed by of."},
+          {"type": "fill", "prompt": "He apologised ___ being late. (for / to)", "answers": ["for"], "why": "We apologise for something."},
+          {"type": "choice", "prompt": "Which sentence is correct?", "options": ["It depends of the weather.", "It depends on the weather.", "It depends in the weather."], "answer": 1, "why": "Depend is followed by on."},
+          {"type": "fill", "prompt": "There has been an increase ___ prices. (in / of)", "answers": ["in"], "why": "We say an increase in prices."}
+        ],
+        "assessment": [
+          {"type": "choice", "prompt": "Choose the correct sentence.", "options": ["I am looking forward to meet you.", "I am looking forward to meeting you.", "I am looking forward for meeting you."], "answer": 1, "why": "To here is a preposition, so use the -ing form."},
+          {"type": "fill", "prompt": "She is very good ___ solving problems. (at / in)", "answers": ["at"], "why": "Good at + skill."},
+          {"type": "choice", "prompt": "Which one means 'early enough, before it is too late'?", "options": ["on time", "in time", "at time"], "answer": 1, "why": "In time means early enough. On time means exactly at the planned time."},
+          {"type": "fill", "prompt": "They congratulated me ___ passing the exam. (on / for)", "answers": ["on"], "why": "We congratulate someone on something."},
+          {"type": "choice", "prompt": "Choose the correct sentence.", "options": ["He is responsible of the project.", "He is responsible for the project.", "He is responsible to the project."], "answer": 1, "why": "Responsible for + thing."}
+        ]
+      }
+    },
+    {
+      "level": 5, "after": "g5.14",
+      "lesson": {
+        "id": "g5.15", "title": "Formal and informal English",
+        "explain": "Formal English is used at work, in study, in official letters and with people you do not know well. Informal English is used with friends and family and in casual messages. They differ in vocabulary (request or ask for, obtain or get), in grammar (contractions such as don't and phrasal verbs are common in informal speech) and in tone. Choose the style for your reader and the situation, and do not mix them. In a formal email use full forms and polite phrases, and avoid slang.",
+        "structures": ["Formal request: I would be grateful if you could send me the details.", "Informal request: Can you send me the details?", "Formal and informal verbs: request / ask for, purchase / buy, assist / help, commence / start."],
+        "positive": ["I would like to enquire about the position. (formal)", "Hi, I wanted to ask about the job. (informal)", "Please find the report attached. (formal)", "Here is the report. (informal)"],
+        "negative": ["I do not agree with this proposal. (formal)", "I don't think that is a good idea. (informal)"],
+        "questions": ["Could you please confirm the date of the meeting? (formal)", "Can you tell me when the meeting is? (informal)"],
+        "reallife": ["Email to a manager: Dear Mr Rao, I am writing to request a day of leave.", "Message to a friend: Hey, can't make it today. Sorry!"],
+        "mistakes": [
+          {"wrong": "Dear Sir, Thanks a lot for ur help. See ya!", "right": "Dear Sir, Thank you very much for your help. Kind regards.", "why": "In a formal email use full words and a polite ending, with no slang or text spelling."},
+          {"wrong": "Hey, I would be most grateful if you could kindly forward me the document at your earliest convenience.", "right": "Hey, can you send me the document?", "why": "Do not mix a very formal sentence with a casual greeting. Keep one style."}
+        ],
+        "exercises": [
+          {"type": "choice", "prompt": "Which sentence is more formal?", "options": ["Can you help me?", "Could you please assist me?", "Help me, please."], "answer": 1, "why": "Could you please assist me is polite and formal."},
+          {"type": "fill", "prompt": "The formal word for 'buy' is ___. (purchase / get)", "answers": ["purchase"], "why": "Purchase is the formal word for buy."},
+          {"type": "choice", "prompt": "Which ending is best for a formal email?", "options": ["See ya!", "Kind regards", "Bye bye"], "answer": 1, "why": "Kind regards is a polite, formal ending."},
+          {"type": "choice", "prompt": "Which sentence is informal?", "options": ["I would be grateful for your reply.", "Write back soon!", "I look forward to hearing from you."], "answer": 1, "why": "Write back soon is short and casual."}
+        ],
+        "assessment": [
+          {"type": "choice", "prompt": "Which word is the formal word for 'start'?", "options": ["begin", "commence", "kick off"], "answer": 1, "why": "Commence is formal."},
+          {"type": "fill", "prompt": "Formal request: 'I would be ___ if you could reply soon.' (grateful / happy)", "answers": ["grateful"], "why": "I would be grateful if you could is a polite formal request."},
+          {"type": "choice", "prompt": "Which message suits a friend?", "options": ["I wish to inform you that I shall be late.", "I will be late, sorry!", "Please be advised of my delay."], "answer": 1, "why": "Short and friendly is right for a friend."},
+          {"type": "fill", "prompt": "The formal word for 'get' (receive) is ___. (obtain / take)", "answers": ["obtain"], "why": "Obtain is the formal word for get."},
+          {"type": "choice", "prompt": "Which greeting suits an email to a company you do not know?", "options": ["Hey guys,", "Dear Sir or Madam,", "Yo,"], "answer": 1, "why": "Dear Sir or Madam is formal."}
+        ]
+      }
+    }
+  ]
+}

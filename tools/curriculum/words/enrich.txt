@@ -1,0 +1,488 @@
+# Adds the Kannada meaning, a common collocation and a theme to words that are already in the course.
+# id|Kannada meaning|common usage (collocation)|theme
+# Themes: everyday, education, workplace, emotions, communication, travel, relationships, health, technology, personality, academic, confusing
+# The Kannada was written for this project and has NOT been reviewed by a native speaker or teacher.
+v1.01|ಎರವಲು ಪಡೆಯುವುದು|borrow money from a friend|everyday
+v1.02|ಖರೀದಿಸುವುದು|buy something online|everyday
+v1.03|ಅಗ್ಗದ|a cheap price|everyday
+v1.04|ಸ್ವಚ್ಛವಾದ|a clean room|everyday
+v1.05|ಬೇಗನೆ, ಬೇಗ|get up early|everyday
+v1.06|ಖಾಲಿ|an empty bottle|everyday
+v1.07|ಇಷ್ಟವಾದ, ನೆಚ್ಚಿನ|my favourite colour|everyday
+v1.08|ಮುಗಿಸುವುದು|finish your work|everyday
+v1.09|ಸ್ನೇಹಪರ|a friendly person|personality
+v1.10|ಹಸಿದ|feel hungry|health
+v1.11|ಆಹ್ವಾನಿಸುವುದು|invite someone to dinner|relationships
+v1.12|ಅಡುಗೆಮನೆ|in the kitchen|everyday
+v1.13|ತಡವಾಗಿ|arrive late|everyday
+v1.14|ಹತ್ತಿರ|near the station|travel
+v1.15|ತೆರೆಯುವುದು|open the door|everyday
+v1.16|ಪಾವತಿಸುವುದು, ಹಣ ಕೊಡುವುದು|pay the bill|everyday
+v1.17|ಶಾಂತ, ಸದ್ದಿಲ್ಲದ|a quiet street|everyday
+v1.18|ಸಿದ್ಧ|get ready|everyday
+v1.19|ಮತ್ತೆ ಹೇಳುವುದು, ಪುನರಾವರ್ತಿಸುವುದು|repeat the question|communication
+v1.20|ಪ್ರಯಾಣಿಸುವುದು|travel by train|travel
+v1.21|ಬೆಳಗಿನ ತಿಂಡಿ|have breakfast|everyday
+v1.22|ಮಧ್ಯಾಹ್ನದ ಊಟ|have lunch|everyday
+v1.23|ರಾತ್ರಿಯ ಊಟ|have dinner|everyday
+v1.24|ಕಿಟಕಿ|open the window|everyday
+v1.25|ಬಾಗಿಲು|knock on the door|everyday
+v1.26|ರಸ್ತೆ, ಬೀದಿ|walk down the street|travel
+v1.27|ಅಂಗಡಿ|a clothes shop|everyday
+v1.28|ಮಾರುಕಟ್ಟೆ|go to the market|everyday
+v1.29|ಬೆಲೆ|the price of a ticket|everyday
+v1.30|ಟಿಕೆಟ್|buy a ticket|travel
+v1.31|ಚೀಲ|carry a bag|travel
+v1.32|ಕೀಲಿ, ಬೀಗದ ಕೈ|lose your key|everyday
+v1.33|ಫೋನ್, ದೂರವಾಣಿ|on the phone|technology
+v1.34|ನೀರು|a glass of water|health
+v1.35|ಆಹಾರ|Indian food|everyday
+v1.36|ಕುಡಿಯುವುದು|drink water|health
+v1.37|ನಡೆಯುವುದು|walk to school|health
+v1.38|ಓಡುವುದು|run in the park|health
+v1.39|ನಿದ್ರಿಸುವುದು|sleep well|health
+v1.40|ಕಾಯುವುದು|wait for the bus|everyday
+v1.41|ಸಹಾಯ ಮಾಡುವುದು|help someone with homework|relationships
+v1.42|ಕೇಳುವುದು|ask a question|communication
+v1.43|ಉತ್ತರಿಸುವುದು|answer the phone|communication
+v1.44|ಕಲಿಯುವುದು|learn English|education
+v1.45|ಕಲಿಸುವುದು|teach a class|education
+v1.46|ಆಡುವುದು|play football|everyday
+v1.47|ಕೆಲಸ ಮಾಡುವುದು|work in an office|workplace
+v1.48|ಓದುವುದು, ಅಧ್ಯಯನ ಮಾಡುವುದು|study for an exam|education
+v1.49|ಅಡುಗೆ ಮಾಡುವುದು|cook dinner|everyday
+v1.50|ತೊಳೆಯುವುದು|wash your hands|health
+v1.51|ಧರಿಸುವುದು|wear a uniform|everyday
+v1.52|ದೊಡ್ಡ|a big house|everyday
+v1.53|ಚಿಕ್ಕ|a small bag|everyday
+v1.54|ಹೊಸ|a new phone|everyday
+v1.55|ಹಳೆಯ|an old car|everyday
+v1.56|ಬಿಸಿ|hot weather|everyday
+v1.57|ತಣ್ಣನೆಯ, ಚಳಿಯ|cold water|everyday
+v1.58|ಸಂತೋಷದ|feel happy|emotions
+v1.59|ದುಃಖದ|feel sad|emotions
+v1.60|ದಣಿದ|feel tired|health
+v1.61|ಸೇಬು|eat an apple|everyday
+v1.62|ಬ್ರೆಡ್|a slice of bread|everyday
+v1.63|ಅಕ್ಕಿ, ಅನ್ನ|cook rice|everyday
+v1.64|ಹಾಲು|a glass of milk|everyday
+v1.65|ಮೊಟ್ಟೆ|boil an egg|everyday
+v1.66|ಮೀನು|fresh fish|everyday
+v1.67|ಹಣ್ಣು|fresh fruit|health
+v1.68|ತರಕಾರಿ|fresh vegetables|health
+v1.69|ಸಕ್ಕರೆ|a spoon of sugar|everyday
+v1.70|ಉಪ್ಪು|add salt|everyday
+v1.71|ತಟ್ಟೆ|a clean plate|everyday
+v1.72|ಲೋಟ, ಕಪ್|a cup of tea|everyday
+v1.73|ಬಾಟಲಿ|a bottle of water|everyday
+v1.74|ಮೇಜು|sit at the table|everyday
+v1.75|ಕುರ್ಚಿ|sit on a chair|everyday
+v1.76|ಹಾಸಿಗೆ|go to bed|everyday
+v1.77|ತೋಟ|a beautiful garden|everyday
+v1.78|ಶಾಲೆ|go to school|education
+v1.79|ಶಿಕ್ಷಕ|an English teacher|education
+v1.80|ವಿದ್ಯಾರ್ಥಿ|a college student|education
+v1.81|ಪುಸ್ತಕ|read a book|education
+v1.82|ಕುಟುಂಬ|a big family|relationships
+v1.83|ತಾಯಿ|my mother|relationships
+v1.84|ತಂದೆ|my father|relationships
+v1.85|ಸ್ನೇಹಿತ|a good friend|relationships
+v1.86|ವೈದ್ಯ|see a doctor|health
+v1.87|ಆಸ್ಪತ್ರೆ|go to the hospital|health
+v1.88|ಬಸ್ಸು|take a bus|travel
+v1.89|ಓದುವುದು|read a book|education
+v1.90|ಬರೆಯುವುದು|write a letter|education
+v1.91|ಆಲಿಸುವುದು, ಕೇಳುವುದು|listen to music|communication
+v1.92|ಮಾತನಾಡುವುದು|speak English|communication
+v1.93|ಮುಚ್ಚುವುದು|close the door|everyday
+v1.94|ಕೊಡುವುದು|give someone a gift|relationships
+v1.95|ತೆಗೆದುಕೊಳ್ಳುವುದು|take a bus|everyday
+v1.96|ಹಾಡುವುದು|sing a song|everyday
+v1.97|ನೃತ್ಯ ಮಾಡುವುದು|dance at a party|everyday
+v2.01|ಭೇಟಿಯ ನಿಗದಿತ ಸಮಯ|make an appointment|everyday
+v2.02|ತಲುಪುವುದು|arrive at the airport|travel
+v2.03|ನಂಬುವುದು|believe a story|communication
+v2.04|ರದ್ದುಗೊಳಿಸುವುದು|cancel a meeting|workplace
+v2.05|ವಿಳಂಬ|a long delay|travel
+v2.06|ವಿವರಿಸುವುದು|describe a place|communication
+v2.07|ಸಾಕಷ್ಟು|enough time|everyday
+v2.08|ವ್ಯಾಯಾಮ|do exercise|health
+v2.09|ಬದಲಿಗೆ|instead of walking|everyday
+v2.10|ಪ್ರಯಾಣ|a long journey|travel
+v2.11|ಒಂಟಿತನದ|feel lonely|emotions
+v2.12|ನಿರ್ವಹಿಸುವುದು|manage a team|workplace
+v2.13|ನೆರೆಯವರು|a friendly neighbour|relationships
+v2.14|ವಿನಯಶೀಲ|a polite answer|personality
+v2.15|ಪಡೆಯುವುದು|receive a letter|communication
+v2.16|ಪಾಕವಿಧಾನ|a simple recipe|everyday
+v2.17|ನೆನಪಿಸುವುದು|remind someone to call|communication
+v2.18|ಉತ್ತರ ಕೊಡುವುದು|reply to an email|communication
+v2.19|ಸಲಹೆ ನೀಡುವುದು|suggest a plan|communication
+v2.20|ಹವಾಮಾನ|good weather|everyday
+v2.21|ಅಪಘಾತ|a car accident|health
+v2.22|ಸಲಹೆ|ask for advice|communication
+v2.23|ವಾದ ಮಾಡುವುದು|argue with a friend|relationships
+v2.24|ಹಾಜರಾಗುವುದು|attend a class|education
+v2.25|ಲಭ್ಯವಿರುವ|available tomorrow|workplace
+v2.26|ಬೇಸರದ|feel bored|emotions
+v2.27|ಎಚ್ಚರಿಕೆಯ|be careful|personality
+v2.28|ಆಚರಿಸುವುದು|celebrate a birthday|relationships
+v2.29|ಶತಮಾನ|the twenty-first century|academic
+v2.30|ಸಂಗ್ರಹಿಸುವುದು|collect stamps|everyday
+v2.31|ದೂರು ಹೇಳುವುದು|complain about the noise|communication
+v2.32|ಜನಜಂಗುಳಿಯ|a crowded bus|travel
+v2.33|ಸಂಸ್ಕೃತಿ|a different culture|academic
+v2.34|ನಿರ್ಧರಿಸುವುದು|decide to go|everyday
+v2.35|ಅಪಾಯಕಾರಿ|a dangerous road|health
+v2.36|ರಿಯಾಯಿತಿ|get a discount|everyday
+v2.37|ಕಂಡುಹಿಡಿಯುವುದು|discover a new place|academic
+v2.38|ಕಾರ್ಯಕ್ರಮ|a special event|everyday
+v2.39|ಉತ್ಸಾಹದ|feel excited|emotions
+v2.40|ದುಬಾರಿ|an expensive watch|everyday
+v2.41|ವಿದೇಶಿ|a foreign language|travel
+v2.42|ಮರೆಯುವುದು|forget a name|everyday
+v2.43|ಕ್ಷಮಿಸುವುದು|forgive a friend|relationships
+v2.44|ಹೆಚ್ಚಿಸುವುದು|increase the price|workplace
+v2.45|ಉತ್ತಮಗೊಳಿಸುವುದು|improve your English|education
+v2.46|ಪರಿಚಯಿಸುವುದು|introduce yourself|communication
+v2.47|ದ್ವೀಪ|a small island|travel
+v2.48|ಸೇರುವುದು|join a club|everyday
+v2.49|ಸ್ಥಳೀಯ|local food|travel
+v2.50|ಆತಂಕದ|feel nervous|emotions
+v2.51|ಆರ್ಡರ್ ಮಾಡುವುದು|order food|everyday
+v2.52|ಸಿದ್ಧಪಡಿಸುವುದು|prepare for an exam|education
+v2.53|ಹೆಚ್ಚು ಇಷ್ಟಪಡುವುದು|prefer tea to coffee|everyday
+v2.54|ಭರವಸೆ ನೀಡುವುದು|keep a promise|relationships
+v2.55|ರಕ್ಷಿಸುವುದು|protect the environment|health
+v2.56|ನಿರಾಕರಿಸುವುದು|refuse an offer|communication
+v2.57|ಹುಡುಕುವುದು|search for information|technology
+v2.58|ಕಾಗುಣಿತ ಹೇಳುವುದು|spell your name|education
+v2.59|ಪ್ರವಾಸ|a city tour|travel
+v2.60|ಚಿಂತಿಸುವುದು|worry about exams|emotions
+v2.61|ವಿಮಾನ ನಿಲ್ದಾಣ|arrive at the airport|travel
+v2.62|ಬ್ಯಾಂಕ್|open a bank account|everyday
+v2.63|ಸೇತುವೆ|cross a bridge|travel
+v2.64|ಕ್ಯಾಮೆರಾ|a digital camera|technology
+v2.65|ಸಿನಿಮಾ ಮಂದಿರ|go to the cinema|everyday
+v2.66|ಗ್ರಾಹಕ|a regular customer|workplace
+v2.67|ದಂತವೈದ್ಯ|see a dentist|health
+v2.68|ದಿನಚರಿ ಪುಸ್ತಕ|keep a diary|everyday
+v2.69|ದಿಕ್ಕು|ask for directions|travel
+v2.70|ಎಂಜಿನ್|start the engine|technology
+v2.71|ಪರೀಕ್ಷೆ|pass an exam|education
+v2.72|ಕಾರ್ಖಾನೆ|work in a factory|workplace
+v2.73|ಹೊಲ, ಕೃಷಿಭೂಮಿ|work on a farm|everyday
+v2.74|ಜ್ವರ|have a fever|health
+v2.75|ವಿಮಾನ ಪ್ರಯಾಣ|catch a flight|travel
+v2.76|ಅತಿಥಿ|a hotel guest|relationships
+v2.77|ಆರೋಗ್ಯ|good health|health
+v2.78|ರಜೆ|go on holiday|travel
+v2.79|ಕಾಯಿಲೆ|a serious illness|health
+v2.80|ಆಮಂತ್ರಣ|accept an invitation|relationships
+v2.81|ಸಾಮಾನು|heavy luggage|travel
+v2.82|ಔಷಧ|take medicine|health
+v2.83|ಸದಸ್ಯ|a club member|everyday
+v2.84|ಕನ್ನಡಿ|look in the mirror|everyday
+v2.85|ಪಾಸ್‌ಪೋರ್ಟ್|a valid passport|travel
+v2.86|ಜೇಬು|in your pocket|everyday
+v2.87|ಬಹುಮಾನ|win a prize|everyday
+v2.88|ಸಾಲು|wait in a queue|everyday
+v2.89|ದುರಸ್ತಿ ಮಾಡುವುದು|repair a bike|everyday
+v2.90|ವಿನಂತಿ|make a request|communication
+v2.91|ಸಂಬಳ|a good salary|workplace
+v2.92|ಭುಜ|a sore shoulder|health
+v2.93|ಆಶ್ಚರ್ಯ|a nice surprise|emotions
+v2.94|ಸಂಪ್ರದಾಯ|an old tradition|academic
+v2.95|ಸಮವಸ್ತ್ರ|wear a uniform|education
+v2.96|ಸ್ವಯಂಸೇವಕ|work as a volunteer|relationships
+v3.01|ಸಾಧಿಸುವುದು|achieve a goal|academic
+v3.02|ಅನುಕೂಲ|a big advantage|workplace
+v3.03|ತಪ್ಪಿಸಿಕೊಳ್ಳುವುದು|avoid mistakes|everyday
+v3.04|ಪ್ರಯೋಜನ|a health benefit|workplace
+v3.05|ಸವಾಲು|face a challenge|workplace
+v3.06|ಆರಾಮದಾಯಕ|a comfortable chair|everyday
+v3.07|ಹೋಲಿಸುವುದು|compare prices|academic
+v3.08|ಆತ್ಮವಿಶ್ವಾಸದ|feel confident|personality
+v3.09|ಪರಿಗಣಿಸುವುದು|consider an offer|everyday
+v3.10|ಅನುಕೂಲಕರ|a convenient time|everyday
+v3.11|ಕಡಿಮೆಯಾಗುವುದು|decrease in price|workplace
+v3.12|ಅವಲಂಬಿಸುವುದು|depend on someone|everyday
+v3.13|ಅಭಿವೃದ್ಧಿಪಡಿಸುವುದು|develop a skill|academic
+v3.14|ದಕ್ಷ|an efficient worker|workplace
+v3.15|ಪರಿಸರ|protect the environment|academic
+v3.16|ಪರಿಚಿತ|a familiar face|everyday
+v3.17|ಖಾತರಿ ನೀಡುವುದು|a one-year guarantee|workplace
+v3.18|ಅವಕಾಶ|a great opportunity|workplace
+v3.19|ನಂಬಿಕಸ್ಥ|a reliable friend|personality
+v3.20|ಬೆಂಬಲಿಸುವುದು|support a friend|relationships
+v3.21|ಪ್ರವೇಶ, ಲಭ್ಯತೆ|access to the internet|technology
+v3.22|ನಿಖರ|accurate information|academic
+v3.23|ಹೊಂದಿಕೊಳ್ಳುವುದು|adapt to a new job|personality
+v3.24|ಭರಿಸುವ ಸಾಮರ್ಥ್ಯ ಇರುವುದು|can afford a car|everyday
+v3.25|ಮಹತ್ವಾಕಾಂಕ್ಷೆ|a strong ambition|personality
+v3.26|ಮೆಚ್ಚುವುದು, ಕೃತಜ್ಞತೆ ಹೊಂದುವುದು|appreciate your help|relationships
+v3.27|ವಿಧಾನ|a new approach|workplace
+v3.28|ಮನೋಭಾವ|a positive attitude|personality
+v3.29|ಮೂಲಭೂತ|basic skills|education
+v3.30|ವರ್ತಿಸುವುದು|behave well|personality
+v3.31|ಬಜೆಟ್, ಆಯವ್ಯಯ|a tight budget|workplace
+v3.32|ಸಮರ್ಥ|capable of doing it|personality
+v3.33|ಸಹಕರಿಸುವುದು|cooperate with others|workplace
+v3.34|ಕುತೂಹಲದ|curious about everything|personality
+v3.35|ಗಡುವು|meet a deadline|workplace
+v3.36|ಗಮ್ಯಸ್ಥಾನ|reach your destination|travel
+v3.37|ನಿರ್ಧರಿಸುವುದು, ಕಂಡುಹಿಡಿಯುವುದು|determine the cause|academic
+v3.38|ಗಮನ ಬೇರೆಡೆ ಸೆಳೆಯುವುದು|distract someone|education
+v3.39|ಪ್ರೋತ್ಸಾಹಿಸುವುದು|encourage students|relationships
+v3.40|ವಿಸ್ತರಿಸುವುದು|expand a business|workplace
+v3.41|ಹೊಂದಿಕೊಳ್ಳುವ|flexible hours|workplace
+v3.42|ಉದಾರ|a generous person|personality
+v3.43|ಗುರುತಿಸುವುದು|identify a problem|academic
+v3.44|ಪ್ರಭಾವ|a big influence|academic
+v3.45|ಕಾಪಾಡಿಕೊಳ್ಳುವುದು|maintain a good level|workplace
+v3.46|ಪ್ರೇರೇಪಿಸುವುದು|motivate students|education
+v3.47|ಸ್ಪಷ್ಟವಾದ|an obvious mistake|communication
+v3.48|ಭಾಗವಹಿಸುವುದು|participate in a discussion|education
+v3.49|ಆದ್ಯತೆ|a top priority|workplace
+v3.50|ಗೌಪ್ಯತೆ|respect privacy|technology
+v3.51|ಪ್ರಕ್ರಿಯೆ|a long process|workplace
+v3.52|ಶಿಫಾರಸು ಮಾಡುವುದು|recommend a book|communication
+v3.53|ಸಂಬಂಧಿತ|relevant information|academic
+v3.54|ಅಗತ್ಯವಿರುವುದು|require a visa|workplace
+v3.55|ಜವಾಬ್ದಾರಿಯುತ|responsible for the team|personality
+v3.56|ಕೊರತೆ|a water shortage|everyday
+v3.57|ಪ್ರವೃತ್ತಿ ಇರುವುದು|tend to forget|personality
+v3.58|ಸಹಿಸಿಕೊಳ್ಳುವುದು|tolerate noise|personality
+v3.59|ತುರ್ತು|an urgent message|workplace
+v3.60|ಅಮೂಲ್ಯ|valuable advice|everyday
+v3.61|ವಿದೇಶದಲ್ಲಿ|study abroad|travel
+v3.62|ಗೈರುಹಾಜರಿ|absence from work|workplace
+v3.63|ಒಪ್ಪಿಕೊಳ್ಳುವುದು|admit a mistake|communication
+v3.64|ಪರ್ಯಾಯ|an alternative plan|workplace
+v3.65|ವಿಶ್ಲೇಷಿಸುವುದು|analyse data|academic
+v3.66|ವಾರ್ಷಿಕ|an annual report|workplace
+v3.67|ಅರ್ಜಿ ಸಲ್ಲಿಸುವುದು|apply for a job|workplace
+v3.68|ಏರ್ಪಡಿಸುವುದು|arrange a meeting|workplace
+v3.69|ಸಹಾಯ ಮಾಡುವುದು|assist a customer|workplace
+v3.70|ವಾತಾವರಣ|a friendly atmosphere|everyday
+v3.71|ಆಕರ್ಷಿಸುವುದು|attract attention|relationships
+v3.72|ಸರಾಸರಿ|an average score|academic
+v3.73|ಅರಿವಿರುವ|be aware of a problem|personality
+v3.74|ಚೌಕಾಸಿಯ ಒಳ್ಳೆಯ ವ್ಯವಹಾರ|a real bargain|everyday
+v3.75|ಕಾರಣ|the cause of a problem|academic
+v3.76|ಹವಾಗುಣ|a hot climate|academic
+v3.77|ಸೇರಿಸುವುದು|combine two ideas|academic
+v3.78|ಸಮುದಾಯ|a local community|relationships
+v3.79|ಸ್ಪರ್ಧೆ|win a competition|workplace
+v3.80|ದೂರು|make a complaint|communication
+v3.81|ಗಮನ ಕೇಂದ್ರೀಕರಿಸುವುದು|concentrate on your work|education
+v3.82|ದೃಢೀಕರಿಸುವುದು|confirm a booking|workplace
+v3.83|ಸಂಪರ್ಕ|an internet connection|technology
+v3.84|ಬಳಸುವುದು, ಸೇವಿಸುವುದು|consume less energy|health
+v3.85|ಒಳಗೊಂಡಿರುವುದು|contain sugar|everyday
+v3.86|ಕೊಡುಗೆ ನೀಡುವುದು|contribute to a project|workplace
+v3.87|ಜನಸಮೂಹ|a big crowd|everyday
+v3.88|ಚರ್ಚೆ|a public debate|academic
+v3.89|ಖಚಿತ|a definite answer|communication
+v3.90|ವಿತರಣೆ|home delivery|everyday
+v3.91|ಬೇಡಿಕೆ|high demand|workplace
+v3.92|ವಿವರ|give details|communication
+v3.93|ಸಾಧನ|a mobile device|technology
+v3.94|ಮಾಯವಾಗುವುದು|disappear suddenly|everyday
+v3.95|ಪ್ರದರ್ಶನ|on display|everyday
+v3.96|ದೂರ|a long distance|travel
+v4.01|ಸಾಧಿಸುವುದು, ಪೂರೈಸುವುದು|accomplish a task|academic
+v4.02|ಸಾಕಷ್ಟು, ಸಮರ್ಪಕ|adequate time|workplace
+v4.03|ಅಸ್ಪಷ್ಟ, ಎರಡರ್ಥದ|an ambiguous answer|communication
+v4.04|ನಿರೀಕ್ಷಿಸುವುದು|anticipate problems|workplace
+v4.05|ವಿವಾದಾತ್ಮಕ|a controversial topic|academic
+v4.06|ಉದ್ದೇಶಪೂರ್ವಕ|a deliberate choice|academic
+v4.07|ವಿವರವಾಗಿ ಹೇಳುವುದು|elaborate on a point|communication
+v4.08|ಒತ್ತಿ ಹೇಳುವುದು|emphasise the importance|communication
+v4.09|ಮೌಲ್ಯಮಾಪನ ಮಾಡುವುದು|evaluate the results|academic
+v4.10|ಹಿಂಜರಿಯುವುದು|do not hesitate to ask|personality
+v4.11|ಅನಿವಾರ್ಯ|an inevitable result|academic
+v4.12|ಜ್ಞಾನವುಳ್ಳ|knowledgeable about history|personality
+v4.13|ಅಡೆತಡೆ|overcome an obstacle|workplace
+v4.14|ಒಪ್ಪಿಸುವುದು|persuade someone to join|communication
+v4.15|ಮುನ್ಸೂಚನೆ ನೀಡುವುದು|predict the weather|academic
+v4.16|ಹಿಂಜರಿಯುವ|reluctant to agree|personality
+v4.17|ಮಹತ್ವದ|a significant change|academic
+v4.18|ಸಾಕಾಗುವಷ್ಟು|sufficient evidence|academic
+v4.19|ದುರ್ಬಲ, ಸುಲಭವಾಗಿ ಹಾನಿಗೊಳ್ಳುವ|vulnerable to attack|health
+v4.20|ಹಿಂತೆಗೆದುಕೊಳ್ಳುವುದು|withdraw money|workplace
+v4.21|ಒಪ್ಪಿಕೊಳ್ಳುವುದು, ಗುರುತಿಸುವುದು|acknowledge a mistake|communication
+v4.22|ಪರವಾಗಿ ವಾದಿಸುವುದು|advocate change|academic
+v4.23|ಮೌಲ್ಯಮಾಪನ ಮಾಡುವುದು, ನಿರ್ಣಯಿಸುವುದು|assess the risk|academic
+v4.24|ಊಹಿಸುವುದು|assume nothing|communication
+v4.25|ಪಕ್ಷಪಾತ|show bias|academic
+v4.26|ಗಡಿ, ಮಿತಿ|set boundaries|relationships
+v4.27|ಸಂದರ್ಭ, ಪರಿಸ್ಥಿತಿ|under any circumstances|academic
+v4.28|ಬದ್ಧರಾಗುವುದು|commit to a plan|workplace
+v4.29|ಪರಿಹಾರ ನೀಡುವುದು|compensate for a loss|workplace
+v4.30|ಮರೆಮಾಚುವುದು|conceal the truth|communication
+v4.31|ಪರಿಣಾಮ|face the consequences|academic
+v4.32|ಸತತ, ಸ್ಥಿರ|consistent effort|personality
+v4.33|ನಿರ್ಬಂಧ|time constraints|workplace
+v4.34|ವಿರುದ್ಧವಾಗಿ ಹೇಳುವುದು|contradict yourself|communication
+v4.35|ಮನವರಿಕೆ ಮಾಡಿಕೊಡುವುದು|convince a customer|communication
+v4.36|ನಿರ್ಣಾಯಕ|a crucial step|workplace
+v4.37|ಪ್ರದರ್ಶಿಸುವುದು|demonstrate a skill|academic
+v4.38|ಪತ್ತೆ ಹಚ್ಚುವುದು|detect an error|technology
+v4.39|ಸಂದಿಗ್ಧತೆ|face a dilemma|personality
+v4.40|ವ್ಯತ್ಯಾಸ ಗುರುತಿಸುವುದು|distinguish between two things|academic
+v4.41|ದೇಶೀಯ, ಮನೆಗೆ ಸಂಬಂಧಿಸಿದ|domestic flights|travel
+v4.42|ಹೆಚ್ಚಿಸುವುದು, ಉತ್ತಮಗೊಳಿಸುವುದು|enhance your skills|workplace
+v4.43|ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು|ensure quality|workplace
+v4.44|ಉತ್ಪ್ರೇಕ್ಷೆ ಮಾಡುವುದು|exaggerate a story|communication
+v4.45|ಶೋಷಿಸುವುದು, ಬಳಸಿಕೊಳ್ಳುವುದು|exploit workers|academic
+v4.46|ಏರಿಳಿತ ಆಗುವುದು|prices fluctuate|workplace
+v4.47|ಹೇರುವುದು|impose a rule|workplace
+v4.48|ಅಸಮರ್ಪಕ|inadequate training|workplace
+v4.49|ಪ್ರೋತ್ಸಾಹ, ಪ್ರೇರಣೆ|a financial incentive|workplace
+v4.50|ಸಂಯೋಜಿಸುವುದು|integrate new ideas|workplace
+v4.51|ಸಮರ್ಥಿಸುವುದು|justify a decision|academic
+v4.52|ಪರಸ್ಪರ|mutual respect|relationships
+v4.53|ನಿರ್ಲಕ್ಷಿಸುವುದು|neglect your health|health
+v4.54|ಜಯಿಸುವುದು|overcome a fear|personality
+v4.55|ವಿದ್ಯಮಾನ|a natural phenomenon|academic
+v4.56|ಬಲಪಡಿಸುವುದು|reinforce a message|academic
+v4.57|ನಿರ್ಬಂಧಿಸುವುದು|restrict access|workplace
+v4.58|ದುರ್ಬಲಗೊಳಿಸುವುದು|undermine confidence|relationships
+v4.59|ತೊರೆಯುವುದು, ಕೈಬಿಡುವುದು|abandon a plan|everyday
+v4.60|ಸಂಗ್ರಹವಾಗುವುದು|accumulate wealth|academic
+v4.61|ಆಕ್ರಮಣಕಾರಿ|aggressive behaviour|personality
+v4.62|ನಿಜವಾದ, ಅಸಲಿ|authentic food|travel
+v4.63|ಪ್ರಯೋಜನಕಾರಿ|beneficial for health|health
+v4.64|ಮಹಾ ವಿಪತ್ತು|a natural catastrophe|academic
+v4.65|ಆಕಸ್ಮಿಕ ಹೊಂದಾಣಿಕೆ|a strange coincidence|everyday
+v4.66|ಸಹಯೋಗ ಮಾಡುವುದು|collaborate on a project|workplace
+v4.67|ಒತ್ತಾಯಿಸುವುದು|feel compelled to act|academic
+v4.68|ಸಂಕೀರ್ಣತೆ|the complexity of a problem|academic
+v4.69|ಒಳಗೊಂಡಿರುವುದು|comprise five parts|academic
+v4.70|ಒಪ್ಪಿಕೊಳ್ಳುವುದು (ಸೋಲು ಅಥವಾ ವಾದ)|concede a point|communication
+v4.71|ಅನುಸರಿಸುವುದು|conform to the rules|workplace
+v4.72|ಒಮ್ಮತ|reach a consensus|workplace
+v4.73|ವಿವಾದ|cause controversy|academic
+v4.74|ವಿಶ್ವಾಸಾರ್ಹತೆ|lose credibility|workplace
+v4.75|ಮಾನದಂಡಗಳು|selection criteria|academic
+v4.76|ಸಂಶಯಾತ್ಮಕ|a cynical attitude|personality
+v4.77|ತರ್ಕದಿಂದ ತೀರ್ಮಾನಿಸುವುದು|deduce the answer|academic
+v4.78|ಕಡಿಮೆಯಾಗುವುದು, ಕುಗ್ಗುವುದು|diminish in value|academic
+v4.79|ನಿರುತ್ಸಾಹಗೊಳಿಸುವುದು|discourage students|relationships
+v4.80|ಅಡ್ಡಿಪಡಿಸುವುದು|disrupt a class|workplace
+v4.81|ಪ್ರಾಬಲ್ಯ ಸಾಧಿಸುವುದು|dominate a conversation|communication
+v4.82|ಅರ್ಹ|eligible for a loan|workplace
+v4.83|ಜಾರಿಗೊಳಿಸುವುದು|enforce a rule|workplace
+v4.84|ಸಮಾನ|an equivalent amount|academic
+v4.85|ಕ್ಷೀಣಿಸುವುದು, ಸವೆಯುವುದು|erode trust|relationships
+v4.86|ವಿಕಾಸಗೊಳ್ಳುವುದು|evolve over time|academic
+v4.87|ಪರಿಣತಿ|technical expertise|workplace
+v4.88|ದೋಷ|a serious flaw|academic
+v4.89|ಮುಂಗಾಣುವುದು|foresee a problem|workplace
+v4.90|ರೂಪಿಸುವುದು|formulate a plan|academic
+v4.91|ಊಹಾತ್ಮಕ ಸಿದ್ಧಾಂತ|test a hypothesis|academic
+v4.92|ಉದಾಹರಣೆಯಿಂದ ವಿವರಿಸುವುದು|illustrate a point|communication
+v4.93|ಪರೋಕ್ಷವಾಗಿ ಸೂಚಿಸುವುದು|imply a meaning|communication
+v4.94|ಪಿತ್ರಾರ್ಜಿತವಾಗಿ ಪಡೆಯುವುದು|inherit money|relationships
+v4.95|ಉಪಕ್ರಮ|take the initiative|workplace
+v4.96|ಅಂತರ್ದೃಷ್ಟಿ|a valuable insight|academic
+v4.97|ಸಂಸ್ಥೆ|an educational institution|education
+v4.98|ಮಧ್ಯಪ್ರವೇಶಿಸುವುದು|intervene in a dispute|relationships
+v5.01|ಮಿಶ್ರ ಭಾವನೆಯ|feel ambivalent about|emotions
+v5.02|ಯಾದೃಚ್ಛಿಕ, ಮನಬಂದಂತೆ|an arbitrary decision|academic
+v5.03|ನೇರ ಮತ್ತು ಪ್ರಾಮಾಣಿಕ|a candid opinion|communication
+v5.04|ಸುಸಂಬದ್ಧ|a coherent argument|academic
+v5.05|ಸಮಗ್ರ|a comprehensive guide|academic
+v5.06|ಸಂಕ್ಷಿಪ್ತ|a concise summary|communication
+v5.07|ಆಳವಾಗಿ ಯೋಚಿಸುವುದು|contemplate a decision|academic
+v5.08|ನಂಬಲರ್ಹ|a credible source|academic
+v5.09|ಶ್ರದ್ಧೆಯ|a diligent student|personality
+v5.10|ವಾಕ್ಚಾತುರ್ಯದ|an eloquent speaker|communication
+v5.11|ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸುವುದು|exacerbate a problem|academic
+v5.12|ಬಲಿಷ್ಠ, ಭಯಂಕರ|a formidable opponent|personality
+v5.13|ನಿಷ್ಪಕ್ಷಪಾತ|an impartial judge|academic
+v5.14|ಸಹಜವಾಗಿ ಇರುವ|inherent risks|academic
+v5.15|ಅತಿ ಸೂಕ್ಷ್ಮ ಗಮನ ನೀಡುವ|meticulous planning|personality
+v5.16|ಸೂಕ್ಷ್ಮ ವ್ಯತ್ಯಾಸ|a subtle nuance|communication
+v5.17|ನಂಬಬಹುದಾದ|a plausible explanation|academic
+v5.18|ವ್ಯಾವಹಾರಿಕ|a pragmatic approach|personality
+v5.19|ಚೇತರಿಸಿಕೊಳ್ಳುವ ಸಾಮರ್ಥ್ಯದ|a resilient person|personality
+v5.20|ಸೂಕ್ಷ್ಮವಾಗಿ ಪರಿಶೀಲಿಸುವುದು|scrutinise the details|academic
+v5.21|ಕಡಿಮೆ ಮಾಡುವುದು (ನೋವು, ಸಮಸ್ಯೆ)|alleviate pain|health
+v5.22|ಸ್ಪಷ್ಟವಾಗಿ ಮಾತನಾಡುವ|an articulate speaker|communication
+v5.23|ಚಾಣಾಕ್ಷ|an astute observer|personality
+v5.24|ಸ್ವಾಯತ್ತತೆ|work with autonomy|workplace
+v5.25|ಬಲಪಡಿಸುವುದು|bolster confidence|workplace
+v5.26|ಸುತ್ತುಬಳಸಿ ತಪ್ಪಿಸಿಕೊಳ್ಳುವುದು|circumvent a rule|workplace
+v5.27|ಅನುಕೂಲಕರ|conducive to learning|education
+v5.28|ಒಟ್ಟುಗೂಡಿದ|a cumulative effect|academic
+v5.29|ಮೇಲ್ನೋಟದ|a cursory glance|academic
+v5.30|ಸ್ಪಷ್ಟವಾಗಿ ವಿವರಿಸುವುದು|delineate responsibilities|workplace
+v5.31|ಅಸಂಗತತೆ|a discrepancy in the figures|workplace
+v5.32|ಕೈಗೆ ಸಿಗದ|an elusive goal|academic
+v5.33|ಸಂಪೂರ್ಣ ನಿರ್ಮೂಲನೆ ಮಾಡುವುದು|eradicate a disease|health
+v5.34|ಸ್ಪಷ್ಟ|explicit instructions|communication
+v5.35|ಸುಗಮಗೊಳಿಸುವುದು|facilitate a discussion|workplace
+v5.36|ಬೆಳೆಸುವುದು, ಪೋಷಿಸುವುದು|foster creativity|workplace
+v5.37|ಅಡ್ಡಿಪಡಿಸುವುದು|hinder progress|workplace
+v5.38|ಪರೋಕ್ಷವಾದ|an implicit agreement|communication
+v5.39|ನವೀನ|an innovative idea|technology
+v5.40|ಸಂಕೀರ್ಣ ಮತ್ತು ಸೂಕ್ಷ್ಮ|an intricate design|academic
+v5.41|ತೀವ್ರತೆ ಕಡಿಮೆ ಮಾಡುವುದು|mitigate the risk|workplace
+v5.42|ಕಲ್ಪನೆ|a common notion|academic
+v5.43|ವ್ಯಾಪಕವಾಗಿರುವ|a prevalent view|academic
+v5.44|ಆಳವಾದ|a profound effect|academic
+v5.45|ಬಿಟ್ಟುಕೊಡುವುದು|relinquish control|workplace
+v5.46|ಕಠಿಣ ಮತ್ತು ನಿಖರ|a rigorous test|academic
+v5.47|ಸಂಶಯವಾದ|healthy scepticism|academic
+v5.48|ಕಟ್ಟುನಿಟ್ಟಾದ|stringent rules|workplace
+v5.49|ಸೂಕ್ಷ್ಮ|a subtle difference|communication
+v5.50|ನಿಜವಾಗಿ ಕಾಣುವ, ಸ್ಪರ್ಶಿಸಬಹುದಾದ|tangible results|workplace
+v5.51|ಹಠ ಬಿಡದ|a tenacious fighter|personality
+v5.52|ಸಂಪೂರ್ಣ ಮತ್ತು ಎಚ್ಚರಿಕೆಯ|a thorough check|workplace
+v5.53|ಎಲ್ಲೆಡೆ ಇರುವ|ubiquitous technology|technology
+v5.54|ಕಾರ್ಯಸಾಧ್ಯ|a viable option|workplace
+v5.55|ಅಸ್ಥಿರ|a volatile situation|academic
+v5.56|ಅಗತ್ಯವೆಂದು ಸಮರ್ಥಿಸುವುದು|warrant attention|academic
+v5.57|ಹಠ ಹಿಡಿದ|adamant about it|personality
+v5.58|ನಿಪುಣ|adept at languages|personality
+v5.59|ಶ್ರೀಮಂತ|an affluent area|everyday
+v5.60|ನಿಸ್ವಾರ್ಥ|altruistic behaviour|personality
+v5.61|ಅಸಂಗತ ಸಂಗತಿ|a statistical anomaly|academic
+v5.62|ಆತಂಕದ|apprehensive about the exam|emotions
+v5.63|ಕಷ್ಟಕರ ಮತ್ತು ದಣಿಸುವ|an arduous journey|travel
+v5.64|ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು|ascertain the facts|academic
+v5.65|ಧೈರ್ಯಶಾಲಿ, ದಿಟ್ಟ|an audacious plan|personality
+v5.66|ಕರುಣಾಮಯ|a benevolent leader|personality
+v5.67|ಪ್ರಭಾವಶಾಲಿ ತರ್ಕದ|a cogent argument|academic
+v5.68|ಆಡುಮಾತಿನ|colloquial English|communication
+v5.69|ಪ್ರಭಾವಶಾಲಿ|a compelling reason|communication
+v5.70|ತೃಪ್ತಿಯಿಂದ ನಿರ್ಲಕ್ಷ್ಯ ಮಾಡುವ|become complacent|personality
+v5.71|ಎದ್ದುಕಾಣುವ|a conspicuous sign|everyday
+v5.72|ವಿವಾದಾತ್ಮಕ|a contentious issue|academic
+v5.73|ಅತಿ ಸಂಕೀರ್ಣ|a convoluted plot|communication
+v5.74|ಪರಾಕಾಷ್ಠೆ ತಲುಪುವುದು|culminate in success|academic
+v5.75|ಅಭಾವ|a dearth of evidence|academic
+v5.76|ದುರ್ಬಲಗೊಳಿಸುವುದು|a debilitating illness|health
+v5.77|ಗೌರವ|show deference|relationships
+v5.78|ಭಿನ್ನಾಭಿಪ್ರಾಯ|express dissent|communication
+v5.79|ರಹಸ್ಯ ಬಹಿರಂಗಪಡಿಸುವುದು|divulge a secret|communication
+v5.80|ಕ್ಷಣಿಕ|ephemeral beauty|academic
+v5.81|ಅಸ್ಪಷ್ಟ, ಎರಡರ್ಥದ|an equivocal answer|communication
+v5.82|ಉದಾಹರಣೆಯಾಗಿರುವುದು|exemplify good teaching|academic
+v5.83|ತಪ್ಪಿಲ್ಲವೆಂದು ಸಾಬೀತುಪಡಿಸುವುದು|exonerate someone|academic
+v5.84|ಅತಿ ಸೂಕ್ಷ್ಮ ಸ್ವಭಾವದ|fastidious about cleanliness|personality
+v5.85|ಉತ್ಕಟ|a fervent supporter|emotions
+v5.86|ಅಭಿವೃದ್ಧಿ ಹೊಂದುವುದು|businesses flourish|workplace
+v5.87|ವ್ಯರ್ಥ|a futile attempt|academic
+v5.88|ಸಹವಾಸಪ್ರಿಯ|a gregarious person|personality
+v5.89|ಊಹಾತ್ಮಕ|a hypothetical question|academic
+v5.90|ವಿಶಿಷ್ಟ ವೈಯಕ್ತಿಕ ಸ್ವಭಾವದ|an idiosyncratic style|personality
+v5.91|ದೋಷರಹಿತ|impeccable manners|personality
+v5.92|ನಿರಂತರ|incessant noise|everyday
+v5.93|ಚತುರ, ಬುದ್ಧಿವಂತಿಕೆಯ|an ingenious idea|personality
+v5.94|ತಡೆಯುವುದು|inhibit growth|academic
+v5.95|ಜನ್ಮಜಾತ|an innate talent|personality
+v5.96|ಗೊತ್ತಾಗದಂತೆ ಹಾನಿ ಮಾಡುವ|an insidious disease|health
+v5.97|ಸ್ಪಷ್ಟ ಮತ್ತು ಸುಲಭವಾಗಿ ಅರ್ಥವಾಗುವ|a lucid explanation|communication
