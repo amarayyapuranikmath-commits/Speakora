@@ -1,0 +1,57 @@
+# Level 2 (intermediate), more phrasal verbs. verb|meaning|Kannada|SEPARABLE, INSEPARABLE or NONE|common usage|theme|register|example 1|example 2|example 3|other meanings (meaning^Kannada^example;;...)|mistake (wrong>>right>>why)
+# The Kannada was written for this project and has NOT been reviewed by a native speaker or teacher.
+take after|to look or behave like an older family member|ಮನೆಯವರನ್ನು ಹೋಲುವುದು|INSEPARABLE|take after your mother|relationships|neutral|She [[takes after]] her mother.|He [[takes after]] his grandfather in many ways.|||
+tell off|to speak angrily to someone because they did something wrong|ಬೈಯುವುದು|SEPARABLE|tell someone off|relationships|informal|The teacher will tell off anyone who is late.|She [[told off]] her son for lying.|||
+tear up|to pull paper into small pieces|ಹರಿದು ಹಾಕುವುದು|SEPARABLE|tear up a letter|everyday|neutral|He decided to tear up the letter.|She [[tore up]] the old photographs.|||
+talk over|to discuss something carefully with someone|ಚರ್ಚಿಸುವುದು|SEPARABLE|talk over a problem|conversation|neutral|Let us talk over the plan tonight.|They [[talked over]] the problem for an hour.|||
+step down|to leave an important job or position|ರಾಜೀನಾಮೆ ನೀಡುವುದು|NONE|step down as manager|workplace|neutral|The manager will step down next month.|He [[stepped down]] after ten years.|||
+stick to|to continue with something and not change|ಬದ್ಧವಾಗಿರುವುದು|INSEPARABLE|stick to the plan|workplace|neutral|You must stick to the plan.|She [[stuck to]] her diet.|||
+result in|to cause something to happen|ಪರಿಣಾಮವಾಗುವುದು|INSEPARABLE|result in a delay|workplace|neutral|Heavy rain can result in floods.|The mistake [[resulted in]] a long delay.|||
+rely on|to depend on someone or something|ಅವಲಂಬಿಸುವುದು|INSEPARABLE|rely on a friend|relationships|neutral|You can rely on me.|She [[relies on]] her phone for everything.|||
+show around|to take someone to see a place|ಸುತ್ತಾಡಿಸಿ ತೋರಿಸುವುದು|SEPARABLE|show someone around|travel|neutral|I will show around the new students tomorrow.|He [[showed around]] the new students.|||
+sleep in|to sleep later than usual|ತಡವಾಗಿ ಏಳುವುದು|NONE|sleep in on Sunday|everyday|neutral|I like to sleep in on Sundays.|She [[slept in]] this morning.|||
+split up|to end a relationship, or to divide into groups|ಬೇರೆಯಾಗುವುದು|NONE|split up into groups|relationships|neutral|The class will split up into groups.|They [[split up]] last year.|||
+stand for|to be a short form of something, or to represent an idea|ಪ್ರತಿನಿಧಿಸುವುದು|INSEPARABLE|stand for freedom|conversation|neutral|What does this word stand for?|The flag [[stands for]] peace.||to accept something bad^ಸಹಿಸಿಕೊಳ್ಳುವುದು^I will not stand for rude behaviour.|
+stand up for|to defend someone or something|ಪರವಾಗಿ ನಿಲ್ಲುವುದು|INSEPARABLE|stand up for your friend|relationships|neutral|You must stand up for your friends.|She [[stood up for]] the new student.|||
+start over|to begin again from the beginning|ಮೊದಲಿನಿಂದ ಆರಂಭಿಸುವುದು|NONE|start over again|everyday|neutral|I made a mistake, so I must start over.|They [[started over]] in a new city.|||
+take part in|to join an activity|ಭಾಗವಹಿಸುವುದು|INSEPARABLE|take part in a race|education|neutral|Everyone can take part in the game.|She [[took part in]] the debate.|||
+take on|to accept a job or a challenge|ಕೈಗೆತ್ತಿಕೊಳ್ಳುವುದು|SEPARABLE|take on extra work|workplace|neutral|I cannot take on more work.|She [[took on]] the new project.||to start to employ someone^ಕೆಲಸಕ್ಕೆ ತೆಗೆದುಕೊಳ್ಳುವುದು^The shop will take on two new workers.|
+think up|to invent an idea|ಹೊಸ ಆಲೋಚನೆ ಮಾಡುವುದು|SEPARABLE|think up an excuse|conversation|neutral|Can you think up a good name?|He [[thought up]] a clever plan.|||
+throw up|to bring food out of the stomach through the mouth|ವಾಂತಿ ಮಾಡುವುದು|NONE|throw up after eating|everyday|informal|The baby may throw up after milk.|He [[threw up]] on the bus.|||
+touch on|to mention something briefly|ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಪ್ರಸ್ತಾಪಿಸುವುದು|INSEPARABLE|touch on a topic|conversation|neutral|The speaker will touch on this point later.|She only [[touched on]] the subject.|||
+try out|to test something to see if it works|ಪ್ರಯತ್ನಿಸಿ ನೋಡುವುದು|SEPARABLE|try out a new app|everyday|neutral|Let me try out the new phone.|She [[tried out]] a new recipe.|||
+turn away|to refuse to let someone in, or to look in another direction|ಹಿಂದಕ್ಕೆ ಕಳುಹಿಸುವುದು|SEPARABLE|turn away customers|everyday|neutral|The hotel had to turn away guests.|She [[turned away]] and cried.|||
+wipe out|to destroy completely|ಸಂಪೂರ್ಣವಾಗಿ ನಾಶಪಡಿಸುವುದು|SEPARABLE|wipe out a disease|everyday|neutral|The flood can wipe out a village.|The storm [[wiped out]] the crops.|||
+bring back|to return something, or to remind you of something|ಮರಳಿ ತರುವುದು|SEPARABLE|bring back memories|everyday|neutral|Please bring back my pen tomorrow.|This song [[brings back]] old memories.|||
+bring in|to introduce something new, or to earn money|ಹೊಸದನ್ನು ಪರಿಚಯಿಸುವುದು|SEPARABLE|bring in a new rule|workplace|neutral|The school will bring in a new rule.|The shop [[brings in]] good money.|||
+break in|to enter a place by force|ಬಲವಂತವಾಗಿ ಪ್ರವೇಶಿಸುವುದು|NONE|break in to a house|everyday|neutral|Thieves tried to break in last night.|Someone [[broke in]] through the window.||to interrupt^ಅಡ್ಡಿಪಡಿಸುವುದು^Please do not break in while I am talking.|
+break out|to start suddenly, or to escape|ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಆರಂಭವಾಗುವುದು|NONE|a fire breaks out|everyday|neutral|A fire may break out at night.|A fight [[broke out]] in the crowd.|||
+call for|to need something, or to ask for something publicly|ಬೇಕಾಗುವುದು, ಒತ್ತಾಯಿಸುವುದು|INSEPARABLE|call for action|workplace|neutral|This problem [[calls for]] quick action.|The workers [[called for]] higher pay.|||
+call on|to visit someone, or to ask someone to speak|ಭೇಟಿಯಾಗುವುದು|INSEPARABLE|call on a friend|relationships|neutral|I will call on my aunt this evening.|The teacher [[called on]] me to answer.|||
+catch on|to become popular, or to understand|ಜನಪ್ರಿಯವಾಗುವುದು|NONE|catch on quickly|conversation|informal|The new game began to catch on.|She [[caught on]] very quickly.|||
+check up on|to make sure someone is safe or doing well|ಪರಿಶೀಲಿಸುವುದು|INSEPARABLE|check up on a patient|relationships|neutral|The nurse will check up on the patient.|He [[checked up on]] his old mother.|||
+clear up|to make something clean, or to become clear|ಸ್ವಚ್ಛಗೊಳಿಸುವುದು|SEPARABLE|clear up a mess|everyday|neutral|Please clear up the mess.|The sky will [[clear up]] by noon.||to explain something that was not clear^ಸ್ಪಷ್ಟಪಡಿಸುವುದು^Let me clear up this doubt.|
+come round|to visit someone's house, or to wake up after an operation|ಮನೆಗೆ ಬರುವುದು|NONE|come round for tea|relationships|informal|Come round for tea on Sunday.|He [[came round]] after the operation.|||
+count on|to depend on someone|ನಂಬಿ ಇರುವುದು|INSEPARABLE|count on a friend|relationships|neutral|You can count on me.|She [[counted on]] her brother's help.|||
+cross out|to draw a line through a word|ಗೆರೆ ಎಳೆದು ಅಳಿಸುವುದು|SEPARABLE|cross out a mistake|education|neutral|Cross out the wrong answer.|He [[crossed out]] his name.|||
+cut in|to interrupt, or to move in front of another vehicle|ಅಡ್ಡಿಪಡಿಸುವುದು|NONE|cut in on a talk|conversation|informal|It is rude to cut in when someone is speaking.|A car [[cut in]] in front of us.|||
+dress up|to wear special clothes|ವಿಶೇಷ ಉಡುಪು ಧರಿಸುವುದು|NONE|dress up for a party|everyday|neutral|We will dress up for the wedding.|The children [[dressed up]] as animals.|||
+drop in|to visit someone without telling them first|ಹೇಳದೆ ಭೇಟಿಯಾಗುವುದು|NONE|drop in on a friend|relationships|informal|Please drop in whenever you like.|She [[dropped in]] on her neighbour.|||
+face up to|to accept something difficult|ಎದುರಿಸಿ ಒಪ್ಪಿಕೊಳ್ಳುವುದು|INSEPARABLE|face up to the truth|everyday|neutral|You must face up to the problem.|He [[faced up to]] his fear.|||
+fall apart|to break into pieces, or to stop working well|ಛಿದ್ರವಾಗುವುದು|NONE|fall apart completely|everyday|neutral|My old bag is [[falling apart]].|Their plan [[fell apart]] quickly.|||
+fall behind|to fail to keep up with others|ಹಿಂದೆ ಬೀಳುವುದು|NONE|fall behind in class|education|neutral|Do not fall behind in your studies.|She [[fell behind]] because of her illness.|||
+fall for|to fall in love, or to believe a trick|ಪ್ರೀತಿಯಲ್ಲಿ ಬೀಳುವುದು|INSEPARABLE|fall for a trick|relationships|informal|He [[fell for]] her at once.|Do not fall for this trick.|||
+fill up|to make something full|ತುಂಬಿಸುವುದು|SEPARABLE|fill up a tank|everyday|neutral|Please fill up the car with petrol.|She [[filled up]] the bottle.|||
+get by|to manage with a small amount of money or help|ನಿಭಾಯಿಸುವುದು|NONE|get by on little money|everyday|neutral|They get by on a small salary.|She [[got by]] with a little English.|||
+get together|to meet with other people|ಒಟ್ಟಿಗೆ ಸೇರುವುದು|NONE|get together on Sunday|relationships|neutral|Let us get together on Saturday.|The family [[got together]] for the festival.|||
+give out|to give something to many people|ಹಂಚುವುದು|SEPARABLE|give out sweets|everyday|neutral|They give out sweets on the festival day.|He [[gave out]] the papers.||to stop working^ಕೆಲಸ ನಿಲ್ಲಿಸುವುದು^My strength gave out.|
+go over|to check or read something carefully|ಪರಿಶೀಲಿಸುವುದು|INSEPARABLE|go over your notes|education|neutral|Go over your notes before the exam.|She [[went over]] the report twice.|||
+hand out|to give something to each person|ಹಂಚುವುದು|SEPARABLE|hand out papers|education|neutral|The teacher will hand out the papers.|He [[handed out]] free tickets.|||
+hang on|to wait for a short time|ಸ್ವಲ್ಪ ಕಾಯುವುದು|NONE|hang on a minute|conversation|informal|Hang on, I will be back soon.|She [[hung on]] for a few seconds.|||
+join in|to take part in something that others are doing|ಸೇರಿಕೊಳ್ಳುವುದು|NONE|join in the game|relationships|neutral|Please join in the song.|The children [[joined in]] the game.|||
+keep out|to not enter a place|ಒಳಗೆ ಬರದಂತೆ ಇರುವುದು|NONE|keep out of the room|everyday|neutral|The sign says keep out.|He [[kept out]] of the argument.|||
+kick off|to start an event|ಆರಂಭಿಸುವುದು|NONE|kick off a match|everyday|informal|The match will kick off at four.|The festival [[kicked off]] with a song.|||
+knock down|to destroy a building, or to hit someone to the ground|ಕೆಡವುವುದು|SEPARABLE|knock down a wall|everyday|neutral|They will knock down the old building.|A car [[knocked down]] the old man.|||
+let in|to allow someone to enter|ಒಳಗೆ ಬಿಡುವುದು|SEPARABLE|let in some air|everyday|neutral|Please let in some fresh air.|She [[let in]] the cat.|||
+mess up|to do something badly|ಹಾಳು ಮಾಡುವುದು|SEPARABLE|mess up an exam|everyday|informal|Do not mess up this chance.|He [[messed up]] his interview.|||
+miss out|to lose a chance|ಅವಕಾಶ ಕಳೆದುಕೊಳ್ಳುವುದು|NONE|miss out on a chance|everyday|neutral|Do not miss out on this offer.|She [[missed out]] on the prize.|||

@@ -1,0 +1,234 @@
+# Level 2 (elementary), more words. word|part of speech|simple meaning|Kannada|example (must contain the word exactly)|common usage|synonyms|theme|note
+# The Kannada was written for this project and has NOT been reviewed by a native speaker or teacher.
+choose|verb|to pick one thing from several|ಆರಿಸುವುದು|You can choose tea or coffee.|choose a gift|select|everyday|
+change|verb|to become different, or to make something different|ಬದಲಾಯಿಸುವುದು, ಬದಲಾಗುವುದು|I want to change my phone.|change your mind|alter|everyday|
+check|verb|to look at something to make sure it is correct|ಪರಿಶೀಲಿಸುವುದು|Please check your answers.|check the time|examine|everyday|
+count|verb|to say numbers in order, or to find the total|ಎಣಿಸುವುದು|The child can count to twenty.|count the money|add up|education|
+enjoy|verb|to get pleasure from something|ಆನಂದಿಸುವುದು|We enjoy walking by the lake.|enjoy the film|like|emotions|
+explain|verb|to make something clear to someone|ವಿವರಿಸುವುದು|Can you explain this word to me?|explain a rule|clarify|communication|
+fill|verb|to put something into a place until it is full|ತುಂಬುವುದು|Please fill the bottle with water.|fill a glass|stuff|everyday|
+fix|verb|to repair something, or to decide a time or price|ಸರಿಪಡಿಸುವುದು|He can fix the broken chair.|fix a problem|repair|everyday|
+follow|verb|to go or come after someone or something|ಅನುಸರಿಸುವುದು|Please follow me to the office.|follow the rules|pursue|everyday|
+hope|verb|to want something to happen and think it may happen|ಆಶಿಸುವುದು|I hope you feel better soon.|hope for the best|wish|emotions|
+hurry|verb|to move or do something quickly because there is little time|ಅವಸರ ಮಾಡುವುದು|We must hurry or we will miss the bus.|in a hurry|rush|everyday|
+imagine|verb|to make a picture of something in your mind|ಕಲ್ಪಿಸಿಕೊಳ್ಳುವುದು|Imagine you are on a quiet beach.|imagine a story|picture|everyday|
+kick|verb|to hit something with your foot|ಒದೆಯುವುದು|He wants to kick the ball into the goal.|kick a ball|boot|everyday|
+laugh|verb|to make sounds that show you think something is funny|ನಗುವುದು|We laugh at his jokes.|laugh loudly|giggle|emotions|
+leave|verb|to go away from a place, or to let something stay|ಬಿಟ್ಟು ಹೋಗುವುದು|I leave home at seven every morning.|leave a message|depart|everyday|
+lend|verb|to give something to someone for a short time|ಎರವಲು ಕೊಡುವುದು|Can you lend me your pen?|lend money|loan|everyday|Borrow means to take something for a short time. Lend means to give something for a short time.
+mean|verb|to have a particular meaning|ಅರ್ಥವಾಗುವುದು, ಎಂದರ್ಥ|What does this word mean?|mean something|signify|communication|
+miss|verb|to feel sad because someone is not with you, or to be too late for something|ನೆನಪಿಸಿಕೊಂಡು ಬೇಸರಪಡುವುದು, ತಪ್ಪಿಸಿಕೊಳ್ಳುವುದು|I miss my friends in Mysuru.|miss the bus|lack|emotions|
+move|verb|to change your place or position|ಚಲಿಸುವುದು|Please move your bag from the seat.|move house|shift|everyday|
+notice|verb|to see or become aware of something|ಗಮನಿಸುವುದು|Did you notice the new sign?|notice a change|spot|everyday|
+offer|verb|to say that you will give or do something for someone|ಕೊಡುಗೆ ನೀಡುವುದು|They offer free tea to visitors.|offer help|propose|relationships|
+pass|verb|to go past, or to give something to someone|ದಾಟಿ ಹೋಗುವುದು, ಕೊಡುವುದು|Please pass me the salt.|pass an exam|hand|everyday|
+pick|verb|to choose, or to take a flower or fruit from a plant|ಆಯ್ಕೆ ಮಾಡುವುದು, ಕೀಳುವುದು|You can pick any colour you like.|pick a number|choose|everyday|
+plan|verb|to decide in advance what you will do|ಯೋಜನೆ ಮಾಡುವುದು|We plan to visit Goa in December.|plan a trip|arrange|everyday|
+pull|verb|to hold something and move it towards you|ಎಳೆಯುವುದು|Pull the door to open it.|pull a rope|drag|everyday|
+push|verb|to press something to make it move away from you|ತಳ್ಳುವುದು|Push the door, it is not locked.|push a button|press|everyday|
+reach|verb|to arrive at a place, or to stretch out to touch something|ತಲುಪುವುದು|We reach the station at noon.|reach a place|arrive|travel|
+rest|verb|to stop work and relax|ವಿಶ್ರಾಂತಿ ಪಡೆಯುವುದು|You should rest after the long walk.|take a rest|relax|health|
+return|verb|to go or come back, or to give something back|ಹಿಂತಿರುಗುವುದು, ಹಿಂತಿರುಗಿಸುವುದು|I will return the book tomorrow.|return home|come back|everyday|
+save|verb|to keep money for later, or to keep someone safe|ಉಳಿಸುವುದು, ರಕ್ಷಿಸುವುದು|I save a little money every month.|save time|keep|everyday|
+share|verb|to use or have something together with other people|ಹಂಚಿಕೊಳ್ಳುವುದು|The two sisters share a room.|share a room|split|relationships|
+shout|verb|to say something in a very loud voice|ಕೂಗುವುದು|Please do not shout in the library.|shout loudly|yell|communication|
+smile|verb|to make your face happy by turning up the corners of your mouth|ಮುಗುಳ್ನಗುವುದು|She likes to smile at everyone.|smile at someone|grin|emotions|
+spend|verb|to use money to pay for things, or to use time|ಖರ್ಚು ಮಾಡುವುದು, ಕಳೆಯುವುದು|I spend a lot of time on my phone.|spend money|use|everyday|
+talk|verb|to speak with someone|ಮಾತನಾಡುವುದು|We talk on the phone every evening.|talk to a friend|chat|communication|
+taste|verb|to have a particular flavour, or to try food in your mouth|ರುಚಿ ನೋಡುವುದು, ರುಚಿಯಾಗಿರುವುದು|I want to taste this soup.|taste the soup|try|health|
+touch|verb|to put your hand on something|ಮುಟ್ಟುವುದು|Please do not touch the paintings.|touch a screen|feel|everyday|
+turn|verb|to move round, or to change direction|ತಿರುಗುವುದು, ತಿರುಗಿಸುವುದು|Turn left at the next corner.|turn left|rotate|travel|
+visit|verb|to go to see a person or a place|ಭೇಟಿ ನೀಡುವುದು|We visit our grandparents every summer.|visit a friend|call on|relationships|
+wonder|verb|to think about something and want to know more|ಆಶ್ಚರ್ಯಪಡುವುದು, ಯೋಚಿಸುವುದು|I wonder why he is so late.|wonder why|ponder|communication|
+wish|verb|to want something that is not possible or not likely|ಹಾರೈಸುವುದು|I wish I could fly.|make a wish|hope|emotions|
+accept|verb|to say yes to something that is offered|ಒಪ್ಪಿಕೊಳ್ಳುವುದು|She will accept the invitation.|accept a gift|agree|confusing|Do not confuse accept (to take something) with except (not including).
+except|preposition|not including|ಹೊರತುಪಡಿಸಿ|Everyone came except Ravi.|everyone except|apart from|confusing|Do not confuse except (not including) with accept (to take something).
+loose|adjective|not tight, or not fixed firmly|ಸಡಿಲವಾದ|This shirt is too loose for me.|a loose button|slack|confusing|Do not confuse loose (not tight) with lose (to not win, or to not keep something).
+advise|verb|to tell someone what you think they should do|ಸಲಹೆ ನೀಡುವುದು|The doctor will advise you to rest.|advise someone|recommend|confusing|Advise is a verb. Advice is a noun: she gave me good advice.
+quite|adverb|to some degree, fairly|ಸಾಕಷ್ಟು, ಸಾಕಷ್ಟು ಮಟ್ಟಿಗೆ|The film was quite long.|quite good|fairly|confusing|Do not confuse quite (fairly) with quiet (making little noise).
+than|preposition|used to compare two things|ಗಿಂತ|My brother is taller than me.|better than|compared with|confusing|Do not confuse than (for comparing) with then (at that time, or next).
+then|adverb|after that, or at that time|ಆಮೇಲೆ, ಆಗ|Finish your work, then you can play.|and then|next|confusing|Do not confuse then (next, or at that time) with than (for comparing).
+address|noun|the details of where a person lives or works|ವಿಳಾಸ|Please write your address here.|home address|location|everyday|
+adult|noun|a person who has finished growing up|ವಯಸ್ಕ|Children must come with an adult.|an adult ticket|grown-up|relationships|
+animal|noun|a living thing that is not a plant or a person|ಪ್ರಾಣಿ|The zoo has many kinds of animal.|a wild animal||everyday|
+area|noun|a part of a place, or the size of a surface|ಪ್ರದೇಶ|Our area has a good park.|a quiet area|region|everyday|
+art|noun|paintings, drawings and other things made to be beautiful|ಕಲೆ|She studies art at college.|modern art||education|
+bill|noun|a piece of paper that shows how much money you must pay|ಬಿಲ್ಲು|Can I have the bill, please?|pay the bill|invoice|everyday|
+birthday|noun|the day each year when you celebrate the day you were born|ಹುಟ್ಟುಹಬ್ಬ|Today is my brother's birthday.|a birthday party||relationships|
+boat|noun|a small vehicle that moves on water|ದೋಣಿ|We crossed the lake by boat.|a fishing boat|ship|travel|
+body|noun|all the parts of a person or an animal|ದೇಹ|Exercise is good for your body.|a healthy body||health|
+building|noun|a structure with walls and a roof|ಕಟ್ಟಡ|The new building has ten floors.|a tall building||everyday|
+business|noun|the work of buying and selling things|ವ್ಯವಹಾರ|His father runs a small business.|a family business|trade|workplace|
+cake|noun|a sweet food made from flour, eggs and sugar|ಕೇಕ್|She baked a chocolate cake.|a birthday cake||everyday|
+chance|noun|an opportunity, or the possibility that something will happen|ಅವಕಾಶ|This is your last chance.|a good chance|opportunity|everyday|
+coffee|noun|a hot drink made from roasted beans|ಕಾಫಿ|I drink coffee every morning.|a cup of coffee||everyday|
+college|noun|a place where people study after school|ಕಾಲೇಜು|My sister goes to college in Pune.|go to college||education|
+colour|noun|red, blue, green or yellow, for example|ಬಣ್ಣ|What is your favourite colour?|a bright colour||everyday|
+corner|noun|the place where two walls or roads meet|ಮೂಲೆ|The shop is on the corner.|on the corner||everyday|
+course|noun|a series of lessons on a subject|ಕೋರ್ಸ್, ಪಾಠಕ್ರಮ|I am taking a computer course.|an English course||education|
+danger|noun|the chance that something bad may happen|ಅಪಾಯ|There is danger near the river.|in danger|risk|health|
+date|noun|a particular day of the month, or a day written down|ದಿನಾಂಕ|What is the date today?|the date of birth||everyday|
+decision|noun|a choice that you make after thinking|ನಿರ್ಧಾರ|It was a difficult decision.|make a decision|choice|everyday|
+dream|noun|pictures and events in your mind when you sleep, or something you hope for|ಕನಸು|I had a strange dream last night.|a bad dream||emotions|
+driver|noun|a person who drives a vehicle|ಚಾಲಕ|The bus driver waited for us.|a taxi driver||travel|
+east|noun|the direction where the sun comes up|ಪೂರ್ವ|The sun rises in the east.|in the east||travel|
+west|noun|the direction where the sun goes down|ಪಶ್ಚಿಮ|The sun sets in the west.|in the west||travel|
+north|noun|the direction towards the top of a map|ಉತ್ತರ|Kashmir is in the north of India.|in the north||travel|
+south|noun|the direction towards the bottom of a map|ದಕ್ಷಿಣ|Kerala is in the south of India.|in the south||travel|
+energy|noun|the power to be active, or power that makes machines work|ಶಕ್ತಿ|I do not have much energy today.|save energy|power|health|
+entrance|noun|the place where you go in|ಪ್ರವೇಶದ್ವಾರ|Meet me at the main entrance.|the main entrance|way in|travel|
+exit|noun|the place where you go out|ನಿರ್ಗಮನ ದ್ವಾರ|The exit is on your left.|an emergency exit|way out|travel|
+experience|noun|knowledge you get from doing something, or something that happens to you|ಅನುಭವ|She has five years of experience.|work experience||workplace|
+fact|noun|something that is true|ವಾಸ್ತವ ಸಂಗತಿ, ವಿಷಯ|It is a fact that the earth is round.|a true fact||communication|
+field|noun|an area of land with grass or crops, or an area of study|ಹೊಲ, ಕ್ಷೇತ್ರ|The cows are in the field.|a football field||everyday|
+flat|noun|a set of rooms for living in, on one floor of a building|ಫ್ಲ್ಯಾಟ್|They rent a small flat in the city.|a rented flat|apartment|everyday|
+forest|noun|a large area covered with trees|ಕಾಡು|We walked through the forest.|a thick forest|jungle|travel|
+future|noun|the time that will come after now|ಭವಿಷ್ಯ|I want to see the future of this town.|in the future||everyday|
+gift|noun|something that you give to someone without asking for money|ಉಡುಗೊರೆ|She gave me a gift for my birthday.|a birthday gift|present|relationships|
+glass|noun|a hard clear material, or a container you drink from|ಗಾಜು, ಲೋಟ|He drank a glass of milk.|a glass of water||everyday|
+goal|noun|something you want to achieve, or a point scored in a game|ಗುರಿ, ಗೋಲು|My goal is to speak English well.|score a goal|aim|everyday|
+group|noun|a number of people or things together|ಗುಂಪು|A group of students waited outside.|a group of friends||everyday|
+guide|noun|a person who shows visitors around a place|ಮಾರ್ಗದರ್ಶಿ|The guide told us about the old fort.|a tour guide||travel|
+habit|noun|something that you do often without thinking|ಅಭ್ಯಾಸ|Reading before bed is a good habit.|a good habit|custom|health|
+hobby|noun|an activity that you enjoy doing in your free time|ಹವ್ಯಾಸ|My hobby is painting.|an interesting hobby||everyday|
+hotel|noun|a building where you pay to stay for a short time|ಹೋಟೆಲ್|We stayed at a small hotel near the beach.|book a hotel||travel|
+idea|noun|a plan or thought that you have|ಕಲ್ಪನೆ, ಯೋಚನೆ|That is a very good idea.|a good idea|thought|communication|
+information|noun|facts that tell you about something|ಮಾಹಿತಿ|I need more information about the course.|ask for information|details|communication|
+interview|noun|a meeting where someone asks you questions, for example for a job|ಸಂದರ್ಶನ|She has an interview on Monday.|a job interview||workplace|
+kind|noun|a type of thing|ರೀತಿ, ಬಗೆ|What kind of music do you like?|a kind of|type|everyday|
+lake|noun|a large area of water with land all around it|ಕೆರೆ, ಸರೋವರ|We had a picnic by the lake.|a deep lake||travel|
+level|noun|a standard, or a height|ಮಟ್ಟ|My English level is better now.|a high level|standard|education|
+list|noun|a set of names or items written one below the other|ಪಟ್ಟಿ|I made a shopping list.|a shopping list||everyday|
+magazine|noun|a thin book with pictures and articles that comes out regularly|ನಿಯತಕಾಲಿಕೆ|She reads a fashion magazine.|a weekly magazine||everyday|
+map|noun|a drawing of a place that shows roads and cities|ನಕ್ಷೆ|Look at the map to find the hotel.|a road map||travel|
+meal|noun|food that you eat at a particular time|ಊಟ|Dinner is my favourite meal.|have a meal||everyday|
+message|noun|information that you send or leave for someone|ಸಂದೇಶ|I sent him a message last night.|leave a message||communication|
+meeting|noun|an occasion when people come together to talk|ಸಭೆ, ಭೇಟಿ|The meeting starts at ten.|a business meeting||workplace|
+moment|noun|a very short period of time|ಕ್ಷಣ|Wait a moment, please.|in a moment||everyday|
+news|noun|new information about things that have happened|ಸುದ್ದಿ|I have good news for you.|watch the news||communication|
+newspaper|noun|a set of large pages with news that is printed every day|ವೃತ್ತಪತ್ರಿಕೆ|My father reads the newspaper every morning.|a daily newspaper||everyday|
+noise|noun|a loud or unpleasant sound|ಗದ್ದಲ, ಸದ್ದು|The noise from the road woke me up.|make a noise|sound|everyday|
+nurse|noun|a person who looks after sick people in a hospital|ದಾದಿ, ನರ್ಸ್|The nurse gave him some medicine.|a night nurse||health|
+oil|noun|a thick liquid used for cooking or for machines|ಎಣ್ಣೆ|Heat some oil in a pan.|cooking oil||everyday|
+opinion|noun|what you think about something|ಅಭಿಪ್ರಾಯ|In my opinion, the film was too long.|in my opinion|view|communication|
+pair|noun|two things of the same kind that are used together|ಜೋಡಿ|I bought a pair of shoes.|a pair of shoes||everyday|
+parcel|noun|something wrapped in paper to be sent or carried|ಪಾರ್ಸೆಲ್, ಪೊಟ್ಟಣ|A parcel arrived for you this morning.|send a parcel|package|everyday|
+partner|noun|a person you do something with, such as a speaking partner|ಸಂಗಾತಿ, ಪಾಲುದಾರ|Find a partner and practise this dialogue.|a speaking partner||relationships|
+party|noun|a social event where people eat, talk and enjoy themselves|ಪಾರ್ಟಿ|We are having a party on Saturday.|a birthday party||relationships|
+past|noun|the time before now|ಭೂತಕಾಲ, ಹಿಂದಿನ ಕಾಲ|In the past, people wrote letters by hand.|in the past||everyday|
+patient|noun|a person who is getting treatment from a doctor|ರೋಗಿ|The nurse is helping a patient.|a hospital patient||health|
+place|noun|a position, a building, or an area|ಸ್ಥಳ|This is a quiet place to study.|a nice place|location|everyday|
+planet|noun|a large round object that moves around a star, such as the earth|ಗ್ರಹ|The earth is a planet.|a distant planet||academic|
+plant|noun|a living thing that grows in the earth, such as a flower or tree|ಸಸ್ಯ, ಗಿಡ|Water the plant every morning.|a house plant||everyday|
+police|noun|the people whose job is to keep order and catch criminals|ಪೊಲೀಸ್|Call the police if you see a thief.|call the police||everyday|
+power|noun|strength, or electricity|ಶಕ್ತಿ, ವಿದ್ಯುತ್|The power went out last night.|a power cut|strength|everyday|
+problem|noun|something difficult that needs to be solved|ಸಮಸ್ಯೆ|We have a problem with the internet.|solve a problem|difficulty|everyday|
+project|noun|a piece of work that is planned carefully|ಯೋಜನೆ, ಪ್ರಾಜೆಕ್ಟ್|Our class is doing a project on rivers.|a school project||education|
+reason|noun|the cause of something, or why something happens|ಕಾರಣ|What is the reason for the delay?|a good reason|cause|communication|
+report|noun|a piece of writing that gives information about something|ವರದಿ|He wrote a report for his manager.|write a report||workplace|
+restaurant|noun|a place where you buy and eat a meal|ಉಪಾಹಾರ ಗೃಹ, ರೆಸ್ಟೋರೆಂಟ್|We had dinner at a small restaurant.|book a restaurant||travel|
+result|noun|something that happens because of something else, or a mark in an exam|ಫಲಿತಾಂಶ|I am happy with my exam result.|the final result|outcome|education|
+rule|noun|an official instruction that says what you can or cannot do|ನಿಯಮ|You must follow this rule.|break a rule|law|everyday|
+sentence|noun|a group of words that expresses a complete idea|ವಾಕ್ಯ|Write a sentence with this word.|write a sentence||education|
+service|noun|a system or a business that provides something that people need|ಸೇವೆ|The bus service is very good here.|a bus service||workplace|
+sign|noun|a board or mark that gives information|ಚಿಹ್ನೆ, ಫಲಕ|Read the sign before you park.|a road sign||travel|
+silence|noun|a time when there is no sound at all|ನಿಶ್ಶಬ್ದ|There was silence in the room.|in silence|quiet|everyday|
+skill|noun|the ability to do something well|ಕೌಶಲ್ಯ|Speaking English is a useful skill.|a useful skill|ability|workplace|
+smell|noun|the quality that you notice with your nose|ವಾಸನೆ|I like the smell of fresh bread.|a bad smell|scent|health|
+soup|noun|a hot liquid food made from vegetables or meat|ಸೂಪ್|I would like a bowl of soup.|hot soup||everyday|
+space|noun|an empty area, or the area outside the earth|ಸ್ಥಳಾವಕಾಶ, ಬಾಹ್ಯಾಕಾಶ|There is no space for another chair.|free space|room|everyday|
+speed|noun|how fast something moves|ವೇಗ|The car was moving at high speed.|at high speed|pace|travel|
+sport|noun|a game or activity for exercise, such as football or cricket|ಕ್ರೀಡೆ|Cricket is my favourite sport.|play a sport||health|
+step|noun|one movement of your foot, or one part of a process|ಹೆಜ್ಜೆ, ಹಂತ|The first step is the hardest.|take a step||everyday|
+story|noun|a description of events that are told or written|ಕಥೆ|My grandmother tells us a story every night.|tell a story|tale|everyday|
+subject|noun|something that you study or talk about|ವಿಷಯ|Maths is my favourite subject.|a school subject|topic|education|
+success|noun|achieving what you wanted to do|ಯಶಸ್ಸು|Hard work is the key to success.|a great success||everyday|
+supermarket|noun|a large shop that sells food and other things|ಸೂಪರ್ ಮಾರ್ಕೆಟ್|I bought vegetables at the supermarket.|go to the supermarket||everyday|
+system|noun|a set of parts or rules that work together|ವ್ಯವಸ್ಥೆ|The new system is easy to use.|a computer system||technology|
+thing|noun|an object, or something that is not named|ವಸ್ತು, ವಿಷಯ|What is that thing on the table?|a useful thing|object|everyday|
+thought|noun|an idea or opinion in your mind|ಆಲೋಚನೆ|That is a nice thought.|a happy thought|idea|communication|
+tip|noun|a small piece of useful advice, or extra money for a waiter|ಸಲಹೆ, ಬಕ್ಷೀಸು|Here is a tip for learning words quickly.|a useful tip|hint|communication|
+tool|noun|an object that you use to do a job|ಉಪಕರಣ|A hammer is a useful tool.|a garden tool|instrument|workplace|
+topic|noun|a subject that you talk or write about|ವಿಷಯ|Choose a topic for your talk.|a popular topic|subject|education|
+tourist|noun|a person who visits places for pleasure|ಪ್ರವಾಸಿ|The tourist asked for directions to the fort.|a foreign tourist|visitor|travel|
+traffic|noun|the vehicles that are using a road|ಸಂಚಾರ, ವಾಹನ ದಟ್ಟಣೆ|The traffic was terrible this morning.|heavy traffic||travel|
+trip|noun|a journey to a place and back|ಪ್ರವಾಸ, ಪ್ರಯಾಣ|We went on a trip to the hills.|a school trip|journey|travel|
+truth|noun|what is true|ಸತ್ಯ|Please tell me the truth.|tell the truth||communication|
+type|noun|a kind of something|ರೀತಿ, ವಿಧ|What type of food do you like?|a type of|kind|everyday|
+voice|noun|the sound that comes out of your mouth when you speak or sing|ಧ್ವನಿ|She has a sweet voice.|a loud voice||communication|
+wallet|noun|a small flat case for money and cards|ಪರ್ಸ್, ಹಣದ ಚೀಲ|I left my wallet at home.|lose a wallet|purse|everyday|
+weight|noun|how heavy something is|ತೂಕ|He checked the weight of the bag.|lose weight||health|
+wife|noun|the woman that a man is married to|ಹೆಂಡತಿ, ಪತ್ನಿ|His wife is a doctor.|a good wife||relationships|
+husband|noun|the man that a woman is married to|ಗಂಡ, ಪತಿ|Her husband works in a bank.|a kind husband||relationships|
+world|noun|the earth with all its countries and people|ಜಗತ್ತು|He wants to travel around the world.|around the world||travel|
+afraid|adjective|feeling fear|ಹೆದರಿದ|She is afraid of dogs.|afraid of|scared|emotions|
+alone|adjective|without other people|ಒಂಟಿಯಾಗಿ|He lives alone in a small flat.|all alone|by yourself|emotions|
+angry|adjective|feeling strong displeasure about something|ಕೋಪಗೊಂಡ|My mother was angry about the broken glass.|angry with|cross|emotions|
+awful|adjective|very bad|ಭಯಂಕರ, ಕೆಟ್ಟ|The weather was awful.|an awful smell|terrible|emotions|
+clever|adjective|quick to learn and understand|ಬುದ್ಧಿವಂತ|She is a clever student.|a clever idea|smart|personality|
+common|adjective|found often or in many places|ಸಾಮಾನ್ಯ|Rain is common in June.|a common name|usual|everyday|
+correct|adjective|right and without mistakes|ಸರಿಯಾದ|Your answer is correct.|the correct answer|right|education|
+crazy|adjective|very silly or strange|ಹುಚ್ಚು, ವಿಚಿತ್ರ|That is a crazy idea.|a crazy idea|mad|personality|
+dirty|adjective|not clean|ಕೊಳಕಾದ|Your shoes are dirty.|dirty hands|filthy|everyday|
+equal|adjective|the same in size, amount or value|ಸಮಾನ|All students have an equal chance.|equal rights|same|everyday|
+excellent|adjective|extremely good|ಅತ್ಯುತ್ತಮ|Your work is excellent.|an excellent result|outstanding|everyday|
+famous|adjective|known by many people|ಪ್ರಸಿದ್ಧ|Mysuru is famous for its palace.|famous for|well-known|everyday|
+final|adjective|last, or at the end|ಅಂತಿಮ|This is the final question.|the final exam|last|education|
+glad|adjective|happy about something|ಸಂತೋಷಗೊಂಡ|I am glad to meet you.|glad to hear|pleased|emotions|
+honest|adjective|telling the truth and not cheating|ಪ್ರಾಮಾಣಿಕ|He is an honest man.|an honest answer|truthful|personality|
+huge|adjective|very big|ಬೃಹತ್, ಬಹಳ ದೊಡ್ಡ|They live in a huge house.|a huge crowd|enormous|everyday|
+important|adjective|having great value or meaning|ಮುಖ್ಯವಾದ|It is important to sleep well.|an important meeting|major|everyday|
+impossible|adjective|not able to be done or to happen|ಅಸಾಧ್ಯ|It is impossible to finish this today.|nearly impossible||everyday|
+interested|adjective|wanting to know more about something|ಆಸಕ್ತಿಯುಳ್ಳ|I am interested in history.|interested in|curious|emotions|
+interesting|adjective|holding your attention|ಆಸಕ್ತಿದಾಯಕ|It was an interesting book.|an interesting story|fascinating|everyday|
+lovely|adjective|very nice or beautiful|ಸುಂದರ, ಸೊಗಸಾದ|What a lovely garden!|a lovely day|beautiful|everyday|
+modern|adjective|of the present time, not old|ಆಧುನಿಕ|The city has many modern buildings.|a modern house|up to date|everyday|
+necessary|adjective|needed|ಅಗತ್ಯವಾದ|A visa is necessary for this trip.|if necessary|needed|everyday|
+normal|adjective|usual and expected|ಸಾಮಾನ್ಯ|It is normal to feel nervous before an exam.|a normal day|usual|everyday|
+perfect|adjective|as good as it can be|ಪರಿಪೂರ್ಣ|The weather is perfect for a picnic.|a perfect day|ideal|everyday|
+pleased|adjective|happy about something|ಸಂತುಷ್ಟ|She was pleased with her marks.|pleased with|happy|emotions|
+possible|adjective|able to be done or to happen|ಸಾಧ್ಯವಿರುವ|Is it possible to change the date?|if possible|likely|everyday|
+proud|adjective|feeling pleased about something you or others have done|ಹೆಮ್ಮೆಪಡುವ|I am proud of my daughter.|proud of|pleased|emotions|
+public|adjective|for everyone, not private|ಸಾರ್ವಜನಿಕ|The park is a public place.|public transport|open|everyday|
+real|adjective|true, not imaginary or false|ನಿಜವಾದ|Is this a real gold ring?|a real name|genuine|everyday|
+regular|adjective|happening often at the same times|ನಿಯಮಿತ|I take regular exercise.|a regular customer|frequent|health|
+round|adjective|shaped like a circle or ball|ಗೋಳಾಕಾರದ, ದುಂಡಗಿನ|The table is round.|a round table|circular|everyday|
+rude|adjective|not polite|ಅಸಭ್ಯ, ಒರಟಾದ|It is rude to interrupt people.|a rude answer|impolite|personality|
+scared|adjective|afraid|ಭಯಗೊಂಡ|The child was scared of the dark.|scared of|frightened|emotions|
+serious|adjective|not funny, or important and worrying|ಗಂಭೀರ|This is a serious problem.|a serious illness|grave|everyday|
+shy|adjective|nervous and quiet when you meet people|ನಾಚಿಕೆಯ ಸ್ವಭಾವದ|He is too shy to speak in class.|a shy boy|timid|personality|
+silly|adjective|not sensible, a little foolish|ಮೂರ್ಖತನದ|It was a silly mistake.|a silly question|foolish|personality|
+simple|adjective|easy to understand or do|ಸರಳ|The instructions are very simple.|a simple question|easy|everyday|
+special|adjective|different from usual in a good way|ವಿಶೇಷ|Today is a special day.|a special occasion|particular|everyday|
+strange|adjective|unusual or unexpected|ವಿಚಿತ್ರ|I heard a strange noise.|a strange feeling|odd|everyday|
+strong|adjective|having great power or force|ಬಲಿಷ್ಠ|He is strong enough to lift the box.|a strong wind|powerful|health|
+successful|adjective|having achieved what you wanted|ಯಶಸ್ವಿ|She is a successful doctor.|a successful career|prosperous|workplace|
+sudden|adjective|happening quickly and without warning|ಹಠಾತ್|There was a sudden noise.|a sudden change|abrupt|everyday|
+sure|adjective|certain that something is true|ಖಚಿತವಾಗಿರುವ|I am sure he will come.|be sure|certain|communication|
+surprised|adjective|feeling that something unexpected has happened|ಆಶ್ಚರ್ಯಗೊಂಡ|I was surprised to see her there.|surprised at|amazed|emotions|
+terrible|adjective|very bad or serious|ಭಯಂಕರ|We had a terrible journey.|a terrible accident|awful|emotions|
+thick|adjective|having a large distance between two sides|ದಪ್ಪ|The book is very thick.|a thick wall|wide|everyday|
+thin|adjective|having a small distance between two sides, or not fat|ತೆಳು|The paper is very thin.|a thin book|slim|everyday|
+tiny|adjective|very small|ಅತಿ ಚಿಕ್ಕ|There is a tiny hole in my bag.|a tiny house|little|everyday|
+true|adjective|right and not false|ನಿಜವಾದ|Is it true that you are leaving?|come true|correct|communication|
+ugly|adjective|not pleasant to look at|ಕುರೂಪ|That building is ugly.|an ugly colour|unattractive|everyday|
+unusual|adjective|not common, or different from others|ಅಸಾಮಾನ್ಯ|It is unusual for him to be late.|an unusual name|rare|everyday|
+useful|adjective|helping you to do something|ಉಪಯುಕ್ತ|This map is very useful.|a useful tip|helpful|everyday|
+wet|adjective|covered with water or another liquid|ಒದ್ದೆಯಾದ|My shoes are wet.|wet clothes|damp|everyday|
+wide|adjective|measuring a large distance from side to side|ಅಗಲವಾದ|The river is very wide here.|a wide road|broad|everyday|
+wonderful|adjective|very good, giving great pleasure|ಅದ್ಭುತ|We had a wonderful holiday.|a wonderful idea|marvellous|emotions|
+wrong|adjective|not correct|ತಪ್ಪಾದ|You have the wrong number.|the wrong answer|incorrect|education|
+almost|adverb|nearly but not completely|ಸುಮಾರು, ಬಹುತೇಕ|I am almost ready.|almost always|nearly|everyday|
+already|adverb|before now, or earlier than expected|ಈಗಾಗಲೇ|She has already left.|already finished|previously|everyday|
+quickly|adverb|in a short time, fast|ತ್ವರಿತವಾಗಿ|Please eat quickly, we are late.|walk quickly|fast|everyday|
+slowly|adverb|at a low speed, not fast|ನಿಧಾನವಾಗಿ|Please speak slowly.|drive slowly|gradually|communication|
+suddenly|adverb|quickly and without warning|ಇದ್ದಕ್ಕಿದ್ದಂತೆ|Suddenly the lights went out.|suddenly stop|abruptly|everyday|
+probably|adverb|very likely|ಬಹುಶಃ|It will probably rain tomorrow.|probably not|likely|communication|
+perhaps|adverb|maybe, possibly|ಬಹುಶಃ|Perhaps we can meet on Sunday.|perhaps later|maybe|communication|
+exactly|adverb|in a way that is completely correct|ನಿಖರವಾಗಿ|That is exactly what I mean.|exactly right|precisely|communication|
+finally|adverb|after a long time, or as the last thing|ಕೊನೆಗೂ|The bus finally arrived.|finally ready|at last|everyday|
+mostly|adverb|in most cases, mainly|ಹೆಚ್ಚಾಗಿ|We mostly eat vegetables.|mostly true|mainly|everyday|
+nearly|adverb|almost|ಹೆಚ್ಚುಕಡಿಮೆ|It is nearly six o'clock.|nearly there|almost|everyday|
+really|adverb|very, or truly|ನಿಜವಾಗಿ, ತುಂಬಾ|I really like this song.|really good|truly|everyday|
+recently|adverb|not long ago|ಇತ್ತೀಚೆಗೆ|I recently moved to a new house.|until recently|lately|everyday|
+still|adverb|up to now and not finished|ಇನ್ನೂ|It is still raining.|still waiting|yet|everyday|

@@ -1,0 +1,68 @@
+# Reproducible full stack. NOT YET RUN: Docker is not installed on the development machine.
+# Usage: copy env.example to .env, set the secrets, then `docker compose up --build`.
+# Set COMPOSE_PROFILES=turn to also run Coturn (needs host networking, so Linux hosts only).
+services:
+  postgres:
+    image: postgres:18-alpine
+    environment:
+      POSTGRES_DB: english_speaking
+      POSTGRES_USER: ${DB_USER:-esp_app}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD in .env}
+    volumes:
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-esp_app} -d english_speaking"]
+      interval: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/english_speaking
+      DB_USER: ${DB_USER:-esp_app}
+      DB_PASSWORD: ${DB_PASSWORD}
+      REDIS_HOST: redis
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:8081}
+      APP_BASE_URL: ${APP_BASE_URL:-http://localhost:8081}
+      TURNIX_API_TOKEN: ${TURNIX_API_TOKEN:-}
+      TURN_FORCE_RELAY: ${TURN_FORCE_RELAY:-false}
+      TRUSTED_PROXIES: ${TRUSTED_PROXIES:-}
+      ADMIN_EMAILS: ${ADMIN_EMAILS:-}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      GROQ_MODEL: ${GROQ_MODEL:-openai/gpt-oss-120b}
+      COACH_DAILY_LIMIT: ${COACH_DAILY_LIMIT:-20}
+      SWAGGER_ENABLED: ${SWAGGER_ENABLED:-false}
+      SPRING_MAIL_HOST: ${SMTP_HOST:-}
+      SPRING_MAIL_PORT: ${SMTP_PORT:-587}
+      SPRING_MAIL_USERNAME: ${SMTP_USER:-}
+      SPRING_MAIL_PASSWORD: ${SMTP_PASSWORD:-}
+
+  frontend:
+    build: ./frontend
+    depends_on: [backend]
+    ports:
+      - "8081:80"
+
+  coturn:
+    image: coturn/coturn:4.6
+    profiles: [turn]
+    network_mode: host
+    volumes:
+      - ./infra/coturn/turnserver.conf:/etc/coturn/turnserver.conf:ro
+    command: ["-c", "/etc/coturn/turnserver.conf"]
+
+volumes:
+  pgdata:

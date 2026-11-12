@@ -1,0 +1,46 @@
+# Activated with SPRING_PROFILES_ACTIVE=prod (the Docker image does this).
+logging:
+  structured:
+    format:
+      console: ecs            # one JSON object per line, ready for Loki / Elasticsearch / CloudWatch
+  level:
+    root: INFO
+    com.englishspeaking: INFO
+    org.springframework.security: WARN
+
+server:
+  error:
+    include-message: never
+    include-stacktrace: never
+    include-binding-errors: never
+  tomcat:
+    max-swallow-size: 1MB
+
+app:
+  # Production keeps unverified accounts out of matching, calls, friends and private messages (set REQUIRE_VERIFIED_EMAIL=false only to switch that off).
+  require-verified-email: ${REQUIRE_VERIFIED_EMAIL:true}
+
+spring:
+  lifecycle:
+    timeout-per-shutdown-phase: 25s
+  jpa:
+    show-sql: false
+
+# Metrics and health on a separate port that must NOT be published to the internet (Prometheus scrapes it inside the private network).
+management:
+  server:
+    port: 8081
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      show-details: never
+  metrics:
+    tags:
+      application: english-speaking-platform
+
+springdoc:
+  api-docs.enabled: false
+  swagger-ui.enabled: false

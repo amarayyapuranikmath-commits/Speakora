@@ -1,0 +1,58 @@
+# Level 1 (everyday basics), more phrasal verbs. verb|meaning|Kannada|SEPARABLE, INSEPARABLE or NONE|common usage|theme|register|example 1|example 2|example 3|other meanings (meaning^Kannada^example;;...)|mistake (wrong>>right>>why)
+# The Kannada was written for this project and has NOT been reviewed by a native speaker or teacher.
+take care of|to look after someone or something|ಆರೈಕೆ ಮಾಡುವುದು, ನೋಡಿಕೊಳ್ಳುವುದು|INSEPARABLE|take care of a baby|everyday|neutral|She [[takes care of]] her little brother after school.|Please take care of my plants while I am away.||to deal with a task^ಕೆಲಸವನ್ನು ನಿಭಾಯಿಸುವುದು^I will take care of the tickets.|Please take care my plants.>>Please take care of my plants.>>Take care of always needs "of" before the thing or person.
+look at|to turn your eyes towards something|ನೋಡುವುದು|INSEPARABLE|look at the board|everyday|neutral|Look at the picture on the wall.|The teacher [[looked at]] my notebook.||to think about something carefully^ಯೋಚಿಸಿ ಪರಿಶೀಲಿಸುವುದು^We must look at all the options.|
+wait for|to stay in a place until someone or something comes|ಕಾಯುವುದು|INSEPARABLE|wait for the bus|everyday|neutral|I will wait for you outside.|They [[waited for]] an hour.||| I am waiting you here.>>I am waiting for you here.>>Use wait for with a person or thing. Do not drop "for".
+listen to|to pay attention to a sound|ಕೇಳಿಸಿಕೊಳ್ಳುವುದು|INSEPARABLE|listen to music|everyday|neutral|Listen to the teacher carefully.|She [[listens to]] the radio every morning.|||He did not listen me.>>He did not listen to me.>>Listen is followed by "to" before a person or sound.
+ask for|to request something|ಕೇಳುವುದು, ಬೇಡುವುದು|INSEPARABLE|ask for help|everyday|neutral|You can ask for a glass of water.|He [[asked for]] the bill.|||
+think about|to have an idea or opinion in your mind|ಯೋಚಿಸುವುದು|INSEPARABLE|think about the future|everyday|neutral|I will think about your offer.|She is [[thinking about]] a new job.|||
+switch on|to start an electric machine or light|ಸ್ವಿಚ್ ಆನ್ ಮಾಡುವುದು|SEPARABLE|switch on the fan|everyday|neutral|Please switch on the fan.|He [[switched on]] the radio.|||
+switch off|to stop an electric machine or light|ಸ್ವಿಚ್ ಆಫ್ ಮಾಡುವುದು|SEPARABLE|switch off the light|everyday|neutral|Switch off your phone in the class.|She [[switched off]] the lights and went to bed.|||
+log in|to enter a website or app with your name and password|ಲಾಗಿನ್ ಮಾಡುವುದು|NONE|log in to your account|everyday|neutral|You need to log in to see your marks.|He [[logged in]] with his email address.|||
+log out|to leave a website or app by closing your account|ಲಾಗೌಟ್ ಮಾಡುವುದು|NONE|log out of your account|everyday|neutral|Do not forget to log out on a shared computer.|She [[logged out]] and closed the laptop.|||
+plug in|to connect a machine to the electricity|ಪ್ಲಗ್ ಹಾಕುವುದು|SEPARABLE|plug in the charger|everyday|neutral|Please plug in the charger.|He [[plugged in]] the kettle.|||
+take out|to remove something from a place|ಹೊರತೆಗೆಯುವುದು|SEPARABLE|take out the rubbish|everyday|neutral|Take out your books and open page ten.|She [[took out]] a pen from her bag.||to invite someone to a restaurant or place^ಯಾರನ್ನಾದರೂ ಹೊರಗೆ ಕರೆದೊಯ್ಯುವುದು^He wants to take her out for dinner.|
+go on|to continue|ಮುಂದುವರಿಯುವುದು|NONE|go on talking|everyday|neutral|Please go on with your story.|The meeting [[went on]] for two hours.||to happen^ಸಂಭವಿಸುವುದು^What is going on here?|
+come on|used to ask someone to hurry or try harder|ಬನ್ನಿ, ಬೇಗ ಬನ್ನಿ|NONE|come on, hurry up|everyday|informal|Come on, we will be late!|Come on, you can do it.|||
+go ahead|to start or continue to do something|ಮುಂದುವರಿಯಿರಿ|NONE|go ahead with the plan|everyday|neutral|You can go ahead and start the meal.|They [[went ahead]] with the party.|||
+get back|to return to a place|ಹಿಂತಿರುಗುವುದು|NONE|get back home|everyday|neutral|What time did you get back last night?|We [[got back]] at ten.||to receive something that you had before^ಹಿಂದೆ ಇದ್ದದ್ದನ್ನು ಮರಳಿ ಪಡೆಯುವುದು^I will get back my book from him.|
+move on|to leave a place or topic and go to the next|ಮುಂದಕ್ಕೆ ಹೋಗುವುದು|NONE|move on to the next lesson|everyday|neutral|Let us move on to the next question.|She [[moved on]] from the sad news.|||
+move in|to start living in a new home|ಹೊಸ ಮನೆಗೆ ವಾಸಕ್ಕೆ ಬರುವುದು|NONE|move in next week|everyday|neutral|We move in on Sunday.|They [[moved in]] last month.|||
+move out|to leave your home and live somewhere else|ಮನೆ ಖಾಲಿ ಮಾಡುವುದು|NONE|move out of a flat|everyday|neutral|He plans to move out in June.|They [[moved out]] of the old house.|||
+pick out|to choose something from a group|ಆಯ್ಕೆ ಮಾಡುವುದು|SEPARABLE|pick out a gift|everyday|neutral|You can pick out any colour you like.|She [[picked out]] a blue shirt.|||
+put away|to put something in its proper place|ಸರಿಯಾದ ಸ್ಥಳದಲ್ಲಿ ಇಡುವುದು|SEPARABLE|put away your toys|everyday|neutral|Put away your books after class.|He [[put away]] the dishes.|||
+put together|to join the parts of something|ಜೋಡಿಸುವುದು|SEPARABLE|put together a table|everyday|neutral|We need to put together the new shelf.|He [[put together]] a small team.|||
+save up|to keep money to buy something later|ಹಣ ಕೂಡಿಡುವುದು|NONE|save up for a phone|everyday|neutral|I am [[saving up]] to buy a bicycle.|She [[saved up]] for two years.|||
+see off|to go with someone to say goodbye when they leave|ಬೀಳ್ಕೊಡುವುದು|SEPARABLE|see someone off at the station|travel|neutral|We went to see off our cousin at the station.|They [[saw off]] their friends at the airport.|||
+sell out|to sell all of something|ಎಲ್ಲಾ ಮಾರಾಟವಾಗುವುದು|NONE|tickets sell out|everyday|neutral|The tickets will sell out fast.|The book [[sold out]] in one day.|||
+settle down|to start living a calm and steady life, or to become calm|ನೆಲೆಸುವುದು, ಶಾಂತವಾಗುವುದು|NONE|settle down in a town|relationships|neutral|He wants to settle down in Mysuru.|The children [[settled down]] after the story.|||
+shut down|to stop working, or to close a business|ಮುಚ್ಚುವುದು|NONE|the computer shuts down|everyday|neutral|The computer will shut down in a minute.|The old shop [[shut down]] last year.|||
+sort out|to solve a problem or arrange things in order|ಪರಿಹರಿಸುವುದು, ವಿಂಗಡಿಸುವುದು|SEPARABLE|sort out a problem|everyday|neutral|I will sort out the problem today.|She [[sorted out]] her clothes.|||
+speak up|to talk more loudly|ಜೋರಾಗಿ ಮಾತನಾಡುವುದು|NONE|please speak up|conversation|neutral|Please speak up. I cannot hear you.|He [[spoke up]] in the meeting.||to say what you think^ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ಹೇಳುವುದು^Do not be afraid to speak up.|
+stay up|to not go to bed until late|ತಡವಾಗಿ ಮಲಗುವುದು|NONE|stay up late|everyday|neutral|I stay up late on Saturdays.|They [[stayed up]] to watch the match.|||
+take back|to return something, or to say you did not mean what you said|ಹಿಂತಿರುಗಿಸುವುದು|SEPARABLE|take back a book|everyday|neutral|I will take back the book to the library.|He [[took back]] his angry words.|||
+tidy up|to make a place neat|ಅಚ್ಚುಕಟ್ಟು ಮಾಡುವುದು|SEPARABLE|tidy up your room|everyday|neutral|Please tidy up your room.|She [[tidied up]] the kitchen.|||
+warm up|to become warm, or to prepare your body before exercise|ಬೆಚ್ಚಗಾಗುವುದು|NONE|warm up before a run|everyday|neutral|Warm up before you run.|The room [[warmed up]] quickly.|||
+watch out|to be careful|ಜಾಗ್ರತೆ ವಹಿಸುವುದು|NONE|watch out for cars|everyday|neutral|Watch out for the hole in the road.|She [[watched out]] for the bus.|||
+work on|to spend time to improve or finish something|ಕೆಲಸ ಮಾಡುವುದು|INSEPARABLE|work on a project|workplace|neutral|I am [[working on]] my English.|He [[worked on]] the report all night.|||
+wrap up|to finish something, or to cover something with paper|ಮುಗಿಸುವುದು|SEPARABLE|wrap up a meeting|workplace|neutral|Let us wrap up the meeting now.|She [[wrapped up]] the gift in red paper.|||
+fill out|to write information on a form|ಅರ್ಜಿ ತುಂಬುವುದು|SEPARABLE|fill out a form|everyday|neutral|Please fill out this form.|He [[filled out]] the application.|||
+set off|to start a journey|ಪ್ರಯಾಣ ಆರಂಭಿಸುವುದು|NONE|set off early|travel|neutral|We set off at six in the morning.|They [[set off]] for Hampi.||to make something start or explode^ಸ್ಫೋಟಿಸುವುದು, ಪ್ರಾರಂಭಿಸುವುದು^The smoke will set off the alarm.|
+check out|to leave a hotel after paying, or to look at something interesting|ಹೋಟೆಲ್ ಬಿಟ್ಟು ಹೋಗುವುದು|NONE|check out of a hotel|travel|neutral|We have to check out by noon.|She [[checked out]] early.||to look at something interesting^ಆಸಕ್ತಿಕರವಾದದ್ದನ್ನು ನೋಡುವುದು^Check out this new song.|
+break up|to end a relationship, or to break into pieces|ಸಂಬಂಧ ಕೊನೆಗೊಳಿಸುವುದು|NONE|break up with someone|relationships|neutral|They decided to break up.|The school [[broke up]] for the holidays.|||
+ask out|to invite someone to go on a date|ಭೇಟಿಗೆ ಆಹ್ವಾನಿಸುವುದು|SEPARABLE|ask someone out|relationships|informal|He wants to ask out his classmate.|She [[asked out]] her friend for coffee.|||
+pass out|to faint, or to give something to people|ಮೂರ್ಛೆ ಹೋಗುವುದು|NONE|pass out in the heat|everyday|informal|He may pass out in this heat.|She [[passed out]] and fell on the floor.||to give something to many people^ಎಲ್ಲರಿಗೂ ಹಂಚುವುದು^The teacher will pass out the papers.|
+hold up|to delay someone or something, or to hold something high|ವಿಳಂಬಗೊಳಿಸುವುದು|SEPARABLE|hold up traffic|everyday|neutral|The accident will hold up the traffic.|Sorry, I was [[held up]] at work.|||
+mix up|to confuse one thing with another|ಗೊಂದಲಗೊಳ್ಳುವುದು|SEPARABLE|mix up two names|everyday|neutral|Do not mix up these two words.|He [[mixed up]] the dates.|||
+run out|to have no more of something|ಮುಗಿದುಹೋಗುವುದು|NONE|run out of time|everyday|neutral|We will run out of milk soon.|The time [[ran out]] before I finished.|||
+turn in|to give something to a teacher or a boss, or to go to bed|ಸಲ್ಲಿಸುವುದು|SEPARABLE|turn in homework|education|neutral|Turn in your homework on Friday.|She [[turned in]] her report.||to go to bed^ಮಲಗಲು ಹೋಗುವುದು^I usually turn in at ten.|
+use up|to finish all of something|ಪೂರ್ತಿ ಬಳಸಿಬಿಡುವುದು|SEPARABLE|use up all the paper|everyday|neutral|Do not use up all the water.|He [[used up]] all his money.|||
+stay in|to stay at home|ಮನೆಯಲ್ಲೇ ಇರುವುದು|NONE|stay in on a rainy day|everyday|neutral|I will stay in tonight.|They [[stayed in]] because of the rain.|||
+eat out|to eat at a restaurant|ಹೊರಗೆ ಊಟ ಮಾಡುವುದು|NONE|eat out on Sunday|everyday|neutral|We eat out once a week.|They [[ate out]] last night.|||
+eat up|to finish all of your food|ಊಟ ಮುಗಿಸುವುದು|SEPARABLE|eat up your vegetables|everyday|neutral|Eat up your food, children.|He [[ate up]] his rice.|||
+drink up|to finish your drink|ಕುಡಿದು ಮುಗಿಸುವುದು|NONE|drink up your milk|everyday|neutral|Drink up your milk.|She [[drank up]] and left.|||
+lie down|to rest with your body flat|ಮಲಗುವುದು|NONE|lie down for a rest|everyday|neutral|I want to lie down for a while.|He [[lay down]] on the sofa.|||
+come out|to appear, or to leave a place|ಹೊರಬರುವುದು|NONE|come out of the room|everyday|neutral|The sun [[came out]] after the rain.|The new film [[comes out]] on Friday.|||
+go up|to rise, or to become higher|ಹೆಚ್ಚಾಗುವುದು|NONE|prices go up|everyday|neutral|The price of onions will go up.|The temperature [[went up]] today.|||
+go down|to become lower, or to fall|ಕಡಿಮೆಯಾಗುವುದು|NONE|prices go down|everyday|neutral|The price of tomatoes [[went down]].|The sun [[goes down]] at six.|||
+come along|to go with someone, or to make progress|ಜೊತೆಗೆ ಬರುವುದು|NONE|come along with us|everyday|neutral|Do you want to come along?|The new building is [[coming along]] well.|||

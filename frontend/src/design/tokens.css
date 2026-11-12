@@ -1,0 +1,75 @@
+/* GENERATED from design/tokens.json by design/build-tokens.cjs. Do not edit by hand. */
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --color-canvas: #FAFAF8;
+  --color-surface: #FFFFFF;
+  --color-ink: #14171A;
+  --color-muted: #55606B;
+  --color-subtle: #656F79;
+  --color-line: #E5E3DE;
+  --color-line-strong: #CFCCC4;
+  --color-field: #858C93;
+  --color-navy: #0B1F4B;
+  --color-accent: #1D4ED8;
+  --color-accent-hover: #1E40AF;
+  --color-accent-soft: #E8EEFB;
+  --color-danger: #B42318;
+  --color-danger-soft: #FDECEA;
+  --color-warning: #8A5A00;
+  --color-warning-soft: #FDF3DC;
+  --color-success: #1D6B3A;
+  --color-success-soft: #E6F3EA;
+  --color-white: #FFFFFF;
+  --radius-control: 8px;
+  --radius-panel: 12px;
+  --radius-pill: 999px;
+  --text-display: 3.5rem;
+  --text-display--line-height: 1.1071;
+  --text-display--letter-spacing: -0.03em;
+  --text-display--font-weight: 600;
+  --text-title: 1.75rem;
+  --text-title--line-height: 1.2143;
+  --text-title--letter-spacing: -0.02em;
+  --text-title--font-weight: 600;
+  --text-heading: 1.25rem;
+  --text-heading--line-height: 1.4;
+  --text-heading--letter-spacing: -0.015em;
+  --text-heading--font-weight: 600;
+  --text-subheading: 1rem;
+  --text-subheading--line-height: 1.5;
+  --text-subheading--letter-spacing: -0.005em;
+  --text-subheading--font-weight: 600;
+  --text-body: 1rem;
+  --text-body--line-height: 1.625;
+  --text-body--letter-spacing: 0em;
+  --text-body--font-weight: 400;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.4286;
+  --text-small--letter-spacing: 0em;
+  --text-small--font-weight: 400;
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.3333;
+  --text-caption--letter-spacing: 0.01em;
+  --text-caption--font-weight: 500;
+  --container-reading: 40rem;
+  --container-app: 64rem;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --shadow-overlay: 0 12px 32px rgba(20, 23, 26, 0.14);
+  --breakpoint-xs: 30rem;
+}
+
+:root {
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 0.75rem;
+  --space-lg: 1rem;
+  --space-xl: 1.5rem;
+  --space-xxl: 2rem;
+  --space-xxxl: 3rem;
+  --space-huge: 4rem;
+  --space-giant: 6rem;
+  --gutter: 1.25rem;
+  --motion-fast: 120ms;
+  --motion-base: 200ms;
+  --motion-slow: 320ms;
+}

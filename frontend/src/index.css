@@ -1,0 +1,47 @@
+@import '@fontsource-variable/inter';
+@import 'tailwindcss';
+
+/* Design tokens (colours, type scale, radii, layout widths, motion) are generated from design/tokens.json so the website and the
+   Android app share one source of truth. Edit that file and run: node design/build-tokens.cjs */
+@import './design/tokens.css';
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv11', 'ss01';
+    -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
+    line-height: 1.625;
+  }
+  h1, h2, h3 {
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: var(--color-accent-soft);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Subtle, short motion only: a gentle fade/rise when a page appears. Disabled by prefers-reduced-motion above. */
+@keyframes page-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+.page-in { animation: page-in var(--motion-base) var(--ease-standard) both; }

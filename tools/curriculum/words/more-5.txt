@@ -1,0 +1,162 @@
+# Level 5 (advanced), more words. word|part of speech|simple meaning|Kannada|example (must contain the word exactly)|common usage|synonyms|theme|note
+# The Kannada was written for this project and has NOT been reviewed by a native speaker or teacher.
+abandon|verb|to leave something or someone completely|ತ್ಯಜಿಸುವುದು|They had to abandon the car in the snow.|abandon a plan|desert|emotions|
+accommodate|verb|to provide a place for someone, or to make changes to suit someone|ಸೌಕರ್ಯ ಕಲ್ಪಿಸುವುದು|The hotel can accommodate two hundred guests.|accommodate guests|house|travel|
+accumulate|verb|to collect a large amount of something over time|ಸಂಗ್ರಹಿಸುವುದು|Dust will accumulate if you do not clean.|accumulate wealth|gather|academic|
+acknowledge|verb|to accept that something is true, or to say you have received it|ಒಪ್ಪಿಕೊಳ್ಳುವುದು|You must acknowledge your mistake.|acknowledge receipt|admit|communication|
+advocate|verb|to publicly support an idea or plan|ಪ್ರತಿಪಾದಿಸುವುದು|Many doctors advocate a healthy diet.|advocate change|support|academic|
+allocate|verb|to give something officially for a particular purpose|ಹಂಚಿಕೆ ಮಾಡುವುದು|The school will allocate funds for books.|allocate funds|assign|workplace|
+amend|verb|to change a text or law slightly to improve it|ತಿದ್ದುಪಡಿ ಮಾಡುವುದು|They voted to amend the rules.|amend a law|revise|academic|
+anticipate|verb|to expect something and prepare for it|ನಿರೀಕ್ಷಿಸುವುದು|We anticipate heavy traffic this evening.|anticipate a problem|expect|workplace|
+articulate|verb|to express your ideas clearly in words|ಸ್ಪಷ್ಟವಾಗಿ ವ್ಯಕ್ತಪಡಿಸುವುದು|She can articulate her ideas very well.|articulate a view|express|communication|
+ascertain|verb|to find out something for certain|ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು|The police tried to ascertain the facts.|ascertain the truth|determine|academic|
+attribute|verb|to say that something is caused by someone or something|ಆರೋಪಿಸುವುದು, ಕಾರಣವೆಂದು ಹೇಳುವುದು|She will attribute her success to hard work.|attribute to|credit|academic|
+cease|verb|to stop|ನಿಲ್ಲಿಸುವುದು|The noise did not cease all night.|cease to exist|stop|academic|
+circulate|verb|to move around, or to send something to many people|ಹರಿದಾಡುವುದು, ಹಂಚುವುದು|Blood must circulate around the body.|circulate a rumour|spread|academic|
+coincide|verb|to happen at the same time|ಏಕಕಾಲದಲ್ಲಿ ಸಂಭವಿಸುವುದು|My holiday will coincide with the festival.|coincide with|happen together|everyday|
+collaborate|verb|to work together with others on a project|ಸಹಯೋಗ ಮಾಡುವುದು|The two schools plan to collaborate on a project.|collaborate with|cooperate|workplace|
+compensate|verb|to give someone money for a loss, or to balance a weakness|ಪರಿಹಾರ ನೀಡುವುದು|The company will compensate the workers.|compensate for|repay|workplace|
+compile|verb|to collect information and put it together in a list or book|ಸಂಕಲಿಸುವುದು|She will compile a list of useful websites.|compile a list|gather|academic|
+comply|verb|to obey a rule or an order|ಪಾಲಿಸುವುದು|All drivers must comply with the law.|comply with|obey|workplace|
+comprise|verb|to be made up of particular parts|ಒಳಗೊಂಡಿರುವುದು|The team will comprise ten players.|comprise of|consist of|academic|
+conceive|verb|to form an idea or plan in your mind|ಕಲ್ಪಿಸಿಕೊಳ್ಳುವುದು|He could not conceive of a better plan.|conceive an idea|imagine|academic|
+concede|verb|to admit that something is true or right, often unwillingly|ಒಪ್ಪಿಕೊಳ್ಳುವುದು|He had to concede that she was right.|concede a point|admit|communication|
+condemn|verb|to say strongly that something is wrong|ಖಂಡಿಸುವುದು|Leaders will condemn the attack.|condemn violence|denounce|academic|
+confine|verb|to keep someone or something within limits|ಸೀಮಿತಗೊಳಿಸುವುದು|Please confine your answer to two lines.|confine to|restrict|communication|
+constitute|verb|to form or be a part of something|ರೂಪಿಸುವುದು|Girls constitute half of the class.|constitute a threat|form|academic|
+constrain|verb|to limit what someone can do|ನಿರ್ಬಂಧಿಸುವುದು|Lack of money will constrain our plans.|constrain growth|limit|academic|
+contend|verb|to argue that something is true, or to compete for something|ವಾದಿಸುವುದು|She will contend that the rule is unfair.|contend that|claim|academic|
+contradict|verb|to say the opposite of what someone else has said|ವಿರೋಧಾಭಾಸ ಹೇಳುವುದು|Do not contradict your teacher.|contradict a statement|deny|communication|
+contribute|verb|to give something to help achieve a result|ಕೊಡುಗೆ ನೀಡುವುದು|Everyone can contribute to the project.|contribute to|donate|workplace|
+correspond|verb|to match something, or to write letters to someone|ಹೊಂದಿಕೊಳ್ಳುವುದು|The numbers do not correspond.|correspond with|match|academic|
+deduce|verb|to reach a conclusion from the facts you have|ಅನುಮಾನಿಸಿ ತೀರ್ಮಾನಿಸುವುದು|You can deduce the answer from the clues.|deduce from|infer|academic|
+deem|verb|to consider something in a particular way|ಪರಿಗಣಿಸುವುದು|Teachers deem the test too difficult.|deem necessary|consider|academic|
+deteriorate|verb|to become worse|ಹದಗೆಡುವುದು|His health began to deteriorate.|deteriorate rapidly|worsen|health|
+deviate|verb|to move away from what is usual or expected|ವಿಚಲಿತವಾಗುವುದು|Do not deviate from the plan.|deviate from|stray|academic|
+diminish|verb|to become smaller or less important|ಕುಗ್ಗುವುದು|The pain will diminish with time.|diminish in value|decrease|academic|
+dismiss|verb|to refuse to consider something, or to send someone away from a job|ತಳ್ಳಿಹಾಕುವುದು, ವಜಾಗೊಳಿಸುವುದು|Do not dismiss her idea so quickly.|dismiss a claim|reject|workplace|
+disrupt|verb|to stop something from continuing in the normal way|ಅಡ್ಡಿಪಡಿಸುವುದು|Heavy rain can disrupt train services.|disrupt traffic|interrupt|everyday|
+distinguish|verb|to see or show the difference between things|ವ್ಯತ್ಯಾಸ ಗುರುತಿಸುವುದು|It is hard to distinguish the twins.|distinguish between|differentiate|academic|
+elaborate|verb|to give more details about something|ವಿವರಿಸುವುದು|Could you elaborate on your idea?|elaborate on|expand|communication|
+elevate|verb|to raise something to a higher level|ಎತ್ತರಿಸುವುದು|Good food can elevate your mood.|elevate standards|raise|emotions|
+embrace|verb|to accept something eagerly, or to hold someone in your arms|ಅಪ್ಪಿಕೊಳ್ಳುವುದು|People are ready to embrace change.|embrace change|accept|emotions|
+empower|verb|to give someone the power or confidence to do something|ಸಬಲೀಕರಣಗೊಳಿಸುವುದು|Education can empower young women.|empower women|enable|relationships|
+encompass|verb|to include many different things|ಒಳಗೊಳ್ಳುವುದು|The course will encompass all four skills.|encompass a range|include|academic|
+enforce|verb|to make people obey a law or rule|ಜಾರಿಗೊಳಿಸುವುದು|The police enforce the traffic laws.|enforce a rule|impose|academic|
+enhance|verb|to improve the quality or value of something|ವರ್ಧಿಸುವುದು|Good lighting can enhance the room.|enhance quality|improve|workplace|
+ensure|verb|to make certain that something happens|ಖಚಿತಪಡಿಸುವುದು|Please ensure that the door is locked.|ensure safety|guarantee|workplace|
+entail|verb|to involve something as a necessary part|ಅಗತ್ಯವಾಗಿ ಒಳಗೊಂಡಿರುವುದು|The job will entail long hours.|entail risk|involve|workplace|
+envisage|verb|to imagine that something will happen in the future|ಊಹಿಸಿಕೊಳ್ಳುವುದು|We envisage a bright future for the school.|envisage a future|foresee|academic|
+exploit|verb|to use something well, or to treat someone unfairly for your own gain|ಬಳಸಿಕೊಳ್ಳುವುದು, ಶೋಷಿಸುವುದು|Companies should not exploit their workers.|exploit resources|use|academic|
+facilitate|verb|to make something easier or more possible|ಸುಗಮಗೊಳಿಸುವುದು|The new road will facilitate trade.|facilitate learning|help|workplace|
+fluctuate|verb|to change often, rising and falling|ಏರಿಳಿತವಾಗುವುದು|Prices fluctuate from week to week.|fluctuate wildly|vary|academic|
+formulate|verb|to prepare a plan or idea carefully|ರೂಪಿಸುವುದು|We need to formulate a clear plan.|formulate a plan|devise|academic|
+foster|verb|to help something to grow and develop|ಬೆಳೆಸುವುದು|Teachers foster a love of reading.|foster growth|encourage|education|
+hamper|verb|to make it difficult for someone to do something|ಅಡ್ಡಿಯಾಗುವುದು|Heavy rain can hamper the rescue work.|hamper progress|hinder|everyday|
+hinder|verb|to make it harder for something to happen|ತಡೆಯುವುದು|Fear can hinder your progress.|hinder progress|obstruct|emotions|
+implement|verb|to put a plan or system into action|ಅನುಷ್ಠಾನಗೊಳಿಸುವುದು|The school will implement the new rule next week.|implement a plan|carry out|workplace|
+impose|verb|to force something on people|ಹೇರುವುದು|The government will impose a new tax.|impose a rule|enforce|academic|
+incur|verb|to experience something unpleasant as a result of your actions|ಹೊಂದುವುದು, ಎದುರಿಸುವುದು|You may incur extra costs.|incur a cost|suffer|workplace|
+induce|verb|to cause something, or to persuade someone|ಪ್ರೇರೇಪಿಸುವುದು|Some medicines can induce sleep.|induce sleep|cause|health|
+inherit|verb|to receive money or a quality from someone who has died or from parents|ಉತ್ತರಾಧಿಕಾರವಾಗಿ ಪಡೆಯುವುದು|She will inherit her grandmother's house.|inherit a house|receive|relationships|
+inhibit|verb|to prevent something from growing or happening freely|ತಡೆಯುವುದು|Fear can inhibit learning.|inhibit growth|restrain|academic|
+integrate|verb|to combine two or more things so they work together|ಒಗ್ಗೂಡಿಸುವುದು|The app will integrate with your calendar.|integrate into|combine|technology|
+intervene|verb|to become involved in a situation in order to change it|ಮಧ್ಯಪ್ರವೇಶಿಸುವುದು|The teacher had to intervene in the argument.|intervene in|step in|relationships|
+justify|verb|to show that something is reasonable or right|ಸಮರ್ಥಿಸುವುದು|How can you justify this cost?|justify a decision|defend|communication|
+mediate|verb|to try to settle an argument between two sides|ಮಧ್ಯಸ್ಥಿಕೆ ವಹಿಸುವುದು|A friend tried to mediate between them.|mediate a dispute|arbitrate|relationships|
+mitigate|verb|to make something less serious or harmful|ತಗ್ಗಿಸುವುದು|Trees can mitigate the effects of heat.|mitigate risk|reduce|academic|
+neglect|verb|to fail to take care of something|ಕಡೆಗಣಿಸುವುದು|Do not neglect your health.|neglect a duty|ignore|health|
+notify|verb|to officially tell someone about something|ತಿಳಿಸುವುದು|Please notify us of any change.|notify someone|inform|workplace|
+overcome|verb|to succeed in dealing with a problem|ಜಯಿಸುವುದು|She worked hard to overcome her fear.|overcome a problem|conquer|emotions|
+override|verb|to use your authority to reject a decision|ಅತಿಕ್ರಮಿಸುವುದು|The manager can override the decision.|override a decision|cancel|workplace|
+participate|verb|to take part in an activity|ಭಾಗವಹಿಸುವುದು|All students must participate in the discussion.|participate in|take part|education|
+penetrate|verb|to go through or into something|ಒಳಹೊಕ್ಕುವುದು|The cold air can penetrate thick clothes.|penetrate a market|pierce|academic|
+perpetuate|verb|to make something continue for a long time|ಮುಂದುವರಿಸುವುದು|Stories can perpetuate false ideas.|perpetuate a myth|continue|academic|
+predominate|verb|to be the main or largest part|ಪ್ರಧಾನವಾಗಿರುವುದು|Women predominate in the teaching profession here.|predominate in|prevail|academic|
+presume|verb|to suppose that something is true without proof|ಊಹಿಸಿಕೊಳ್ಳುವುದು|I presume that you have read the report.|presume that|assume|communication|
+prevail|verb|to be the most common or strongest, or to win|ಮೇಲುಗೈ ಸಾಧಿಸುವುದು|Common sense will prevail.|prevail over|win|academic|
+prohibit|verb|to officially stop something by law or rule|ನಿಷೇಧಿಸುವುದು|The law will prohibit smoking in public places.|prohibit smoking|ban|workplace|
+prolong|verb|to make something last longer|ದೀರ್ಘಗೊಳಿಸುವುದು|Do not prolong the meeting.|prolong a stay|extend|workplace|
+rectify|verb|to put something right|ಸರಿಪಡಿಸುವುದು|We will rectify the mistake at once.|rectify an error|correct|workplace|
+refine|verb|to improve something by making small changes|ಪರಿಷ್ಕರಿಸುವುದು|You can refine your answer.|refine a skill|improve|education|
+reinforce|verb|to make something stronger|ಬಲಪಡಿಸುವುದು|Practice will reinforce what you learnt.|reinforce learning|strengthen|education|
+reiterate|verb|to say something again for emphasis|ಪುನರುಚ್ಚರಿಸುವುದು|Let me reiterate the main point.|reiterate a point|repeat|communication|
+relinquish|verb|to give up something|ತ್ಯಜಿಸುವುದು|He had to relinquish his seat.|relinquish control|give up|academic|
+rely|verb|to depend on someone or something|ಅವಲಂಬಿಸುವುದು|You can rely on me.|rely on|depend|relationships|
+render|verb|to cause someone or something to be in a state|ಮಾಡುವುದು, ಒದಗಿಸುವುದು|The storm will render the road unusable.|render useless|make|academic|
+reproduce|verb|to make a copy of something, or to produce young|ಪ್ರತಿ ಮಾಡುವುದು|You may not reproduce this text without permission.|reproduce a result|copy|academic|
+reside|verb|to live in a particular place|ವಾಸಿಸುವುದು|He will reside in Mysuru for a year.|reside in|live|workplace|
+scrutinise|verb|to examine something very carefully|ಸೂಕ್ಷ್ಮವಾಗಿ ಪರೀಕ್ಷಿಸುವುದು|The auditors will scrutinise every bill.|scrutinise a report|inspect|academic|
+speculate|verb|to guess about something without enough facts|ಊಹಿಸುವುದು|People speculate about the reason for his leaving.|speculate about|guess|communication|
+stipulate|verb|to say clearly that something must be done|ಷರತ್ತು ವಿಧಿಸುವುದು|The contract will stipulate the payment date.|stipulate a condition|specify|workplace|
+subordinate|verb|to treat something as less important|ಅಧೀನಗೊಳಿಸುವುದು|Do not subordinate your health to your job.|subordinate to|rank lower|academic|
+supplement|verb|to add something to make it more complete|ಪೂರಕಗೊಳಿಸುವುದು|You can supplement your diet with fruit.|supplement income|add to|health|
+suspend|verb|to stop something for a time, or to hang something|ತಾತ್ಕಾಲಿಕವಾಗಿ ನಿಲ್ಲಿಸುವುದು|They will suspend classes during the strike.|suspend a service|pause|education|
+tolerate|verb|to accept something unpleasant without complaining|ಸಹಿಸಿಕೊಳ್ಳುವುದು|I cannot tolerate rude behaviour.|tolerate noise|bear|emotions|
+undermine|verb|to weaken something gradually|ದುರ್ಬಲಗೊಳಿಸುವುದು|Constant criticism can undermine confidence.|undermine confidence|weaken|emotions|
+underpin|verb|to support or form the basis of something|ಆಧಾರವಾಗಿರುವುದು|Honesty must underpin everything we do.|underpin a theory|support|academic|
+uphold|verb|to support something and make sure it continues|ಎತ್ತಿಹಿಡಿಯುವುದು|The court will uphold the decision.|uphold the law|maintain|academic|
+withdraw|verb|to take something back or away, or to move back|ಹಿಂತೆಗೆದುಕೊಳ್ಳುವುದು|You can withdraw money from the bank.|withdraw money|remove|workplace|
+withstand|verb|to be strong enough not to be damaged|ತಡೆದುಕೊಳ್ಳುವುದು|The bridge can withstand strong winds.|withstand pressure|resist|technology|
+ambiguity|noun|a situation in which something can have more than one meaning|ಅಸ್ಪಷ್ಟತೆ|There is some ambiguity in the contract.|a sense of ambiguity|vagueness|communication|
+anomaly|noun|something that is different from what is normal|ವೈಪರೀತ್ಯ|The result was an anomaly.|a statistical anomaly|irregularity|academic|
+bias|noun|an unfair preference for one side|ಪಕ್ಷಪಾತ|The judge showed no bias.|a clear bias|prejudice|academic|
+paradox|noun|a situation that seems impossible because it has opposite qualities|ವಿರೋಧಾಭಾಸ|It is a paradox that the richest people feel poor.|a strange paradox|contradiction|academic|
+catalyst|noun|something that causes a change|ವೇಗವರ್ಧಕ|The event was a catalyst for change.|a catalyst for|trigger|academic|
+dilemma|noun|a difficult choice between two things|ಸಂದಿಗ್ಧತೆ|She faced a dilemma between work and family.|face a dilemma|problem|emotions|
+discrepancy|noun|a difference between things that should be the same|ವ್ಯತ್ಯಾಸ|There is a discrepancy in the two reports.|a discrepancy between|difference|workplace|
+dispute|noun|an argument or disagreement|ವಿವಾದ|The two neighbours are in a dispute.|a dispute over|argument|relationships|
+empathy|noun|the ability to understand how another person feels|ಸಹಾನುಭೂತಿ|A good teacher shows empathy.|show empathy|understanding|relationships|
+hierarchy|noun|a system in which people are ranked from high to low|ಶ್ರೇಣಿ ವ್ಯವಸ್ಥೆ|The company has a strict hierarchy.|a clear hierarchy|ranking|workplace|
+hypothesis|noun|an idea that is suggested to explain something and needs testing|ಊಹನೆ, ಕಲ್ಪನೆ|The scientist tested her hypothesis.|test a hypothesis|theory|academic|
+inequality|noun|an unfair difference between groups of people|ಅಸಮಾನತೆ|The report talks about income inequality.|social inequality|unfairness|academic|
+initiative|noun|the ability to act without being told, or a new plan|ಉಪಕ್ರಮ|She showed great initiative at work.|take the initiative|enterprise|workplace|
+integration|noun|the act of combining things so they work together|ಏಕೀಕರಣ|The integration of two systems took a month.|social integration|merging|technology|
+legacy|noun|something left by a person or an earlier time|ಪರಂಪರೆ, ಬಳುವಳಿ|The king left a legacy of fine buildings.|leave a legacy|heritage|academic|
+leverage|noun|power or influence that helps you get what you want|ಪ್ರಭಾವ, ಲಾಭ|The company has little leverage in this talk.|have leverage|influence|workplace|
+nuance|noun|a small difference in meaning or feeling|ಸೂಕ್ಷ್ಮ ವ್ಯತ್ಯಾಸ|He explained the nuance of the word.|a subtle nuance|shade|communication|
+paradigm|noun|a typical example or model of how something is done|ಮಾದರಿ|The internet created a new paradigm for shopping.|a new paradigm|model|academic|
+precedent|noun|an earlier event that is used as an example for later action|ಪೂರ್ವನಿದರ್ಶನ|This case sets a precedent.|set a precedent|example|academic|
+premise|noun|an idea that your argument is based on|ಪ್ರಮೇಯ|His argument is based on a false premise.|a false premise|assumption|academic|
+rationale|noun|the reasons behind a decision|ತರ್ಕ, ಕಾರಣ|What is the rationale for this change?|the rationale for|reasoning|academic|
+resilience|noun|the ability to recover quickly from difficulty|ಸ್ಥಿತಿಸ್ಥಾಪಕತೆ|Children often show great resilience.|show resilience|toughness|personality|
+scenario|noun|a description of how things might happen|ಸನ್ನಿವೇಶ|In the worst scenario, we will cancel the trip.|a worst-case scenario|situation|communication|
+scepticism|noun|doubt about whether something is true or useful|ಸಂಶಯ|There was some scepticism about the plan.|healthy scepticism|doubt|communication|
+stereotype|noun|a fixed and often unfair idea about a type of person|ಸ್ಥಿರ ಮಾದರಿ, ರೂಢಿಗತ ಕಲ್ಪನೆ|We should not believe a stereotype.|a harmful stereotype|cliché|relationships|
+trade-off|noun|a balance between two things that you cannot have together|ವಿನಿಮಯ|There is a trade-off between speed and quality.|a trade-off between|compromise|workplace|
+viability|noun|the ability to work well or to succeed|ಕಾರ್ಯಸಾಧ್ಯತೆ|They checked the viability of the plan.|economic viability|feasibility|workplace|
+ambitious|adjective|having a strong wish to succeed|ಮಹತ್ವಾಕಾಂಕ್ಷೆಯ|She is an ambitious young woman.|an ambitious plan|determined|personality|
+arbitrary|adjective|based on chance, not on reason|ಮನಬಂದಂತೆ|The choice seemed arbitrary.|an arbitrary decision|random|academic|
+coherent|adjective|logical and well organised, easy to follow|ಸುಸಂಬದ್ಧ|She gave a coherent explanation.|a coherent argument|logical|communication|
+comprehensive|adjective|including everything that is needed|ಸಮಗ್ರ|The book gives a comprehensive guide to grammar.|a comprehensive study|complete|academic|
+concise|adjective|giving a lot of information in few words|ಸಂಕ್ಷಿಪ್ತ|Please write a concise summary.|a concise answer|brief|communication|
+credible|adjective|able to be believed or trusted|ನಂಬಲರ್ಹ|He is a credible witness.|a credible source|believable|communication|
+cumulative|adjective|growing by one addition after another|ಸಂಚಿತ|The cumulative effect of small savings is large.|cumulative effect|growing|academic|
+inevitable|adjective|certain to happen and cannot be avoided|ಅನಿವಾರ್ಯ|Change is inevitable.|an inevitable result|unavoidable|academic|
+inherent|adjective|existing as a natural and permanent part|ಸಹಜವಾದ|There is an inherent risk in driving.|inherent risk|built-in|academic|
+intangible|adjective|not physical, impossible to touch|ಅಮೂರ್ತ, ಸ್ಪರ್ಶಿಸಲಾಗದ|Trust is an intangible asset.|an intangible benefit|abstract|academic|
+meticulous|adjective|very careful about small details|ಸೂಕ್ಷ್ಮ ಗಮನದ|She is meticulous about her work.|meticulous planning|careful|personality|
+obvious|adjective|easy to see or understand|ಸ್ಪಷ್ಟ|The answer is obvious.|an obvious choice|clear|everyday|
+pragmatic|adjective|dealing with things in a practical way|ಪ್ರಾಯೋಗಿಕ|She took a pragmatic approach.|a pragmatic approach|practical|workplace|
+profound|adjective|very deep or very strong|ಆಳವಾದ|The film had a profound effect on me.|a profound effect|deep|emotions|
+prudent|adjective|careful and sensible about the future|ವಿವೇಕಯುತ|It is prudent to save some money.|a prudent decision|wise|personality|
+redundant|adjective|no longer needed|ಅನಗತ್ಯ|The last word is redundant.|redundant information|unnecessary|workplace|
+reluctant|adjective|not wanting to do something|ಹಿಂಜರಿಯುವ|He was reluctant to leave.|reluctant to|unwilling|emotions|
+resilient|adjective|able to recover quickly after difficulty|ಚೇತರಿಸಿಕೊಳ್ಳುವ|Young children are often very resilient.|a resilient person|tough|personality|
+scarce|adjective|not enough in amount, hard to find|ಕೊರತೆಯಿರುವ|Water is scarce in summer.|scarce resources|rare|everyday|
+skeptical|adjective|doubting that something is true or useful|ಸಂಶಯಾತ್ಮಕ|He was skeptical about the offer.|skeptical about|doubtful|communication|
+subtle|adjective|small and not easy to notice|ಸೂಕ್ಷ್ಮ|There is a subtle difference between the two words.|a subtle difference|slight|communication|
+tangible|adjective|real enough to be touched or measured|ಸ್ಪರ್ಶಿಸಬಹುದಾದ, ಸ್ಪಷ್ಟ|There was tangible proof of her progress.|tangible results|concrete|academic|
+thorough|adjective|complete and careful, covering every detail|ಸಂಪೂರ್ಣ|She did a thorough check.|a thorough search|complete|workplace|
+unprecedented|adjective|never having happened before|ಅಭೂತಪೂರ್ವ|The city had unprecedented rainfall.|unprecedented growth|unheard of|academic|
+versatile|adjective|able to do many different things|ಬಹುಮುಖ|She is a versatile actor.|a versatile tool|flexible|workplace|
+vulnerable|adjective|easily hurt or harmed|ದುರ್ಬಲ, ಅಪಾಯಕ್ಕೊಳಗಾಗುವ|Young children are vulnerable to infection.|vulnerable to|exposed|health|
+notwithstanding|preposition|in spite of|ಇದ್ದರೂ|The match went on, notwithstanding the rain.|notwithstanding|despite|academic|
+conversely|adverb|in the opposite way|ಇದಕ್ಕೆ ವಿರುದ್ಧವಾಗಿ|Some people work well alone; conversely, others need a team.|conversely|on the other hand|communication|
+inevitably|adverb|in a way that cannot be avoided|ಅನಿವಾರ್ಯವಾಗಿ|Prices inevitably rise over time.|inevitably|unavoidably|academic|
+predominantly|adverb|mainly, for the most part|ಪ್ರಧಾನವಾಗಿ|The class is predominantly girls.|predominantly|mainly|academic|
+presumably|adverb|probably, as far as you know|ಬಹುಶಃ|Presumably, she is already home.|presumably|probably|communication|
+respectively|adverb|in the order that has just been mentioned|ಕ್ರಮವಾಗಿ|Ravi and Meena are ten and twelve respectively.|respectively|in order|academic|
+seemingly|adverb|in a way that appears true but may not be|ತೋರುವಂತೆ|It was a seemingly easy task.|seemingly easy|apparently|communication|
+thoroughly|adverb|completely and carefully|ಸಂಪೂರ್ಣವಾಗಿ|Please wash your hands thoroughly.|thoroughly clean|completely|health|
+whatsoever|adverb|at all, used for emphasis|ಯಾವುದೇ ರೀತಿಯಲ್ಲಿ|There is no doubt whatsoever.|none whatsoever|at all|communication|

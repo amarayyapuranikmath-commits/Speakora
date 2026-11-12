@@ -1,0 +1,1 @@
+{"name":"turn-test","private":true,"version":"0.0.0","type":"commonjs","description":"Local TURN server used ONLY to test the relay path and the time-limited credential scheme. Not part of the product.","dependencies":{"node-turn":"^0.0.6"}}
