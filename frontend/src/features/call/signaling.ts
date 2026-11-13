@@ -96,7 +96,11 @@ export class SignalingClient {
   private async open(): Promise<void> {
     const { ticket } = await api<{ ticket: string }>('/api/ws/ticket', { method: 'POST' })
     const scheme = location.protocol === 'https:' ? 'wss' : 'ws'
-    const ws = new WebSocket(`${scheme}://${location.host}/ws/signaling?ticket=${encodeURIComponent(ticket)}`)
+    const wsUrl = import.meta.env.VITE_WS_URL
+      ? new URL(import.meta.env.VITE_WS_URL)
+      : new URL(`${scheme}://${location.host}/ws/signaling`)
+    wsUrl.searchParams.set('ticket', ticket)
+    const ws = new WebSocket(wsUrl.toString())
     this.ws = ws
 
     await new Promise<void>((resolve, reject) => {
