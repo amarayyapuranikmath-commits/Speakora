@@ -50,18 +50,18 @@ public class SystemService {
         if (!https) warnings.add("APP_BASE_URL is not https. Browsers only allow the microphone on https (or localhost).");
         if (!props.cookieSecure()) warnings.add("COOKIE_SECURE is false: the sign-in cookie is also sent over plain http.");
         if (props.corsOrigins().stream().anyMatch(o -> o.contains("localhost") || o.startsWith("http://"))) warnings.add("CORS allows a localhost or http origin.");
-        if (!mail.isSmtpConfigured()) warnings.add("SMTP is not configured: verification, reset and reminder emails are only written to the server log.");
+        if (!mail.isConfigured()) warnings.add("No email provider is configured (set RESEND_API_KEY or SMTP_HOST): verification, reset and reminder emails are only written to the server log.");
         if (!coach.isConfigured()) warnings.add("No AI provider key: the speaking coach reports itself unavailable.");
         if (!turnConfigured) warnings.add("TURNIX_API_TOKEN is not set: voice calls cannot start until TURN credentials can be issued.");
         if (props.adminEmailList().isEmpty()) warnings.add("ADMIN_EMAILS is empty: administrators can only be created with SQL.");
-        return new Report(props.baseUrl(), https, props.cookieSecure(), props.corsOrigins(), mail.isSmtpConfigured(), mail.fromAddress(),
+        return new Report(props.baseUrl(), https, props.cookieSecure(), props.corsOrigins(), mail.isConfigured(), mail.fromAddress(),
                 coach.isConfigured(), coach.modelName(), turnConfigured, turnUrls, props.turn().forceRelay(), warnings);
     }
 
-    /** Sends a real email through the configured SMTP server. */
+    /** Sends a real email through the configured provider (Resend or SMTP). */
     public Check testEmail(String to) {
         try {
-            mail.sendChecked(to, "Test email from " + props.name(), "This is a test message sent from the admin System page.\nIf you can read it, SMTP is working.");
+            mail.sendChecked(to, "Test email from " + props.name(), "This is a test message sent from the admin System page.\nIf you can read it, email sending is working.");
             return new Check("email", true, "Sent to " + to + " from " + mail.fromAddress() + ". Check that inbox (and spam).");
         } catch (RuntimeException e) {
             return new Check("email", false, oneLine(e));

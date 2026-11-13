@@ -21,7 +21,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Sends transactional email over SMTP when configured (SMTP_HOST). Without SMTP the message is written to the log, but only when the
+ * Sends transactional email through the Resend HTTP API when RESEND_API_KEY is set (the primary provider, and the only one that works on hosts
+ * that block outbound SMTP), otherwise over SMTP when configured (SMTP_HOST). With neither, the message is written to the log, but only when the
  * app runs on a local address, so a developer can read the code; a deployed server never logs codes or links.
  *
  * <p>Every message is multipart (HTML and plain text) and carries the application's name as the sender's display name, with the
@@ -37,6 +38,7 @@ public class MailService {
     private static final int USER_FACING_ATTEMPTS = 2;
 
     private final ObjectProvider<JavaMailSender> sender;
+    private final ResendClient resend; // null = Resend is not configured
     private final AppProperties props;
     private final String from;
     private final ExecutorService background; // null = send on the calling thread (tests)
@@ -50,12 +52,13 @@ public class MailService {
 
     /** The server: sends in the background. */
     @Autowired
-    public MailService(ObjectProvider<JavaMailSender> sender, AppProperties props,
+    public MailService(ObjectProvider<JavaMailSender> sender, ObjectProvider<ResendClient> resend, AppProperties props,
                        @Value("${app.mail-from:no-reply@example.com}") String from,
                        @Value("${app.mail-async:true}") boolean async,
                        @Value("${app.mail-html:false}") boolean html) {
         this.html = html;
         this.sender = sender;
+        this.resend = resend.getIfAvailable();
         this.props = props;
         this.from = from;
         this.background = async ? Executors.newVirtualThreadPerTaskExecutor() : null;
@@ -64,8 +67,19 @@ public class MailService {
 
     /** Sends on the calling thread, so a test can read the result straight away. */
     public MailService(ObjectProvider<JavaMailSender> sender, AppProperties props, String from) {
-        this(sender, props, from, false, false);
+        this(sender, props, from, null);
+    }
+
+    /** Sends on the calling thread, through Resend when {@code resend} is not null (tests). */
+    public MailService(ObjectProvider<JavaMailSender> sender, AppProperties props, String from, ResendClient resend) {
+        this.html = false;
+        this.sender = sender;
+        this.resend = resend;
+        this.props = props;
+        this.from = from;
+        this.background = null;
         this.retryDelaysMillis = new long[] {0, 0};
+        warnAboutPlaceholderSender();
     }
 
     @PreDestroy
@@ -89,7 +103,7 @@ public class MailService {
      * so a developer can follow it.
      */
     private String linkTo(String path) {
-        boolean realEmailToALocalAddress = sender.getIfAvailable() != null && isLocal(props.baseUrl());
+        boolean realEmailToALocalAddress = isConfigured() && isLocal(props.baseUrl());
         return realEmailToALocalAddress ? null : props.baseUrl() + path;
     }
 
@@ -99,8 +113,14 @@ public class MailService {
 
     // --- state and diagnostics --------------------------------------------------------------------------------------------------
 
-    /** True when an SMTP host is configured; otherwise emails are only written to the log. */
+    /** True when an SMTP host is configured. */
     public boolean isSmtpConfigured() { return sender.getIfAvailable() != null; }
+
+    /** True when Resend or SMTP can send; otherwise emails are only written to the log. */
+    public boolean isConfigured() { return resend != null || isSmtpConfigured(); }
+
+    /** "Resend", "SMTP" or "none": which provider actually sends (Resend wins when both are set). */
+    public String providerName() { return resend != null ? "Resend" : isSmtpConfigured() ? "SMTP" : "none"; }
 
     /** The sender as recipients see it: the application's name and the configured address. */
     public String fromAddress() { return fromHeader().toString(); }
@@ -108,7 +128,15 @@ public class MailService {
     /** Sends a diagnostic email and REPORTS failure (unlike normal mail, which must never break a user flow). */
     public void sendChecked(String to, String subject, String body) {
         JavaMailSender mailSender = sender.getIfAvailable();
-        if (mailSender == null) throw new IllegalStateException("SMTP is not configured (set SMTP_HOST and credentials). Emails are currently only written to the server log.");
+        if (resend != null) {
+            try {
+                resend.send(fromHeader().toString(), to, subject, body, null, java.util.UUID.randomUUID().toString());
+            } catch (ResendClient.ResendException e) {
+                throw new IllegalStateException(e.getMessage(), e);
+            }
+            return;
+        }
+        if (mailSender == null) throw new IllegalStateException("SMTP is not configured (set RESEND_API_KEY, or SMTP_HOST and credentials). Emails are currently only written to the server log.");
         try {
             mailSender.send(build(mailSender, to, new EmailTemplates.Email(subject, null, body), false));
         } catch (jakarta.mail.MessagingException e) {
@@ -132,7 +160,7 @@ public class MailService {
     // --- sending ----------------------------------------------------------------------------------------------------------------
 
     private void warnAboutPlaceholderSender() {
-        if (sender.getIfAvailable() != null && isPlaceholderSender(from)) {
+        if (sender.getIfAvailable() != null && resend == null && isPlaceholderSender(from)) { // with Resend, ResendConfig warns
             log.warn("SMTP is configured but MAIL_FROM is empty or an example address. Mail providers refuse or spam-folder mail from an address on a domain "
                     + "that is not verified with them; set MAIL_FROM to a verified sender (see docs/EMAIL.md).");
         }
@@ -178,11 +206,11 @@ public class MailService {
 
     private void send(String to, EmailTemplates.Email email, boolean reminder) {
         JavaMailSender mailSender = sender.getIfAvailable();
-        if (mailSender == null) {
+        if (!isConfigured()) {
             // Development convenience: show the email (it holds a sign-in code and link) only when the app runs on a local address. A deployed
-            // server without SMTP must never write codes or links into its logs; it says that the email was not sent and why.
-            if (isLocal(props.baseUrl())) log.info("SMTP not configured. Email to {} | {}\n{}", to, email.subject(), email.text());
-            else log.warn("SMTP is not configured (set SMTP_HOST): the email '{}' to {} was NOT sent.", email.subject(), to);
+            // server without a mail provider must never write codes or links into its logs; it says that the email was not sent and why.
+            if (isLocal(props.baseUrl())) log.info("No mail provider configured. Email to {} | {}\n{}", to, email.subject(), email.text());
+            else log.warn("No mail provider is configured (set RESEND_API_KEY, or SMTP_HOST): the email '{}' to {} was NOT sent.", email.subject(), recipientForLog(to));
             return;
         }
         if (background == null) deliver(mailSender, to, email, reminder);
@@ -192,14 +220,14 @@ public class MailService {
     /** A message a person is waiting for: sent on the calling thread, and a failure is reported, not hidden. */
     private void sendNow(String to, EmailTemplates.Email email) {
         JavaMailSender mailSender = sender.getIfAvailable();
-        if (mailSender == null) {
+        if (!isConfigured()) {
             // Development convenience: show the email (it holds a sign-in code and link) only when the app runs on a local address. A deployed
-            // server without SMTP never writes codes or links into its logs, and the person is told that no email can be sent.
+            // server without a mail provider never writes codes or links into its logs, and the person is told that no email can be sent.
             if (isLocal(props.baseUrl())) {
-                log.info("SMTP not configured. Email to {} | {}\n{}", to, email.subject(), email.text());
+                log.info("No mail provider configured. Email to {} | {}\n{}", to, email.subject(), email.text());
                 return;
             }
-            log.warn("SMTP is not configured (set SMTP_HOST): the email '{}' to {} was NOT sent.", email.subject(), recipientForLog(to));
+            log.warn("No mail provider is configured (set RESEND_API_KEY, or SMTP_HOST): the email '{}' to {} was NOT sent.", email.subject(), recipientForLog(to));
             throw new MailDeliveryException(MailDeliveryException.Kind.NOT_CONFIGURED, "Email sending is not configured", null);
         }
         deliverOrThrow(mailSender, to, email, false, USER_FACING_ATTEMPTS);
@@ -216,12 +244,14 @@ public class MailService {
 
     private void deliverOrThrow(JavaMailSender mailSender, String to, EmailTemplates.Email email, boolean reminder, int attempts) {
         MailDeliveryException last = null;
+        String idempotencyKey = java.util.UUID.randomUUID().toString(); // one per message, shared by its retries
         for (int attempt = 1; attempt <= attempts; attempt++) {
             try {
-                mailSender.send(build(mailSender, to, email, reminder));
+                if (resend != null) resend.send(fromHeader().toString(), to, email.subject(), email.text(), html ? email.html() : null, idempotencyKey);
+                else mailSender.send(build(mailSender, to, email, reminder));
                 // Every successful hand-over is logged (recipient shown in development and masked on a server, never the code or the link),
                 // so "sent" and "not sent" can be told apart.
-                log.info("Email '{}' accepted by the mail server for {} (attempt {})", email.subject(), recipientForLog(to), attempt);
+                log.info("Email '{}' accepted by the mail server for {} (attempt {}, via {})", email.subject(), recipientForLog(to), attempt, providerName());
                 return;
             } catch (jakarta.mail.MessagingException | RuntimeException e) {
                 boolean retry = attempt < attempts && isTransient(e);
@@ -243,6 +273,7 @@ public class MailService {
 
     /** Which kind of failure this is, for the message the person sees. */
     static MailDeliveryException.Kind classify(Throwable e) {
+        if (e instanceof ResendClient.ResendException r) return r.kind();
         if (e instanceof MailAuthenticationException) return MailDeliveryException.Kind.LOGIN_REFUSED;
         for (Throwable t = e; t != null; t = t.getCause()) {
             if (t instanceof jakarta.mail.AuthenticationFailedException) return MailDeliveryException.Kind.LOGIN_REFUSED;
@@ -281,6 +312,7 @@ public class MailService {
 
     /** Network trouble, timeouts and a 4xx "try again later" are worth another attempt; bad credentials and 5xx refusals are not. */
     static boolean isTransient(Throwable e) {
+        if (e instanceof ResendClient.ResendException r) return r.isTransientFailure();
         if (e instanceof MailAuthenticationException) return false;
         for (Throwable t = e; t != null; t = t.getCause()) {
             if (t instanceof jakarta.mail.AuthenticationFailedException) return false;
