@@ -1,5 +1,5 @@
 // Creates ONE throwaway measurement account on a local backend and marks it verified and onboarded (there is no mail server to verify it with).
-// Usage: node tools/perf/prepare-user.cjs [backend]          prints the email and password; remove it with: node tools/perf/prepare-user.cjs --delete <email>
+// Usage: PERF_PASSWORD=<choose one> node tools/perf/prepare-user.cjs [backend]          prints the email only (the password is the PERF_PASSWORD you set); remove it with: node tools/perf/prepare-user.cjs --delete <email>
 const { execFileSync } = require('child_process')
 const { readFileSync } = require('fs')
 const path = require('path')
@@ -47,11 +47,12 @@ insert into direct_messages(id, user_a, user_b, sender_id, body, created_at)
   }
   const base = process.argv[2] || 'http://localhost:8090'
   const email = `perf.${Date.now()}@example.com`
-  const password = 'Passw0rdOK1'
+  const password = process.env.PERF_PASSWORD
+  if (!password || password.length < 8) throw new Error('set PERF_PASSWORD (at least 8 characters, with a letter and a digit) for the throwaway account; it is read from the environment and never stored in this file')
   const res = await fetch(base + '/api/auth/register', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Client-Type': 'mobile' }, body: JSON.stringify({ email, password, displayName: 'Perf Tester', dateOfBirth: '1990-05-01' }) })
   if (res.status !== 201) throw new Error('register failed: ' + res.status)
   const token = (await res.json()).accessToken
   sql(`update users set email_verified = true where email = '${email}'`)
   const profile = await fetch(base + '/api/profile/onboarding', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Client-Type': 'mobile', Authorization: `Bearer ${token}` }, body: JSON.stringify({ displayName: 'Perf Tester', country: 'GB', timeZone: 'Europe/London', nativeLanguage: 'es', englishLevel: 'B1', learningGoals: ['fluency'], interests: ['travel'], onboardingCompleted: true }) })
-  console.log(JSON.stringify({ email, password, profileStatus: profile.status }))
+  console.log(JSON.stringify({ email, profileStatus: profile.status }))
 })().catch((e) => { console.error('ERR', e.message); process.exit(1) })

@@ -1,5 +1,5 @@
 // Measures the website the way a visitor meets it: a fresh browser, an empty cache, the production build served like nginx serves it.
-//   node tools/perf/web-load.cjs --base http://localhost:4180 --email perf.123@example.com --password Passw0rdOK1 [--runs 5] [--profile local|mobile] [--out result.json]
+//   PERF_PASSWORD=<account password> node tools/perf/web-load.cjs --base http://localhost:4180 --email perf.123@example.com [--runs 5] [--profile local|mobile] [--out result.json]
 // Profiles: local = no throttling; mobile = what Lighthouse calls slow 4G on a mid-range phone (1.6 Mbps down, 750 kbps up, 150 ms latency, 4x slower CPU).
 // Per scenario it reports the median of the runs of: first contentful paint, largest contentful paint, time until the page content is really on screen
 // (not just the shell), cumulative layout shift, bytes transferred, JavaScript bytes, number of requests, and the API calls made (with duplicates).
@@ -8,7 +8,8 @@ const fs = require('fs')
 
 const arg = (name, fallback) => { const i = process.argv.indexOf('--' + name); return i > 0 ? process.argv[i + 1] : fallback }
 const base = arg('base', 'http://localhost:4180')
-const email = arg('email'), password = arg('password')
+const email = arg('email'), password = process.env.PERF_PASSWORD
+if (!password) { console.error('Set PERF_PASSWORD to the password of the throwaway perf account (it is read from the environment, never from the command line or this file).'); process.exit(2) }
 const runs = Number(arg('runs', 5))
 const profile = arg('profile', 'local')
 const out = arg('out')
