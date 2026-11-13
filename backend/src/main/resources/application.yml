@@ -32,9 +32,12 @@ spring:
       host: ${REDIS_HOST:localhost}
       port: ${REDIS_PORT:6379}
       password: ${REDIS_PASSWORD:}
+      # Upstash (and most hosted Redis) only accepts TLS: set REDIS_SSL=true there.
+      ssl:
+        enabled: ${REDIS_SSL:false}
 
 server:
-  port: 8080
+  port: ${PORT:8080} # Render injects PORT; elsewhere 8080
   shutdown: graceful
   # Deliberately NOT "framework": that makes getRemoteAddr(), the scheme and the host follow headers any client can send. The caller's
   # address comes from ClientIpResolver, which believes X-Forwarded-For only from the proxies listed in TRUSTED_PROXIES.
