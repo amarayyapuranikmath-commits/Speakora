@@ -50,7 +50,7 @@ services:
       REDIS_HOST: redis
       ADMIN_EMAILS: ${ADMIN_EMAILS:-}
       MAIL_FROM: ${MAIL_FROM:?set MAIL_FROM}
-      SMTP_HOST: ${SMTP_HOST:?set SMTP_HOST}
+      SMTP_HOST: ${SMTP_HOST:-}
       SMTP_PORT: ${SMTP_PORT:-587}
       SMTP_USER: ${SMTP_USER:-}
       TURN_FORCE_RELAY: ${TURN_FORCE_RELAY:-false}
@@ -60,7 +60,7 @@ services:
       COACH_DAILY_LIMIT: ${COACH_DAILY_LIMIT:-20}
       SECRETS_DIR: /run/secrets
     # Secrets are mounted as files named exactly like the property (Spring "configtree"), never as environment variables.
-    secrets: [DB_PASSWORD, JWT_SECRET, REDIS_PASSWORD, SMTP_PASSWORD, GROQ_API_KEY, TURNIX_API_TOKEN]
+    secrets: [DB_PASSWORD, JWT_SECRET, REDIS_PASSWORD, SMTP_PASSWORD, RESEND_API_KEY, GROQ_API_KEY, TURNIX_API_TOKEN]
 
   postgres:
     image: postgres:18-alpine
@@ -123,6 +123,7 @@ secrets:
   JWT_SECRET: { file: ./secrets/JWT_SECRET }
   REDIS_PASSWORD: { file: ./secrets/REDIS_PASSWORD }
   SMTP_PASSWORD: { file: ./secrets/SMTP_PASSWORD }
+  RESEND_API_KEY: { file: ./secrets/RESEND_API_KEY }
   GROQ_API_KEY: { file: ./secrets/GROQ_API_KEY }
   TURNIX_API_TOKEN: { file: ./secrets/TURNIX_API_TOKEN }
 

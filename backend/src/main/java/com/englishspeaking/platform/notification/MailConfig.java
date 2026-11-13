@@ -39,7 +39,7 @@ public class MailConfig {
 
     /**
      * Gives every message a Message-ID built from the sending address's own domain. By default JavaMail uses the sending computer's own name (for
-     * example "LAPTOP-4QE4E0VT"), which is not a qualified domain name and is a common reason for spam filters to distrust a message.
+     * example "LAPTOP-EXAMPLE"), which is not a qualified domain name and is a common reason for spam filters to distrust a message.
      */
     static final class QualifiedMessageIdSender extends JavaMailSenderImpl {
         private final String domain;

@@ -30,7 +30,8 @@ backend:8081 (health + Prometheus metrics) is private; prometheus scrapes it ove
    openssl rand -base64 64 | tr -d '/+=\n' > secrets/JWT_SECRET        # must be 48+ chars: the app refuses to start otherwise
    openssl rand -base64 36 | tr -d '/+=\n' > secrets/REDIS_PASSWORD
    printf '%s' 'YOUR_TURNIX_API_TOKEN' > secrets/TURNIX_API_TOKEN     # required: from your Turnix project
-   printf '%s' 'YOUR_SMTP_PASSWORD' > secrets/SMTP_PASSWORD
+   printf '%s' 'YOUR_SMTP_PASSWORD' > secrets/SMTP_PASSWORD         # SMTP fallback; leave empty when using Resend
+   printf '%s' 're_YOUR_RESEND_KEY' > secrets/RESEND_API_KEY        # Resend HTTP email (docs/EMAIL.md); takes precedence over SMTP
    printf '' > secrets/GROQ_API_KEY      # or paste the key
    chmod 600 secrets/*
    ```
@@ -51,6 +52,7 @@ The backend runs with `SPRING_PROFILES_ACTIVE=prod`: it **refuses to start** if 
 | Variable / secret | Purpose |
 |---|---|
 | `DOMAIN`, `ACME_EMAIL` | public hostname and certificate contact |
+| secret `RESEND_API_KEY` / `MAIL_FROM` | email through the Resend HTTP API (works where SMTP is blocked); either this or `SMTP_HOST` is required |
 | `SMTP_HOST` / `SMTP_PORT` / `SMTP_USER` / secret `SMTP_PASSWORD` / `MAIL_FROM` | email. Port 465 = implicit TLS, otherwise STARTTLS is **required** (never silently plain text) |
 | `ADMIN_EMAILS` | become ADMIN after verifying the address |
 | secret `TURNIX_API_TOKEN` (required), `TURN_FORCE_RELAY`, `TRUSTED_PROXIES` | TURN relay via Turnix, see TURN.md |
