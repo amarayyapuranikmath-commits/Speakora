@@ -1,5 +1,28 @@
 # Email: what is needed for real delivery
 
+## Provider order (Resend first, SMTP as fallback)
+
+1. **Resend HTTP API** when `RESEND_API_KEY` is set. It uses HTTPS (port 443), so it works on hosts that block outbound SMTP, such as **Render Free (ports 25, 465 and 587 are blocked)**.
+2. **SMTP** (Gmail, Brevo, ...) when `SMTP_HOST` is set and there is no `RESEND_API_KEY`.
+3. **Neither:** on a local address the email, including the code, is written to the log; on a deployed server nothing is logged and the person is told email is not set up.
+
+Resend is called with `from` = `APP_NAME <MAIL_FROM>`, `to`, `subject` and the same plain-text message as before (`MAIL_HTML=true` adds the HTML part). Templates, the retry rules
+(a person waiting for a code: 2 attempts, background reminders: 3; only network trouble, HTTP 429 and 5xx are retried, a bad key or a refused address is not) and the
+"email could not be sent" messages are unchanged. Each message carries one idempotency key across its retries, so a retry cannot deliver a code twice. Logs hold the
+masked recipient, HTTP status and Resend's short error name, never the key, a code or a link. The key is read only on the server.
+
+**Resend free tier without a domain:** use `MAIL_FROM=onboarding@resend.dev`. Resend then delivers **only to the email address of your own Resend account**; any other recipient
+is refused (HTTP 403, `validation_error`), so real users cannot receive codes until you **verify a domain** at resend.com/domains (add the DKIM/SPF DNS records Resend shows) and set
+`MAIL_FROM=no-reply@your-domain`. The app reports that refusal as "recipient refused". Resend's free plan also has daily and monthly sending limits (see resend.com/pricing).
+
+| Setting | Meaning |
+|---|---|
+| `RESEND_API_KEY` | Resend API key (starts with `re_`; create it at resend.com/api-keys with "Sending access"). Server only. Spaces, quotes or line breaks stop the start with a message that does not show the key |
+| `MAIL_FROM` | `onboarding@resend.dev` while testing, or an address on your verified domain |
+| `RESEND_API_URL` | optional, default `https://api.resend.com` (for tests) |
+
+In production (`SPRING_PROFILES_ACTIVE=prod`) the app refuses to start unless `RESEND_API_KEY` or `SMTP_HOST` is set, and unless `MAIL_FROM` is not empty or an `example.com` address.
+
 The app sends three kinds of email: **email verification**, **password reset** and **practice reminders**. Verification and reset emails carry a
 6-digit code (entered in the Android app or on the website) and a link (opened on the website).
 

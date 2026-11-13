@@ -78,5 +78,6 @@ class ContextWiringTest {
         assertThat(context.getBean(SignalingHandler.class)).isNotNull();
         assertThat(context.getBean(SecurityFilterChain.class)).isNotNull();
         assertThat(context.getBeanProvider(JavaMailSender.class).getIfAvailable()).as("no SMTP configured").isNull();
+        assertThat(context.getBeanProvider(com.englishspeaking.platform.notification.ResendClient.class).getIfAvailable()).as("no Resend key configured").isNull();
     }
 }
