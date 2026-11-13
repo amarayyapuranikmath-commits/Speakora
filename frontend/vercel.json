@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://speakora-1.onrender.com/api/:path*"
+      "destination": "https://speakora-6mkd.onrender.com/api/:path*"
     },
     {
       "source": "/:path*",
