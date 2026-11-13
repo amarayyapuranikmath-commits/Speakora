@@ -70,7 +70,34 @@ beforeEach(() => {
 
 afterEach(() => {
   vi.useRealTimers()
+  vi.unstubAllEnvs()
   vi.unstubAllGlobals()
+})
+
+describe('signalling URL', () => {
+  it('uses the configured production URL and appends the one-time ticket', async () => {
+    vi.stubEnv('VITE_WS_URL', 'wss://speakora-1.onrender.com/ws/signaling')
+    const client = new SignalingClient({ onMessage: () => {}, onStatus: () => {} })
+    const done = client.connect()
+    await tick()
+
+    expect(FakeSocket.all[0].url).toBe('wss://speakora-1.onrender.com/ws/signaling?ticket=ticket')
+    FakeSocket.all[0].accept()
+    await done
+    client.close()
+  })
+
+  it('falls back to the current origin for local development', async () => {
+    const client = new SignalingClient({ onMessage: () => {}, onStatus: () => {} })
+    const done = client.connect()
+    await tick()
+
+    const scheme = location.protocol === 'https:' ? 'wss' : 'ws'
+    expect(FakeSocket.all[0].url).toBe(`${scheme}://${location.host}/ws/signaling?ticket=ticket`)
+    FakeSocket.all[0].accept()
+    await done
+    client.close()
+  })
 })
 
 describe('signalling reconnection', () => {
