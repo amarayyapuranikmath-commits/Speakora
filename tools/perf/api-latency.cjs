@@ -1,5 +1,5 @@
 // Response time and payload size of the API endpoints the apps call most, measured over real HTTP against a running backend.
-//   node tools/perf/api-latency.cjs --base http://localhost:8090 --email perf.1@example.com --password Passw0rdOK1 [--n 30] [--out file.json]
+//   PERF_PASSWORD=<account password> node tools/perf/api-latency.cjs --base http://localhost:8090 --email perf.1@example.com [--n 30] [--out file.json]
 // Each endpoint: 3 warm-up requests (not counted), then n timed requests, paced to stay far under the backend's 300 requests/minute/IP limit.
 // Reports p50/p95/max in ms, the bytes that travel on the wire when the client asks for gzip, the uncompressed bytes, and whether the server compressed.
 const http = require('http')
@@ -8,7 +8,8 @@ const fs = require('fs')
 
 const arg = (name, fallback) => { const i = process.argv.indexOf('--' + name); return i > 0 ? process.argv[i + 1] : fallback }
 const base = new URL(arg('base', 'http://localhost:8090'))
-const email = arg('email'), password = arg('password')
+const email = arg('email'), password = process.env.PERF_PASSWORD
+if (!password) { console.error('Set PERF_PASSWORD to the password of the throwaway perf account (it is read from the environment, never from the command line or this file).'); process.exit(2) }
 const n = Number(arg('n', 30))
 const out = arg('out')
 

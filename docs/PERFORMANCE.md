@@ -115,9 +115,10 @@ Audio was not heard by a person in any of this (fake microphones); media paths w
 cd frontend && npm run build
 node tools/perf/serve-dist.cjs 4180 http://localhost:8090            # production-like server
 powershell -File tools/perf/start-backend.ps1 -Jar backend/target/platform-0.1.0-SNAPSHOT.jar   # isolated schema + Redis db
+export PERF_PASSWORD=<choose a password for the throwaway test account>   # read from the environment by every script below, never written in a file
 PERF_DB=english_speaking_test PGOPTIONS="-c search_path=perf" node tools/perf/prepare-user.cjs http://localhost:8090
-node tools/perf/web-load.cjs --base http://localhost:4180 --email <perf user> --password Passw0rdOK1 --runs 5 --profile mobile --settle 3500
-node tools/perf/api-latency.cjs --base http://localhost:8090 --email <perf user> --password Passw0rdOK1
+node tools/perf/web-load.cjs --base http://localhost:4180 --email <perf user> --runs 5 --profile mobile --settle 3500
+node tools/perf/api-latency.cjs --base http://localhost:8090 --email <perf user>
 node tools/perf/voice-connect.cjs --base http://localhost:4180 --a <user1> --b <user2>
 ```
 Remove the test accounts with `prepare-user.cjs --cleanup` and the schema with `drop schema perf cascade`.

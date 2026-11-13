@@ -1,5 +1,5 @@
 // Quick Match timing with two real browser sessions (fake microphones), through the production-like server (serve-dist) and a real backend.
-//   node tools/perf/voice-connect.cjs --base http://localhost:4180 --a perf.1@example.com --b perf.2@example.com [--password Passw0rdOK1] [--runs 5] [--out file.json]
+//   PERF_PASSWORD=<password of both accounts> node tools/perf/voice-connect.cjs --base http://localhost:4180 --a perf.1@example.com --b perf.2@example.com [--runs 5] [--out file.json]
 // Per run: both users press "Start looking" (the second press is t0). Measured, in ms from t0:
 //   match      both sides received match.found over the signalling socket
 //   ice fetch  how long GET /api/calls/ice-servers took on each side (the request that precedes the WebRTC offer)
@@ -10,7 +10,8 @@ const { chromium } = require('../../frontend/node_modules/@playwright/test')
 const fs = require('fs')
 
 const arg = (name, fallback) => { const i = process.argv.indexOf('--' + name); return i > 0 ? process.argv[i + 1] : fallback }
-const base = arg('base', 'http://localhost:4180'), emailA = arg('a'), emailB = arg('b'), password = arg('password', 'Passw0rdOK1')
+const base = arg('base', 'http://localhost:4180'), emailA = arg('a'), emailB = arg('b'), password = process.env.PERF_PASSWORD
+if (!password) { console.error('Set PERF_PASSWORD to the password of the throwaway perf account (it is read from the environment, never from the command line or this file).'); process.exit(2) }
 const runs = Number(arg('runs', 5)), out = arg('out'), outageMs = Number(arg('outage', 5000))
 const median = (xs) => { const s = [...xs].sort((a, b) => a - b); const m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
