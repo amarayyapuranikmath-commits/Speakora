@@ -66,6 +66,9 @@ public class ResendClient {
         HttpResponse<String> response;
         try {
             response = http.send(request, HttpResponse.BodyHandlers.ofString());
+        } catch (java.net.http.HttpConnectTimeoutException e) {
+            // The TCP/TLS connection to Resend was never made (blocked or unroutable network), which is different from Resend being slow.
+            throw new ResendException(MailDeliveryException.Kind.CONNECTION, true, 0, "connect_timeout", "Could not connect to Resend within 5 seconds (connect timeout)", e);
         } catch (HttpTimeoutException e) {
             throw new ResendException(MailDeliveryException.Kind.TIMEOUT, true, 0, "timeout", "Resend did not answer in time", e);
         } catch (InterruptedException e) {
