@@ -1,11 +1,12 @@
 // How many JDBC statements each request makes. Needs a backend started with Hibernate statistics, logging to a file:
 //   java -jar backend/target/*.jar --spring.jpa.properties.hibernate.generate_statistics=true \
 //        --logging.level.org.hibernate.engine.internal.StatisticalLoggingSessionEventListener=INFO > backend.log
-//   node tools/perf/sql-count.cjs --base http://localhost:8090 --log backend.log --email perf.1@example.com --password Passw0rdOK1 [--out file.json]
+//   PERF_PASSWORD=<account password> node tools/perf/sql-count.cjs --base http://localhost:8090 --log backend.log --email perf.1@example.com [--out file.json]
 // One request at a time; the statements counted are the ones Hibernate logged between the request starting and finishing.
 const fs = require('fs')
 const arg = (name, fallback) => { const i = process.argv.indexOf('--' + name); return i > 0 ? process.argv[i + 1] : fallback }
-const base = arg('base', 'http://localhost:8090'), logFile = arg('log'), email = arg('email'), password = arg('password'), out = arg('out')
+const base = arg('base', 'http://localhost:8090'), logFile = arg('log'), email = arg('email'), password = process.env.PERF_PASSWORD, out = arg('out')
+if (!password) { console.error('Set PERF_PASSWORD to the password of the throwaway perf account (it is read from the environment, never from the command line or this file).'); process.exit(2) }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
 async function main() {

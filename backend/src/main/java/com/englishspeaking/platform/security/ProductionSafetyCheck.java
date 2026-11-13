@@ -16,17 +16,23 @@ import java.util.List;
 public class ProductionSafetyCheck {
     private final AppProperties props;
     private final String mailFrom;
+    private final boolean mailProviderConfigured;
 
-    public ProductionSafetyCheck(AppProperties props, @org.springframework.beans.factory.annotation.Value("${app.mail-from:}") String mailFrom) {
+    public ProductionSafetyCheck(AppProperties props, @org.springframework.beans.factory.annotation.Value("${app.mail-from:}") String mailFrom,
+                                 @org.springframework.beans.factory.annotation.Value("${RESEND_API_KEY:}") String resendApiKey,
+                                 @org.springframework.beans.factory.annotation.Value("${SMTP_HOST:}") String smtpHost) {
         this.props = props;
         this.mailFrom = mailFrom;
+        this.mailProviderConfigured = !resendApiKey.isBlank() || !smtpHost.isBlank();
     }
 
     @PostConstruct
     void verify() {
         List<String> problems = problems(props);
         // Verification and password-reset codes are sent from this address: a placeholder means nobody can verify or reset.
-        if (com.englishspeaking.platform.notification.MailService.isPlaceholderSender(mailFrom)) problems.add("MAIL_FROM must be a real sender address on a domain verified with your mail provider (not empty and not an example.com address)");
+        if (com.englishspeaking.platform.notification.MailService.isPlaceholderSender(mailFrom)) problems.add("MAIL_FROM must be a real sender address on a domain verified with your mail provider, or onboarding@resend.dev while testing with Resend (not empty and not an example.com address)");
+        // Without a provider no sign-up or reset code can be delivered (the person would be told "email is not set up").
+        if (!mailProviderConfigured) problems.add("RESEND_API_KEY must be set (or SMTP_HOST for SMTP): without an email provider nobody can verify an account or reset a password");
         if (!problems.isEmpty()) {
             throw new IllegalStateException("Refusing to start with an unsafe production configuration:\n - " + String.join("\n - ", problems));
         }

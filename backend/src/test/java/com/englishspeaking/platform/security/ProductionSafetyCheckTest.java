@@ -34,7 +34,7 @@ class ProductionSafetyCheckTest {
 
     @Test
     void theApplicationRefusesToStartWhenUnsafe() {
-        var check = new ProductionSafetyCheck(props("http://x", "http://x", false, "short", "", ""), "no-reply@speak.example");
+        var check = new ProductionSafetyCheck(props("http://x", "http://x", false, "short", "", ""), "no-reply@speak.example", "re_x", "");
         org.assertj.core.api.Assertions.assertThatThrownBy(check::verify).isInstanceOf(IllegalStateException.class).hasMessageContaining("COOKIE_SECURE");
     }
 
@@ -42,10 +42,23 @@ class ProductionSafetyCheckTest {
     void aPlaceholderMailSenderStopsAProductionStart() {
         var safe = props("https://x", "https://x", true, "a-very-long-random-secret-value-that-is-more-than-48-chars", "turnix-token", "https://turnix.io/api/v1/credentials/ice");
         for (String bad : new String[] {"", "no-reply@example.com", "Speak <hello@example.org>"}) {
-            org.assertj.core.api.Assertions.assertThatThrownBy(new ProductionSafetyCheck(safe, bad)::verify)
+            org.assertj.core.api.Assertions.assertThatThrownBy(new ProductionSafetyCheck(safe, bad, "re_x", "")::verify)
                     .isInstanceOf(IllegalStateException.class).hasMessageContaining("MAIL_FROM");
         }
-        org.assertj.core.api.Assertions.assertThatCode(new ProductionSafetyCheck(safe, "no-reply@speak.example")::verify).doesNotThrowAnyException();
+        org.assertj.core.api.Assertions.assertThatCode(new ProductionSafetyCheck(safe, "no-reply@speak.example", "", "smtp.example.net")::verify).doesNotThrowAnyException();
+    }
+
+    @Test
+    void resendAloneIsAValidProductionMailSetup() {
+        var safe = props("https://x", "https://x", true, "a-very-long-random-secret-value-that-is-more-than-48-chars", "turnix-token", "https://turnix.io/api/v1/credentials/ice");
+        org.assertj.core.api.Assertions.assertThatCode(new ProductionSafetyCheck(safe, "onboarding@resend.dev", "re_abc123", "")::verify).doesNotThrowAnyException();
+    }
+
+    @Test
+    void noMailProviderStopsAProductionStartAndTheMessageNamesTheSettingNotAKey() {
+        var safe = props("https://x", "https://x", true, "a-very-long-random-secret-value-that-is-more-than-48-chars", "turnix-token", "https://turnix.io/api/v1/credentials/ice");
+        org.assertj.core.api.Assertions.assertThatThrownBy(new ProductionSafetyCheck(safe, "no-reply@speak.example", "  ", "")::verify)
+                .isInstanceOf(IllegalStateException.class).hasMessageContaining("RESEND_API_KEY");
     }
 
     @Test
