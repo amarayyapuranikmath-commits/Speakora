@@ -67,3 +67,6 @@ tools/tutor-eval/state.json.tmp
 *.crt
 *.der
 *.mobileprovision
+
+# Built release APKs (kept locally, never committed)
+/releases/*.apk

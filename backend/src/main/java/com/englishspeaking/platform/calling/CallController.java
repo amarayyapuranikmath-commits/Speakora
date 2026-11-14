@@ -23,9 +23,12 @@ public class CallController {
     private final FeedbackService feedback;
     private final JwtService jwt;
     private final ClientIpResolver clientIps;
+    private final String signalingUrl; // null when this server does not know its own public address
 
     public CallController(CallService calls, CallHistoryService history, IceServerService iceServers, FeedbackService feedback, JwtService jwt,
-                          ClientIpResolver clientIps) {
+                          ClientIpResolver clientIps, @org.springframework.beans.factory.annotation.Value("${PUBLIC_WS_URL:}") String publicWsUrl,
+                          @org.springframework.beans.factory.annotation.Value("${RENDER_EXTERNAL_URL:}") String renderExternalUrl) {
+        this.signalingUrl = signalingUrl(publicWsUrl, renderExternalUrl);
         this.calls = calls;
         this.history = history;
         this.iceServers = iceServers;
@@ -62,6 +65,19 @@ public class CallController {
     /** Exchanges the caller's access token for a 30-second, WebSocket-only ticket (so the access token never appears in a URL). */
     @PostMapping("/ws/ticket")
     public Map<String, String> wsTicket(@AuthenticationPrincipal AuthPrincipal me) {
-        return Map.of("ticket", jwt.createWsTicket(me.userId()));
+        String ticket = jwt.createWsTicket(me.userId());
+        // The ticket is only valid on THIS server, so say where its WebSocket is. A website then never depends on a separately configured address
+        // that could point at another (older) backend.
+        return signalingUrl == null ? Map.of("ticket", ticket) : Map.of("ticket", ticket, "wsUrl", signalingUrl);
+    }
+
+    /** PUBLIC_WS_URL (wss://host/ws/signaling) if set, else derived from the public address Render provides (RENDER_EXTERNAL_URL), else null. */
+    static String signalingUrl(String publicWsUrl, String renderExternalUrl) {
+        String explicit = publicWsUrl == null ? "" : publicWsUrl.strip();
+        if (explicit.regionMatches(true, 0, "wss://", 0, 6) || explicit.regionMatches(true, 0, "ws://", 0, 5)) return explicit;
+        String render = renderExternalUrl == null ? "" : renderExternalUrl.strip();
+        while (render.endsWith("/")) render = render.substring(0, render.length() - 1);
+        if (render.regionMatches(true, 0, "https://", 0, 8)) return "wss://" + render.substring(8) + "/ws/signaling";
+        return null;
     }
 }
