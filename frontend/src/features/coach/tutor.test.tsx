@@ -5,7 +5,7 @@ import { setAccessToken } from '../../lib/api'
 import { errorResponse, mockApi, renderApp, session } from '../../test/utils'
 import { CoachPage } from './CoachPage'
 import { RichText } from './RichText'
-import { parseSse } from './tutorApi'
+import { FIRST_PIECE_WAIT_MS, NEXT_PIECE_WAIT_MS, parseSse, streamChat } from './tutorApi'
 import { splitSentences } from './voice'
 
 const MODES = [
@@ -287,6 +287,81 @@ describe('Voice conversation', () => {
     expect(await screen.findByRole('button', { name: 'Start voice conversation' })).toBeInTheDocument()
   })
 
+  it('after a typed reply the microphone still works in the same session, and the spoken turn carries the whole earlier conversation', async () => {
+    let n = 0
+    const api = mockApi({ ...base, 'POST /api/coach/stream': () => reply(['Hello Ana.', 'Nice to hear you.'][n++]) })
+    renderApp(<CoachPage />)
+    await type('Hi coach')
+    expect(await screen.findByText('Hello Ana.')).toBeInTheDocument()
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Send message' })).toBeInTheDocument()) // the stream is over: not stuck busy
+
+    await userEvent.click(screen.getByRole('button', { name: 'Start voice conversation' }))
+    await waitFor(() => expect(FakeRecognition.instances).toHaveLength(1))
+    act(() => current().say('How are you today'))
+    await userEvent.click(screen.getByRole('button', { name: /Done speaking/ }))
+    expect(await screen.findByText(/Nice to hear you/, undefined, { timeout: 3000 })).toBeInTheDocument()
+    expect(chats(api)).toHaveLength(2)
+    expect(chats(api)[1].body.messages).toEqual([
+      { role: 'user', content: 'Hi coach' }, { role: 'assistant', content: 'Hello Ana.' }, { role: 'user', content: 'How are you today' },
+    ])
+    expect(screen.getAllByText('How are you today')).toHaveLength(1) // not shown twice
+  })
+
+  it('a second spoken turn after the coach finished speaking is sent, not silently dropped', async () => {
+    let n = 0
+    const api = mockApi({ ...base, 'POST /api/coach/stream': () => reply(['First answer.', 'Second answer.'][n++]) })
+    renderApp(<CoachPage />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Start voice conversation' }))
+    await waitFor(() => expect(FakeRecognition.instances).toHaveLength(1))
+    act(() => current().say('First question'))
+    await userEvent.click(screen.getByRole('button', { name: /Done speaking/ }))
+    await waitFor(() => expect(FakeRecognition.instances.length).toBeGreaterThanOrEqual(2), { timeout: 3000 }) // listening again
+    act(() => current().say('Second question'))
+    await userEvent.click(screen.getByRole('button', { name: /Done speaking/ }))
+    expect(await screen.findByText(/Second answer/, undefined, { timeout: 3000 })).toBeInTheDocument()
+    expect(chats(api)).toHaveLength(2)
+    expect(chats(api)[1].body.messages.map((m: { content: string }) => m.content)).toEqual(['First question', 'First answer.', 'Second question'])
+  })
+
+  it('after a voice turn you can switch to typing and back to the microphone without ending the session', async () => {
+    let n = 0
+    const api = mockApi({ ...base, 'POST /api/coach/stream': () => reply(['One.', 'Two.', 'Three.'][n++]) })
+    renderApp(<CoachPage />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Start voice conversation' }))
+    await waitFor(() => expect(FakeRecognition.instances).toHaveLength(1))
+    act(() => current().say('spoken one'))
+    await userEvent.click(screen.getByRole('button', { name: /Done speaking/ }))
+    await waitFor(() => expect(FakeRecognition.instances.length).toBeGreaterThanOrEqual(2), { timeout: 3000 })
+    await userEvent.click(screen.getByRole('button', { name: 'End voice' }))
+    await type('typed two')
+    expect(await screen.findByText(/Two\./)).toBeInTheDocument()
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Start voice conversation' })).toBeInTheDocument())
+    const before = FakeRecognition.instances.length
+    await userEvent.click(screen.getByRole('button', { name: 'Start voice conversation' }))
+    await waitFor(() => expect(FakeRecognition.instances.length).toBeGreaterThan(before))
+    act(() => current().say('spoken three'))
+    await userEvent.click(screen.getByRole('button', { name: /Done speaking/ }))
+    expect(await screen.findByText(/Three\./, undefined, { timeout: 3000 })).toBeInTheDocument()
+    expect(chats(api)).toHaveLength(3)
+  })
+
+  it('a spoken turn is sent even when the coach finishes speaking before the reply request has fully wrapped up', async () => {
+    // A voice that finishes at once: the microphone reopens while the previous request is still being closed out.
+    vi.stubGlobal('speechSynthesis', { getVoices: () => [], cancel, speak: (u: Utterance) => { utterances.push(u); u.onstart?.(); u.onend?.() } })
+    let n = 0
+    const api = mockApi({ ...base, 'POST /api/coach/stream': () => reply(['Quick one.', 'Quick two.'][n++]) })
+    renderApp(<CoachPage />)
+    await userEvent.click(await screen.findByRole('button', { name: 'Start voice conversation' }))
+    await waitFor(() => expect(FakeRecognition.instances).toHaveLength(1))
+    act(() => current().say('first spoken'))
+    await userEvent.click(screen.getByRole('button', { name: /Done speaking/ }))
+    await waitFor(() => expect(FakeRecognition.instances.length).toBeGreaterThanOrEqual(2), { timeout: 3000 })
+    act(() => current().say('second spoken'))
+    await userEvent.click(screen.getByRole('button', { name: /Done speaking/ }))
+    expect(await screen.findByText(/Quick two/, undefined, { timeout: 3000 })).toBeInTheDocument()
+    expect(chats(api)).toHaveLength(2)
+  })
+
   it('shows the coach\'s words only as they are spoken', async () => {
     // A voice that starts the first sentence and then waits: the second sentence must not be on screen yet.
     vi.stubGlobal('speechSynthesis', { getVoices: () => [], cancel, speak: (u: Utterance) => { utterances.push(u) } })
@@ -362,5 +437,60 @@ describe('Voice conversation', () => {
     expect(current().aborted).toBe(true)
     expect(screen.queryByText('Hello there.')).toBeNull()
     expect(screen.getByRole('button', { name: 'Start voice conversation' })).toBeInTheDocument()
+  })
+})
+
+describe('a reply that stalls or is stopped', () => {
+  afterEach(() => { vi.useRealTimers() })
+  const stuck = () => new Response(new ReadableStream({ start(c) { c.enqueue(new TextEncoder().encode('event: delta\ndata: {"text":"Hel"}\n\n')) } }), { status: 200, headers: { 'Content-Type': 'text/event-stream' } })
+
+  it('gives up with a clear error when the connection goes quiet, so the session is not left busy for ever', async () => {
+    mockApi({ ...base, 'POST /api/coach/stream': () => stuck() })
+    vi.useFakeTimers()
+    const pieces: string[] = []
+    const result = streamChat({ mode: 'FREE_CONVERSATION', messages: [{ role: 'user', content: 'hi' }], spoken: false }, (p) => pieces.push(p))
+    const assertion = expect(result).rejects.toMatchObject({ code: 'COACH_TIMEOUT' })
+    await vi.advanceTimersByTimeAsync(NEXT_PIECE_WAIT_MS + 100)
+    await assertion
+    expect(pieces).toEqual(['Hel'])
+  })
+
+  it('stopping the reply ends the read at once even when the connection is silent', async () => {
+    mockApi({ ...base, 'POST /api/coach/stream': () => stuck() })
+    const ctrl = new AbortController()
+    const result = streamChat({ mode: 'FREE_CONVERSATION', messages: [{ role: 'user', content: 'hi' }], spoken: false }, () => {}, ctrl.signal)
+    setTimeout(() => ctrl.abort(), 20)
+    await expect(result).rejects.toMatchObject({ name: 'AbortError' })
+  })
+
+  it('tapping the microphone while a reply is still streaming stops that reply and the spoken turn is then sent', async () => {
+    class Rec {
+      static all: Rec[] = []
+      lang = ''; interimResults = false; continuous = false
+      onresult: ((e: { results: unknown[] }) => void) | null = null
+      onerror: ((e: { error: string }) => void) | null = null
+      onend: (() => void) | null = null
+      constructor() { Rec.all.push(this) }
+      start() {}
+      stop() { setTimeout(() => this.onend?.(), 5) }
+      abort() {}
+    }
+    vi.stubGlobal('SpeechRecognition', Rec)
+    vi.stubGlobal('speechSynthesis', { getVoices: () => [], cancel: () => {}, speak: (u: { onstart?: () => void; onend?: () => void }) => { setTimeout(() => { u.onstart?.(); setTimeout(() => u.onend?.(), 5) }, 0) } })
+    vi.stubGlobal('SpeechSynthesisUtterance', class { onstart: (() => void) | null = null; onend: (() => void) | null = null; onerror: (() => void) | null = null; onboundary: (() => void) | null = null; lang = ''; rate = 1; pitch = 1; voice = null; constructor(public text: string) {} })
+    let n = 0
+    const api = mockApi({ ...base, 'POST /api/coach/stream': () => (n++ === 0 ? stuck() : reply('Here you go.')) })
+    renderApp(<CoachPage />)
+    await type('first typed')
+    await screen.findByRole('button', { name: 'Stop the reply' }) // the first reply never finishes
+    await userEvent.click(screen.getByRole('button', { name: 'Start voice conversation' }))
+    await waitFor(() => expect(Rec.all).toHaveLength(1))
+    await waitFor(() => expect(screen.queryByRole('button', { name: 'Stop the reply' })).toBeNull()) // no longer busy
+    act(() => Rec.all[0].onresult?.({ results: [{ 0: { transcript: 'now I speak' }, isFinal: false }] }))
+    await userEvent.click(screen.getByRole('button', { name: /Done speaking/ }))
+    expect(await screen.findByText(/Here you go/, undefined, { timeout: 3000 })).toBeInTheDocument()
+    expect(chats(api)).toHaveLength(2)
+    expect(screen.getAllByText('now I speak')).toHaveLength(1)
+    vi.unstubAllGlobals()
   })
 })

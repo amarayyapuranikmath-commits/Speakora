@@ -151,6 +151,8 @@ public class TutorService {
         return new ChatReply(run(userId, req, onDelta), req.mode());
     }
 
+    private static final java.util.concurrent.ExecutorService LEVEL_READS = java.util.concurrent.Executors.newVirtualThreadPerTaskExecutor();
+
     private String run(UUID userId, ChatRequest req, java.util.function.Consumer<String> onDelta) {
         if (!provider.isConfigured()) throw new ApiException(HttpStatus.SERVICE_UNAVAILABLE, "COACH_UNAVAILABLE", "The AI coach is not enabled on this server.");
         if (!consent(userId)) {
@@ -161,10 +163,20 @@ public class TutorService {
         if (!limiter.tryAcquire("tutor-min:" + userId, PER_MINUTE, Duration.ofMinutes(1))) {
             throw ApiException.tooManyRequests("You are sending messages very quickly. Please wait a moment.");
         }
+        // The learner's level is read while the daily check runs. It starts only after the per-minute check has passed, so a rejected request never
+        // costs the database this read.
+        var levelRead = java.util.concurrent.CompletableFuture.supplyAsync(
+                () -> profiles.findById(userId).map(p -> p.getEnglishLevel()).orElse(null), LEVEL_READS);
         if (!limiter.tryAcquire("tutor:" + userId, config.dailyLimit() * CHAT_LIMIT_FACTOR, Duration.ofDays(1))) {
             throw ApiException.tooManyRequests("You have reached today's chat limit. Try again tomorrow.");
         }
-        EnglishLevel level = profiles.findById(userId).map(p -> p.getEnglishLevel()).orElse(null);
+        EnglishLevel level;
+        try {
+            level = levelRead.join();
+        } catch (java.util.concurrent.CompletionException e) {
+            if (e.getCause() instanceof RuntimeException re) throw re;
+            throw e;
+        }
         String lastLearnerText = turns.get(turns.size() - 1).content();
         String system = systemPrompt(new PromptContext(req.mode(), level, language(req.language()), groundingTopic(req.mode(), req.topicId(), lastLearnerText), req.scenario(), req.spoken()));
         try {

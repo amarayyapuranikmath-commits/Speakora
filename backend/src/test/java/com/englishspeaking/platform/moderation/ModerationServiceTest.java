@@ -89,8 +89,7 @@ class ModerationServiceTest {
     @Test
     void excludedPartnersCoverBothDirections() {
         UUID iBlocked = UUID.randomUUID(), blockedMe = UUID.randomUUID();
-        when(blocks.findBlockedBy(me)).thenReturn(List.of(iBlocked));
-        when(blocks.findBlockersOf(me)).thenReturn(List.of(blockedMe));
+        when(blocks.findEitherWay(me)).thenReturn(List.of(iBlocked, blockedMe, iBlocked)); // the repository query is a UNION; duplicates collapse anyway
         assertThat(service.excludedPartners(me)).containsExactlyInAnyOrder(iBlocked, blockedMe);
     }
 

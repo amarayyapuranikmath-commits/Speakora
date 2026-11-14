@@ -120,7 +120,10 @@ class OtpRecipientIntegrationTest {
         String stored = typed.trim().toLowerCase();
         created.add(stored);
         auth.register(new RegisterRequest(typed, "Passw0rdOK", "Recipient Test", LocalDate.of(1990, 1, 1)), "JUnit");
-        return users.findByEmail(stored).orElseThrow().getId();
+        // Signing up sends no email any more (email verification is optional); the first code is requested explicitly, as a person would.
+        UUID id = users.findByEmail(stored).orElseThrow().getId();
+        auth.resendVerification(id);
+        return id;
     }
 
     private MimeMessage last() {

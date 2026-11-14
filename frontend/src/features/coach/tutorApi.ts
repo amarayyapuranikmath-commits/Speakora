@@ -56,6 +56,29 @@ export const MAX_CONTEXT_TURNS = 20
  * conversation exists only in this page's memory. If this browser cannot read a streamed body, the whole reply arrives at once.
  * Aborting stops the reply.
  */
+/** How long to wait for the first piece (a sleeping server may need a minute and a half to wake) and for each piece after it. */
+export const FIRST_PIECE_WAIT_MS = 100_000
+export const NEXT_PIECE_WAIT_MS = 45_000
+
+/**
+ * One read of the reply stream that cannot hang for ever: it gives up when nothing arrives in time, and stops at once when the learner stops the
+ * reply. Without this a stalled connection left the conversation "busy" until the page was reloaded.
+ */
+function readWithin(reader: ReadableStreamDefaultReader<Uint8Array>, ms: number, signal?: AbortSignal): Promise<ReadableStreamReadResult<Uint8Array>> {
+  return new Promise((resolve, reject) => {
+    const done = () => { clearTimeout(timer); signal?.removeEventListener('abort', onAbort) }
+    const onAbort = () => { done(); void reader.cancel().catch(() => undefined); reject(new DOMException('Aborted', 'AbortError')) }
+    const timer = setTimeout(() => {
+      done()
+      void reader.cancel().catch(() => undefined)
+      reject(new ApiError(504, 'COACH_TIMEOUT', 'The coach took too long to answer. Please try again.'))
+    }, ms)
+    if (signal?.aborted) return onAbort()
+    signal?.addEventListener('abort', onAbort, { once: true })
+    reader.read().then((r) => { done(); resolve(r) }, (e) => { done(); reject(e) })
+  })
+}
+
 export async function streamChat(req: ChatRequest, onDelta: (piece: string) => void, signal?: AbortSignal): Promise<string> {
   const body = { ...req, messages: req.messages.slice(-MAX_CONTEXT_TURNS), language: req.language ?? null, topicId: req.topicId ?? null, scenario: req.scenario ?? null }
   const res = await apiRaw('/api/coach/stream', { method: 'POST', body, signal })
@@ -68,8 +91,10 @@ export async function streamChat(req: ChatRequest, onDelta: (piece: string) => v
   const decoder = new TextDecoder()
   let buffer = ''
   let reply: string | null = null
+  let first = true
   for (;;) {
-    const { value, done } = await reader.read()
+    const { value, done } = await readWithin(reader, first ? FIRST_PIECE_WAIT_MS : NEXT_PIECE_WAIT_MS, signal)
+    first = false
     if (done) break
     buffer += decoder.decode(value, { stream: true })
     const parsed = parseSse(buffer)
