@@ -13,19 +13,24 @@ import org.springframework.web.bind.annotation.*;
 public class PreferencesController {
     public record PreferencesDto(@NotNull Boolean matchSimilarLevel, @NotNull Boolean showCountry, @NotNull Boolean showLevel,
                                  @NotNull Boolean notifyEmailReminders, @NotNull Boolean aiCoachConsent,
-                                 /** Optional on input (older clients omit it): null leaves the stored value unchanged. */ Boolean allowPartnerRequests) {
-        static PreferencesDto from(UserPreferences p) {
-            return new PreferencesDto(p.isMatchSimilarLevel(), p.isShowCountry(), p.isShowLevel(), p.isNotifyEmailReminders(), p.isAiCoachConsent(), p.isAllowPartnerRequests());
+                                 /** Optional on input (older clients omit it): null leaves the stored value unchanged. */ Boolean allowPartnerRequests,
+                                 /** Output only (ignored on input): false when this server has no email provider, so reminder emails cannot be sent. */ Boolean emailAvailable) {
+        static PreferencesDto from(UserPreferences p, boolean emailAvailable) {
+            return new PreferencesDto(p.isMatchSimilarLevel(), p.isShowCountry(), p.isShowLevel(), p.isNotifyEmailReminders(), p.isAiCoachConsent(), p.isAllowPartnerRequests(), emailAvailable);
         }
     }
 
     private final UserPreferencesRepository repo;
+    private final com.englishspeaking.platform.notification.MailService mail;
 
-    public PreferencesController(UserPreferencesRepository repo) { this.repo = repo; }
+    public PreferencesController(UserPreferencesRepository repo, com.englishspeaking.platform.notification.MailService mail) {
+        this.repo = repo;
+        this.mail = mail;
+    }
 
     @GetMapping
     @Transactional(readOnly = true)
-    public PreferencesDto get(@AuthenticationPrincipal AuthPrincipal me) { return PreferencesDto.from(load(me)); }
+    public PreferencesDto get(@AuthenticationPrincipal AuthPrincipal me) { return PreferencesDto.from(load(me), !mail.cannotSendEmail()); }
 
     @PutMapping
     @Transactional
@@ -37,7 +42,7 @@ public class PreferencesController {
         p.setNotifyEmailReminders(dto.notifyEmailReminders());
         p.setAiCoachConsent(dto.aiCoachConsent());
         if (dto.allowPartnerRequests() != null) p.setAllowPartnerRequests(dto.allowPartnerRequests());
-        return PreferencesDto.from(p);
+        return PreferencesDto.from(p, !mail.cannotSendEmail());
     }
 
     private UserPreferences load(AuthPrincipal me) {

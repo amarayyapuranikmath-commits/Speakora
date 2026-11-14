@@ -82,7 +82,9 @@ class AuthCodeIntegrationTest {
 
     private UUID signUp() {
         auth.register(new RegisterRequest(email, "Passw0rdOK", "Code Test", LocalDate.of(1990, 1, 1)), "JUnit");
-        return users.findByEmail(email).orElseThrow().getId();
+        UUID id = users.findByEmail(email).orElseThrow().getId();
+        auth.resendVerification(id); // registering sends no email now; verifying is optional and starts when the person asks for a code
+        return id;
     }
 
     private String lastVerificationCode() {

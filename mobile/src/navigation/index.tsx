@@ -8,7 +8,6 @@ import { useCall } from '../features/call/CallContext'
 import { TalkScreen } from '../features/call/TalkScreen'
 import { useAuth } from '../features/auth/AuthContext'
 import { ForgotScreen, LoginScreen, RegisterScreen, ResetScreen, WelcomeScreen, type AuthStackParams } from '../features/auth/screens'
-import { VerifyEmailScreen } from '../features/auth/VerifyEmailScreen'
 import { CoachScreen } from '../features/main/CoachScreen'
 import { HomeScreen } from '../features/main/HomeScreen'
 import { HistoryScreen, ProgressScreen, TopicsScreen } from '../features/main/ListScreens'
@@ -188,13 +187,6 @@ export function Navigation() {
         <AuthStack.Screen name="Forgot" component={ForgotScreen} />
         <AuthStack.Screen name="Reset" component={ResetScreen} />
       </AuthStack.Navigator>
-    )
-  } else if (!user.emailVerified) {
-    // Signing up is finished only after the emailed code is entered: nothing else opens until then.
-    content = (
-      <RootStack.Navigator screenOptions={{ headerShown: false }}>
-        <RootStack.Screen name="VerifyEmail" component={VerifyEmailScreen} />
-      </RootStack.Navigator>
     )
   } else if (!user.onboardingCompleted) {
     content = (

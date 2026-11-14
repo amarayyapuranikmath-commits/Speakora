@@ -107,15 +107,9 @@ public class AuthService {
         profiles.save(new UserProfile(user.getId(), req.displayName().trim()));
         preferences.save(new UserPreferences(user.getId()));
         statistics.save(new UserStatistics(user.getId()));
-        // The account is made even if the first email cannot be sent: the person is told so (and why) and can ask for the code again.
-        String emailProblem = null;
-        try {
-            issueVerificationToken(user);
-        } catch (ApiException e) {
-            emailProblem = e.getMessage();
-        }
-        AuthResult result = startSession(user, userAgent);
-        return emailProblem == null ? result : result.withVerificationEmailProblem(emailProblem);
+        // No verification email is sent and none is required: the account works at once. Verifying the address stays possible (optional) and is
+        // still what unlocks things that depend on a proven address, such as ADMIN_EMAILS promotion and reminder emails.
+        return startSession(user, userAgent);
     }
 
     @Transactional
@@ -225,6 +219,8 @@ public class AuthService {
      */
     @Transactional
     public void forgotPassword(String email) {
+        // With no mail provider nothing can be sent. Say so to everyone alike (never only for existing accounts, which would reveal them).
+        if (mail.cannotSendEmail()) throw new ApiException(HttpStatus.SERVICE_UNAVAILABLE, "EMAIL_SEND_FAILED", describeFailure(MailDeliveryException.Kind.NOT_CONFIGURED));
         String address = normalise(email);
         requireWithinLimits("otp:reset:" + sha256(address));
         users.findByEmail(address).filter(u -> u.getStatus() == UserStatus.ACTIVE).ifPresent(this::issueResetToken);
@@ -325,7 +321,7 @@ public class AuthService {
     /** What the person is told when the email could not be sent. It says what happened and what to do, and never shows a credential or a server detail. */
     static String describeFailure(MailDeliveryException.Kind kind) {
         return switch (kind) {
-            case NOT_CONFIGURED -> "We could not send the email because email sending is not set up on this server yet. Please contact support.";
+            case NOT_CONFIGURED -> "Email is not available on this server, so a code cannot be sent. Please contact support to get back into your account.";
             case LOGIN_REFUSED, SENDER_REFUSED -> "We could not send the email because our email service refused to accept it. This is a problem on our side, not yours. Please try again later.";
             case RECIPIENT_REFUSED -> "The email service refused this address. Please check that it is typed correctly.";
             case TIMEOUT -> "The email service did not answer in time. Please try again in a moment.";

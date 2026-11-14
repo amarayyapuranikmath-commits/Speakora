@@ -97,12 +97,13 @@ class OtpMailFailureIntegrationTest {
     private String address(String name) { return name + "." + UUID.randomUUID().toString().substring(0, 8) + "@failure.example"; }
 
     @Test
-    void signingUpStillWorksButTheFirstEmailFailureIsStatedClearly() {
+    void signingUpWorksAndSendsNoEmailSoAFailingMailServiceIsNotEvenNoticed() {
         String email = address("signup");
         created.add(email);
         AuthResult result = auth.register(new RegisterRequest(email, "Passw0rdOK", "Failure Test", LocalDate.of(1990, 1, 1)), "JUnit");
         assertThat(users.findByEmail(email)).as("the account exists").isPresent();
-        assertThat(result.verificationEmailProblem()).isEqualTo("We could not reach the email service. Please try again in a moment.");
+        assertThat(result.verificationEmailProblem()).isNull();
+        assertThat(result.accessToken()).isNotBlank();
     }
 
     @Test
