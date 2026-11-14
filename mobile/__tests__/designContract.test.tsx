@@ -118,11 +118,17 @@ describe('no top header', () => {
 })
 
 describe('sign-up and password recovery flow', () => {
-  it('an account whose email is not verified sees only the code screen, and it cannot be skipped', () => {
+  it('email verification is optional: an unverified account is never held on the code screen', () => {
     const nav = read('src', 'navigation', 'index.tsx')
-    expect(nav).toMatch(/else if \(!user\.emailVerified\) \{[\s\S]*?VerifyEmailScreen/)
+    expect(nav).not.toMatch(/emailVerified|VerifyEmailScreen/)
     expect(read('src', 'features', 'auth', 'VerifyEmailScreen.tsx')).not.toMatch(/Verify later|finishVerification/)
     expect(read('src', 'features', 'auth', 'AuthContext.tsx')).not.toMatch(/verificationPending|startVerification|finishVerification/)
+  })
+
+  it('the practice-reminder switch is disabled, with the reason, when the server has no email provider', () => {
+    const settings = read('src', 'features', 'main', 'SettingsScreen.tsx')
+    expect(settings).toMatch(/disabled=\{prefs\.data\.emailAvailable === false\}/)
+    expect(settings).toMatch(/Email is not set up on this server/)
   })
 
   it('Home and Settings carry no verification, OTP or password-reset prompts', () => {

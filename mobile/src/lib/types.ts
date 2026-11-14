@@ -41,6 +41,8 @@ export interface Preferences {
   showCountry: boolean
   showLevel: boolean
   notifyEmailReminders: boolean
+  /** False when the server has no email provider: reminder emails cannot be sent. Missing (older server) means available. */
+  emailAvailable?: boolean
   aiCoachConsent: boolean
   /** Whether friends may ask you for a private call. */
   allowPartnerRequests: boolean

@@ -87,7 +87,7 @@ class AuthServiceTest {
         assertThat(result.refreshToken()).isNotBlank();
         assertThat(result.accessToken()).isNotBlank();
         verify(refreshTokens).save(argThat(t -> t.getUserId().equals(user.getValue().getId())));
-        verify(mail).sendVerificationEmail(eq("new.user@example.com"), anyString(), anyString());
+        verifyNoInteractions(mail); // signing up sends no verification email
     }
 
     @Test
@@ -225,11 +225,26 @@ class AuthServiceTest {
     void forgotPasswordDoesNotRevealWhetherAccountExists() {
         when(users.findByEmail("ghost@b.com")).thenReturn(Optional.empty());
         service.forgotPassword("ghost@b.com");
-        verifyNoInteractions(mail);
+        verify(mail, never()).sendPasswordResetEmail(anyString(), anyString(), anyString());
 
         existingUser(UserStatus.ACTIVE);
         service.forgotPassword("a@b.com");
         verify(mail).sendPasswordResetEmail(eq("a@b.com"), anyString(), anyString());
+    }
+
+    @Test
+    void withNoMailProviderForgotPasswordSaysSoToEveryoneAndNeverPretendsAnEmailWasSent() {
+        when(mail.cannotSendEmail()).thenReturn(true);
+        existingUser(UserStatus.ACTIVE);
+        for (String address : new String[] {"a@b.com", "ghost@b.com"}) { // an existing and an unknown account get the same answer
+            assertThatThrownBy(() -> service.forgotPassword(address)).isInstanceOfSatisfying(ApiException.class, e -> {
+                assertThat(e.code()).isEqualTo("EMAIL_SEND_FAILED");
+                assertThat(e.status().value()).isEqualTo(503);
+                assertThat(e.getMessage()).contains("Email is not available on this server");
+            });
+        }
+        verify(mail, never()).sendPasswordResetEmail(anyString(), anyString(), anyString());
+        verify(resetTokens, never()).save(any());
     }
 
     @Test
@@ -338,7 +353,7 @@ class AuthServiceTest {
             assertThat(e.retryAfterSeconds()).isEqualTo(900);
             assertThat(e.getMessage()).contains("about 15 minutes").contains("newest code you received still works");
         });
-        verifyNoInteractions(mail);
+        verify(mail, never()).sendPasswordResetEmail(anyString(), anyString(), anyString());
     }
 
     private static byte[] sha(String text) {
@@ -480,20 +495,27 @@ class AuthServiceTest {
     }
 
     @Test
-    void signingUpStillCreatesTheAccountWhenTheFirstEmailCannotBeSentAndSaysSo() {
+    void signingUpSendsNoEmailAndStillGivesASessionEvenWhenTheMailServiceIsDown() {
         when(users.existsByEmail(anyString())).thenReturn(false);
-        doThrow(new com.englishspeaking.platform.notification.MailDeliveryException(com.englishspeaking.platform.notification.MailDeliveryException.Kind.CONNECTION, "refused", null))
+        // A broken mail service must not matter: registration never calls it.
+        lenient().doThrow(new com.englishspeaking.platform.notification.MailDeliveryException(com.englishspeaking.platform.notification.MailDeliveryException.Kind.CONNECTION, "refused", null))
                 .when(mail).sendVerificationEmail(anyString(), anyString(), anyString());
         AuthResult result = service.register(register(LocalDate.of(1990, 5, 1)), "JUnit");
         assertThat(result.user().email()).isEqualTo("new.user@example.com");
-        assertThat(result.verificationEmailProblem()).isEqualTo("We could not reach the email service. Please try again in a moment.");
+        assertThat(result.accessToken()).isNotBlank();
+        assertThat(result.verificationEmailProblem()).isNull();
         verify(users).save(any(User.class));
+        verifyNoInteractions(mail);
+        verifyNoInteractions(verificationTokens);
     }
 
     @Test
-    void aSuccessfulSignUpCarriesNoEmailProblem() {
-        when(users.existsByEmail(anyString())).thenReturn(false);
-        assertThat(service.register(register(LocalDate.of(1990, 5, 1)), "JUnit").verificationEmailProblem()).isNull();
+    void anExistingUnverifiedAccountCanLogInWithItsPasswordAndAWrongPasswordIsStillRefused() {
+        User user = existingUser(UserStatus.ACTIVE);
+        assertThat(user.isEmailVerified()).isFalse();
+        assertThat(service.login(new LoginRequest("a@b.com", "Passw0rdOK"), "UA").accessToken()).isNotBlank();
+        assertThatThrownBy(() -> service.login(new LoginRequest("a@b.com", "wrong-password"), "UA"))
+                .isInstanceOfSatisfying(ApiException.class, e -> assertThat(e.code()).isEqualTo("INVALID_CREDENTIALS"));
     }
 
     @Test

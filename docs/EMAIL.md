@@ -117,7 +117,6 @@ create an app password (`-Provider Gmail`).
 | `APP_NAME` | no, default `Speakora` | The sender's display name and the name used inside every email. Recipients see `Speakora <no-reply@your-domain>` |
 | `APP_BASE_URL` | yes in production | The public `https://` address of the site. It is put into every link in the emails; left at the default the links point to `localhost` |
 | `SMTP_STARTTLS` | no | Only set `false` for a local test server. Never in production |
-| `REQUIRE_VERIFIED_EMAIL` | no, default **on in production**, off otherwise | Keeps unverified accounts out of matching, calls, friends and private messages (see below) |
 | `MAIL_HTML` | no, default `false` | `false`: sign-up and reset codes are one plain-text message. `true`: also sends the HTML template as the second part of a flat `multipart/alternative` message |
 | `MAIL_DAILY_LIMIT` | no, default `400` | The most sign-up / reset code emails the service sends in a day (the sending account is limited by the provider; Gmail: about 500). `0` = no cap |
 | `MAIL_ASYNC` | no, default `true` | Sends practice reminders in the background. Sign-up and reset codes are always sent while the person waits |
@@ -174,10 +173,7 @@ each message as an `.html` and `.txt` file.
 - **Unknown addresses** get the same answer as real ones when a code is requested for a forgotten password (the limit is counted the same way), and a failed
   delivery never stops registration. Because a code is sent while the person waits, a **failure of the mail service itself** (not of one address) is reported
   to whoever asked; this can only show that an account exists while the mail service is down, and nothing else about it.
-- **Unverified accounts**: with `REQUIRE_VERIFIED_EMAIL` on (production), an account that has not verified its email can sign in, enter the code,
-  learn and use the AI tutor, but the server refuses (`403 EMAIL_NOT_VERIFIED`) everything that reaches other people: friends and friend requests,
-  messages, matching and calls. Local development and the automated suites leave it off because they create accounts and use them at once; a
-  dedicated integration test runs with it on.
+- **Email verification is optional.** Registering sends no email and signing in never needs a verified address. An account can still verify its email (the code flow stays), and only a verified address is used for things that depend on proof of ownership: `ADMIN_EMAILS` promotion and practice-reminder emails.
 - **Without `SMTP_HOST`** the email is not sent. On a local address (localhost, 127.x, 10.x, 192.168.x) its text, including the code and link, is
   written to the backend log so development works. On any other address the log says only that the email was **not sent** and why: a deployed
   server never writes codes or links into its logs, and no delivery failure ever logs a code or a link.
