@@ -82,9 +82,7 @@ public class ModerationService {
     /** Everyone this user must never be matched with: people they blocked and people who blocked them. */
     @Transactional(readOnly = true)
     public Set<UUID> excludedPartners(UUID me) {
-        Set<UUID> ids = new HashSet<>(blocks.findBlockedBy(me));
-        ids.addAll(blocks.findBlockersOf(me));
-        return ids;
+        return new HashSet<>(blocks.findEitherWay(me));
     }
 
     private void block(UUID me, UUID target) {

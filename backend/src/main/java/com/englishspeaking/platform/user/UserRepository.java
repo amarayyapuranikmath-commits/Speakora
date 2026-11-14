@@ -26,5 +26,13 @@ public interface UserRepository extends JpaRepository<User, UUID> {
 
     boolean existsByRole(String role);
 
+    /**
+     * The account, its profile and its preferences in one query (three round trips to a remote database before). Empty when any of the three is
+     * missing; callers then take the step-by-step path, which reports exactly which one.
+     */
+    @Query("select u, p, pr from User u, com.englishspeaking.platform.profile.UserProfile p, com.englishspeaking.platform.preferences.UserPreferences pr "
+            + "where u.id = :id and p.userId = u.id and pr.userId = u.id")
+    java.util.List<Object[]> findAccountProfileAndPreferences(@Param("id") UUID id);
+
     java.util.List<User> findByEmailInAndEmailVerifiedTrue(java.util.Collection<String> emails);
 }

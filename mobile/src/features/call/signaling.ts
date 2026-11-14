@@ -15,6 +15,19 @@ export interface TopicView {
   prompts: string[]
 }
 
+/**
+ * Where to open the signalling socket and which Origin to announce. The server that issued the ticket says where its own socket is (`wsUrl`), so the
+ * ticket and the socket can never end up on different backends; otherwise it is derived from the API address. A native client has no page, so it
+ * announces the server's own https address as its Origin (the server allows exactly that).
+ */
+export function socketTarget(apiBase: string, ticket: string, serverWsUrl?: string | null): { url: string; origin: string } {
+  const own = (serverWsUrl ?? '').trim()
+  const useServer = /^wss?:\/\/[^/\s]+/i.test(own)
+  const wsBase = useServer ? own.replace(/\/+$/, '').replace(/\/ws\/signaling$/, '') : apiBase.replace(/\/+$/, '').replace(/^http/, 'ws')
+  const origin = wsBase.replace(/^ws/, 'http')
+  return { url: `${wsBase}/ws/signaling?ticket=${encodeURIComponent(ticket)}`, origin }
+}
+
 export type ServerMessage =
   | { type: 'connected' | 'pong' | 'queue.joined' | 'queue.cancelled' | 'queue.timeout' }
   | { type: 'match.found' | 'call.resume'; callId: string; initiator: boolean; topic: TopicView | null; partner: PartnerView; status?: CallStatus }
@@ -81,11 +94,10 @@ export class SignalingClient {
   }
 
   private async open(): Promise<void> {
-    const { ticket } = await api<{ ticket: string }>('/api/ws/ticket', { method: 'POST' })
-    const base = getBaseUrl()
-    const url = `${base.replace(/^http/, 'ws')}/ws/signaling?ticket=${encodeURIComponent(ticket)}`
+    const { ticket, wsUrl } = await api<{ ticket: string; wsUrl?: string }>('/api/ws/ticket', { method: 'POST' })
+    const { url, origin } = socketTarget(getBaseUrl(), ticket, wsUrl)
     // The server only accepts handshakes from its own origin. Browsers send that automatically; a native client must say it.
-    const ws = new (WebSocket as unknown as new (u: string, p: null, o: { headers: Record<string, string> }) => WebSocket)(url, null, { headers: { Origin: base } })
+    const ws = new (WebSocket as unknown as new (u: string, p: null, o: { headers: Record<string, string> }) => WebSocket)(url, null, { headers: { Origin: origin } })
     this.ws = ws
 
     await new Promise<void>((resolve, reject) => {
