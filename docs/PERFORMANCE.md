@@ -122,3 +122,21 @@ node tools/perf/api-latency.cjs --base http://localhost:8090 --email <perf user>
 node tools/perf/voice-connect.cjs --base http://localhost:4180 --a <user1> --b <user2>
 ```
 Remove the test accounts with `prepare-user.cjs --cleanup` and the schema with `drop schema perf cascade`.
+
+## Follow-up (2026-11-14)
+
+Measured on the development machine; none of this is a phone or Render measurement.
+
+* **Backend JVM flags for a small host.** Started the production jar four times each with the old flags (`-XX:MaxRAMPercentage=75`) and the new ones
+  (`-XX:MaxRAMPercentage=70 -XX:+UseSerialGC -XX:TieredStopAtLevel=1`), then 40 requests, then read the process working set:
+
+  | | Spring Boot start | resident memory |
+  | --- | --- | --- |
+  | old flags | 13.5 s, 12.0 s | 454 MB, 471 MB |
+  | new flags | 10.1 s, 10.3 s, 11.1 s | 341 MB, 346 MB, 340 MB |
+
+  On Render Free the JVM already picks the serial collector (one small CPU), so the memory saving there is smaller than on this multi-core
+  machine; the quick-start compiler and the 70% heap ceiling are what matter on a 512 MB, fraction-of-a-CPU instance. Peak throughput on a large
+  server would be lower with `TieredStopAtLevel=1`; change `JAVA_TOOL_OPTIONS` if the service ever moves to a bigger plan.
+* **AI Coach on the website: earlier messages are no longer redrawn while a reply streams.** Every arriving piece re-rendered the whole conversation
+  and re-formatted every earlier reply. `MessageRow` is memoised, so only the growing reply is redrawn (test: an untouched message is not rendered again).

@@ -52,6 +52,17 @@ const PING_INTERVAL_MS = 15_000
 const MAX_BACKOFF_MS = 8_000
 
 /** WebSocket link to the signalling endpoint with ticket auth, heartbeat and automatic reconnection. */
+/** A usable ws:// or wss:// address, or null (a missing, malformed or non-WebSocket value is ignored). */
+export function socketUrl(value: string | undefined | null): URL | null {
+  if (!value) return null
+  try {
+    const u = new URL(value)
+    return u.protocol === 'wss:' || u.protocol === 'ws:' ? u : null
+  } catch {
+    return null
+  }
+}
+
 export class SignalingClient {
   private ws: WebSocket | null = null
   private handlers: Handlers
@@ -94,11 +105,11 @@ export class SignalingClient {
   }
 
   private async open(): Promise<void> {
-    const { ticket } = await api<{ ticket: string }>('/api/ws/ticket', { method: 'POST' })
+    const { ticket, wsUrl: serverWsUrl } = await api<{ ticket: string; wsUrl?: string }>('/api/ws/ticket', { method: 'POST' })
     const scheme = location.protocol === 'https:' ? 'wss' : 'ws'
-    const wsUrl = import.meta.env.VITE_WS_URL
-      ? new URL(import.meta.env.VITE_WS_URL)
-      : new URL(`${scheme}://${location.host}/ws/signaling`)
+    // The server that issued the ticket says where its own WebSocket is, so the ticket and the socket can never end up on different backends.
+    // Otherwise the build-time VITE_WS_URL, otherwise this site's own address (local development).
+    const wsUrl = socketUrl(serverWsUrl) ?? socketUrl(import.meta.env.VITE_WS_URL) ?? new URL(`${scheme}://${location.host}/ws/signaling`)
     wsUrl.searchParams.set('ticket', ticket)
     const ws = new WebSocket(wsUrl.toString())
     this.ws = ws
