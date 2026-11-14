@@ -107,7 +107,10 @@ class OtpResendIntegrationTest {
     private UUID signUp(String email) {
         created.add(email);
         auth.register(new RegisterRequest(email, "Passw0rdOK", "Resend Test", LocalDate.of(1990, 1, 1)), "JUnit");
-        return users.findByEmail(email).orElseThrow().getId();
+        // Signing up sends no email any more (email verification is optional); the first code is requested explicitly, as a person would.
+        UUID id = users.findByEmail(email).orElseThrow().getId();
+        auth.resendVerification(id);
+        return id;
     }
 
     private MimeMessage[] mails(String to) {
@@ -175,9 +178,10 @@ class OtpResendIntegrationTest {
     void theLimitPerAccountIsEnforcedWithAClearMessageAndStopsSendingEmails() {
         String email = address("limit");
         UUID id = signUp(email);
-        for (int i = 0; i < AuthService.MAX_CODES_PER_WINDOW; i++) auth.resendVerification(id); // all allowed, with no waiting in between
+        // signUp() already asked for the first code (sign-up itself sends none now), so the allowance has MAX - 1 requests left.
+        for (int i = 0; i < AuthService.MAX_CODES_PER_WINDOW - 1; i++) auth.resendVerification(id); // all allowed, with no waiting in between
         int before = mails(email).length;
-        assertThat(before).isEqualTo(1 + AuthService.MAX_CODES_PER_WINDOW);
+        assertThat(before).isEqualTo(AuthService.MAX_CODES_PER_WINDOW);
         assertThatThrownBy(() -> auth.resendVerification(id)).isInstanceOfSatisfying(ApiException.class, e -> {
             assertThat(e.code()).isEqualTo("TOO_MANY_CODES");
             assertThat(e.status().value()).isEqualTo(429);

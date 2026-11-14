@@ -25,6 +25,11 @@ import org.springframework.transaction.event.TransactionalEventListener;
 
 import java.time.Clock;
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CompletionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.function.Supplier;
 
 @Service
 public class MatchmakingService {
@@ -68,29 +73,60 @@ public class MatchmakingService {
         this.clock = clock;
     }
 
+    /** Independent reads (database and Redis are both remote) run at the same time instead of one after the other. */
+    private static final ExecutorService IO = Executors.newVirtualThreadPerTaskExecutor();
+
+    private static <T> CompletableFuture<T> async(Supplier<T> work) { return CompletableFuture.supplyAsync(work, IO); }
+
+    /** Waits for a result and rethrows the original unchecked exception (an ApiException, a Redis failure...), not a wrapper. */
+    private static <T> T await(CompletableFuture<T> future) {
+        try {
+            return future.join();
+        } catch (CompletionException e) {
+            if (e.getCause() instanceof RuntimeException re) throw re;
+            throw e;
+        }
+    }
+
     /** Puts the user in the queue and immediately tries to pair them. Returns the call id if matched right away. */
     public Optional<UUID> join(UUID userId, String topicSlug) {
-        User user = users.findById(userId).orElseThrow(() -> ApiException.unauthorized("UNAUTHENTICATED", "Please sign in again."));
+        // The account, profile and preferences come in one query. If any of them is missing the step-by-step path below reports which one.
+        List<Object[]> row = users.findAccountProfileAndPreferences(userId);
+        User user;
+        UserProfile profile = null;
+        com.englishspeaking.platform.preferences.UserPreferences prefs = null;
+        if (row != null && !row.isEmpty()) {
+            user = (User) row.get(0)[0];
+            profile = (UserProfile) row.get(0)[1];
+            prefs = (com.englishspeaking.platform.preferences.UserPreferences) row.get(0)[2];
+        } else {
+            user = users.findById(userId).orElseThrow(() -> ApiException.unauthorized("UNAUTHENTICATED", "Please sign in again."));
+        }
         AuthService.requireActive(user);
         if (user.getStatus() != UserStatus.ACTIVE) throw ApiException.forbidden("ACCOUNT_INACTIVE", "This account cannot start calls.");
         if (!user.isOnboardingCompleted()) throw ApiException.conflict("ONBOARDING_REQUIRED", "Complete your profile before finding a partner.");
-        if (calls.activeCallOf(userId).isPresent()) {
+        // Three independent questions, asked together: is there an active call (PostgreSQL), is there an in-call marker (Redis), is the topic valid.
+        var activeCall = async(() -> calls.activeCallOf(userId).isPresent());
+        var marker = async(() -> store.activeCall(userId));
+        var topic = (topicSlug != null && !topicSlug.isBlank()) ? async(() -> topics.findActive(topicSlug).map(Topic::getSlug)) : null;
+        if (await(activeCall)) {
             throw ApiException.conflict("ALREADY_IN_CALL", "You are already in a call.");
         }
         // PostgreSQL is the source of truth: a Redis "in call" marker with no active call behind it is stale
         // (e.g. the server died between claiming and saving) and must not lock the user out.
-        store.activeCall(userId).ifPresent(staleCallId -> store.releaseCall(staleCallId, List.of(userId)));
+        await(marker).ifPresent(staleCallId -> store.releaseCall(staleCallId, List.of(userId)));
         String slug = null;
-        if (topicSlug != null && !topicSlug.isBlank()) {
-            slug = topics.findActive(topicSlug).map(Topic::getSlug)
-                    .orElseThrow(() -> ApiException.badRequest("INVALID_TOPIC", "That topic is not available."));
+        if (topic != null) {
+            slug = await(topic).orElseThrow(() -> ApiException.badRequest("INVALID_TOPIC", "That topic is not available."));
         }
-        UserProfile profile = profiles.findById(userId).orElseThrow(() -> ApiException.conflict("ONBOARDING_REQUIRED", "Complete your profile first."));
-        boolean similarOnly = preferences.findById(userId).map(p -> p.isMatchSimilarLevel()).orElse(true);
+        if (profile == null) {
+            profile = profiles.findById(userId).orElseThrow(() -> ApiException.conflict("ONBOARDING_REQUIRED", "Complete your profile first."));
+            prefs = preferences.findById(userId).orElse(null);
+        }
+        boolean similarOnly = prefs == null || prefs.isMatchSimilarLevel();
         int level = profile.getEnglishLevel() == null ? 0 : profile.getEnglishLevel().ordinal() + 1;
         QueueEntry entry = new QueueEntry(userId, level, new HashSet<>(profile.getInterests()), slug, similarOnly, clock.millis());
-        store.remove(userId); // re-joining replaces any previous entry
-        store.enqueue(entry);
+        store.enqueue(entry); // joining again simply overwrites the person's earlier entry and place (same entry key, same queue member)
         return tryMatch(entry);
     }
 
@@ -98,15 +134,25 @@ public class MatchmakingService {
 
     /** Looks for the best compatible waiting partner and atomically claims them. */
     Optional<UUID> tryMatch(QueueEntry me) {
-        if (!store.contains(me.userId())) return Optional.empty();
-        Set<UUID> excluded = new HashSet<>(moderation.excludedPartners(me.userId()));
-        Set<UUID> recent = store.recentPartners(me.userId());
+        // The database question (who must never be matched) and the Redis questions (queue, recent partners, presence) are independent: ask together.
+        var excludedF = async(() -> new HashSet<>(moderation.excludedPartners(me.userId())));
+        MatchmakingStore.MatchContext ctx = store.matchContext(me.userId(), CANDIDATE_LIMIT);
+        if (!ctx.queued()) return Optional.empty();
+        return attempt(me, await(excludedF), ctx.recentPartners(), ctx.candidates(), ctx.online(), null);
+    }
+
+    /**
+     * One match attempt for {@code me} from what is already known. {@code taken}, when given, collects people matched during this pass so that a
+     * sweep working from one snapshot of the queue never offers somebody who was just matched.
+     */
+    private Optional<UUID> attempt(QueueEntry me, Set<UUID> excluded, Set<UUID> recent, List<QueueEntry> candidates, Set<UUID> online, Set<UUID> taken) {
         long now = clock.millis();
 
         List<Scored> ranked = new ArrayList<>();
-        for (QueueEntry other : store.candidates(CANDIDATE_LIMIT)) {
+        for (QueueEntry other : candidates) {
             if (other.userId().equals(me.userId()) || excluded.contains(other.userId())) continue;
-            if (!store.isOnline(other.userId())) { store.remove(other.userId()); continue; }
+            if (taken != null && taken.contains(other.userId())) continue;
+            if (!online.contains(other.userId())) { store.remove(other.userId()); continue; }
             boolean justTalked = recent.contains(other.userId());
             long waited = Math.max(now - me.enqueuedAtMillis(), now - other.enqueuedAtMillis());
             if (justTalked && waited < RECENT_REMATCH_AFTER_MILLIS) continue; // give someone new a chance to arrive first
@@ -126,6 +172,7 @@ public class MatchmakingService {
             try {
                 calls.createMatchedCall(callId, initiator.userId(), responder.userId(), sharedTopic(me, other));
                 store.rememberPair(me.userId(), other.userId());
+                if (taken != null) { taken.add(me.userId()); taken.add(other.userId()); }
                 return Optional.of(callId);
             } catch (RuntimeException e) {
                 log.error("Failed to create call for match {} <-> {}; returning both to the queue", me.userId(), other.userId(), e);
@@ -141,12 +188,21 @@ public class MatchmakingService {
     /** Periodic pass: expire stale waiters and retry matching so relaxed rules apply as waiting time grows. */
     public void sweep() {
         long now = clock.millis();
-        for (QueueEntry entry : store.candidates(200)) {
-            if (now - entry.enqueuedAtMillis() > QUEUE_TIMEOUT_MILLIS || !store.isOnline(entry.userId())) {
+        // One snapshot of the queue and of who is online for the whole pass (before: the queue was read again, and presence asked one person at a
+        // time, for every waiting person). A claim is atomic and re-checks both people, so a snapshot that has become stale only costs a failed claim.
+        List<QueueEntry> entries = store.candidates(200);
+        Set<UUID> online = store.online(entries.stream().map(QueueEntry::userId).toList());
+        List<QueueEntry> window = entries.subList(0, Math.min(CANDIDATE_LIMIT, entries.size()));
+        Set<UUID> taken = new HashSet<>();
+        for (QueueEntry entry : entries) {
+            if (taken.contains(entry.userId())) continue;
+            if (now - entry.enqueuedAtMillis() > QUEUE_TIMEOUT_MILLIS || !online.contains(entry.userId())) {
                 if (store.remove(entry.userId())) events.publishEvent(new QueueTimedOut(entry.userId()));
             } else {
                 try {
-                    tryMatch(entry);
+                    var excludedF = async(() -> new HashSet<>(moderation.excludedPartners(entry.userId())));
+                    Set<UUID> recent = store.recentPartners(entry.userId());
+                    attempt(entry, await(excludedF), recent, window, online, taken);
                 } catch (RuntimeException e) {
                     log.warn("Match attempt failed for {}: {}", entry.userId(), e.getMessage());
                 }

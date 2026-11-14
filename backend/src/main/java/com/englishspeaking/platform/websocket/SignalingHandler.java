@@ -45,6 +45,7 @@ public class SignalingHandler extends TextWebSocketHandler {
     private final CallService calls;
     private final WsEventBroadcaster broadcaster;
     private final ConnectionRequestService connections;
+    private static final java.util.concurrent.ExecutorService IO = java.util.concurrent.Executors.newVirtualThreadPerTaskExecutor();
     private final RateLimiter rateLimiter;
     private final TaskScheduler scheduler;
     private final ObjectMapper mapper;
@@ -78,7 +79,8 @@ public class SignalingHandler extends TextWebSocketHandler {
     @Override
     protected void handleTextMessage(WebSocketSession session, TextMessage message) {
         UUID userId = userId(session);
-        if (!rateLimiter.tryAcquire("ws:" + userId, 300, Duration.ofSeconds(10))) {
+        // Per connection, so counted in memory: a shared Redis counter cost a network round trip for every message (ICE candidates arrive in bursts).
+        if (!rateLimiter.tryAcquireLocalOnly("ws:" + userId, 300, Duration.ofSeconds(10))) {
             closeQuietly(session, new CloseStatus(1008, "Too many messages"));
             return;
         }
@@ -107,11 +109,18 @@ public class SignalingHandler extends TextWebSocketHandler {
                 registry.send(userId, Map.of("type", "pong"));
             }
             case "queue.join" -> {
-                store.touchPresence(userId);
+                // Presence (Redis) and withdrawing an earlier "call again" request (database) do not depend on each other: do both at once.
+                var presence = java.util.concurrent.CompletableFuture.runAsync(() -> store.touchPresence(userId), IO);
                 connections.cancelOutgoing(userId); // starting a random search withdraws any "call again" request still waiting
-                matchmaking.join(userId, text(msg, "topicSlug"));
+                try {
+                    presence.join();
+                } catch (java.util.concurrent.CompletionException e) {
+                    if (e.getCause() instanceof RuntimeException re) throw re; // e.g. the Redis failure itself, so the usual "temporarily unavailable" reply is sent
+                    throw e;
+                }
+                Optional<UUID> matched = matchmaking.join(userId, text(msg, "topicSlug"));
                 // If a partner was found, match.found is delivered by the event broadcaster after commit.
-                if (calls.activeCallOf(userId).isEmpty()) registry.send(userId, Map.of("type", "queue.joined"));
+                if (matched.isEmpty() && calls.activeCallOf(userId).isEmpty()) registry.send(userId, Map.of("type", "queue.joined"));
             }
             case "queue.cancel" -> {
                 matchmaking.leave(userId);

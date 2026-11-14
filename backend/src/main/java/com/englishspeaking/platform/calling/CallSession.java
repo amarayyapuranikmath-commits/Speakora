@@ -8,9 +8,23 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "call_sessions")
-public class CallSession {
+public class CallSession implements org.springframework.data.domain.Persistable<UUID> {
     @Id
     private UUID id;
+    /**
+     * True until this object has been saved or loaded. These entities get their id from the application, so without this Spring Data cannot tell a new
+     * row from an existing one and runs a SELECT before every INSERT (a wasted database round trip per row when a call is created).
+     */
+    @Transient
+    private boolean newRow = true;
+
+    @Override
+    public boolean isNew() { return newRow; }
+
+    @PostLoad
+    @PostPersist
+    void markNotNew() { newRow = false; }
+
     @Column(name = "topic_id")
     private UUID topicId;
     @Enumerated(EnumType.STRING)
