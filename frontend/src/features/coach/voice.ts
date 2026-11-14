@@ -273,6 +273,40 @@ export const FINAL_WORDS_WAIT_MS = 700
 const NO_SPEECH_RESTARTS = 3
 const NETWORK_RETRIES = 2
 
+const normalise = (s: string) => s.toLowerCase().replace(/[^\p{L}\p{N}\s']/gu, ' ').replace(/\s+/g, ' ').trim()
+/** True when `longer` is `shorter` with more words after it (ignoring case and punctuation): the same sentence, further on. */
+export const extendsText = (longer: string, shorter: string): boolean => {
+  const a = normalise(longer)
+  const b = normalise(shorter)
+  return b !== '' && (a === b || a.startsWith(b + ' '))
+}
+
+/**
+ * The words of one recogniser session, from the browser's `results` list.
+ *  - Desktop browsers update ONE entry in place while you speak, so the list is the finished sentences plus at most one unfinished entry.
+ *  - Android browsers instead add a new, longer entry on every update ("hello", "hello how", "hello how are"...). Joining those gave the same
+ *    words many times over (about twenty lines for one sentence).
+ * So only the last unfinished entry counts (an unfinished entry before the end is always a superseded guess), and an entry that the next one
+ * merely continues is dropped, whether or not the browser marked it final. Exported for tests.
+ */
+export function transcriptOf(results: ArrayLike<RecognitionResultLike>): string {
+  const parts: { text: string; final: boolean }[] = []
+  const all = Array.from(results)
+  all.forEach((r, i) => {
+    const text = (r[0]?.transcript ?? '').replace(/\s+/g, ' ').trim()
+    if (!text) return
+    if (!r.isFinal && i < all.length - 1) return // superseded interim guess
+    parts.push({ text, final: r.isFinal })
+  })
+  const kept: string[] = []
+  parts.forEach((p, i) => {
+    const next = parts[i + 1]
+    if (next && extendsText(next.text, p.text)) return // the next entry is this one, continued
+    kept.push(p.text)
+  })
+  return kept.join(' ')
+}
+
 /**
  * Listens for one whole turn. The browser's recogniser would end the recording after about a second of silence, so it is kept running in
  * continuous mode and restarted if the browser ends it; WHEN THE TURN IS OVER is decided by createTurnTaker (see turn.ts), not by the
@@ -291,7 +325,8 @@ export function startTurnListening(h: TurnListenHandlers): TurnListening {
   let settleTimer: ReturnType<typeof setTimeout> | null = null
   let restartTimer: ReturnType<typeof setTimeout> | null = null
 
-  const text = () => `${carry} ${session}`.replace(/\s+/g, ' ').trim()
+  // A restarted session that begins by repeating what was already heard is the same speech again, not new words.
+  const text = () => (carry && extendsText(session, carry) ? session : `${carry} ${session}`).replace(/\s+/g, ' ').trim()
   const close = () => {
     closed = true
     if (settleTimer !== null) clearTimeout(settleTimer)
@@ -336,7 +371,7 @@ export function startTurnListening(h: TurnListenHandlers): TurnListening {
     session = ''
     r.onresult = (e) => {
       if (closed) return
-      session = Array.from(e.results).map((x) => x[0].transcript).join(' ').replace(/\s+/g, ' ').trim()
+      session = transcriptOf(e.results)
       if (session) { silentSessions = 0; networkFailures = 0 }
       const all = text()
       if (!committing) { h.onText(all); taker.update(all) }

@@ -5,12 +5,11 @@ import { useSearchParams } from 'react-router-dom'
 import { Alert } from '../../components/ui/feedback'
 import { ApiError, api } from '../../lib/api'
 import { useProfile } from '../../lib/queries'
-import { RichText } from './RichText'
+import { MessageRow, type Msg } from './MessageRow'
 import { SpeechSpeedControl } from './SpeechSpeedControl'
 import { savePreferredLanguage, streamChat, tutorKeys, type ModeInfo, type TutorPrefs, type Turn } from './tutorApi'
 import { createSpeaker, speechSpeedOf, startTurnListening, voiceErrorMessage, voiceInputSupported, voiceOutputSupported, type Speaker, type TurnListening } from './voice'
 
-interface Msg { key: string; role: 'user' | 'assistant'; content: string; streaming?: boolean; stopped?: boolean; note?: string }
 type VoiceState = 'off' | 'listening' | 'thinking' | 'speaking'
 
 const LANGUAGES = ['English', 'Kannada', 'Hindi', 'Telugu', 'Tamil'] as const
@@ -331,28 +330,7 @@ export function TutorChat() {
               </ul>
             </div>
           )}
-          {messages.map((m) =>
-            m.note ? (
-              <p key={m.key} className="text-center text-xs text-muted">{m.note}</p>
-            ) : m.role === 'user' ? (
-              <div key={m.key} className="flex justify-end">
-                <p className="max-w-[85%] whitespace-pre-wrap break-words rounded-panel bg-accent-soft px-3.5 py-2.5"><span className="sr-only">You: </span>{m.content}</p>
-              </div>
-            ) : (
-              <div key={m.key} className="max-w-[92%] break-words">
-                <p className="mb-1 text-xs font-medium text-muted">Coach</p>
-                {m.streaming && !m.content ? (
-                  <p role="status" aria-label="The coach is thinking" className="flex gap-1 py-2"><span className="size-1.5 animate-pulse rounded-full bg-muted" /><span className="size-1.5 animate-pulse rounded-full bg-muted [animation-delay:150ms]" /><span className="size-1.5 animate-pulse rounded-full bg-muted [animation-delay:300ms]" /></p>
-                ) : (
-                  <>
-                    <RichText text={m.content} />
-                    {m.streaming && <span aria-hidden className="ml-0.5 inline-block h-4 w-0.5 animate-pulse bg-ink align-middle" />}
-                    {m.stopped && <p className="mt-1 text-xs text-muted">Stopped.</p>}
-                  </>
-                )}
-              </div>
-            ),
-          )}
+          {messages.map((m) => <MessageRow key={m.key} m={m} />)}
           {voice === 'listening' && (
             <div className="flex justify-end" role="status" aria-label="Listening">
               <p className="max-w-[85%] whitespace-pre-wrap break-words rounded-panel border border-dashed border-accent/50 px-3.5 py-2.5 text-muted">

@@ -2,7 +2,8 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
 vi.mock('../../lib/api', () => ({ api: vi.fn().mockResolvedValue({ ticket: 'ticket' }) }))
 
-import { SignalingClient, type LinkStatus } from './signaling'
+import { api } from '../../lib/api'
+import { SignalingClient, socketUrl, type LinkStatus } from './signaling'
 
 /** A WebSocket that behaves like the browser's for the parts the client uses: a failed connection fires `error` and then `close`. */
 class FakeSocket {
@@ -85,6 +86,37 @@ describe('signalling URL', () => {
     FakeSocket.all[0].accept()
     await done
     client.close()
+  })
+
+  it('connects to the WebSocket address the ticket-issuing server reports, even when a stale VITE_WS_URL points at another backend', async () => {
+    vi.stubEnv('VITE_WS_URL', 'wss://speakora-1.onrender.com/ws/signaling')
+    vi.mocked(api).mockResolvedValueOnce({ ticket: 'ticket', wsUrl: 'wss://speakora-6mkd.onrender.com/ws/signaling' })
+    const client = new SignalingClient({ onMessage: () => {}, onStatus: () => {} })
+    const done = client.connect()
+    await tick()
+
+    expect(FakeSocket.all[0].url).toBe('wss://speakora-6mkd.onrender.com/ws/signaling?ticket=ticket')
+    FakeSocket.all[0].accept()
+    await done
+    client.close()
+  })
+
+  it('ignores a server address that is not a WebSocket address and uses the configured one', async () => {
+    vi.stubEnv('VITE_WS_URL', 'wss://speakora-6mkd.onrender.com/ws/signaling')
+    vi.mocked(api).mockResolvedValueOnce({ ticket: 'ticket', wsUrl: 'https://not-a-socket.example/' })
+    const client = new SignalingClient({ onMessage: () => {}, onStatus: () => {} })
+    const done = client.connect()
+    await tick()
+    expect(FakeSocket.all[0].url).toBe('wss://speakora-6mkd.onrender.com/ws/signaling?ticket=ticket')
+    FakeSocket.all[0].accept()
+    await done
+    client.close()
+  })
+
+  it('socketUrl accepts only ws and wss addresses', () => {
+    expect(socketUrl('wss://x.example/ws/signaling')?.protocol).toBe('wss:')
+    expect(socketUrl('ws://localhost:8080/ws/signaling')?.protocol).toBe('ws:')
+    for (const bad of ['https://x.example', 'not a url', '', undefined, null]) expect(socketUrl(bad as string | undefined)).toBeNull()
   })
 
   it('falls back to the current origin for local development', async () => {
