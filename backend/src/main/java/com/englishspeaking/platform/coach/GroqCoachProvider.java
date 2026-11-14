@@ -43,6 +43,9 @@ public class GroqCoachProvider implements CoachProvider {
     private final Duration requestTimeout;
     private final Duration streamDeadline;
     private final Duration maxRetryWait;
+    private final String apiKey;       // GROQ_API_KEY with surrounding whitespace removed (a pasted trailing newline is the usual accident)
+    private final String baseUrl;      // GROQ_BASE_URL, trimmed, without a trailing slash
+    private final String configProblem; // null when the key and the URL can be used; a value-free description otherwise
 
     @Autowired
     public GroqCoachProvider(AppProperties props, ObjectMapper mapper) {
@@ -56,6 +59,31 @@ public class GroqCoachProvider implements CoachProvider {
         this.requestTimeout = requestTimeout;
         this.streamDeadline = streamDeadline;
         this.maxRetryWait = maxRetryWait;
+        this.apiKey = config.apiKey() == null ? "" : config.apiKey().strip();
+        this.baseUrl = stripSlash(config.baseUrl() == null ? "" : config.baseUrl().strip());
+        this.configProblem = config.configured() ? problemWith(apiKey, baseUrl) : null;
+        if (configProblem != null) log.error("The AI coach is switched off: {} (the value is not shown).", configProblem);
+    }
+
+    /**
+     * Why the key or URL cannot be put into a request, without ever repeating them. The JDK refuses a header value with a line break or a
+     * non-ASCII character and refuses a URL it cannot parse, and its message includes the value (our API key), so the request is never built
+     * from such values.
+     */
+    static String problemWith(String key, String url) {
+        for (int i = 0; i < key.length(); i++) {
+            char c = key.charAt(i);
+            if (c < 0x21 || c > 0x7e) return "GROQ_API_KEY contains a space, line break or non-ASCII character; paste only the key itself";
+        }
+        if (key.startsWith("\"") || key.startsWith("'")) return "GROQ_API_KEY starts with a quote; paste only the key itself, without quotes";
+        try {
+            java.net.URI uri = new java.net.URI(url);
+            boolean web = "https".equalsIgnoreCase(uri.getScheme()) || "http".equalsIgnoreCase(uri.getScheme());
+            if (!web || uri.getHost() == null) return "GROQ_BASE_URL is not a full http(s) URL such as https://api.groq.com/openai/v1";
+        } catch (java.net.URISyntaxException e) {
+            return "GROQ_BASE_URL is not a valid URL (check for spaces or stray characters)";
+        }
+        return null;
     }
 
     @Override
@@ -182,6 +210,7 @@ public class GroqCoachProvider implements CoachProvider {
 
     private void requireConfigured() {
         if (!isConfigured()) throw new CoachException(Kind.UNAVAILABLE, "The AI coach is not configured.", null);
+        if (configProblem != null) throw new CoachException(Kind.UNAVAILABLE, "The AI coach is misconfigured: " + configProblem + ".", null);
     }
 
     private static List<Map<String, String>> messages(String system, List<TutorService.Turn> turns) {
@@ -211,14 +240,18 @@ public class GroqCoachProvider implements CoachProvider {
 
     private HttpRequest request(Map<String, Object> body, String accept) {
         try {
-            return HttpRequest.newBuilder(URI.create(stripSlash(config.baseUrl()) + "/chat/completions"))
+            return HttpRequest.newBuilder(URI.create(baseUrl + "/chat/completions"))
                     .timeout(requestTimeout)
                     .header("Content-Type", "application/json")
                     .header("Accept", accept)
-                    .header("Authorization", "Bearer " + config.apiKey())
+                    .header("Authorization", "Bearer " + apiKey)
                     .POST(HttpRequest.BodyPublishers.ofString(mapper.writeValueAsString(body))).build();
         } catch (IOException e) {
             throw new CoachException("The request could not be prepared.", e);
+        } catch (IllegalArgumentException e) {
+            // Safety net: the JDK's message repeats the rejected header value, which would be our API key, so it is neither logged nor chained.
+            log.error("The request to the AI provider could not be built (invalid GROQ_API_KEY or GROQ_BASE_URL); the value is not shown.");
+            throw new CoachException(Kind.UNAVAILABLE, "The AI coach is misconfigured.", null);
         }
     }
 

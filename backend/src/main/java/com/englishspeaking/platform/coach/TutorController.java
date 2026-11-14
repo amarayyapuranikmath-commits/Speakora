@@ -76,7 +76,8 @@ public class TutorController {
             } catch (ApiException e) {
                 finishWithError(emitter, e.code(), e.getMessage(), e.retryAfterSeconds());
             } catch (IOException | RuntimeException e) {
-                log.warn("Tutor stream failed: {}", e.getClass().getSimpleName()); // never the content
+                // The class and where it was thrown, never the message (a JDK message can repeat a header value such as the API key) or the content.
+                log.warn("Tutor stream failed: {} at {}", e.getClass().getSimpleName(), whereItFailed(e));
                 finishWithError(emitter, "COACH_FAILED", "The tutor could not respond right now. Please try again.", 0);
             }
         });
@@ -96,6 +97,20 @@ public class TutorController {
     @PutMapping("/preferences/speech-speed")
     public TutorPreferencesService.Preferences setSpeechSpeed(@AuthenticationPrincipal AuthPrincipal me, @Valid @RequestBody TutorPreferencesService.SpeedRequest body) {
         return prefs.setSpeechSpeed(me.userId(), body.speechSpeed());
+    }
+
+    /** The first few stack frames as class.method:line (application frames first), without any exception message. */
+    static String whereItFailed(Throwable e) {
+        StringBuilder sb = new StringBuilder();
+        int shown = 0;
+        for (StackTraceElement f : e.getStackTrace()) {
+            if (shown == 5) break;
+            if (shown > 0) sb.append(" < ");
+            String cls = f.getClassName();
+            sb.append(cls.substring(cls.lastIndexOf('.') + 1)).append('.').append(f.getMethodName()).append(':').append(f.getLineNumber());
+            shown++;
+        }
+        return sb.length() == 0 ? "unknown" : sb.toString();
     }
 
     private static void finishWithError(SseEmitter emitter, String code, String message, int retryAfterSeconds) {
