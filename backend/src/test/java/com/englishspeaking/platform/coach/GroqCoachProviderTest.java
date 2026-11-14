@@ -335,4 +335,59 @@ class GroqCoachProviderTest {
         assertThat(p.streamedText(": keep-alive")).isNull();
         assertThat(p.streamedText("")).isNull();
     }
+
+    // ---- a pasted key or URL that the JDK would refuse must neither crash the request nor leak into messages
+
+    private GroqCoachProvider providerWith(String key, String baseUrl) {
+        var coach = new AppProperties.Coach(key, "openai/gpt-oss-120b", baseUrl, 20);
+        return new GroqCoachProvider(new AppProperties("n", "u", "o", new AppProperties.Jwt("x".repeat(32), 15), 30, false,
+                new AppProperties.Turn(), "", coach), mapper, Duration.ofSeconds(5), Duration.ofSeconds(5), Duration.ofSeconds(2));
+    }
+
+    private String serverUrl() { return "http://127.0.0.1:" + server.getAddress().getPort() + "/openai/v1"; }
+
+    @Test
+    void aKeyPastedWithALineBreakOrSpacesIsCleanedAndStillWorksForStreamingAndPlainReplies() {
+        script.add(Reply.sse(text("Hello"), "data: [DONE]\n\n"));
+        List<String> pieces = new ArrayList<>();
+        assertThat(providerWith("  " + KEY + "\r\n", serverUrl()).chatStream("SYS", turns("user", "Hi"), pieces::add)).isEqualTo("Hello");
+        script.add(Reply.json(200, completion("Hi there")));
+        assertThat(providerWith(KEY + "\n", serverUrl() + "/ ").chat("SYS", turns("user", "Hi"))).isEqualTo("Hi there");
+        assertThat(authHeaders).containsExactly("Bearer " + KEY, "Bearer " + KEY);
+    }
+
+    @Test
+    void aKeyWithAnInvalidCharacterAnswersUnavailableWithoutBuildingARequestOrRevealingTheKey() {
+        String bad = "gsk_SECRETVALUE…tail"; // a non-ASCII character in the middle survives trimming
+        for (String key : new String[] {bad, "gsk_SECRET VALUE", "\"gsk_SECRETVALUE\""}) {
+            GroqCoachProvider p = providerWith(key, serverUrl());
+            assertThat(p.isConfigured()).isTrue();
+            assertThatThrownBy(() -> p.chatStream("SYS", turns("user", "Hi"), s -> { }))
+                    .isInstanceOfSatisfying(CoachProvider.CoachException.class, e -> {
+                        assertThat(e.kind()).isEqualTo(CoachProvider.Kind.UNAVAILABLE);
+                        assertThat(e.getMessage()).contains("GROQ_API_KEY").doesNotContain("SECRET");
+                        assertThat(e.getCause()).isNull();
+                    });
+            assertThatThrownBy(() -> p.chat("SYS", turns("user", "Hi"))).isInstanceOf(CoachProvider.CoachException.class).hasMessageNotContaining("SECRET");
+        }
+        assertThat(authHeaders).isEmpty(); // nothing was sent to the provider
+    }
+
+    @Test
+    void aBadBaseUrlAnswersUnavailableAndNamesTheSettingNotTheValue() {
+        for (String url : new String[] {"api.groq.com/openai/v1", "https://api groq.com/v1", "", "ftp://x.test/v1"}) {
+            GroqCoachProvider p = providerWith(KEY, url);
+            assertThatThrownBy(() -> p.chatStream("SYS", turns("user", "Hi"), s -> { }))
+                    .isInstanceOfSatisfying(CoachProvider.CoachException.class, e -> {
+                        assertThat(e.kind()).isEqualTo(CoachProvider.Kind.UNAVAILABLE);
+                        assertThat(e.getMessage()).contains("GROQ_BASE_URL").doesNotContain(KEY);
+                    });
+        }
+    }
+
+    @Test
+    void problemWithAcceptsARealKeyAndUrl() {
+        assertThat(GroqCoachProvider.problemWith(KEY, "https://api.groq.com/openai/v1")).isNull();
+        assertThat(GroqCoachProvider.problemWith(KEY, "http://127.0.0.1:8080/openai/v1")).isNull();
+    }
 }

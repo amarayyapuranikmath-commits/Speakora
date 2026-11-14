@@ -2,6 +2,7 @@ package com.englishspeaking.platform.matching;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.dao.QueryTimeoutException;
 import org.springframework.data.redis.RedisConnectionFailureException;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -21,7 +22,7 @@ public class MatchmakingSweeper {
     public void run() {
         try {
             matchmaking.sweep();
-        } catch (RedisConnectionFailureException e) {
+        } catch (RedisConnectionFailureException | QueryTimeoutException e) { // a timeout on a connected Redis is the same outage
             long now = System.currentTimeMillis();
             if (now - lastWarnAt >= WARN_EVERY_MILLIS) { // the sweep runs every 3 s: say why at most once a minute
                 lastWarnAt = now;
