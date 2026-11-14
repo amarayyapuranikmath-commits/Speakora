@@ -51,6 +51,14 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.FORBIDDEN).body(ApiError.of("FORBIDDEN", "You do not have access to this resource."));
     }
 
+    /** Redis (matching, sign-in tickets) cannot be reached or timed out: a temporary outage, not a bug in the request, and not a 500. */
+    @ExceptionHandler({org.springframework.data.redis.RedisConnectionFailureException.class, org.springframework.dao.QueryTimeoutException.class})
+    ResponseEntity<ApiError> handleBackingServiceDown(Exception ex) {
+        log.warn("A backing service did not answer in time: {}", ex.getClass().getSimpleName()); // the cause is logged once at startup and by the sweeper
+        return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).header("Retry-After", "5")
+                .body(ApiError.of("SERVICE_UNAVAILABLE", "This feature is temporarily unavailable. Please try again in a moment."));
+    }
+
     @ExceptionHandler(Exception.class)
     ResponseEntity<ApiError> handleUnexpected(Exception ex) {
         // Framework HTTP errors (unknown path, wrong method, unsupported media type...) keep their own status.

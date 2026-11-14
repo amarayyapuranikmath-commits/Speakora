@@ -30,4 +30,14 @@ class GlobalExceptionHandlerTest {
         assertThat(res.getStatusCode().value()).isEqualTo(500);
         assertThat(res.getBody().message()).doesNotContain("hunter2");
     }
+
+    @Test
+    void aRedisOutageOnARequestIsA503ThatSaysTryAgainNotA500() {
+        for (Exception e : new Exception[] {new org.springframework.data.redis.RedisConnectionFailureException("down"), new org.springframework.dao.QueryTimeoutException("slow")}) {
+            ResponseEntity<ApiError> res = handler.handleBackingServiceDown(e);
+            assertThat(res.getStatusCode().value()).isEqualTo(503);
+            assertThat(res.getHeaders().getFirst("Retry-After")).isEqualTo("5");
+            assertThat(res.getBody().message()).contains("try again");
+        }
+    }
 }

@@ -17,6 +17,11 @@ server:
     max-swallow-size: 1MB
 
 spring:
+  data:
+    redis:
+      # A hosted Redis (Upstash...) needs TLS plus AUTH before the first command, several round trips; 2 s is too tight across regions.
+      timeout: ${REDIS_TIMEOUT:5s}
+      connect-timeout: ${REDIS_CONNECT_TIMEOUT:5s}
   lifecycle:
     timeout-per-shutdown-phase: 25s
   jpa:
