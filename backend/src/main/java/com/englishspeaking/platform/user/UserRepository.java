@@ -24,5 +24,7 @@ public interface UserRepository extends JpaRepository<User, UUID> {
     org.springframework.data.domain.Page<User> search(@Param("q") String q, @Param("status") UserStatus status,
                                                       org.springframework.data.domain.Pageable pageable);
 
+    boolean existsByRole(String role);
+
     java.util.List<User> findByEmailInAndEmailVerifiedTrue(java.util.Collection<String> emails);
 }

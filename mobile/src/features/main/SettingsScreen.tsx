@@ -236,7 +236,7 @@ function NotificationSettings() {
     <Panel>
       <Text style={type.heading}>Email notifications</Text>
       {mutation.isError ? <Alert>That change could not be saved.</Alert> : null}
-      <Toggle label="Practice reminders" description="One email, in the early evening of your time zone, after a couple of days without a conversation. At most one a week." value={prefs.data.notifyEmailReminders} onChange={(v) => change({ notifyEmailReminders: v })} />
+      <Toggle label="Practice reminders" description={prefs.data.emailAvailable === false ? "Email is not set up on this server, so reminder emails cannot be sent. Nothing else is affected." : 'One email, in the early evening of your time zone, after a couple of days without a conversation. At most one a week.'} value={prefs.data.emailAvailable === false ? false : prefs.data.notifyEmailReminders} disabled={prefs.data.emailAvailable === false} onChange={(v) => change({ notifyEmailReminders: v })} />
     </Panel>
   )
 }

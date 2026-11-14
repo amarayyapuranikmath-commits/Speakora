@@ -323,8 +323,11 @@ function NotificationSettings() {
       <div className="divide-y divide-line">
         <Toggle
           label="Practice reminders"
-          description="One email, in the early evening of your time zone, after a couple of days without a conversation. At most one a week."
-          checked={p.notifyEmailReminders}
+          description={p.emailAvailable === false
+            ? "Email is not set up on this server, so reminder emails cannot be sent. Nothing else is affected."
+            : 'One email, in the early evening of your time zone, after a couple of days without a conversation. At most one a week.'}
+          checked={p.emailAvailable === false ? false : p.notifyEmailReminders}
+          disabled={p.emailAvailable === false}
           onChange={(v) => change({ notifyEmailReminders: v })}
         />
       </div>

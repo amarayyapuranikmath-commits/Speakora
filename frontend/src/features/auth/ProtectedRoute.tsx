@@ -11,8 +11,6 @@ export function ProtectedRoute({ onboarding = false }: { onboarding?: boolean })
   // Signing out or deleting the account on purpose goes home; an expired or revoked session goes to the login page.
   if ((status === 'anonymous' || !user) && endedBy === 'user') return <Navigate to="/" replace />
   if (status === 'anonymous' || !user) return <Navigate to="/login" replace state={{ from: location.pathname + location.search }} />
-  // Signing up is not finished until the emailed code has been entered: an unverified account sees only the code screen.
-  if (!user.emailVerified) return <Navigate to="/verify-email" replace />
   if (!onboarding && !user.onboardingCompleted) return <Navigate to="/onboarding" replace />
   if (onboarding && user.onboardingCompleted) return <Navigate to="/app" replace />
   return <Outlet />
@@ -28,6 +26,6 @@ export function AdminRoute() {
 export function GuestRoute() {
   const { status, user } = useAuth()
   if (status === 'loading') return <Spinner label="Loading" />
-  if (status === 'authenticated' && user) return <Navigate to={!user.emailVerified ? '/verify-email' : user.onboardingCompleted ? '/app' : '/onboarding'} replace />
+  if (status === 'authenticated' && user) return <Navigate to={user.onboardingCompleted ? '/app' : '/onboarding'} replace />
   return <Outlet />
 }

@@ -52,7 +52,7 @@ The backend runs with `SPRING_PROFILES_ACTIVE=prod`: it **refuses to start** if 
 | Variable / secret | Purpose |
 |---|---|
 | `DOMAIN`, `ACME_EMAIL` | public hostname and certificate contact |
-| secret `RESEND_API_KEY` / `MAIL_FROM` | email through the Resend HTTP API (works where SMTP is blocked); either this or `SMTP_HOST` is required |
+| secret `RESEND_API_KEY` / `MAIL_FROM` | email through the Resend HTTP API (works where SMTP is blocked); optional: without any mail provider the app starts and sign-up and sign-in work, but password-reset and reminder emails are unavailable (the user is told so) |
 | `SMTP_HOST` / `SMTP_PORT` / `SMTP_USER` / secret `SMTP_PASSWORD` / `MAIL_FROM` | email. Port 465 = implicit TLS, otherwise STARTTLS is **required** (never silently plain text) |
 | `ADMIN_EMAILS` | become ADMIN after verifying the address |
 | secret `TURNIX_API_TOKEN` (required), `TURN_FORCE_RELAY`, `TRUSTED_PROXIES` | TURN relay via Turnix, see TURN.md |
@@ -109,3 +109,16 @@ Every update of the app must be signed with the same release key (`mobile/androi
 - [ ] Firewall allows only 22 (restrict by IP), 80, 443 and the TURN ports
 - [ ] Your terms of service and privacy policy are published (the site's `/safety` page describes only what the product does)
 - [ ] A moderation routine exists: someone reviews open reports daily
+
+## First administrator (no email needed)
+
+Registering never makes anyone an administrator, whatever email they use. To create your own admin account without email:
+
+1. Generate a secret of 32+ random characters (for example `openssl rand -base64 48 | tr -d '/+=
+'`) and set it on the server as `ADMIN_BOOTSTRAP_TOKEN`. Deploy.
+2. Register and sign in normally with your own account.
+3. Send the token once, signed in as that account: `POST /api/setup/claim-admin` with the header `Authorization: Bearer <your access token>` and the body `{"token":"<the secret>"}`. It answers `204`.
+4. Sign out and sign in again so your new session carries the ADMIN role.
+5. Remove `ADMIN_BOOTSTRAP_TOKEN` from the server settings and redeploy.
+
+It works only while no administrator exists, only for a signed-in active account, and only with the exact token (a shorter token disables it). Attempts are rate limited and wrong ones are logged without the token. `ADMIN_EMAILS` still works as before, but only for an address that has been verified by email.

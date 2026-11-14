@@ -119,6 +119,9 @@ public class MailService {
     /** True when Resend or SMTP can send; otherwise emails are only written to the log. */
     public boolean isConfigured() { return resend != null || isSmtpConfigured(); }
 
+    /** True on a deployed server with no mail provider: nothing can be sent (and nothing is pretended to be). Local development only logs, so it is not "cannot". */
+    public boolean cannotSendEmail() { return !isConfigured() && !isLocal(props.baseUrl()); }
+
     /** "Resend", "SMTP" or "none": which provider actually sends (Resend wins when both are set). */
     public String providerName() { return resend != null ? "Resend" : isSmtpConfigured() ? "SMTP" : "none"; }
 

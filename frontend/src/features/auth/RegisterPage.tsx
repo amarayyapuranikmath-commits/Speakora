@@ -25,7 +25,7 @@ export function RegisterPage() {
     setFormError(null)
     try {
       await signUp(values)
-      navigate('/verify-email', { replace: true })
+      navigate('/onboarding', { replace: true })
     } catch (e) {
       setFormError(applyApiError(e, setError))
     }
