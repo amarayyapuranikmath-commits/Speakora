@@ -144,6 +144,64 @@ describe('AI Coach voice conversation (Android)', () => {
     expect(text(r)).toContain('Listening')
   })
 
+  it('after a typed reply the microphone still works in the same session and the spoken turn carries the earlier conversation', async () => {
+    const r = await render()
+    act(() => input(r).props.onChangeText('Hello coach'))
+    await act(async () => { press(r, 'Send message').props.onPress() })
+    await settle()
+    expect(text(r)).toContain('Good question!')
+    expect(has(r, 'Send message')).toBe(true) // the reply is over: not stuck busy
+    await startVoice(r)
+    expect(turns).toHaveLength(1)
+    act(() => lastTurn().onText('How are you'))
+    await act(async () => { lastTurn().onCommit('How are you') })
+    await settle()
+    expect(mockStream).toHaveBeenCalledTimes(2)
+    const second = mockStream.mock.calls[1][0] as { messages: { role: string; content: string }[]; spoken: boolean }
+    expect(second.spoken).toBe(true)
+    expect(second.messages.map((m) => m.content)).toEqual(['Hello coach', 'Good question!', 'How are you'])
+  })
+
+  it('tapping the microphone while a reply is still streaming stops that reply, and the spoken turn is then sent (not dropped as "busy")', async () => {
+    let release: (v: string) => void = () => undefined
+    mockStream.mockReset()
+    mockStream.mockImplementationOnce((_req: unknown, onDelta: (p: string) => void, signal?: AbortSignal) => new Promise<string>((resolve, reject) => {
+      onDelta('Partial ')
+      release = resolve
+      signal?.addEventListener('abort', () => reject(new Error('aborted')))
+    }))
+    mockStream.mockImplementation(async (_req: unknown, onDelta: (p: string) => void) => { onDelta('Second reply'); return 'Second reply' })
+    const r = await render()
+    act(() => input(r).props.onChangeText('first typed'))
+    await act(async () => { press(r, 'Send message').props.onPress() })
+    await settle()
+    expect(has(r, 'Stop the reply')).toBe(true) // the first reply is still going
+    await startVoice(r)
+    await settle()
+    expect(has(r, 'Stop the reply')).toBe(false) // stopped by starting the microphone
+    expect(turns).toHaveLength(1)
+    await act(async () => { lastTurn().onCommit('now I speak') })
+    await settle()
+    expect(mockStream).toHaveBeenCalledTimes(2)
+    expect((mockStream.mock.calls[1][0] as { messages: { content: string }[] }).messages.map((m) => m.content)).toEqual(['first typed', 'Partial', 'now I speak'])
+    release('x')
+  })
+
+  it('a spoken turn is sent even if the microphone was opened from a render that still said busy', async () => {
+    const r = await render()
+    await startVoice(r)
+    await act(async () => { lastTurn().onCommit('first spoken') })
+    await settle()
+    expect(speakers).toHaveLength(1)
+    // The coach finishes speaking at the very moment the previous request is wrapping up; listening reopens at once.
+    await act(async () => { speakers[0].idle() })
+    await settle()
+    expect(turns).toHaveLength(2)
+    await act(async () => { lastTurn().onCommit('second spoken') })
+    await settle()
+    expect(mockStream).toHaveBeenCalledTimes(2)
+  })
+
   it('a typed message is spoken only when "read replies aloud" is on, and that never turns the microphone on', async () => {
     const r = await render()
     act(() => input(r).props.onChangeText('Hello'))

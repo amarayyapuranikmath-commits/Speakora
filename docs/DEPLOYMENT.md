@@ -122,3 +122,14 @@ Registering never makes anyone an administrator, whatever email they use. To cre
 5. Remove `ADMIN_BOOTSTRAP_TOKEN` from the server settings and redeploy.
 
 It works only while no administrator exists, only for a signed-in active account, and only with the exact token (a shorter token disables it). Attempts are rate limited and wrong ones are logged without the token. `ADMIN_EMAILS` still works as before, but only for an address that has been verified by email.
+
+## Calls: WebSocket address and allowed origins
+
+* The ticket endpoint (`POST /api/ws/ticket`) also returns `wsUrl`, the WebSocket of the server that issued the ticket. The server derives it from
+  `PUBLIC_WS_URL` (for example `wss://api.speak.example/ws/signaling`) or, on Render, from `RENDER_EXTERNAL_URL`, which Render sets itself. The website
+  uses it before the build-time `VITE_WS_URL`, so a stale `VITE_WS_URL` can no longer send a ticket to a different backend.
+* The handshake accepts the origins in `CORS_ALLOWED_ORIGINS` **and this server's own public https origin** (same two settings). The Android app sends its
+  server's own address as its Origin; behind Render's TLS proxy the server sees plain http, so without this the app got `403` and said "We could not
+  connect to the server". Any other origin is still refused.
+* Voice was verified between two desktop browsers with real WebRTC statistics (`tools/perf/webrtc-audio-e2e.cjs`): a direct path and, with
+  `TURN_FORCE_RELAY=true`, a relay path through the real TURN servers.

@@ -65,6 +65,9 @@ export function TutorChat() {
   const messagesRef = useRef<Msg[]>([])
   messagesRef.current = messages
   const voiceOn = useRef(false)
+  // Whether a reply is in progress, as a ref: a listening session started while a render still said "busy" would otherwise keep that stale
+  // answer for its whole life and silently drop the learner's spoken turn.
+  const busyRef = useRef(false)
   const listening = useRef<TurnListening | null>(null)
   const speaker = useRef<Speaker | null>(null)
   const abort = useRef<AbortController | null>(null)
@@ -72,6 +75,7 @@ export function TutorChat() {
   const scroller = useRef<HTMLDivElement>(null)
   const stick = useRef(true)
   const startListeningRef = useRef<() => void>(() => undefined)
+  const sendRef = useRef<(raw: string, spoken?: boolean, retry?: boolean) => Promise<void>>(async () => undefined)
 
   const language = prefs.data?.explanationLanguage ?? 'English'
   const speed = speechSpeedOf(prefs.data?.speechSpeed)
@@ -103,7 +107,8 @@ export function TutorChat() {
 
   const send = useCallback(async (raw: string, spoken = false, retry = false) => {
     const content = raw.trim()
-    if (!content || busy) return
+    if (!content || busyRef.current) return
+    busyRef.current = true
     speaker.current?.stop()
     setError(null)
     setFailed(null)
@@ -153,10 +158,11 @@ export function TutorChat() {
         if (voiceOn.current) { voiceOn.current = false; setVoice('off') }
       }
     } finally {
+      busyRef.current = false
       setBusy(false)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [busy, mode, scenario, readAloud, topicId, speed, language])
+  }, [mode, scenario, readAloud, topicId, speed, language])
 
   // ---------------------------------------------------------------- voice conversation
 
@@ -171,7 +177,7 @@ export function TutorChat() {
       onCommit: (t) => {
         listening.current = null
         setHeard('')
-        if (voiceOn.current) void send(t, true)
+        if (voiceOn.current) void sendRef.current(t, true)
       },
       onError: (code, partial) => {
         listening.current = null
@@ -185,6 +191,7 @@ export function TutorChat() {
     })
   }, [level, send])
   startListeningRef.current = startListening
+  sendRef.current = send
 
   function endVoice() {
     voiceOn.current = false
@@ -198,6 +205,8 @@ export function TutorChat() {
   function toggleVoice() {
     if (voiceOn.current) return endVoice()
     setError(null)
+    // Tapping the microphone while a reply is still streaming or being spoken stops that reply (what was heard is kept) so the learner can answer.
+    if (busyRef.current || speaker.current) interruptSpeech()
     voiceOn.current = true
     startListening()
   }
@@ -240,6 +249,7 @@ export function TutorChat() {
     setHeard('')
     setError(null)
     setFailed(null)
+    busyRef.current = false
     setBusy(false)
     stick.current = true
     setPinned(true)
