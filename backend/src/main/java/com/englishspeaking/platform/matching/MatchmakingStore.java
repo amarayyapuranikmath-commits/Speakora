@@ -1,6 +1,7 @@
 package com.englishspeaking.platform.matching;
 
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -46,4 +47,29 @@ public interface MatchmakingStore {
     Set<UUID> recentPartners(UUID userId);
 
     void rememberPair(UUID a, UUID b);
+
+    /** What a match attempt needs about the queue, read together. */
+    record MatchContext(boolean queued, Set<UUID> recentPartners, List<QueueEntry> candidates, Set<UUID> online) {
+        static MatchContext notQueued() { return new MatchContext(false, Set.of(), List.of(), Set.of()); }
+    }
+
+    /**
+     * Whether {@code me} is still queued, who they spoke to recently, the oldest waiting entries, and which of those are online. This default asks one
+     * question at a time; the Redis store answers all of it in two network round trips instead of three plus one per candidate.
+     */
+    default MatchContext matchContext(UUID me, int limit) {
+        if (!contains(me)) return MatchContext.notQueued();
+        Set<UUID> recent = recentPartners(me);
+        List<QueueEntry> entries = candidates(limit);
+        Set<UUID> online = new HashSet<>();
+        for (QueueEntry e : entries) if (isOnline(e.userId())) online.add(e.userId());
+        return new MatchContext(true, recent, entries, online);
+    }
+
+    /** Which of these people are online (one question each by default; one round trip in Redis). */
+    default Set<UUID> online(Collection<UUID> users) {
+        Set<UUID> out = new HashSet<>();
+        for (UUID u : users) if (isOnline(u)) out.add(u);
+        return out;
+    }
 }

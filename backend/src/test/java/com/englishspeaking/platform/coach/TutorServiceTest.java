@@ -89,6 +89,47 @@ class TutorServiceTest {
     }
 
     @Test
+    void theLevelReadAlongsideTheChecksStillShapesThePrompt() {
+        assertThat(promptSent(req(Mode.FREE_CONVERSATION, "Hello"))).contains("B1");
+    }
+
+    @Test
+    void aRateLimitedMessageDoesNotUseUpTheDailyAllowanceAndNeverReachesTheModel() {
+        when(limiter.tryAcquire(org.mockito.ArgumentMatchers.startsWith("tutor-min:"), anyInt(), any(Duration.class))).thenReturn(false);
+        assertThatThrownBy(() -> tutor.chat(user, req(Mode.FREE_CONVERSATION, "Hello"))).isInstanceOf(ApiException.class);
+        verify(limiter, never()).tryAcquire(org.mockito.ArgumentMatchers.startsWith("tutor:"), anyInt(), any(Duration.class)); // checked in order, as before
+        verify(provider, never()).chat(anyString(), any());
+        verify(profiles, never()).findById(user); // a rejected request must not cost the database an extra read (abuse resistance)
+    }
+
+    @Test
+    void aDatabaseFailureWhileReadingTheLevelIsReportedAsItselfNotAsAWrapper() {
+        when(profiles.findById(user)).thenThrow(new org.springframework.dao.QueryTimeoutException("slow"));
+        assertThatThrownBy(() -> tutor.chat(user, req(Mode.FREE_CONVERSATION, "Hello"))).isInstanceOf(org.springframework.dao.QueryTimeoutException.class);
+        verify(provider, never()).chat(anyString(), any());
+    }
+
+    @Test
+    void streamingStillDeliversPiecesInOrderAndTheWholeReply() {
+        when(provider.chatStream(anyString(), any(), any())).thenAnswer(i -> {
+            java.util.function.Consumer<String> out = i.getArgument(2);
+            out.accept("Hel"); out.accept("lo");
+            return "Hello";
+        });
+        java.util.List<String> pieces = new java.util.ArrayList<>();
+        var reply = tutor.stream(user, req(Mode.FREE_CONVERSATION, "Hi"), pieces::add);
+        assertThat(pieces).containsExactly("Hel", "lo");
+        assertThat(reply.reply()).isEqualTo("Hello");
+    }
+
+    @Test
+    void aStopMidStreamPropagatesWithoutBeingTurnedIntoAnotherError() {
+        class Gone extends RuntimeException {}
+        when(provider.chatStream(anyString(), any(), any())).thenAnswer(i -> { ((java.util.function.Consumer<String>) i.getArgument(2)).accept("Hi"); return "x"; });
+        assertThatThrownBy(() -> tutor.stream(user, req(Mode.FREE_CONVERSATION, "Hi"), p -> { throw new Gone(); })).isInstanceOf(Gone.class);
+    }
+
+    @Test
     void everyTeachingModeExists() {
         assertThat(TutorService.modes()).extracting(TutorService.ModeInfo::title).containsExactly(
                 "Free conversation", "Grammar tutor", "Vocabulary coach", "Phrasal verb coach", "Sentence correction", "Pronunciation practice",
