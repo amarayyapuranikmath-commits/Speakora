@@ -80,3 +80,27 @@ describe('Settings: AI tutor', () => {
     expect(mock.calls.some((c) => c.url === '/api/coach/preferences')).toBe(false)
   })
 })
+
+describe('Settings: email notifications', () => {
+  async function openNotifications(emailAvailable?: boolean) {
+    mockApi({ ...base(), 'GET /api/preferences': { ...prefs, notifyEmailReminders: true, ...(emailAvailable === undefined ? {} : { emailAvailable }) } })
+    renderApp(<CallProvider><SettingsPage /></CallProvider>)
+    await userEvent.click(await screen.findByRole('tab', { name: /notifications/i }))
+  }
+
+  it('disables the reminder switch and says why when the server has no email provider', async () => {
+    await openNotifications(false)
+    const toggle = await screen.findByRole('switch', { name: /practice reminders/i })
+    expect(toggle).toBeDisabled()
+    expect(toggle).not.toBeChecked()
+    expect(screen.getByText(/Email is not set up on this server/i)).toBeInTheDocument()
+  })
+
+  it.each([[true], [undefined]])('keeps the reminder switch usable when email is available (%s: an older server does not say)', async (available) => {
+    await openNotifications(available)
+    const toggle = await screen.findByRole('switch', { name: /practice reminders/i })
+    expect(toggle).toBeEnabled()
+    expect(toggle).toBeChecked()
+    expect(screen.queryByText(/Email is not set up on this server/i)).toBeNull()
+  })
+})

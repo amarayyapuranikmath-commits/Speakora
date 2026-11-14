@@ -16,10 +16,6 @@ server:
   tomcat:
     max-swallow-size: 1MB
 
-app:
-  # Production keeps unverified accounts out of matching, calls, friends and private messages (set REQUIRE_VERIFIED_EMAIL=false only to switch that off).
-  require-verified-email: ${REQUIRE_VERIFIED_EMAIL:true}
-
 spring:
   lifecycle:
     timeout-per-shutdown-phase: 25s

@@ -68,6 +68,7 @@ public class ReminderService {
 
     @Transactional
     public int sendDue(Instant now) {
+        if (mail.cannotSendEmail()) return 0; // no provider: send nothing and do not mark anyone as reminded
         int sent = 0;
         int page = 0;
         Page<UserPreferences> batch;

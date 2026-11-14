@@ -100,16 +100,15 @@ describe('verifying the email with the six-digit code (the second step of signin
     })
   })
 
-  it('shows, right after sign-up, that the first email could not be sent and why, with the way to try again', async () => {
-    const problem = 'We could not send the email because our email service refused to accept it. This is a problem on our side, not yours. Please try again later.'
-    mockApi({
+  it('goes to onboarding after sign-up, asks for no code and makes no verification request', async () => {
+    const api = mockApi({
       'POST /api/auth/refresh': () => errorResponse(401, 'UNAUTHENTICATED', 'no'),
-      'POST /api/auth/register': { ...session({ emailVerified: false, onboardingCompleted: false, email: 'ana@example.com' }), verificationEmailProblem: problem },
+      'POST /api/auth/register': session({ emailVerified: false, onboardingCompleted: false, email: 'ana@example.com' }),
     })
     renderApp(
       <Routes>
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/verify-email" element={<VerifyEmailPage />} />
+        <Route path="/onboarding" element={<h1>Onboarding</h1>} />
       </Routes>,
       { route: '/register' },
     )
@@ -119,10 +118,9 @@ describe('verifying the email with the six-digit code (the second step of signin
     await userEvent.type(screen.getByLabelText('Password'), 'Passw0rdOK')
     await userEvent.click(screen.getByRole('checkbox'))
     await userEvent.click(screen.getByRole('button', { name: 'Create account' }))
-    expect(await screen.findByText(problem)).toBeInTheDocument()
-    expect(screen.getByText(/We could not send the code to/)).toBeInTheDocument()
-    expect(screen.queryByText(/We sent a 6-digit code/)).toBeNull() // never claims it was sent
-    expect(screen.getByRole('button', { name: 'Send a new code' })).toBeEnabled()
+    expect(await screen.findByRole('heading', { name: 'Onboarding' })).toBeInTheDocument()
+    expect(screen.queryByText(/6-digit code/)).toBeNull()
+    expect(api.calls.some((c) => /verif/.test(c.url))).toBe(false)
   })
 
   it('lets someone who typed the wrong address sign out and start again', async () => {

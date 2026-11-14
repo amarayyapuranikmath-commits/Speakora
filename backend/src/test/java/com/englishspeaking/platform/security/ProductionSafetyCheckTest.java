@@ -55,10 +55,11 @@ class ProductionSafetyCheckTest {
     }
 
     @Test
-    void noMailProviderStopsAProductionStartAndTheMessageNamesTheSettingNotAKey() {
+    void noMailProviderDoesNotStopAProductionStartBecauseEmailIsOptional() {
         var safe = props("https://x", "https://x", true, "a-very-long-random-secret-value-that-is-more-than-48-chars", "turnix-token", "https://turnix.io/api/v1/credentials/ice");
-        org.assertj.core.api.Assertions.assertThatThrownBy(new ProductionSafetyCheck(safe, "no-reply@speak.example", "  ", "")::verify)
-                .isInstanceOf(IllegalStateException.class).hasMessageContaining("RESEND_API_KEY");
+        for (String from : new String[] {"", "no-reply@example.com", "no-reply@speak.example"}) {
+            org.assertj.core.api.Assertions.assertThatCode(new ProductionSafetyCheck(safe, from, "  ", "")::verify).doesNotThrowAnyException();
+        }
     }
 
     @Test

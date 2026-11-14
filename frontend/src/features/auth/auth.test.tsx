@@ -79,12 +79,14 @@ describe('routing guards', () => {
     expect(await screen.findByRole('heading', { name: 'Onboarding' })).toBeInTheDocument()
   })
 
-  it('keeps an account that has not verified its email on the code screen: nothing else opens until the code is entered', async () => {
+  it('lets an account that has not verified its email use the app: verification is optional, never a gate', async () => {
+    const expected: Record<string, string> = { '/app': 'Dashboard', '/onboarding': 'Onboarding', '/login': 'Dashboard' }
     for (const route of ['/app', '/onboarding', '/login']) {
       const unverified = session({ emailVerified: false, onboardingCompleted: route !== '/onboarding' })
       mockApi({ 'POST /api/auth/refresh': unverified })
       const { unmount } = renderApp(<AppRoutes />, { route })
-      expect(await screen.findByRole('heading', { name: 'Verify screen' })).toBeInTheDocument()
+      expect(await screen.findByRole('heading', { name: expected[route] })).toBeInTheDocument()
+      expect(screen.queryByRole('heading', { name: 'Verify screen' })).toBeNull()
       unmount()
     }
   })
@@ -157,16 +159,18 @@ describe('RegisterPage', () => {
     expect(mock.calls.some((c) => c.url === '/api/auth/register')).toBe(false)
   })
 
-  it('registers and goes straight to the email code screen (signing up is finished only after the code), without sending the confirmation flag', async () => {
+  it('registers and goes straight to onboarding, with no email verification step, without sending the confirmation flag', async () => {
     const mock = mockApi({ 'POST /api/auth/refresh': refreshFails, 'POST /api/auth/register': session({ onboardingCompleted: false, emailVerified: false }) })
     renderApp(<AppRoutes />, { route: '/register' })
     await fillValid()
     await userEvent.click(screen.getByRole('checkbox'))
     await userEvent.click(screen.getByRole('button', { name: 'Create account' }))
-    expect(await screen.findByRole('heading', { name: 'Verify screen' })).toBeInTheDocument()
+    expect(await screen.findByRole('heading', { name: 'Onboarding' })).toBeInTheDocument()
+    expect(screen.queryByRole('heading', { name: 'Verify screen' })).toBeNull()
     expect(mock.calls.find((c) => c.url === '/api/auth/register')?.body).toEqual({
       displayName: 'Ana', email: 'ana@example.com', dateOfBirth: '1990-05-01', password: 'Passw0rdOK',
     })
+    expect(mock.calls.some((c) => /verify-email|resend-verification|verification/.test(c.url))).toBe(false)
   })
 
   it('maps server field errors onto the form', async () => {

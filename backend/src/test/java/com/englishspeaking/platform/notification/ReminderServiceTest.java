@@ -79,6 +79,15 @@ class ReminderServiceTest {
     }
 
     @Test
+    void withNoMailProviderNothingIsSentAndNobodyIsMarkedAsReminded() {
+        lastPractised(LocalDate.of(2026, 11, 7));
+        when(mail.cannotSendEmail()).thenReturn(true);
+        assertThat(service.sendDue(evening)).isZero();
+        verify(mail, never()).sendReminderEmail(any(), any());
+        assertThat(prefs.getLastReminderAt()).isNull();
+    }
+
+    @Test
     void doesNotNagSomeoneWhoPractisedRecently() {
         lastPractised(LocalDate.of(2026, 11, 9)); // yesterday locally
         assertThat(service.sendDue(evening)).isZero();
